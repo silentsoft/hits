@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="now" value="sysdate" dbms="oracle"/>
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="now" value="now()" dbms="postgresql"/>
+    <property name="now" value="CURRENT_TIMESTAMP" dbms="h2"/>
+    <property name="now" value="CURRENT_TIMESTAMP" dbms="derby"/>
+
+    <!-- Create -->
+    <include file="/db/changelog/hits/create/hits-urns.xml"/>
+    <include file="/db/changelog/hits/create/hits-urns-statistics.xml"/>
+    <include file="/db/changelog/hits/create/hits-hosts.xml"/>
+    <include file="/db/changelog/hits/create/hits-hosts-statistics.xml"/>
+    <include file="/db/changelog/hits/create/hits-migration.xml"/>
+
+    <!-- Save -->
+    <include file="/db/changelog/hits/save/hits-migration.xml"/>
+
+</databaseChangeLog>

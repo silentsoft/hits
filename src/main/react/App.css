@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Roboto Mono;
+}
+:focus,
+:hover,
+:active {
+  outline: none;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+#app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#terminal {
+  width: 90vw;
+  max-width: 900px;
+  /*height: 550px;*/
+  height: 70vh;
+  transition: .2s;
+}
+#window {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  cursor: default;
+}
+.btn {
+  margin-right: 10px;
+  border: none;
+  height: 13px;
+  width: 13px;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #33333375;
+}
+.red {
+  background-color: #FF4136;
+}
+.error {
+  color: #FF4136;
+}
+.yellow {
+  background-color: #FFDC00;
+}
+.info {
+  color: #FFDC00;
+}
+.green {
+  background-color: #2ECC40;
+}
+#title,
+#field,
+#field > * > input {
+  font-size: .85rem;
+}
+#badge,
+#title {
+  height: 20px;
+  margin-left: auto;
+}
+#field {
+  height: calc(100% - 40px);
+  padding: 5px;
+  overflow: auto;
+}
+#field::-webkit-scrollbar {
+  width: 10px;
+}
+#field.dark::-webkit-scrollbar-thumb {
+  background-color: #333444;
+}
+#field.light::-webkit-scrollbar-thumb {
+  background-color: #ACA9BB;
+}
+#field > div {
+  min-height: 20px;
+  width: 100%;
+  cursor: default;
+}
+#field > * > input {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#input-container {
+  display: flex;
+}
+#query,
+#cursor {
+  display: inline-block;
+}
+#query {
+  margin-right: 10px;
+  white-space: pre-line;
+}
+#cursor {
+  position: relative;
+  bottom: -2px;
+  left: 2px;
+  width: .5rem;
+  height: 3px;
+}
+@keyframes blink-dark {
+  0%, 100% {
+    background-color: #F4F4F4;
+  }
+  50% {
+    background-color: transparent;
+  }
+}
+@keyframes blink-light {
+  0%, 100% {
+    background-color: #474554;
+  }
+  50% {
+    background-color: transparent;
+  }
+}
+/*
+@media only screen and (max-width: 600px), (max-height: 600px) {
+  #terminal {
+    height: 100vh;
+    width: 100vw;
+    min-width: 100vw;
+  }
+  #field {
+    height: 100%;
+  }
+  #window {
+    display: none;
+  }
+}
+ */
