@@ -1,16 +1,12 @@
 <h1 align="center">
   Hits
+  <a href="https://hits.sh"><img src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
+  <h3 align="center">
+    <sup>
+      <h4>Hit counter for your website.</h4>
+    </sup>
+  </h3>
 </h1>
-<h2 align="center">
-  <sup>
-    <h5>Hit counter for your website.</h5>
-  </sup>
-  <div>
-
-[![Build Status](https://travis-ci.com/silentsoft/hits.svg?branch=main)](https://travis-ci.com/silentsoft/hits)
-
-  </div>
-</h2>
 
 ![](.images/hits-screenshot.png)
 
