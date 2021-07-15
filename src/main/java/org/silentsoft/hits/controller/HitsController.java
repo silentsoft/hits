@@ -4,6 +4,7 @@ import org.silentsoft.badge4j.Badge;
 import org.silentsoft.hits.service.HitsService;
 import org.silentsoft.hits.utils.UniformedResourceNameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -17,6 +18,7 @@ import org.springframework.web.util.UrlPathHelper;
 import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.net.URI;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -113,16 +115,22 @@ public class HitsController {
 
         String uri = URLDecoder.decode(String.valueOf(request.getAttribute(UrlPathHelper.PATH_ATTRIBUTE)), StandardCharsets.UTF_8.name());
         String urn = UniformedResourceNameUtils.normalize(uri.substring(0, uri.lastIndexOf(".svg")));
+        String expectedUri = String.format("/%s.svg", urn);
+        if (expectedUri.equals(uri)) {
+            if (urn.length() == 0 || urn.contains(".") == false) {
+                sendError(deferredResult, HttpStatus.BAD_REQUEST, "Not a valid URI");
+            } else if (urn.length() > 250) {
+                sendError(deferredResult, HttpStatus.URI_TOO_LONG);
+            } else {
+                response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+                response.setDateHeader("Expires", 0);
 
-        if (urn == null || urn.length() == 0 || urn.contains(".") == false) {
-            sendError(deferredResult, HttpStatus.BAD_REQUEST, "Not a valid URI");
-        } else if (urn.length() > 250) {
-            sendError(deferredResult, HttpStatus.URI_TOO_LONG);
+                queue.put(new Item(deferredResult, urn, view, style, label, color, labelColor, links, logo, logoWidth, extraCount));
+            }
         } else {
-            response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-            response.setDateHeader("Expires", 0);
-
-            queue.put(new Item(deferredResult, urn, view, style, label, color, labelColor, links, logo, logoWidth, extraCount));
+            HttpHeaders headers = new HttpHeaders();
+            headers.setLocation(URI.create(expectedUri));
+            deferredResult.setErrorResult(new ResponseEntity<>(headers, HttpStatus.MOVED_PERMANENTLY));
         }
 
         return deferredResult;

@@ -8,8 +8,8 @@ export const normalize = (uri) => {
 
     uri = uri.trim();
 
-    if (uri.includes("://")) {
-        uri = uri.substring(uri.indexOf("://") + "://".length);
+    if (uri.includes(":/")) {
+        uri = uri.substring(uri.indexOf(":/") + ":/".length);
     }
 
     if (uri.includes("#")) {

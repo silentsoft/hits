@@ -17,8 +17,8 @@ public class UniformedResourceNameUtils {
             uri = uri.substring(except.length());
         }
 
-        if (uri.contains("://")) {
-            uri = uri.substring(uri.indexOf("://") + "://".length());
+        if (uri.contains(":/")) {
+            uri = uri.substring(uri.indexOf(":/") + ":/".length());
         }
 
         if (uri.contains("#")) {

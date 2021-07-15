@@ -53,6 +53,17 @@ public class HitsControllerTest {
     }
 
     @Test
+    public void redirectTest() throws Exception {
+        mvc.perform(asyncDispatch(mvc.perform(get("/https:/redirect.com.svg")).andReturn()))
+                .andExpect(status().isMovedPermanently())
+                .andExpect(header().string("Location", "/redirect.com.svg"));
+
+        mvc.perform(asyncDispatch(mvc.perform(get("/https://redirect.com.svg")).andReturn()))
+                .andExpect(status().isMovedPermanently())
+                .andExpect(header().string("Location", "/redirect.com.svg"));
+    }
+
+    @Test
     public void badRequestTest() throws Exception {
         mvc.perform(asyncDispatch(mvc.perform(get("/.svg")).andReturn()))
                 .andExpect(status().isBadRequest())

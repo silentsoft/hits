@@ -10,6 +10,7 @@ public class UniformedResourceNameUtilsTest {
         Assertions.assertEquals("", UniformedResourceNameUtils.normalize(null));
         Assertions.assertEquals("", UniformedResourceNameUtils.normalize(""));
         Assertions.assertEquals("", UniformedResourceNameUtils.normalize("/"));
+        Assertions.assertEquals("", UniformedResourceNameUtils.normalize("http:/"));
         Assertions.assertEquals("", UniformedResourceNameUtils.normalize("http://"));
 
         Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("", "github.com/silentsoft/hits"));
@@ -26,7 +27,9 @@ public class UniformedResourceNameUtilsTest {
         Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("github.com/silentsoft/hits#"));
         Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("github.com/silentsoft/hits#readme"));
 
+        Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("http:/github.com/silentsoft/hits"));
         Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("http://github.com/silentsoft/hits"));
+        Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("https:/github.com/silentsoft/hits"));
         Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("https://github.com/silentsoft/hits"));
 
         Assertions.assertEquals("github.com/silentsoft/hits", UniformedResourceNameUtils.normalize("https://github.com/silentsoft/hits########"));
