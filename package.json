@@ -26,6 +26,7 @@
     ]
   },
   "devDependencies": {
+    "license-checker": "^25.0.1",
     "react-app-rewired": "^2.1.8"
   }
 }

@@ -14,7 +14,7 @@
     <version>0.1.0</version>
 
     <name>Hits</name>
-    <description>Hit counter for your website.</description>
+    <description>Hit counter for your GitHub or any kind of website.</description>
     <url>https://github.com/silentsoft/hits</url>
 
     <scm>
@@ -113,6 +113,16 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <version>2.0.0</version>
+                <configuration>
+                    <excludedScopes>test,provided</excludedScopes>
+                    <excludedTypes>pom,maven-plugin</excludedTypes>
+                    <excludedArtifacts>spring-boot-starter.*</excludedArtifacts>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -126,6 +136,12 @@
             <groupId>org.silentsoft</groupId>
             <artifactId>badge4j</artifactId>
             <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.silentsoft.oss</groupId>
+            <artifactId>notice-file-generator</artifactId>
+            <version>2.3.0</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
