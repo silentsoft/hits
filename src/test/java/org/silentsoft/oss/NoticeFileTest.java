@@ -3,6 +3,8 @@ package org.silentsoft.oss;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.DisabledOnOs;
+import org.junit.jupiter.api.condition.OS;
 
 import java.io.*;
 import java.nio.file.Paths;
@@ -14,6 +16,7 @@ import java.util.stream.Stream;
 public class NoticeFileTest {
 
     @Test
+    @DisabledOnOs(OS.WINDOWS)
     public void noticeFileTest() throws Exception {
         NoticeFileGenerator.NoticeFileBuilder noticeBuilder = NoticeFileGenerator.newInstance("Hits", "silentsoft.org");
 
@@ -41,9 +44,16 @@ public class NoticeFileTest {
         noticeBuilder.addLibrary("Terminal Style Portfolio in ReactJS", "by Jacob Lockett", "https://codepen.io/HuntingHawk/pen/rNaEZxW", License.of("MIT"));
 
         File directory = Paths.get(System.getProperty("user.dir")).toFile();
-        String command = "npm exec -- license-checker --production --json --customPath " + getClass().getResource("format.json").getPath();
 
-        Process process = Runtime.getRuntime().exec(command, null, directory);
+        StringBuilder commandBuilder = new StringBuilder();
+        if (System.getProperty("os.name").toLowerCase().startsWith("windows")) {
+            commandBuilder.append("npx.cmd");
+        } else {
+            commandBuilder.append("npx");
+        }
+        commandBuilder.append(" license-checker --production --json --customPath " + Paths.get(getClass().getResource("format.json").toURI()).toAbsolutePath());
+
+        Process process = Runtime.getRuntime().exec(commandBuilder.toString(), null, directory);
         StringBuilder builder = new StringBuilder();
         try (InputStreamReader inputStreamReader = new InputStreamReader(process.getInputStream());
              BufferedReader reader = new BufferedReader(inputStreamReader)) {
