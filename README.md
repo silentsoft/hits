@@ -3,7 +3,7 @@
   <a href="https://hits.sh"><img src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
   <h3 align="center">
     <sup>
-      <h4>Hit counter for your website.</h4>
+      <h4>Hit counter for your GitHub or any kind of website.</h4>
     </sup>
   </h3>
 </h1>
@@ -21,3 +21,11 @@ $ mvnw spring-boot:run
 ```
 $ mvnw clean package -P production
 ```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please note we have a [CODE_OF_CONDUCT](https://github.com/silentsoft/hits/blob/main/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+
+## License
+Please refer to [LICENSE](https://github.com/silentsoft/hits/blob/main/LICENSE.txt) and [NOTICE](https://github.com/silentsoft/hits/blob/main/NOTICE.md).
