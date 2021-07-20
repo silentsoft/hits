@@ -9,4 +9,7 @@
     <changeSet author="hits" id="hits-migration-0000">
         <loadUpdateData tableName="hits_migration" primaryKey="urn" file="db/changelog/hits/save/hits-migration-0000.csv"/>
     </changeSet>
+    <changeSet author="hits" id="hits-migration-0001">
+        <loadUpdateData tableName="hits_migration" primaryKey="urn" file="db/changelog/hits/save/hits-migration-0001.csv"/>
+    </changeSet>
 </databaseChangeLog>
