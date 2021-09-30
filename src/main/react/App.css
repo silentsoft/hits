@@ -20,24 +20,22 @@ body {
   align-items: center;
 }
 #terminal {
-  width: 90vw;
-  max-width: 900px;
-  /*height: 550px;*/
-  height: 70vh;
+  width: 100vw;
+  height: 100vh;
   transition: .2s;
 }
 #window {
   height: 40px;
   display: flex;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 20px;
   cursor: default;
 }
 .btn {
-  margin-right: 10px;
+  margin-right: 8px;
   border: none;
-  height: 13px;
-  width: 13px;
+  height: 12px;
+  width: 12px;
   padding: 0;
   border-radius: 50%;
   box-shadow: 0 2px 2px #33333375;
