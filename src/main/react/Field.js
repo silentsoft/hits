@@ -184,7 +184,11 @@ class Field extends React.Component {
                     '',
                     'HTML:',
                     '',
-                    `\u00A0\u00A0<a href="https://hits.sh"><img src="https://hits.sh/${urn}.svg${query}"/></a>`
+                    `\u00A0\u00A0<a href="https://hits.sh"><img src="https://hits.sh/${urn}.svg${query}"/></a>`,
+                    '',
+                    'Image Link:',
+                    '',
+                    `\u00A0\u00A0https://hits.sh/${urn}.svg${query}`
                 ], hasBuffer: true}]
             }))
         } else {
