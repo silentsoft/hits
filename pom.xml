@@ -134,8 +134,13 @@
         </dependency>
         <dependency>
             <groupId>org.silentsoft</groupId>
-            <artifactId>badge4j</artifactId>
+            <artifactId>simpleicons4j</artifactId>
             <version>1.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.silentsoft</groupId>
+            <artifactId>badge4j</artifactId>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.silentsoft.oss</groupId>

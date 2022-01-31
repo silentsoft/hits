@@ -44,7 +44,7 @@ class Field extends React.Component {
             purpose: 'Set the url(s) to link to the badge.'
         }, {
             flag: '--logo',
-            purpose: 'e.g. data:image/svg+xml;base64,..'
+            purpose: 'Set the logo to use. (simple-icons slug or data:image/svg+xml;base64,..)'
         }, {
             flag: '--logo-width',
             purpose: 'Set the custom logo width.'
