@@ -5,14 +5,6 @@ __Terminal Style Portfolio in ReactJS by Jacob Lockett__
  * https://codepen.io/HuntingHawk/pen/rNaEZxW
  * MIT License
 
-__eslint-plugin-import 2.23.4__
- * https://github.com/benmosher/eslint-plugin-import
- * MIT License
-
-__path-type 3.0.0__
- * sindresorhus.com
- * MIT License
-
 __combined-stream 1.0.8__
  * http://debuggable.com/
  * MIT License
@@ -21,8 +13,16 @@ __html-webpack-plugin 4.5.0__
  * https://github.com/jantimon
  * MIT License
 
+__@babel/plugin-transform-new-target 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __@webassemblyjs/ast 1.9.0__
  * https://github.com/xtuc/webassemblyjs
+ * MIT License
+
+__regenerate-unicode-properties 10.0.1__
+ * https://mathiasbynens.be/
  * MIT License
 
 __@types/html-minifier-terser 5.1.2__
@@ -33,16 +33,20 @@ __cssnano-preset-default 4.0.8__
  * http://beneb.info
  * MIT License
 
-__is-stream 2.0.0__
- * sindresorhus.com
- * MIT License
-
 __jest-snapshot 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
+__is-stream 2.0.1__
+ * https://sindresorhus.com
+ * MIT License
+
 __rollup 1.32.1__
  * https://github.com/rollup/rollup
+ * MIT License
+
+__@babel/plugin-proposal-logical-assignment-operators 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __unique-slug 2.0.2__
@@ -65,17 +69,9 @@ __serialize-javascript 5.0.1__
  * https://github.com/yahoo/serialize-javascript
  * BSD-3-Clause
 
-__react-error-overlay 6.0.9__
- * https://github.com/facebook/create-react-app
- * MIT License
-
 __yallist 4.0.0__
  * http://blog.izs.me/
  * ISC License
-
-__regjsgen 0.5.2__
- * https://ofcr.se/
- * MIT License
 
 __@babel/code-frame 7.12.11__
  * https://github.com/babel/babel
@@ -121,20 +117,8 @@ __string-natural-compare 3.0.1__
  * https://github.com/nwoltman/string-natural-compare
  * MIT License
 
-__@babel/plugin-proposal-async-generator-functions 7.14.7__
- * https://babel.dev/team
- * MIT License
-
-__babel-plugin-polyfill-corejs3 0.2.3__
- * https://github.com/babel/babel-polyfills
- * MIT License
-
 __cssnano-util-raw-cache 4.0.1__
  * http://beneb.info
- * MIT License
-
-__pkg-dir 2.0.0__
- * sindresorhus.com
  * MIT License
 
 __@webassemblyjs/helper-wasm-bytecode 1.9.0__
@@ -145,10 +129,6 @@ __@babel/plugin-syntax-bigint 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-bigint
  * MIT License
 
-__color 3.1.3__
- * https://github.com/Qix-/color
- * MIT License
-
 __handle-thing 2.0.1__
  * https://github.com/indutny/handle-thing
  * MIT License
@@ -157,16 +137,16 @@ __has-value 0.3.1__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@babel/helper-validator-option 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __is-extendable 0.1.1__
  * https://github.com/jonschlinkert
  * MIT License
 
 __array-flatten 2.1.2__
  * http://blakeembrey.me
+ * MIT License
+
+__@types/babel__core 7.1.18__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __brorand 1.1.0__
@@ -189,17 +169,17 @@ __@typescript-eslint/typescript-estree 3.10.1__
  * https://github.com/typescript-eslint/typescript-eslint
  * BSD-2-Clause
 
-__@types/babel__core 7.1.15__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
+__postcss-value-parser 4.2.0__
+ * https://github.com/TrySound/postcss-value-parser
  * MIT License
 
 __ieee754 1.2.1__
  * https://feross.org
  * BSD-3-Clause
 
-__table 6.7.1__
- * http://gajus.com
- * BSD-3-Clause
+__@jridgewell/sourcemap-codec 1.4.10__
+ * https://github.com/jridgewell/sourcemap-codec
+ * MIT License
 
 __@babel/plugin-syntax-private-property-in-object 7.14.5__
  * https://babel.dev/team
@@ -213,7 +193,7 @@ __spdy-transport 3.0.0__
  * https://github.com/spdy-http2/spdy-transport
  * MIT License
 
-__serve-static 1.14.1__
+__serve-static 1.14.2__
  * https://github.com/expressjs/serve-static
  * MIT License
 
@@ -241,10 +221,6 @@ __jest-matcher-utils 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
-__@babel/plugin-transform-react-display-name 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __cssom 0.3.8__
  * https://github.com/NV/CSSOM
  * MIT License
@@ -253,11 +229,15 @@ __diffie-hellman 5.0.3__
  * https://github.com/crypto-browserify/diffie-hellman
  * MIT License
 
+__@babel/plugin-transform-duplicate-keys 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __jest-diff 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
-__core-js 3.15.2__
+__core-js-compat 3.21.0__
  * https://github.com/zloirock/core-js
  * MIT License
 
@@ -273,10 +253,6 @@ __is-absolute-url 3.0.3__
  * sindresorhus.com
  * MIT License
 
-__@babel/plugin-transform-async-to-generator 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __create-ecdh 4.0.4__
  * https://github.com/crypto-browserify/createECDH
  * MIT License
@@ -285,13 +261,25 @@ __emoji-regex 8.0.0__
  * https://mathiasbynens.be/
  * MIT License
 
-__object.entries 1.1.4__
+__object.entries 1.1.5__
  * https://github.com/es-shims/Object.entries
+ * MIT License
+
+__jsdom 16.7.0__
+ * https://github.com/jsdom/jsdom
+ * MIT License
+
+__camelcase 6.3.0__
+ * https://sindresorhus.com
  * MIT License
 
 __http-proxy-agent 4.0.1__
  * http://n8.io/
  * MIT License
+
+__qs 6.9.6__
+ * https://github.com/ljharb/qs
+ * BSD-3-Clause
 
 __fs-extra 7.0.1__
  * https://github.com/jprichardson/node-fs-extra
@@ -301,13 +289,13 @@ __domain-browser 1.2.0__
  * http://bevry.me
  * MIT License
 
+__eslint-plugin-import 2.25.4__
+ * https://github.com/import-js/eslint-plugin-import
+ * MIT License
+
 __bluebird 3.7.2__
  * http://github.com/petkaantonov/
  * MIT License
-
-__flatted 3.2.0__
- * https://github.com/WebReflection/flatted
- * ISC License
 
 __micromatch 4.0.4__
  * https://github.com/jonschlinkert
@@ -317,12 +305,12 @@ __pretty-bytes 5.6.0__
  * https://sindresorhus.com
  * MIT License
 
-__acorn 8.4.1__
- * https://github.com/acornjs/acorn
- * MIT License
-
 __react-scripts 4.0.3__
  * https://github.com/facebook/create-react-app
+ * MIT License
+
+__@babel/plugin-proposal-class-properties 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __ms 2.1.2__
@@ -333,9 +321,9 @@ __workbox-core 5.1.4__
  * https://github.com/googlechrome/workbox
  * MIT License
 
-__ms 2.1.1__
- * https://github.com/zeit/ms
- * MIT License
+__estraverse 5.3.0__
+ * https://github.com/estools/estraverse
+ * BSD-2-Clause
 
 __svg-parser 2.0.4__
  * https://github.com/Rich-Harris/svg-parser
@@ -353,13 +341,17 @@ __terminal-link 2.1.1__
  * sindresorhus.com
  * MIT License
 
-__@babel/plugin-proposal-logical-assignment-operators 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__ansi-regex 5.0.0__
+__ansi-regex 5.0.1__
  * sindresorhus.com
  * MIT License
+
+__source-map-support 0.5.21__
+ * https://github.com/evanw/node-source-map-support
+ * MIT License
+
+__flatted 3.2.5__
+ * https://github.com/WebReflection/flatted
+ * ISC License
 
 __copy-descriptor 0.1.1__
  * https://github.com/jonschlinkert
@@ -401,16 +393,16 @@ __postcss-selector-not 4.0.1__
  * https://github.com/postcss/postcss-selector-not
  * MIT License
 
+__@types/q 1.5.5__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
 __@types/yargs-parser 20.2.1__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __safer-buffer 2.1.2__
  * https://github.com/ChALkeR
- * MIT License
-
-__@types/q 1.5.4__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __emoji-regex 9.2.2__
@@ -425,7 +417,7 @@ __get-package-type 0.1.0__
  * https://github.com/cfware/get-package-type
  * MIT License
 
-__array-includes 3.1.3__
+__array-includes 3.1.4__
  * http://ljharb.codes
  * MIT License
 
@@ -439,6 +431,10 @@ __readdirp 3.6.0__
 
 __regenerate 1.4.2__
  * https://mathiasbynens.be/
+ * MIT License
+
+__@babel/plugin-proposal-class-static-block 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __jest-util 26.6.2__
@@ -465,6 +461,14 @@ __workbox-streams 5.1.4__
  * https://github.com/googlechrome/workbox
  * MIT License
 
+__mime 2.6.0__
+ * http://github.com/broofa
+ * MIT License
+
+__@babel/plugin-transform-typescript 7.16.8__
+ * https://babel.dev/team
+ * MIT License
+
 __@webassemblyjs/helper-fsm 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * ISC License
@@ -479,6 +483,10 @@ __array-uniq 1.0.3__
 
 __find-up 3.0.0__
  * sindresorhus.com
+ * MIT License
+
+__@babel/plugin-proposal-async-generator-functions 7.16.8__
+ * https://babel.dev/team
  * MIT License
 
 __babylon 6.18.0__
@@ -497,20 +505,28 @@ __supports-color 7.2.0__
  * sindresorhus.com
  * MIT License
 
-__source-map-support 0.5.19__
- * https://github.com/evanw/node-source-map-support
- * MIT License
-
 __object-keys 1.1.1__
  * http://ljharb.codes
  * MIT License
+
+__@babel/helper-plugin-utils 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__ms 2.1.3__
+ * https://github.com/vercel/ms
+ * MIT License
+
+__cacache 15.3.0__
+ * https://github.com/npm/cacache
+ * ISC License
 
 __path-type 4.0.0__
  * sindresorhus.com
  * MIT License
 
-__unicode-property-aliases-ecmascript 1.1.0__
- * https://mathiasbynens.be/
+__@babel/plugin-proposal-private-methods 7.16.11__
+ * https://babel.dev/team
  * MIT License
 
 __@jest/types 26.6.2__
@@ -528,6 +544,10 @@ __@types/babel__template 7.4.1__
 __des.js 1.0.1__
  * https://github.com/indutny/des.js
  * MIT License
+
+__material-colors 1.2.6__
+ * https://github.com/shuhei/material-colors
+ * ISC License
 
 __@webassemblyjs/floating-point-hex-parser 1.9.0__
  * https://github.com/xtuc/webassemblyjs
@@ -553,6 +573,14 @@ __binary-extensions 1.13.1__
  * sindresorhus.com
  * MIT License
 
+__@babel/plugin-transform-async-to-generator 7.16.8__
+ * https://babel.dev/team
+ * MIT License
+
+__eslint-plugin-jsx-a11y 6.5.1__
+ * https://github.com/jsx-eslint/eslint-plugin-jsx-a11y
+ * MIT License
+
 __extend-shallow 2.0.1__
  * https://github.com/jonschlinkert
  * MIT License
@@ -564,6 +592,14 @@ __jest-serializer 26.6.2__
 __terser 4.8.0__
  * http://lisperator.net/
  * BSD-2-Clause
+
+__@babel/plugin-transform-react-display-name 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@npmcli/fs 1.1.0__
+ * https://github.com/npm/fs
+ * ISC License
 
 __source-map 0.6.1__
  * https://github.com/mozilla/source-map
@@ -581,20 +617,8 @@ __mkdirp 0.5.5__
  * http://substack.net
  * MIT License
 
-__postcss-selector-parser 6.0.6__
+__postcss-selector-parser 6.0.9__
  * https://github.com/postcss/postcss-selector-parser
- * MIT License
-
-__qs 6.7.0__
- * https://github.com/ljharb/qs
- * BSD-3-Clause
-
-__browserslist 4.16.6__
- * https://github.com/browserslist/browserslist
- * MIT License
-
-__@babel/plugin-transform-reserved-words 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __minipass-flush 1.0.5__
@@ -625,12 +649,20 @@ __bytes 3.0.0__
  * http://tjholowaychuk.com
  * MIT License
 
-__emoji-regex 7.0.3__
- * https://mathiasbynens.be/
+__@babel/helpers 7.17.0__
+ * https://babel.dev/team
  * MIT License
 
-__@babel/plugin-proposal-class-properties 7.14.5__
+__@babel/highlight 7.16.10__
  * https://babel.dev/team
+ * MIT License
+
+__@babel/runtime 7.17.0__
+ * https://babel.dev/team
+ * MIT License
+
+__emoji-regex 7.0.3__
+ * https://mathiasbynens.be/
  * MIT License
 
 __acorn-walk 7.2.0__
@@ -641,21 +673,21 @@ __builtin-status-codes 3.0.0__
  * bendrucker.me
  * MIT License
 
-__load-json-file 4.0.0__
- * sindresorhus.com
- * MIT License
-
-__@babel/plugin-transform-spread 7.14.6__
- * https://babel.dev/team
- * MIT License
-
 __lodash._reinterpolate 3.0.0__
  * http://allyoucanleet.com/
+ * MIT License
+
+__lines-and-columns 1.2.4__
+ * https://github.com/eventualbuddha/lines-and-columns
  * MIT License
 
 __prompts 2.4.0__
  * https://terkel.com
  * MIT License
+
+__picocolors 0.2.1__
+ * https://github.com/alexeyraspopov/picocolors
+ * ISC License
 
 __@babel/plugin-syntax-optional-chaining 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-optional-chaining
@@ -681,9 +713,9 @@ __arr-flatten 1.1.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@babel/plugin-transform-typeof-symbol 7.14.5__
- * https://babel.dev/team
- * MIT License
+__picocolors 1.0.0__
+ * https://github.com/alexeyraspopov/picocolors
+ * ISC License
 
 __caller-path 2.0.0__
  * sindresorhus.com
@@ -693,21 +725,13 @@ __js-yaml 3.14.1__
  * https://github.com/nodeca/js-yaml
  * MIT License
 
-__source-map-js 0.6.2__
- * https://github.com/7rulnik/source-map
- * BSD-3-Clause
-
-__setprototypeof 1.1.1__
- * https://github.com/wesleytodd/setprototypeof
- * ISC License
+__node-releases 2.0.1__
+ * https://github.com/chicoxyzzy/node-releases
+ * MIT License
 
 __setprototypeof 1.1.0__
  * https://github.com/wesleytodd/setprototypeof
  * ISC License
-
-__@types/webpack-sources 2.1.1__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
 
 __babel-eslint 10.1.0__
  * https://github.com/babel/babel-eslint
@@ -716,10 +740,6 @@ __babel-eslint 10.1.0__
 __cliui 5.0.0__
  * https://github.com/yargs/cliui
  * ISC License
-
-__mime-db 1.48.0__
- * https://github.com/jshttp/mime-db
- * MIT License
 
 __shell-quote 1.7.2__
  * http://substack.net
@@ -733,16 +753,12 @@ __arr-diff 4.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@babel/plugin-transform-typescript 7.14.6__
- * https://babel.dev/team
- * MIT License
-
-__acorn-jsx 5.3.1__
- * https://github.com/acornjs/acorn-jsx
- * MIT License
-
 __css 2.2.4__
  * https://github.com/reworkcss/css
+ * MIT License
+
+__acorn-jsx 5.3.2__
+ * https://github.com/acornjs/acorn-jsx
  * MIT License
 
 __postcss-values-parser 2.0.1__
@@ -753,10 +769,6 @@ __tr46 2.1.0__
  * https://github.com/jsdom/tr46
  * MIT License
 
-__http-parser-js 0.5.3__
- * https://github.com/creationix
- * MIT License
-
 __pako 1.0.11__
  * https://github.com/nodeca/pako
  * MIT License
@@ -764,6 +776,14 @@ __pako 1.0.11__
 __pako 1.0.11__
  * https://github.com/nodeca/pako
  * zlib License
+
+__babel-preset-react-app 10.0.1__
+ * https://github.com/facebook/create-react-app
+ * MIT License
+
+__http-parser-js 0.5.5__
+ * https://github.com/creationix
+ * MIT License
 
 __path-is-inside 1.0.2__
  * https://domenic.me
@@ -775,10 +795,6 @@ __path-is-inside 1.0.2__
 
 __browserify-rsa 4.1.0__
  * https://github.com/crypto-browserify/browserify-rsa
- * MIT License
-
-__babel-preset-react-app 10.0.0__
- * https://github.com/facebook/create-react-app
  * MIT License
 
 __write-file-atomic 3.0.3__
@@ -801,9 +817,13 @@ __has-bigints 1.0.1__
  * https://github.com/ljharb/has-bigints
  * MIT License
 
-__@humanwhocodes/object-schema 1.2.0__
+__@humanwhocodes/object-schema 1.2.1__
  * https://github.com/humanwhocodes/object-schema
  * BSD-3-Clause
+
+__ws 7.5.7__
+ * http://2x.io
+ * MIT License
 
 __webpack-log 2.0.0__
  * https://github.com/webpack-contrib/webpack-log
@@ -825,10 +845,6 @@ __asn1.js 5.4.1__
  * https://github.com/indutny/asn1.js
  * MIT License
 
-__@babel/plugin-proposal-object-rest-spread 7.14.7__
- * https://babel.dev/team
- * MIT License
-
 __which-module 2.0.0__
  * https://github.com/nexdrew/which-module
  * ISC License
@@ -837,12 +853,12 @@ __ts-pnp 1.2.0__
  * https://github.com/arcanis/ts-pnp
  * MIT License
 
-__babel-plugin-polyfill-regenerator 0.2.2__
- * https://github.com/babel/babel-polyfills
- * MIT License
-
 __requires-port 1.0.0__
  * https://github.com/unshiftio/requires-port
+ * MIT License
+
+__@babel/plugin-transform-property-literals 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __@istanbuljs/load-nyc-config 1.1.0__
@@ -893,12 +909,8 @@ __jest-docblock 26.0.0__
  * https://github.com/facebook/jest
  * MIT License
 
-__body-parser 1.19.0__
+__body-parser 1.19.1__
  * https://github.com/expressjs/body-parser
- * MIT License
-
-__@babel/helper-remap-async-to-generator 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __react-is 16.13.1__
@@ -913,10 +925,6 @@ __is-binary-path 2.1.0__
  * sindresorhus.com
  * MIT License
 
-__@typescript-eslint/typescript-estree 4.28.2__
- * https://github.com/typescript-eslint/typescript-eslint
- * BSD-2-Clause
-
 __@typescript-eslint/experimental-utils 3.10.1__
  * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
@@ -925,20 +933,20 @@ __browserslist 4.14.2__
  * https://github.com/browserslist/browserslist
  * MIT License
 
-__clean-css 4.2.3__
+__clean-css 4.2.4__
  * http://twitter.com/jakubpawlowicz
  * MIT License
 
+__@babel/plugin-syntax-flow 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@typescript-eslint/parser 4.33.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * BSD-2-Clause
+
 __@webassemblyjs/ieee754 1.9.0__
  * https://github.com/xtuc/webassemblyjs
- * MIT License
-
-__ws 7.5.2__
- * http://2x.io
- * MIT License
-
-__@babel/compat-data 7.14.7__
- * https://babel.dev/team
  * MIT License
 
 __has-values 1.0.0__
@@ -949,16 +957,20 @@ __parse-asn1 5.1.6__
  * https://github.com/crypto-browserify/parse-asn1
  * ISC License
 
-__eslint-plugin-flowtype 5.8.0__
- * http://gajus.com
- * BSD-3-Clause
-
 __is-plain-object 2.0.4__
  * https://github.com/jonschlinkert
  * MIT License
 
 __jest-resolve 26.6.2__
  * https://github.com/facebook/jest
+ * MIT License
+
+__tinycolor2 1.4.2__
+ * http://briangrinstead.com
+ * MIT License
+
+__@types/prettier 2.4.3__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __postcss-minify-selectors 4.0.2__
@@ -973,8 +985,16 @@ __fsevents 2.3.2__
  * https://github.com/fsevents/fsevents
  * MIT License
 
+__@babel/helper-define-polyfill-provider 0.3.1__
+ * https://github.com/babel/babel-polyfills
+ * MIT License
+
 __commondir 1.0.1__
  * http://substack.net
+ * MIT License
+
+__picomatch 2.3.1__
+ * https://github.com/jonschlinkert
  * MIT License
 
 __jest-leak-detector 26.6.2__
@@ -985,12 +1005,16 @@ __jest-resolve 26.6.0__
  * https://github.com/facebook/jest
  * MIT License
 
-__picomatch 2.3.0__
- * https://github.com/jonschlinkert
- * MIT License
+__tar 6.1.11__
+ * http://blog.izs.me/
+ * ISC License
 
 __delayed-stream 1.0.0__
  * http://debuggable.com/
+ * MIT License
+
+__@babel/plugin-transform-spread 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __stable 0.1.8__
@@ -1013,7 +1037,11 @@ __jest-changed-files 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
-__is-negative-zero 2.0.1__
+__lodash-es 4.17.21__
+ * https://github.com/lodash/lodash
+ * MIT License
+
+__is-negative-zero 2.0.2__
  * https://github.com/inspect-js/is-negative-zero
  * MIT License
 
@@ -1045,10 +1073,6 @@ __uniqs 2.0.0__
  * https://github.com/fgnass/uniqs
  * MIT License
 
-__@babel/helper-get-function-arity 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __is-typedarray 1.0.0__
  * http://hughsk.io/
  * MIT License
@@ -1057,11 +1081,11 @@ __aproba 1.2.0__
  * https://github.com/iarna/aproba
  * ISC License
 
-__@babel/plugin-transform-react-jsx-development 7.14.5__
- * https://babel.dev/team
- * MIT License
+__istanbul-lib-coverage 3.2.0__
+ * https://github.com/istanbuljs/istanbuljs
+ * BSD-3-Clause
 
-__@babel/preset-env 7.14.7__
+__@babel/plugin-transform-typeof-symbol 7.16.7__
  * https://babel.dev/team
  * MIT License
 
@@ -1073,16 +1097,16 @@ __elliptic 6.5.4__
  * https://github.com/indutny/elliptic
  * MIT License
 
+__reactcss 1.2.3__
+ * https://github.com/casesandberg/reactcss
+ * MIT License
+
+__color-string 1.9.0__
+ * https://github.com/Qix-/color-string
+ * MIT License
+
 __webpack-sources 1.4.3__
  * https://github.com/webpack/webpack-sources
- * MIT License
-
-__@babel/plugin-transform-new-target 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__@babel/plugin-proposal-class-properties 7.12.1__
- * https://github.com/babel/babel
  * MIT License
 
 __is-data-descriptor 0.1.4__
@@ -1092,10 +1116,6 @@ __is-data-descriptor 0.1.4__
 __strip-final-newline 2.0.0__
  * sindresorhus.com
  * MIT License
-
-__electron-to-chromium 1.3.769__
- * https://github.com/kilian/electron-to-chromium
- * ISC License
 
 __p-limit 1.3.0__
  * sindresorhus.com
@@ -1117,8 +1137,16 @@ __compressible 2.0.18__
  * https://github.com/jshttp/compressible
  * MIT License
 
+__object.hasown 1.1.0__
+ * https://github.com/es-shims/Object.hasOwn
+ * MIT License
+
 __flatten 1.0.3__
  * http://jesusabdullah.net
+ * MIT License
+
+__@babel/plugin-transform-shorthand-properties 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __convert-source-map 1.8.0__
@@ -1149,6 +1177,10 @@ __psl 1.8.0__
  * https://lupomontero.com/
  * MIT License
 
+__@babel/helper-validator-option 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __xmlchars 2.2.0__
  * https://github.com/lddubeau/xmlchars
  * MIT License
@@ -1157,12 +1189,12 @@ __@webassemblyjs/leb128 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
 
-__is-descriptor 1.0.2__
- * https://github.com/jonschlinkert
+__jsx-ast-utils 3.2.1__
+ * https://github.com/jsx-eslint/jsx-ast-utils
  * MIT License
 
-__jsx-ast-utils 3.2.0__
- * https://github.com/evcohen/jsx-ast-utils
+__is-descriptor 1.0.2__
+ * https://github.com/jonschlinkert
  * MIT License
 
 __@rollup/plugin-node-resolve 7.1.3__
@@ -1176,14 +1208,6 @@ __kind-of 3.2.2__
 __throat 5.0.0__
  * https://github.com/ForbesLindesay/throat
  * MIT License
-
-__tar 6.1.0__
- * http://blog.izs.me/
- * ISC License
-
-__domutils 2.7.0__
- * https://github.com/fb55/domutils
- * BSD-2-Clause
 
 __@svgr/hast-util-to-babel-ast 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/hast-util-to-babel-ast
@@ -1209,15 +1233,11 @@ __esquery 1.4.0__
  * https://github.com/estools/esquery
  * BSD-3-Clause
 
-__@babel/plugin-syntax-flow 7.14.5__
- * https://babel.dev/team
- * MIT License
+__istanbul-reports 3.1.4__
+ * https://github.com/istanbuljs/istanbuljs
+ * BSD-3-Clause
 
-__@babel/types 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__sockjs-client 1.5.1__
+__sockjs-client 1.5.2__
  * https://github.com/sockjs/sockjs-client
  * MIT License
 
@@ -1241,17 +1261,21 @@ __workbox-strategies 5.1.4__
  * https://github.com/googlechrome/workbox
  * MIT License
 
-__content-disposition 0.5.3__
- * https://github.com/jshttp/content-disposition
- * MIT License
-
 __sane 4.1.0__
  * https://github.com/amasad/sane
+ * MIT License
+
+__react-color 2.19.3__
+ * https://github.com/casesandberg/react-color
  * MIT License
 
 __copy-concurrently 1.0.5__
  * http://re-becca.org/
  * ISC License
+
+__@babel/plugin-proposal-numeric-separator 7.16.7__
+ * https://babel.dev/team
+ * MIT License
 
 __istanbul-lib-instrument 4.0.3__
  * https://github.com/istanbuljs/istanbuljs
@@ -1265,10 +1289,6 @@ __webpack 4.44.2__
  * https://github.com/webpack/webpack
  * MIT License
 
-__@babel/plugin-transform-property-literals 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __querystring 0.2.0__
  * https://github.com/Gozala/querystring
  * MIT License
@@ -1277,24 +1297,44 @@ __@babel/plugin-syntax-class-properties 7.12.13__
  * https://github.com/babel/babel
  * MIT License
 
-__@babel/plugin-transform-react-display-name 7.12.1__
- * https://github.com/babel/babel
+__eslint-plugin-react 7.28.0__
+ * https://github.com/yannickcr/eslint-plugin-react
  * MIT License
 
 __get-stream 5.2.0__
  * https://sindresorhus.com
  * MIT License
 
+__content-disposition 0.5.4__
+ * https://github.com/jshttp/content-disposition
+ * MIT License
+
+__charcodes 0.2.0__
+ * https://github.com/xtuc/charcodes
+ * MIT License
+
 __slice-ansi 4.0.0__
  * https://github.com/chalk/slice-ansi
  * MIT License
 
-__@babel/helper-create-class-features-plugin 7.14.6__
+__@babel/plugin-proposal-object-rest-spread 7.16.7__
  * https://babel.dev/team
+ * MIT License
+
+__loglevel 1.8.0__
+ * http://tim-perry.co.uk
  * MIT License
 
 __microevent.ts 0.1.1__
  * https://github.com/DirtyHairy/
+ * MIT License
+
+__@babel/plugin-syntax-decorators 7.17.0__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/plugin-transform-function-name 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __object-assign 4.1.1__
@@ -1321,6 +1361,10 @@ __acorn 6.4.2__
  * https://github.com/acornjs/acorn
  * MIT License
 
+__@babel/plugin-syntax-typescript 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __is-docker 2.2.1__
  * https://sindresorhus.com
  * MIT License
@@ -1341,16 +1385,8 @@ __string.prototype.trimstart 1.0.4__
  * https://github.com/es-shims/String.prototype.trimStart
  * MIT License
 
-__cosmiconfig 6.0.0__
- * https://github.com/davidtheclark/cosmiconfig
- * MIT License
-
 __postcss-calc 7.0.5__
  * https://github.com/postcss/postcss-calc
- * MIT License
-
-__@types/glob 7.1.4__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __cssnano-util-get-match 4.0.0__
@@ -1359,6 +1395,10 @@ __cssnano-util-get-match 4.0.0__
 
 __strip-bom 4.0.0__
  * sindresorhus.com
+ * MIT License
+
+__@babel/runtime-corejs3 7.17.0__
+ * https://babel.dev/team
  * MIT License
 
 __punycode 1.4.1__
@@ -1381,8 +1421,16 @@ __lodash.memoize 4.1.2__
  * http://allyoucanleet.com/
  * MIT License
 
+__@babel/helper-get-function-arity 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __path-browserify 0.0.1__
  * http://substack.net
+ * MIT License
+
+__send 0.17.2__
+ * https://github.com/pillarjs/send
  * MIT License
 
 __babel-loader 8.1.0__
@@ -1421,16 +1469,16 @@ __aria-query 4.2.2__
  * https://github.com/A11yance/aria-query
  * Apache License 2.0
 
+__@babel/plugin-proposal-private-property-in-object 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __has 1.0.3__
  * https://github.com/tarruda/has
  * MIT License
 
 __locate-path 3.0.0__
  * sindresorhus.com
- * MIT License
-
-__@babel/preset-env 7.12.1__
- * https://github.com/babel/babel
  * MIT License
 
 __path-dirname 1.0.2__
@@ -1445,7 +1493,7 @@ __postcss-browser-comments 3.0.0__
  * https://github.com/csstools/postcss-browser-comments
  * CC0-1.0
 
-__walker 1.0.7__
+__walker 1.0.8__
  * https://github.com/daaku/nodejs-walker
  * Apache License 2.0
 
@@ -1453,13 +1501,25 @@ __yocto-queue 0.1.0__
  * https://sindresorhus.com
  * MIT License
 
+__ignore 5.2.0__
+ * https://github.com/kaelzhang/node-ignore
+ * MIT License
+
 __inherits 2.0.3__
  * https://github.com/isaacs/inherits
  * ISC License
 
+__postcss 7.0.39__
+ * https://github.com/postcss/postcss
+ * MIT License
+
 __inherits 2.0.4__
  * https://github.com/isaacs/inherits
  * ISC License
+
+__source-map-js 1.0.2__
+ * https://github.com/7rulnik/source-map-js
+ * BSD-3-Clause
 
 __node-notifier 8.0.2__
  * https://github.com/mikaelbr/node-notifier
@@ -1485,8 +1545,8 @@ __camel-case 4.1.2__
  * http://blakeembrey.me
  * MIT License
 
-__read-pkg-up 3.0.0__
- * sindresorhus.com
+__@babel/compat-data 7.17.0__
+ * https://babel.dev/team
  * MIT License
 
 __ajv-keywords 3.5.2__
@@ -1505,10 +1565,6 @@ __postcss 7.0.36__
  * https://github.com/postcss/postcss
  * MIT License
 
-__babel-plugin-istanbul 6.0.0__
- * https://github.com/istanbuljs/babel-plugin-istanbul
- * BSD-3-Clause
-
 __cosmiconfig 5.2.1__
  * https://github.com/davidtheclark/cosmiconfig
  * MIT License
@@ -1524,10 +1580,6 @@ __rollup-plugin-babel 4.4.0__
 __bfj 7.0.2__
  * https://gitlab.com/philbooth
  * MIT License
-
-__domhandler 4.2.0__
- * https://github.com/fb55/domhandler
- * BSD-2-Clause
 
 __resolve 2.0.0-next.3__
  * http://substack.net
@@ -1553,9 +1605,9 @@ __eslint-visitor-keys 2.1.0__
  * https://github.com/mysticatea
  * Apache License 2.0
 
-__send 0.17.1__
- * https://github.com/pillarjs/send
- * MIT License
+__css-select 4.2.1__
+ * https://github.com/fb55/css-select
+ * BSD-2-Clause
 
 __jest-circus 26.6.0__
  * https://github.com/facebook/jest
@@ -1573,20 +1625,16 @@ __shellwords 0.1.1__
  * http://jimmycuadra.com/
  * MIT License
 
-__@babel/plugin-proposal-optional-chaining 7.12.1__
- * https://github.com/babel/babel
- * MIT License
-
-__globby 11.0.4__
- * https://sindresorhus.com
- * MIT License
-
 __inherits 2.0.1__
  * https://github.com/isaacs/inherits
  * ISC License
 
 __dot-case 3.0.4__
  * http://blakeembrey.me
+ * MIT License
+
+__@babel/helper-validator-identifier 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __@webassemblyjs/wasm-edit 1.9.0__
@@ -1605,12 +1653,16 @@ __resolve-from 3.0.0__
  * sindresorhus.com
  * MIT License
 
-__babel-plugin-polyfill-corejs2 0.2.2__
- * https://github.com/babel/babel-polyfills
+__@babel/plugin-transform-flow-strip-types 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __caniuse-api 3.0.0__
  * https://github.com/nyalab/caniuse-api
+ * MIT License
+
+__@types/node 17.0.16__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __pumpify 1.5.1__
@@ -1621,12 +1673,12 @@ __@typescript-eslint/visitor-keys 3.10.1__
  * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
-__eslint-import-resolver-node 0.3.4__
- * me@benmosher.com
- * MIT License
-
 __unset-value 1.0.0__
  * https://github.com/jonschlinkert
+ * MIT License
+
+__eslint-import-resolver-node 0.3.6__
+ * me@benmosher.com
  * MIT License
 
 __import-fresh 3.3.0__
@@ -1641,10 +1693,6 @@ __run-parallel 1.2.0__
  * https://feross.org
  * MIT License
 
-__@babel/helper-hoist-variables 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __type-fest 0.8.1__
  * sindresorhus.com
  * MIT License
@@ -1657,12 +1705,12 @@ __ansi-colors 3.2.4__
  * https://github.com/doowb
  * MIT License
 
-__mimic-fn 2.1.0__
- * sindresorhus.com
+__supports-preserve-symlinks-flag 1.0.0__
+ * https://github.com/inspect-js/node-supports-preserve-symlinks-flag
  * MIT License
 
-__@babel/plugin-proposal-numeric-separator 7.14.5__
- * https://babel.dev/team
+__mimic-fn 2.1.0__
+ * sindresorhus.com
  * MIT License
 
 __@pmmmwh/react-refresh-webpack-plugin 0.4.3__
@@ -1681,20 +1729,8 @@ __simple-swizzle 0.2.2__
  * http://github.com/qix-
  * MIT License
 
-__@babel/plugin-transform-function-name 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __tapable 1.1.3__
  * https://github.com/webpack/tapable
- * MIT License
-
-__@babel/plugin-transform-runtime 7.12.1__
- * https://github.com/babel/babel
- * MIT License
-
-__@babel/plugin-proposal-json-strings 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __cache-base 1.0.1__
@@ -1719,14 +1755,6 @@ __is-number 7.0.0__
 
 __is-arrayish 0.2.1__
  * http://github.com/qix-
- * MIT License
-
-__@babel/helper-compilation-targets 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__@babel/plugin-syntax-typescript 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __@bcoe/v8-coverage 0.2.3__
@@ -1769,6 +1797,10 @@ __is-ci 2.0.0__
  * https://twitter.com/wa7son
  * MIT License
 
+__@types/normalize-package-data 2.4.1__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
 __@xtuc/ieee754 1.2.0__
  * http://feross.org
  * BSD-3-Clause
@@ -1785,13 +1817,9 @@ __postcss-loader 3.0.0__
  * https://github.com/postcss/postcss-loader
  * MIT License
 
-__@types/normalize-package-data 2.4.0__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
+__prop-types 15.8.1__
+ * https://github.com/facebook/prop-types
  * MIT License
-
-__caniuse-lite 1.0.30001243__
- * http://beneb.info
- * CC-BY-4.0
 
 __ssri 8.0.1__
  * https://github.com/npm/ssri
@@ -1801,6 +1829,10 @@ __@types/estree 0.0.39__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
+__istanbul-lib-source-maps 4.0.1__
+ * https://github.com/istanbuljs/istanbuljs
+ * BSD-3-Clause
+
 __parse-json 4.0.0__
  * sindresorhus.com
  * MIT License
@@ -1808,10 +1840,6 @@ __parse-json 4.0.0__
 __@rollup/pluginutils 3.1.0__
  * https://github.com/rollup/plugins
  * MIT License
-
-__istanbul-lib-source-maps 4.0.0__
- * https://github.com/istanbuljs/istanbuljs
- * BSD-3-Clause
 
 __unique-filename 1.1.1__
  * http://re-becca.org/
@@ -1821,11 +1849,11 @@ __onetime 5.1.2__
  * https://sindresorhus.com
  * MIT License
 
-__cosmiconfig 7.0.0__
+__cosmiconfig 7.0.1__
  * https://github.com/davidtheclark/cosmiconfig
  * MIT License
 
-__string.prototype.matchall 4.0.5__
+__string.prototype.matchall 4.0.6__
  * https://github.com/es-shims/String.prototype.matchAll
  * MIT License
 
@@ -1857,16 +1885,16 @@ __postcss-place 4.0.1__
  * https://github.com/jonathantneal/postcss-place
  * CC0-1.0
 
-__ajv 8.6.1__
- * https://github.com/ajv-validator/ajv
+__es-abstract 1.19.1__
+ * http://ljharb.codes
  * MIT License
 
 __websocket-driver 0.7.4__
  * http://jcoglan.com/
  * Apache License 2.0
 
-__@babel/plugin-proposal-private-property-in-object 7.14.5__
- * https://babel.dev/team
+__fast-glob 3.2.11__
+ * https://mrmlnc.com
  * MIT License
 
 __rework 1.0.1__
@@ -1875,10 +1903,6 @@ __rework 1.0.1__
 
 __path-exists 3.0.0__
  * sindresorhus.com
- * MIT License
-
-__color-string 1.5.5__
- * https://github.com/Qix-/color-string
  * MIT License
 
 __babel-plugin-transform-react-remove-prop-types 0.4.24__
@@ -1897,37 +1921,37 @@ __identity-obj-proxy 3.0.0__
  * http://keya.nz
  * MIT License
 
-__postcss-page-break 2.0.0__
- * https://github.com/shrpne/postcss-page-break
+__is-string 1.0.7__
+ * https://github.com/ljharb/is-string
  * MIT License
 
-__import-local 3.0.2__
- * sindresorhus.com
+__postcss-page-break 2.0.0__
+ * https://github.com/shrpne/postcss-page-break
  * MIT License
 
 __y18n 4.0.3__
  * https://github.com/yargs/y18n
  * ISC License
 
-__@types/estree 0.0.50__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
+__@icons/material 0.2.4__
+ * https://github.com/at-icons/material
  * MIT License
 
-__is-string 1.0.6__
- * https://github.com/ljharb/is-string
- * MIT License
+__minimatch 3.0.5__
+ * http://blog.izs.me
+ * ISC License
 
 __upath 1.2.0__
  * https://github.com/anodynos/upath
  * MIT License
 
+__@types/estree 0.0.51__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
 __minimatch 3.0.4__
  * http://blog.izs.me
  * ISC License
-
-__@nodelib/fs.walk 1.2.7__
- * https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk
- * MIT License
 
 __sha.js 2.4.11__
  * dominictarr.com
@@ -1936,6 +1960,10 @@ __sha.js 2.4.11__
 __sha.js 2.4.11__
  * dominictarr.com
  * BSD-3-Clause
+
+__@nodelib/fs.walk 1.2.8__
+ * https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk
+ * MIT License
 
 __hash.js 1.1.7__
  * https://github.com/indutny/hash.js
@@ -1957,14 +1985,6 @@ __jest-regex-util 26.0.0__
  * https://github.com/facebook/jest
  * MIT License
 
-__@babel/helper-explode-assignable-expression 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__array.prototype.flat 1.2.4__
- * http://ljharb.codes
- * MIT License
-
 __@svgr/webpack 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/webpack
  * MIT License
@@ -1976,6 +1996,10 @@ __postcss-env-function 2.0.2__
 __v8-to-istanbul 7.1.2__
  * https://github.com/istanbuljs/v8-to-istanbul
  * ISC License
+
+__array.prototype.flat 1.2.5__
+ * http://ljharb.codes
+ * MIT License
 
 __pkg-dir 4.2.0__
  * sindresorhus.com
@@ -2001,10 +2025,6 @@ __dir-glob 3.0.1__
  * github.com/kevva
  * MIT License
 
-__@babel/plugin-transform-named-capturing-groups-regex 7.14.7__
- * https://babel.dev/team
- * MIT License
-
 __sprintf-js 1.0.3__
  * http://alexei.ro/
  * BSD-3-Clause
@@ -2013,8 +2033,8 @@ __eventsource 1.1.0__
  * https://github.com/EventSource/eventsource
  * MIT License
 
-__@babel/plugin-transform-template-literals 7.14.5__
- * https://babel.dev/team
+__eslint-plugin-jest 24.7.0__
+ * jkimbo.com
  * MIT License
 
 __on-headers 1.0.2__
@@ -2049,6 +2069,10 @@ __tslib 1.14.1__
  * https://github.com/Microsoft/tslib
  * 0BSD
 
+__@babel/plugin-proposal-json-strings 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __cssnano 4.1.11__
  * http://beneb.info
  * MIT License
@@ -2065,20 +2089,20 @@ __is-resolvable 1.1.0__
  * https://github.com/shinnn
  * ISC License
 
-__@babel/plugin-proposal-numeric-separator 7.12.1__
- * https://github.com/babel/babel
- * MIT License
-
-__damerau-levenshtein 1.0.7__
+__damerau-levenshtein 1.0.8__
  * https://github.com/tad-lispy/node-damerau-levenshtein
  * BSD-2-Clause
 
-__eslint-utils 3.0.0__
- * https://github.com/mysticatea/eslint-utils
+__is-glob 4.0.3__
+ * https://github.com/jonschlinkert
  * MIT License
 
-__is-glob 4.0.1__
- * https://github.com/jonschlinkert
+__postcss 8.4.6__
+ * https://github.com/postcss/postcss
+ * MIT License
+
+__eslint-utils 3.0.0__
+ * https://github.com/mysticatea/eslint-utils
  * MIT License
 
 __@svgr/babel-plugin-svg-dynamic-title 5.4.0__
@@ -2097,8 +2121,12 @@ __core-js 2.6.12__
  * https://github.com/zloirock/core-js
  * MIT License
 
-__eslint-plugin-react 7.24.0__
- * https://github.com/yannickcr/eslint-plugin-react
+__@babel/helper-remap-async-to-generator 7.16.8__
+ * https://babel.dev/team
+ * MIT License
+
+__eslint-webpack-plugin 2.6.0__
+ * https://github.com/webpack-contrib/eslint-webpack-plugin
  * MIT License
 
 __gensync 1.0.0-beta.2__
@@ -2119,6 +2147,22 @@ __hpack.js 2.1.6__
 
 __object.assign 4.1.2__
  * https://github.com/ljharb/object.assign
+ * MIT License
+
+__@babel/plugin-transform-member-expression-literals 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__regexp.prototype.flags 1.4.1__
+ * https://github.com/es-shims/RegExp.prototype.flags
+ * MIT License
+
+__@babel/helper-wrap-function 7.16.8__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/helper-annotate-as-pure 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __abab 2.0.5__
@@ -2143,6 +2187,10 @@ __os-browserify 0.3.0__
 
 __@types/stack-utils 2.0.1__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__@babel/template 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __url-loader 4.1.1__
@@ -2173,20 +2221,12 @@ __magic-string 0.25.7__
  * https://github.com/rich-harris/magic-string
  * MIT License
 
-__@babel/plugin-transform-object-super 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __language-tags 1.0.5__
  * https://github.com/mattcg/language-tags
  * MIT License
 
-__is-boolean-object 1.1.1__
+__is-boolean-object 1.1.2__
  * https://github.com/inspect-js/is-boolean-object
- * MIT License
-
-__tsconfig-paths 3.10.1__
- * https://github.com/dividab/tsconfig-paths
  * MIT License
 
 __csso 4.2.0__
@@ -2205,16 +2245,20 @@ __snapdragon-node 2.1.1__
  * https://github.com/jonschlinkert
  * MIT License
 
+__nanoid 3.2.0__
+ * https://github.com/ai/nanoid
+ * MIT License
+
 __normalize-url 3.3.0__
  * sindresorhus.com
  * MIT License
 
-__lodash.clonedeep 4.5.0__
- * http://allyoucanleet.com/
- * MIT License
-
 __path-exists 4.0.0__
  * sindresorhus.com
+ * MIT License
+
+__@babel/helper-environment-visitor 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __prelude-ls 1.2.1__
@@ -2233,20 +2277,16 @@ __mime 1.6.0__
  * http://github.com/broofa
  * MIT License
 
+__@types/babel__traverse 7.14.2__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
 __collect-v8-coverage 1.0.1__
  * https://github.com/SimenB/collect-v8-coverage
  * MIT License
 
-__@types/babel__traverse 7.14.1__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __readable-stream 2.3.7__
  * https://github.com/nodejs/readable-stream
- * MIT License
-
-__@babel/plugin-transform-block-scoped-functions 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __set-value 2.0.1__
@@ -2257,16 +2297,20 @@ __arrify 2.0.1__
  * sindresorhus.com
  * MIT License
 
-__@babel/plugin-transform-exponentiation-operator 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __utils-merge 1.0.1__
  * http://www.jaredhanson.net/
  * MIT License
 
+__type 2.6.0__
+ * https://www.medikoo.com/
+ * ISC License
+
 __normalize-path 2.1.1__
  * https://github.com/jonschlinkert
+ * MIT License
+
+__@babel/plugin-proposal-optional-chaining 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __rimraf 3.0.2__
@@ -2285,14 +2329,6 @@ __readdirp 2.2.1__
  * thlorenz.com
  * MIT License
 
-__@babel/plugin-transform-dotall-regex 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__@babel/helper-plugin-utils 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __is-plain-obj 1.1.0__
  * sindresorhus.com
  * MIT License
@@ -2303,10 +2339,6 @@ __uuid 8.3.2__
 
 __string_decoder 1.3.0__
  * https://github.com/nodejs/string_decoder
- * MIT License
-
-__@babel/plugin-transform-flow-strip-types 7.12.1__
- * https://github.com/babel/babel
  * MIT License
 
 __color-name 1.1.3__
@@ -2325,10 +2357,6 @@ __param-case 3.0.4__
  * http://blakeembrey.me
  * MIT License
 
-__estraverse 5.2.0__
- * https://github.com/estools/estraverse
- * BSD-2-Clause
-
 __p-locate 4.1.0__
  * sindresorhus.com
  * MIT License
@@ -2337,24 +2365,32 @@ __chownr 2.0.0__
  * http://blog.izs.me/
  * ISC License
 
+__@babel/core 7.17.0__
+ * https://babel.dev/team
+ * MIT License
+
 __recursive-readdir 2.2.2__
  * http://jamisondance.com/
  * MIT License
 
-__confusing-browser-globals 1.0.10__
- * https://github.com/facebook/create-react-app
+__@babel/plugin-transform-template-literals 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __safe-buffer 5.2.1__
  * https://feross.org
  * MIT License
 
+__confusing-browser-globals 1.0.11__
+ * https://github.com/facebook/create-react-app
+ * MIT License
+
 __convert-source-map 0.3.5__
  * http://thlorenz.com
  * MIT License
 
-__@babel/plugin-transform-modules-commonjs 7.14.5__
- * https://babel.dev/team
+__http-errors 1.8.1__
+ * http://jongleberry.com
  * MIT License
 
 __ansi-regex 4.1.0__
@@ -2381,6 +2417,10 @@ __buffer-indexof 1.1.1__
  * https://github.com/soldair/node-buffer-indexof
  * MIT License
 
+__css-what 5.1.0__
+ * http://feedic.com
+ * BSD-2-Clause
+
 __strip-eof 1.0.0__
  * sindresorhus.com
  * MIT License
@@ -2401,6 +2441,14 @@ __@istanbuljs/schema 0.1.3__
  * https://github.com/istanbuljs/schema
  * MIT License
 
+__@ampproject/remapping 2.1.0__
+ * https://github.com/ampproject/remapping
+ * Apache License 2.0
+
+__axe-core 4.4.1__
+ * https://github.com/dequelabs/axe-core
+ * MPL-2.0
+
 __workbox-google-analytics 5.1.4__
  * https://github.com/googlechrome/workbox
  * MIT License
@@ -2417,7 +2465,11 @@ __lodash.truncate 4.4.2__
  * http://allyoucanleet.com/
  * MIT License
 
-__@babel/helper-simple-access 7.14.5__
+__@babel/plugin-transform-object-super 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/plugin-transform-reserved-words 7.16.7__
  * https://babel.dev/team
  * MIT License
 
@@ -2427,10 +2479,6 @@ __babel-plugin-jest-hoist 26.6.2__
 
 __duplexer 0.1.2__
  * https://github.com/Raynos/duplexer
- * MIT License
-
-__@babel/plugin-transform-member-expression-literals 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __opn 5.5.0__
@@ -2443,10 +2491,6 @@ __array-union 1.0.2__
 
 __diff-sequences 26.6.2__
  * https://github.com/facebook/jest
- * MIT License
-
-__nanoid 3.1.23__
- * https://github.com/ai/nanoid
  * MIT License
 
 __@babel/plugin-syntax-dynamic-import 7.8.3__
@@ -2463,10 +2507,6 @@ __flush-write-stream 1.1.1__
 
 __merge-stream 2.0.0__
  * https://github.com/grncdr/merge-stream
- * MIT License
-
-__@babel/template 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __buffer-xor 1.0.3__
@@ -2497,6 +2537,10 @@ __@svgr/babel-plugin-transform-react-native-svg 5.4.0__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-transform-react-native-svg
  * MIT License
 
+__@babel/helper-create-regexp-features-plugin 7.17.0__
+ * https://babel.dev/team
+ * MIT License
+
 __decode-uri-component 0.2.0__
  * github.com/SamVerschueren
  * MIT License
@@ -2521,16 +2565,8 @@ __test-exclude 6.0.0__
  * https://github.com/istanbuljs/test-exclude
  * ISC License
 
-__string-width 4.2.2__
+__string-width 4.2.3__
  * sindresorhus.com
- * MIT License
-
-__nan 2.14.2__
- * https://github.com/nodejs/nan
- * MIT License
-
-__unicode-match-property-value-ecmascript 1.2.0__
- * https://mathiasbynens.be/
  * MIT License
 
 __braces 3.0.2__
@@ -2541,12 +2577,12 @@ __postcss-normalize-unicode 4.0.1__
  * http://beneb.info
  * MIT License
 
-__pascalcase 0.1.1__
- * https://github.com/jonschlinkert
+__unicode-match-property-value-ecmascript 2.0.0__
+ * https://mathiasbynens.be/
  * MIT License
 
-__@typescript-eslint/eslint-plugin 4.28.2__
- * https://github.com/typescript-eslint/typescript-eslint
+__pascalcase 0.1.1__
+ * https://github.com/jonschlinkert
  * MIT License
 
 __glob-parent 3.1.0__
@@ -2577,11 +2613,7 @@ __react-is 17.0.2__
  * https://github.com/facebook/react
  * MIT License
 
-__@babel/plugin-proposal-optional-chaining 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__@babel/plugin-transform-sticky-regex 7.14.5__
+__@babel/plugin-transform-block-scoped-functions 7.16.7__
  * https://babel.dev/team
  * MIT License
 
@@ -2603,6 +2635,14 @@ __postcss-normalize-charset 4.0.1__
 
 __regex-parser 2.2.11__
  * https://ionicabizau.net
+ * MIT License
+
+__@babel/plugin-transform-exponentiation-operator 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/plugin-transform-dotall-regex 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __webpack-manifest-plugin 2.2.0__
@@ -2641,12 +2681,12 @@ __postcss-custom-media 7.0.8__
  * https://github.com/postcss/postcss-custom-media
  * MIT License
 
-__@babel/helper-validator-identifier 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __p-map 2.1.0__
  * sindresorhus.com
+ * MIT License
+
+__@babel/helper-hoist-variables 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __type-fest 0.6.0__
@@ -2665,8 +2705,12 @@ __@xtuc/long 4.2.2__
  * https://github.com/dcodeIO/long.js
  * Apache License 2.0
 
-__eslint-plugin-jest 24.3.6__
- * jkimbo.com
+__@babel/helper-simple-access 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/preset-env 7.16.11__
+ * https://babel.dev/team
  * MIT License
 
 __pascal-case 3.1.2__
@@ -2679,10 +2723,6 @@ __forwarded 0.2.0__
 
 __workbox-build 5.1.4__
  * https://github.com/googlechrome/workbox
- * MIT License
-
-__@babel/plugin-transform-react-jsx-source 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __@sinonjs/fake-timers 6.0.1__
@@ -2701,6 +2741,10 @@ __jest 26.6.0__
  * https://github.com/facebook/jest
  * MIT License
 
+__terser 5.10.0__
+ * http://lisperator.net/
+ * BSD-2-Clause
+
 __pkg-up 3.1.0__
  * sindresorhus.com
  * MIT License
@@ -2715,6 +2759,14 @@ __atob 2.1.2__
 
 __workbox-expiration 5.1.4__
  * https://github.com/googlechrome/workbox
+ * MIT License
+
+__get-symbol-description 1.0.0__
+ * https://github.com/inspect-js/get-symbol-description
+ * MIT License
+
+__@babel/plugin-transform-modules-commonjs 7.16.8__
+ * https://babel.dev/team
  * MIT License
 
 __builtin-modules 3.2.0__
@@ -2753,8 +2805,8 @@ __ssri 6.0.2__
  * https://github.com/zkat/ssri
  * ISC License
 
-__@babel/helper-module-transforms 7.14.5__
- * https://babel.dev/team
+__eslint-plugin-react-hooks 4.3.0__
+ * https://github.com/facebook/react
  * MIT License
 
 __anymatch 3.1.2__
@@ -2765,6 +2817,10 @@ __postcss-reduce-initial 4.0.3__
  * http://beneb.info
  * MIT License
 
+__electron-to-chromium 1.4.66__
+ * https://github.com/kilian/electron-to-chromium
+ * ISC License
+
 __optimize-css-assets-webpack-plugin 5.0.4__
  * https://github.com/NMFR/optimize-css-assets-webpack-plugin
  * MIT License
@@ -2773,17 +2829,21 @@ __to-regex 3.0.2__
  * https://github.com/jonschlinkert
  * MIT License
 
-__axe-core 4.2.3__
- * https://github.com/dequelabs/axe-core
- * MPL-2.0
-
 __safe-regex 1.1.0__
  * http://substack.net
+ * MIT License
+
+__@babel/helper-compilation-targets 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __@babel/plugin-syntax-async-generators 7.8.4__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators
  * MIT License
+
+__glob 7.2.0__
+ * http://blog.izs.me/
+ * ISC License
 
 __parse-json 5.2.0__
  * https://sindresorhus.com
@@ -2809,7 +2869,7 @@ __react 17.0.2__
  * https://github.com/facebook/react
  * MIT License
 
-__chalk 4.1.1__
+__chalk 4.1.2__
  * https://github.com/chalk/chalk
  * MIT License
 
@@ -2819,10 +2879,6 @@ __workbox-routing 5.1.4__
 
 __globby 6.1.0__
  * sindresorhus.com
- * MIT License
-
-__@babel/plugin-transform-literals 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __minipass-pipeline 1.2.4__
@@ -2845,10 +2901,6 @@ __arr-union 3.1.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__graceful-fs 4.2.6__
- * https://github.com/isaacs/node-graceful-fs
- * ISC License
-
 __@types/minimatch 3.0.5__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
@@ -2857,16 +2909,16 @@ __jest-jasmine2 26.6.3__
  * https://github.com/facebook/jest
  * MIT License
 
+__@babel/plugin-transform-destructuring 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __ansi-html 0.0.7__
  * https://github.com/Tjatse/ansi-html
  * Apache License 2.0
 
 __class-utils 0.3.6__
  * https://github.com/jonschlinkert
- * MIT License
-
-__@babel/plugin-proposal-optional-catch-binding 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __minipass-collect 1.0.2__
@@ -2881,12 +2933,20 @@ __postcss-color-functional-notation 2.0.1__
  * https://github.com/jonathantneal/postcss-color-functional-notation
  * CC0-1.0
 
+__@typescript-eslint/experimental-utils 4.33.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * MIT License
+
 __find-up 2.1.0__
  * sindresorhus.com
  * MIT License
 
 __move-concurrently 1.0.1__
  * http://re-becca.org/
+ * ISC License
+
+__graceful-fs 4.2.9__
+ * https://github.com/isaacs/node-graceful-fs
  * ISC License
 
 __dns-packet 1.3.4__
@@ -2900,6 +2960,10 @@ __mkdirp 1.0.4__
 __postcss-normalize 8.0.1__
  * https://github.com/csstools/postcss-normalize
  * CC0-1.0
+
+__@babel/helper-member-expression-to-functions 7.16.7__
+ * https://babel.dev/team
+ * MIT License
 
 __json-parse-even-better-errors 2.3.1__
  * https://github.com/npm/json-parse-even-better-errors
@@ -2941,10 +3005,6 @@ __html-encoding-sniffer 2.0.1__
  * https://domenic.me/
  * MIT License
 
-__@babel/helper-builder-binary-assignment-operator-visitor 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __@webassemblyjs/wasm-parser 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
@@ -2961,24 +3021,24 @@ __detect-port-alt 1.1.6__
  * https://github.com/node-modules/detect-port
  * MIT License
 
-__jsdom 16.6.0__
- * https://github.com/jsdom/jsdom
+__@babel/code-frame 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__browserslist 4.19.1__
+ * https://github.com/browserslist/browserslist
  * MIT License
 
 __vary 1.1.2__
  * https://github.com/jshttp/vary
  * MIT License
 
-__@babel/plugin-transform-react-jsx 7.14.5__
+__@babel/plugin-transform-sticky-regex 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__is-regex 1.1.3__
+__is-regex 1.1.4__
  * https://github.com/inspect-js/is-regex
- * MIT License
-
-__camelcase 6.2.0__
- * https://sindresorhus.com
  * MIT License
 
 __https-browserify 1.0.0__
@@ -3025,12 +3085,28 @@ __num2fraction 1.2.2__
  * http://iyunlu.com/view
  * MIT License
 
-__@babel/runtime 7.12.1__
- * https://github.com/babel/babel
+__@babel/plugin-proposal-export-namespace-from 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
-__find-cache-dir 3.3.1__
+__acorn 8.7.0__
+ * https://github.com/acornjs/acorn
+ * MIT License
+
+__@babel/plugin-proposal-decorators 7.17.0__
+ * https://babel.dev/team
+ * MIT License
+
+__@types/webpack-sources 3.2.0__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__find-cache-dir 3.3.2__
  * https://github.com/avajs/find-cache-dir
+ * MIT License
+
+__@babel/plugin-proposal-nullish-coalescing-operator 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __is-extendable 1.0.1__
@@ -3061,24 +3137,28 @@ __is-regexp 1.0.0__
  * http://sindresorhus.com
  * MIT License
 
-__@babel/helper-optimise-call-expression 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __rework-visit 1.0.0__
  * https://github.com/reworkcss/rework-visit
+ * MIT License
+
+__regjsgen 0.6.0__
+ * https://ofcr.se/
  * MIT License
 
 __read-pkg-up 7.0.1__
  * sindresorhus.com
  * MIT License
 
+__nan 2.15.0__
+ * https://github.com/nodejs/nan
+ * MIT License
+
 __ansi-styles 3.2.1__
  * sindresorhus.com
  * MIT License
 
-__@babel/plugin-transform-modules-amd 7.14.5__
- * https://babel.dev/team
+__unicode-canonical-property-names-ecmascript 2.0.0__
+ * https://mathiasbynens.be/
  * MIT License
 
 __is-stream 1.1.0__
@@ -3121,16 +3201,16 @@ __timers-browserify 2.0.12__
  * https://convolv.es/
  * MIT License
 
-__resolve 1.20.0__
- * http://substack.net
- * MIT License
-
-__object.fromentries 2.0.4__
- * https://github.com/es-shims/Object.fromEntries
- * MIT License
-
 __array-unique 0.3.2__
  * https://github.com/jonschlinkert
+ * MIT License
+
+__mime-types 2.1.34__
+ * https://github.com/jshttp/mime-types
+ * MIT License
+
+__object.fromentries 2.0.5__
+ * https://github.com/es-shims/Object.fromEntries
  * MIT License
 
 __pinkie 2.0.4__
@@ -3141,16 +3221,12 @@ __is-descriptor 0.1.6__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@babel/plugin-transform-modules-umd 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__mime-types 2.1.31__
- * https://github.com/jshttp/mime-types
- * MIT License
-
 __stream-shift 1.0.1__
  * @mafintosh
+ * MIT License
+
+__@babel/helper-module-transforms 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __css-tree 1.1.3__
@@ -3161,8 +3237,20 @@ __has-value 1.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
+__@typescript-eslint/eslint-plugin 4.33.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * MIT License
+
+__color 3.2.1__
+ * https://github.com/Qix-/color
+ * MIT License
+
 __watchpack 1.7.5__
  * https://github.com/webpack/watchpack
+ * MIT License
+
+__@babel/preset-typescript 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __relateurl 0.2.7__
@@ -3177,24 +3265,12 @@ __postcss-color-hex-alpha 5.0.3__
  * https://github.com/postcss/postcss-color-hex-alpha
  * MIT License
 
-__cacache 15.2.0__
- * https://github.com/npm/cacache
- * ISC License
-
-__@babel/helpers 7.14.6__
- * https://babel.dev/team
- * MIT License
-
-__@types/webpack 4.41.30__
+__@types/webpack 4.41.32__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __thunky 1.1.0__
  * https://github.com/mafintosh/thunky
- * MIT License
-
-__selfsigned 1.10.11__
- * http://joseoncode.com
  * MIT License
 
 __@svgr/babel-plugin-svg-em-dimensions 5.4.0__
@@ -3213,21 +3289,25 @@ __jest-haste-map 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
-__jest-message-util 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__stack-utils 2.0.3__
+__stack-utils 2.0.5__
  * github.com/jamestalmage
  * MIT License
 
-__@babel/parser 7.14.7__
- * https://babel.dev/team
+__jest-message-util 26.6.2__
+ * https://github.com/facebook/jest
  * MIT License
 
 __postcss-overflow-shorthand 2.0.0__
  * https://github.com/jonathantneal/postcss-overflow-shorthand
  * CC0-1.0
+
+__selfsigned 1.10.14__
+ * http://joseoncode.com
+ * MIT License
+
+__object.getownpropertydescriptors 2.1.3__
+ * https://github.com/es-shims/object.getownpropertydescriptors
+ * MIT License
 
 __npm-run-path 2.0.2__
  * sindresorhus.com
@@ -3237,8 +3317,12 @@ __address 1.1.2__
  * https://github.com/node-modules/address
  * MIT License
 
-__object.getownpropertydescriptors 2.1.2__
- * https://github.com/es-shims/object.getownpropertydescriptors
+__tsconfig-paths 3.12.0__
+ * https://github.com/dividab/tsconfig-paths
+ * MIT License
+
+__@babel/plugin-transform-literals 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __@jest/test-result 26.6.2__
@@ -3247,6 +3331,10 @@ __@jest/test-result 26.6.2__
 
 __css-tree 1.0.0-alpha.37__
  * https://github.com/lahmatiy
+ * MIT License
+
+__eslint-module-utils 2.7.3__
+ * https://github.com/import-js/eslint-plugin-import
  * MIT License
 
 __jest-resolve-dependencies 26.6.3__
@@ -3265,7 +3353,11 @@ __postcss-font-variant 4.0.1__
  * https://github.com/postcss/postcss-font-variant
  * MIT License
 
-__@babel/plugin-transform-destructuring 7.14.7__
+__table 6.8.0__
+ * http://gajus.com
+ * BSD-3-Clause
+
+__@babel/helper-builder-binary-assignment-operator-visitor 7.16.7__
  * https://babel.dev/team
  * MIT License
 
@@ -3273,16 +3365,12 @@ __constants-browserify 1.0.0__
  * http://juliangruber.com
  * MIT License
 
-__is-core-module 2.4.0__
- * https://github.com/inspect-js/is-core-module
- * MIT License
-
-__@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__is-number-object 1.0.5__
+__is-number-object 1.0.6__
  * https://github.com/inspect-js/is-number-object
+ * MIT License
+
+__babel-plugin-polyfill-regenerator 0.3.1__
+ * https://github.com/babel/babel-polyfills
  * MIT License
 
 __md5.js 1.3.5__
@@ -3305,6 +3393,10 @@ __balanced-match 1.0.2__
  * http://juliangruber.com
  * MIT License
 
+__@babel/plugin-proposal-optional-catch-binding 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __cssom 0.4.4__
  * https://github.com/NV/CSSOM
  * MIT License
@@ -3313,16 +3405,8 @@ __sax 1.2.4__
  * http://blog.izs.me/
  * ISC License
 
-__terser 5.7.1__
- * http://lisperator.net/
- * BSD-2-Clause
-
 __prepend-http 1.0.4__
  * sindresorhus.com
- * MIT License
-
-__@babel/helper-define-polyfill-provider 0.2.3__
- * https://github.com/babel/babel-polyfills
  * MIT License
 
 __anymatch 2.0.0__
@@ -3341,10 +3425,6 @@ __braces 2.3.2__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@babel/plugin-syntax-decorators 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __jest-environment-node 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
@@ -3355,10 +3435,6 @@ __@babel/plugin-syntax-optional-catch-binding 7.8.3__
 
 __create-hash 1.2.0__
  * https://github.com/crypto-browserify/createHash
- * MIT License
-
-__eslint-plugin-jsx-a11y 6.4.1__
- * https://github.com/evcohen/eslint-plugin-jsx-a11y
  * MIT License
 
 __argparse 1.0.10__
@@ -3377,7 +3453,7 @@ __is-number 3.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__url-parse 1.5.1__
+__url-parse 1.5.4__
  * https://github.com/unshiftio/url-parse
  * MIT License
 
@@ -3401,6 +3477,10 @@ __type-fest 0.21.3__
  * https://sindresorhus.com
  * CC0-1.0
 
+__@babel/plugin-transform-react-jsx 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __is-absolute-url 2.1.0__
  * http://sindresorhus.com
  * MIT License
@@ -3413,29 +3493,25 @@ __to-object-path 0.3.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@types/prettier 2.3.1__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __source-map 0.5.7__
  * https://github.com/mozilla/source-map
  * BSD-3-Clause
+
+__@typescript-eslint/types 4.33.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * MIT License
+
+__@babel/helper-function-name 7.16.7__
+ * https://babel.dev/team
+ * MIT License
 
 __native-url 0.2.6__
  * https://github.com/GoogleChromeLabs/native-url
  * Apache License 2.0
 
-__unicode-canonical-property-names-ecmascript 1.0.4__
- * https://mathiasbynens.be/
- * MIT License
-
 __webidl-conversions 5.0.0__
  * https://domenic.me/
  * BSD-2-Clause
-
-__node-releases 1.1.73__
- * https://github.com/chicoxyzzy/node-releases
- * MIT License
 
 __destroy 1.0.4__
  * http://jongleberry.com
@@ -3453,12 +3529,16 @@ __glob-parent 5.1.2__
  * https://gulpjs.com/
  * ISC License
 
-__@babel/helper-create-regexp-features-plugin 7.14.5__
- * https://babel.dev/team
+__unicode-property-aliases-ecmascript 2.0.0__
+ * https://mathiasbynens.be/
  * MIT License
 
 __make-dir 3.1.0__
  * sindresorhus.com
+ * MIT License
+
+__copy-text-to-clipboard 3.0.1__
+ * https://sindresorhus.com
  * MIT License
 
 __postcss-merge-longhand 4.0.11__
@@ -3473,10 +3553,6 @@ __p-retry 3.0.1__
  * sindresorhus.com
  * MIT License
 
-__@types/json-schema 7.0.8__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __@svgr/babel-preset 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-preset
  * MIT License
@@ -3485,12 +3561,20 @@ __@types/graceful-fs 4.1.5__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
-__klona 2.0.4__
+__clean-stack 2.2.0__
+ * sindresorhus.com
+ * MIT License
+
+__klona 2.0.5__
  * https://lukeed.com
  * MIT License
 
-__clean-stack 2.2.0__
- * sindresorhus.com
+__@types/json-schema 7.0.9__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__@babel/plugin-transform-modules-amd 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __kind-of 5.1.0__
@@ -3517,20 +3601,20 @@ __w3c-xmlserializer 2.0.0__
  * https://github.com/jsdom/w3c-xmlserializer
  * MIT License
 
-__workbox-range-requests 5.1.4__
- * https://github.com/googlechrome/workbox
+__resolve 1.22.0__
+ * http://substack.net
  * MIT License
 
-__node-modules-regexp 1.0.0__
- * github.com/jamestalmage
+__workbox-range-requests 5.1.4__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
 __@hapi/hoek 8.5.1__
  * https://github.com/hapijs/hoek
  * BSD-3-Clause
 
-__mime 2.5.2__
- * http://github.com/broofa
+__supports-color 8.1.1__
+ * https://sindresorhus.com
  * MIT License
 
 __path-key 3.1.1__
@@ -3543,6 +3627,18 @@ __color-convert 1.9.3__
 
 __cssstyle 2.3.0__
  * https://github.com/jsdom/cssstyle
+ * MIT License
+
+__@types/eslint 7.29.0__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__globals 13.12.1__
+ * https://sindresorhus.com
+ * MIT License
+
+__@babel/plugin-transform-modules-umd 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __temp-dir 1.0.0__
@@ -3565,12 +3661,12 @@ __spdy 4.0.2__
  * https://github.com/indutny/node-spdy
  * MIT License
 
-__@types/babel__generator 7.6.3__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __iconv-lite 0.4.24__
  * https://github.com/ashtuchkin/iconv-lite
+ * MIT License
+
+__@types/babel__generator 7.6.4__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __validate-npm-package-license 3.0.4__
@@ -3585,28 +3681,24 @@ __urix 0.1.0__
  * https://github.com/lydell/urix
  * MIT License
 
-__signal-exit 3.0.3__
- * https://github.com/tapjs/signal-exit
- * ISC License
+__domutils 2.8.0__
+ * https://github.com/fb55/domutils
+ * BSD-2-Clause
 
 __has-flag 3.0.0__
  * sindresorhus.com
  * MIT License
 
-__regenerate-unicode-properties 8.2.0__
- * https://mathiasbynens.be/
- * MIT License
-
-__array.prototype.flatmap 1.2.4__
- * http://ljharb.codes
- * MIT License
+__istanbul-lib-instrument 5.1.0__
+ * https://github.com/istanbuljs/istanbuljs
+ * BSD-3-Clause
 
 __worker-rpc 0.1.1__
  * https://github.com/DirtyHairy/
  * MIT License
 
-__babel-plugin-macros 2.8.0__
- * http://kentcdodds.com/
+__array.prototype.flatmap 1.2.5__
+ * http://ljharb.codes
  * MIT License
 
 __es6-symbol 3.1.3__
@@ -3621,16 +3713,16 @@ __merge2 1.4.1__
  * https://github.com/teambition/merge2
  * MIT License
 
-__follow-redirects 1.14.1__
- * https://ruben.verborgh.org/
- * MIT License
-
 __mississippi 3.0.0__
  * https://github.com/maxogden/mississippi
  * BSD-2-Clause
 
 __workbox-cacheable-response 5.1.4__
  * https://github.com/googlechrome/workbox
+ * MIT License
+
+__object-inspect 1.12.0__
+ * http://substack.net
  * MIT License
 
 __commander 4.1.1__
@@ -3653,6 +3745,10 @@ __@babel/plugin-syntax-object-rest-spread 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
  * MIT License
 
+__follow-redirects 1.14.7__
+ * https://ruben.verborgh.org/
+ * MIT License
+
 __faye-websocket 0.11.4__
  * http://jcoglan.com/
  * Apache License 2.0
@@ -3673,8 +3769,16 @@ __tty-browserify 0.0.0__
  * http://substack.net
  * MIT License
 
+__react-error-overlay 6.0.10__
+ * https://github.com/facebook/create-react-app
+ * MIT License
+
 __isarray 1.0.0__
  * http://juliangruber.com
+ * MIT License
+
+__@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __@nodelib/fs.scandir 2.1.5__
@@ -3689,12 +3793,16 @@ __cjs-module-lexer 0.6.0__
  * https://github.com/guybedford/cjs-module-lexer
  * MIT License
 
-__raw-body 2.4.0__
- * http://jongleberry.com
+__is-weakref 1.0.2__
+ * https://github.com/inspect-js/is-weakref
  * MIT License
 
 __iferr 0.1.5__
  * https://github.com/shesek/iferr
+ * MIT License
+
+__raw-body 2.4.2__
+ * http://jongleberry.com
  * MIT License
 
 __postcss-normalize-url 4.0.1__
@@ -3709,6 +3817,18 @@ __hmac-drbg 1.0.1__
  * https://github.com/indutny/hmac-drbg
  * MIT License
 
+__core-js-pure 3.21.0__
+ * https://github.com/zloirock/core-js
+ * MIT License
+
+__node-releases 1.1.77__
+ * https://github.com/chicoxyzzy/node-releases
+ * MIT License
+
+__signal-exit 3.0.7__
+ * https://github.com/tapjs/signal-exit
+ * ISC License
+
 __browserify-des 1.0.2__
  * https://github.com/crypto-browserify/browserify-des
  * MIT License
@@ -3717,31 +3837,31 @@ __worker-farm 1.7.0__
  * https://github.com/rvagg/node-worker-farm
  * MIT License
 
-__micromatch 3.1.10__
- * https://github.com/jonschlinkert
+__@babel/plugin-transform-unicode-regex 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
-__@babel/helper-skip-transparent-expression-wrappers 7.14.5__
- * https://babel.dev/team
+__micromatch 3.1.10__
+ * https://github.com/jonschlinkert
  * MIT License
 
 __postcss-load-config 2.1.2__
  * https://github.com/postcss/postcss-load-config
  * MIT License
 
-__@babel/helper-function-name 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __human-signals 1.1.1__
  * https://github.com/ehmicky
  * Apache License 2.0
 
-__schema-utils 3.1.0__
+__schema-utils 3.1.1__
  * https://github.com/webpack-contrib
  * MIT License
 
-__deep-is 0.1.3__
+__@babel/helper-explode-assignable-expression 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__deep-is 0.1.4__
  * http://thlorenz.com
  * MIT License
 
@@ -3765,8 +3885,16 @@ __static-extend 0.1.2__
  * https://github.com/jonschlinkert
  * MIT License
 
+__jest-worker 27.5.0__
+ * https://github.com/facebook/jest
+ * MIT License
+
 __postcss-normalize-string 4.0.2__
  * http://beneb.info
+ * MIT License
+
+__@babel/plugin-transform-named-capturing-groups-regex 7.16.8__
+ * https://babel.dev/team
  * MIT License
 
 __whatwg-mimetype 2.3.0__
@@ -3785,19 +3913,23 @@ __@jest/console 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
+__@typescript-eslint/visitor-keys 4.33.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * MIT License
+
 __json-parse-better-errors 1.0.2__
  * https://github.com/zkat/json-parse-better-errors
+ * MIT License
+
+__@babel/helper-module-imports 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __check-types 11.1.2__
  * https://philbooth.me/
  * MIT License
 
-__globals 13.10.0__
- * https://sindresorhus.com
- * MIT License
-
-__core-util-is 1.0.2__
+__core-util-is 1.0.3__
  * http://blog.izs.me/
  * MIT License
 
@@ -3805,16 +3937,16 @@ __spdx-exceptions 2.3.0__
  * https://github.com/kemitchell/spdx-exceptions.json
  * CC-BY-3.0
 
-__tslib 2.3.0__
- * https://github.com/Microsoft/tslib
- * 0BSD
-
 __shebang-regex 3.0.0__
  * sindresorhus.com
  * MIT License
 
-__@typescript-eslint/types 4.28.2__
- * https://github.com/typescript-eslint/typescript-eslint
+__setprototypeof 1.2.0__
+ * https://github.com/wesleytodd/setprototypeof
+ * ISC License
+
+__@types/json5 0.0.29__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __whatwg-encoding 1.0.5__
@@ -3829,20 +3961,28 @@ __dotenv-expand 5.1.0__
  * https://github.com/motdotla/dotenv-expand
  * BSD-2-Clause
 
+__negotiator 0.6.3__
+ * https://github.com/jshttp/negotiator
+ * MIT License
+
 __pnp-webpack-plugin 1.6.4__
  * https://github.com/arcanis/pnp-webpack-plugin
  * MIT License
 
-__negotiator 0.6.2__
- * https://github.com/jshttp/negotiator
- * MIT License
-
-__@babel/traverse 7.14.7__
- * https://babel.dev/team
- * MIT License
+__tslib 2.3.1__
+ * https://github.com/Microsoft/tslib
+ * 0BSD
 
 __lodash.template 4.5.0__
  * https://github.com/lodash/lodash
+ * MIT License
+
+__@babel/plugin-syntax-jsx 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/plugin-transform-computed-properties 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __p-locate 2.0.0__
@@ -3865,10 +4005,6 @@ __q 1.5.1__
  * https://github.com/kriskowal
  * MIT License
 
-__@babel/helper-wrap-function 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __import-fresh 2.0.0__
  * sindresorhus.com
  * MIT License
@@ -3877,16 +4013,16 @@ __jsonfile 6.1.0__
  * https://github.com/jprichardson/node-jsonfile
  * MIT License
 
+__regjsparser 0.8.4__
+ * https://github.com/jviereck/regjsparser
+ * BSD-2-Clause
+
 __find-cache-dir 2.1.0__
  * https://github.com/avajs/find-cache-dir
  * MIT License
 
 __imurmurhash 0.1.4__
  * https://github.com/homebrewing
- * MIT License
-
-__@babel/helper-annotate-as-pure 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __loader-runner 2.4.0__
@@ -3903,10 +4039,6 @@ __regex-not 1.0.2__
 
 __text-table 0.2.0__
  * http://substack.net
- * MIT License
-
-__@typescript-eslint/experimental-utils 4.28.2__
- * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
 __@babel/plugin-syntax-json-strings 7.8.3__
@@ -3937,6 +4069,10 @@ __@jest/core 26.6.3__
  * https://github.com/facebook/jest
  * MIT License
 
+__babel-plugin-polyfill-corejs2 0.3.1__
+ * https://github.com/babel/babel-polyfills
+ * MIT License
+
 __babel-plugin-transform-object-rest-spread 6.26.0__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread
  * MIT License
@@ -3947,14 +4083,6 @@ __react-dom 17.0.2__
 
 __agent-base 6.0.2__
  * http://n8.io/
- * MIT License
-
-__istanbul-reports 3.0.2__
- * https://github.com/istanbuljs/istanbuljs
- * BSD-3-Clause
-
-__postcss-value-parser 4.1.0__
- * https://github.com/TrySound/postcss-value-parser
  * MIT License
 
 __acorn-globals 6.0.0__
@@ -3977,6 +4105,10 @@ __fast-json-stable-stringify 2.1.0__
  * http://substack.net
  * MIT License
 
+__is-core-module 2.8.1__
+ * https://github.com/inspect-js/is-core-module
+ * MIT License
+
 __open 7.4.2__
  * https://sindresorhus.com
  * MIT License
@@ -3989,17 +4121,13 @@ __range-parser 1.2.1__
  * http://tjholowaychuk.com
  * MIT License
 
-__@types/eslint 7.2.14__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __is-module 1.0.0__
  * http://jongleberry.com
  * MIT License
 
-__object-inspect 1.10.3__
- * http://substack.net
- * MIT License
+__spdx-license-ids 3.0.11__
+ * https://github.com/shinnn
+ * CC0-1.0
 
 __@humanwhocodes/config-array 0.5.0__
  * https://github.com/humanwhocodes/config-array
@@ -4013,12 +4141,12 @@ __has-values 0.1.4__
  * https://github.com/jonschlinkert
  * MIT License
 
-__retry 0.12.0__
- * http://debuggable.com/
+__object.values 1.1.5__
+ * https://github.com/es-shims/Object.values
  * MIT License
 
-__object.values 1.1.4__
- * https://github.com/es-shims/Object.values
+__retry 0.12.0__
+ * http://debuggable.com/
  * MIT License
 
 __postcss-value-parser 3.3.1__
@@ -4041,10 +4169,6 @@ __@jest/reporters 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
-__@babel/plugin-transform-parameters 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __vendors 1.0.4__
  * https://wooorm.com
  * MIT License
@@ -4057,16 +4181,8 @@ __fill-range 7.0.1__
  * https://github.com/jonschlinkert
  * MIT License
 
-__loglevel 1.7.1__
- * http://tim-perry.co.uk
- * MIT License
-
 __loose-envify 1.4.0__
  * https://github.com/zertosh/loose-envify
- * MIT License
-
-__@babel/code-frame 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __exec-sh 0.3.6__
@@ -4089,6 +4205,10 @@ __repeat-string 1.6.1__
  * http://github.com/jonschlinkert
  * MIT License
 
+__@jridgewell/trace-mapping 0.3.2__
+ * https://github.com/jridgewell/trace-mapping
+ * MIT License
+
 __@tootallnate/once 1.1.2__
  * http://n8.io/
  * MIT License
@@ -4098,6 +4218,10 @@ __nanomatch 1.2.13__
  * MIT License
 
 __loader-utils 1.2.3__
+ * https://github.com/webpack/loader-utils
+ * MIT License
+
+__loader-utils 2.0.2__
  * https://github.com/webpack/loader-utils
  * MIT License
 
@@ -4113,24 +4237,20 @@ __read-pkg 5.2.0__
  * sindresorhus.com
  * MIT License
 
+__@typescript-eslint/scope-manager 4.33.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * MIT License
+
 __multicast-dns 6.2.3__
  * @mafintosh
  * MIT License
 
-__postcss-discard-duplicates 4.0.2__
- * http://beneb.info
- * MIT License
-
-__@babel/plugin-transform-unicode-regex 7.14.5__
+__@babel/helper-skip-transparent-expression-wrappers 7.16.0__
  * https://babel.dev/team
  * MIT License
 
-__bytes 3.1.0__
- * http://tjholowaychuk.com
- * MIT License
-
-__regexpu-core 4.7.1__
- * https://mathiasbynens.be/
+__postcss-discard-duplicates 4.0.2__
+ * http://beneb.info
  * MIT License
 
 __supports-color 6.1.0__
@@ -4149,12 +4269,8 @@ __char-regex 1.0.2__
  * https://github.com/Richienb/char-regex
  * MIT License
 
-__@babel/plugin-proposal-export-namespace-from 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__lines-and-columns 1.1.6__
- * https://github.com/eventualbuddha/lines-and-columns
+__bytes 3.1.1__
+ * http://tjholowaychuk.com
  * MIT License
 
 __p-finally 1.0.0__
@@ -4177,7 +4293,7 @@ __minimist 1.2.5__
  * http://substack.net
  * MIT License
 
-__toidentifier 1.0.0__
+__toidentifier 1.0.1__
  * https://github.com/component/toidentifier
  * MIT License
 
@@ -4185,16 +4301,16 @@ __boolbase 1.0.0__
  * https://github.com/fb55/boolbase
  * ISC License
 
+__is-date-object 1.0.5__
+ * https://github.com/inspect-js/is-date-object
+ * MIT License
+
 __resolve-from 4.0.0__
  * sindresorhus.com
  * MIT License
 
-__is-date-object 1.0.4__
- * https://github.com/inspect-js/is-date-object
- * MIT License
-
-__pify 3.0.0__
- * sindresorhus.com
+__@babel/helper-optimise-call-expression 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __assign-symbols 1.0.0__
@@ -4229,20 +4345,20 @@ __is-data-descriptor 1.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@babel/plugin-transform-computed-properties 7.14.5__
- * https://babel.dev/team
+__babel-plugin-polyfill-corejs3 0.5.2__
+ * https://github.com/babel/babel-polyfills
  * MIT License
 
 __next-tick 1.0.0__
  * http://www.medikoo.com/
  * MIT License
 
-__@babel/generator 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __crypto-browserify 3.12.0__
  * dominictarr.com
+ * MIT License
+
+__buffer-from 1.1.2__
+ * https://github.com/LinusU/buffer-from
  * MIT License
 
 __functional-red-black-tree 1.0.1__
@@ -4251,10 +4367,6 @@ __functional-red-black-tree 1.0.1__
 
 __internal-ip 4.3.0__
  * sindresorhus.com
- * MIT License
-
-__buffer-from 1.1.1__
- * https://github.com/LinusU/buffer-from
  * MIT License
 
 __@jest/source-map 26.6.2__
@@ -4285,10 +4397,6 @@ __postcss-dir-pseudo-class 5.0.0__
  * https://github.com/jonathantneal/postcss-dir-pseudo-class
  * CC0-1.0
 
-__regjsparser 0.6.9__
- * https://github.com/jviereck/regjsparser
- * BSD-2-Clause
-
 __exit 0.1.2__
  * http://benalman.com/
  * MIT License
@@ -4297,17 +4405,9 @@ __is-obj 1.0.1__
  * sindresorhus.com
  * MIT License
 
-__read-pkg 3.0.0__
- * sindresorhus.com
- * MIT License
-
 __@types/uglify-js 3.13.1__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
-
-__ext 1.4.0__
- * http://www.medikoo.com/
- * ISC License
 
 __infer-owner 1.0.4__
  * https://izs.me
@@ -4321,16 +4421,8 @@ __commander 2.20.3__
  * https://github.com/tj/commander.js
  * MIT License
 
-__istanbul-lib-coverage 3.0.0__
- * https://github.com/istanbuljs/istanbuljs
- * BSD-3-Clause
-
 __reusify 1.0.4__
  * https://github.com/mcollina/reusify
- * MIT License
-
-__@babel/plugin-proposal-private-methods 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __shebang-command 2.0.0__
@@ -4340,6 +4432,14 @@ __shebang-command 2.0.0__
 __stringify-object 3.3.0__
  * sindresorhus.com
  * BSD-2-Clause
+
+__typescript 4.5.5__
+ * https://github.com/Microsoft/TypeScript
+ * Apache License 2.0
+
+__@babel/plugin-transform-arrow-functions 7.16.7__
+ * https://babel.dev/team
+ * MIT License
 
 __at-least-node 1.0.0__
  * https://github.com/RyanZim/at-least-node
@@ -4355,6 +4455,10 @@ __@babel/core 7.12.3__
 
 __jest-watch-typeahead 0.6.1__
  * https://github.com/jest-community/jest-watch-typeahead
+ * MIT License
+
+__@babel/preset-react 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __decamelize 1.2.0__
@@ -4377,11 +4481,15 @@ __vm-browserify 1.1.2__
  * http://substack.net
  * MIT License
 
+__@babel/plugin-transform-react-jsx-development 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __http-deceiver 1.2.7__
  * https://github.com/indutny/http-deceiver
  * MIT License
 
-__@babel/plugin-transform-classes 7.14.5__
+__@babel/types 7.17.0__
  * https://babel.dev/team
  * MIT License
 
@@ -4401,8 +4509,8 @@ __browserify-cipher 1.0.1__
  * https://github.com/crypto-browserify/browserify-cipher
  * MIT License
 
-__@typescript-eslint/scope-manager 4.28.2__
- * https://github.com/typescript-eslint/typescript-eslint
+__@babel/traverse 7.17.0__
+ * https://babel.dev/team
  * MIT License
 
 __ansi-escapes 4.3.2__
@@ -4421,6 +4529,10 @@ __has-symbols 1.0.2__
  * http://ljharb.codes
  * MIT License
 
+__@babel/generator 7.17.0__
+ * https://babel.dev/team
+ * MIT License
+
 __node-int64 0.4.0__
  * https://github.com/broofa/node-int64
  * MIT License
@@ -4429,20 +4541,16 @@ __postcss-attribute-case-insensitive 4.0.2__
  * https://github.com/Semigradsky/postcss-attribute-case-insensitive
  * MIT License
 
-__@babel/plugin-transform-shorthand-properties 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __@webassemblyjs/utf8 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
 
-__eslint-webpack-plugin 2.5.4__
- * https://github.com/webpack-contrib/eslint-webpack-plugin
- * MIT License
-
 __source-map-resolve 0.5.3__
  * https://github.com/lydell/source-map-resolve
+ * MIT License
+
+__@babel/plugin-transform-parameters 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __eslint-utils 2.1.0__
@@ -4461,16 +4569,16 @@ __escape-string-regexp 4.0.0__
  * https://sindresorhus.com
  * MIT License
 
+__@babel/plugin-transform-unicode-escapes 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__cookie 0.4.1__
+ * https://github.com/jshttp/cookie
+ * MIT License
+
 __shebang-regex 1.0.0__
  * sindresorhus.com
- * MIT License
-
-__unicode-match-property-ecmascript 1.0.4__
- * https://mathiasbynens.be/
- * MIT License
-
-__cookie 0.4.0__
- * https://github.com/jshttp/cookie
  * MIT License
 
 __stream-each 1.2.3__
@@ -4497,16 +4605,12 @@ __d 1.0.1__
  * http://www.medikoo.com/
  * ISC License
 
-__babel-plugin-named-asset-import 0.3.7__
- * https://github.com/facebook/create-react-app
+__@types/istanbul-lib-coverage 2.0.4__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __unquote 1.1.1__
  * https://github.com/lakenen/node-unquote
- * MIT License
-
-__@types/istanbul-lib-coverage 2.0.3__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __concat-stream 1.6.2__
@@ -4515,6 +4619,10 @@ __concat-stream 1.6.2__
 
 __rollup-pluginutils 2.8.2__
  * https://github.com/rollup/rollup-pluginutils
+ * MIT License
+
+__@babel/plugin-transform-block-scoping 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __css-declaration-sorter 4.0.1__
@@ -4527,6 +4635,10 @@ __regenerator-runtime 0.11.1__
 
 __typedarray 0.0.6__
  * http://substack.net
+ * MIT License
+
+__babel-plugin-named-asset-import 0.3.8__
+ * https://github.com/facebook/create-react-app
  * MIT License
 
 __unique-string 1.0.0__
@@ -4553,12 +4665,20 @@ __workbox-background-sync 5.1.4__
  * https://github.com/googlechrome/workbox
  * MIT License
 
+__@babel/plugin-proposal-unicode-property-regex 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __nth-check 1.0.2__
  * https://github.com/fb55/nth-check
  * BSD-2-Clause
 
 __punycode 1.3.2__
  * https://mathiasbynens.be/
+ * MIT License
+
+__@types/glob 7.2.0__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __@npmcli/move-file 1.1.2__
@@ -4593,10 +4713,6 @@ __@webassemblyjs/wasm-opt 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
 
-__es-abstract 1.18.3__
- * http://ljharb.codes
- * MIT License
-
 __object-is 1.1.5__
  * https://github.com/es-shims/object-is
  * MIT License
@@ -4604,10 +4720,6 @@ __object-is 1.1.5__
 __cacache 12.0.4__
  * https://github.com/npm/cacache
  * ISC License
-
-__sass-loader 10.2.0__
- * https://github.com/webpack-contrib/sass-loader
- * MIT License
 
 __slash 3.0.0__
  * sindresorhus.com
@@ -4625,20 +4737,20 @@ __@typescript-eslint/types 3.10.1__
  * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
-__@babel/helper-split-export-declaration 7.14.5__
- * https://babel.dev/team
+__sass-loader 10.2.1__
+ * https://github.com/webpack-contrib/sass-loader
  * MIT License
 
-__@babel/preset-modules 0.1.4__
- * https://github.com/babel/preset-modules
- * MIT License
-
-__makeerror 1.0.11__
+__makeerror 1.0.12__
  * https://github.com/daaku/nodejs-makeerror
  * BSD-3-Clause
 
 __minizlib 2.1.2__
  * http://blog.izs.me/
+ * MIT License
+
+__@babel/plugin-transform-regenerator 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __natural-compare 1.4.0__
@@ -4649,21 +4761,33 @@ __import-from 2.1.0__
  * sindresorhus.com
  * MIT License
 
+__@babel/plugin-transform-react-constant-elements 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __inflight 1.0.6__
  * http://blog.izs.me/
  * ISC License
+
+__@babel/preset-modules 0.1.5__
+ * https://github.com/babel/preset-modules
+ * MIT License
 
 __global-modules 2.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
+__@babel/plugin-proposal-dynamic-import 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__domhandler 4.3.0__
+ * https://github.com/fb55/domhandler
+ * BSD-2-Clause
+
 __@nodelib/fs.stat 2.0.5__
  * https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat
  * MIT License
-
-__css-select 4.1.3__
- * https://github.com/fb55/css-select
- * BSD-2-Clause
 
 __path-parse 1.0.7__
  * https://github.com/jbgutierrez/path-parse
@@ -4689,6 +4813,10 @@ __to-fast-properties 2.0.0__
  * sindresorhus.com
  * MIT License
 
+__@eslint/eslintrc 0.4.3__
+ * https://github.com/eslint/eslintrc
+ * MIT License
+
 __@webassemblyjs/wast-printer 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
@@ -4697,33 +4825,21 @@ __repeat-element 1.1.4__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@eslint/eslintrc 0.4.2__
- * https://github.com/eslint/eslintrc
- * MIT License
-
 __enhanced-resolve 4.5.0__
  * https://github.com/webpack/enhanced-resolve
- * MIT License
-
-__@babel/helper-replace-supers 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __chownr 1.1.4__
  * http://blog.izs.me/
  * ISC License
 
-__core-js-pure 3.15.2__
- * https://github.com/zloirock/core-js
- * MIT License
+__ext 1.6.0__
+ * http://www.medikoo.com/
+ * ISC License
 
 __wrappy 1.0.2__
  * http://blog.izs.me/
  * ISC License
-
-__@babel/plugin-transform-arrow-functions 7.14.5__
- * https://babel.dev/team
- * MIT License
 
 __postcss-custom-selectors 5.1.2__
  * https://github.com/postcss/postcss-custom-selectors
@@ -4761,16 +4877,8 @@ __resolve-cwd 2.0.0__
  * sindresorhus.com
  * MIT License
 
-__@babel/plugin-transform-modules-systemjs 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __execa 1.0.0__
  * sindresorhus.com
- * MIT License
-
-__@types/node 16.0.0__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __for-in 1.0.2__
@@ -4783,14 +4891,6 @@ __lodash.uniq 4.5.0__
 
 __posix-character-classes 0.1.1__
  * https://github.com/jonschlinkert
- * MIT License
-
-__@babel/preset-react 7.14.5__
- * https://babel.dev/team
- * MIT License
-
-__@babel/core 7.14.6__
- * https://babel.dev/team
  * MIT License
 
 __buffer 4.9.2__
@@ -4809,10 +4909,6 @@ __cyclist 1.0.1__
  * https://github.com/mafintosh/cyclist
  * MIT License
 
-__http-errors 1.7.2__
- * http://jongleberry.com
- * MIT License
-
 __is-extglob 2.1.1__
  * https://github.com/jonschlinkert
  * MIT License
@@ -4829,15 +4925,15 @@ __astral-regex 2.0.0__
  * github.com/kevva
  * MIT License
 
-__pkg-up 2.0.0__
- * sindresorhus.com
- * MIT License
-
 __semver 7.3.2__
  * https://github.com/npm/node-semver
  * ISC License
 
 __cssesc 2.0.0__
+ * https://mathiasbynens.be/
+ * MIT License
+
+__unicode-match-property-ecmascript 2.0.0__
  * https://mathiasbynens.be/
  * MIT License
 
@@ -4857,6 +4953,10 @@ __jsesc 2.5.2__
  * https://mathiasbynens.be/
  * MIT License
 
+__strip-ansi 6.0.1__
+ * sindresorhus.com
+ * MIT License
+
 __isexe 2.0.0__
  * http://blog.izs.me/
  * ISC License
@@ -4873,12 +4973,12 @@ __@babel/code-frame 7.10.4__
  * https://github.com/babel/babel
  * MIT License
 
-__supports-hyperlinks 2.2.0__
- * github.com/jamestalmage
+__@babel/helper-create-class-features-plugin 7.17.1__
+ * https://babel.dev/team
  * MIT License
 
-__postcss 8.3.5__
- * https://github.com/postcss/postcss
+__supports-hyperlinks 2.2.0__
+ * github.com/jamestalmage
  * MIT License
 
 __lodash 4.17.21__
@@ -4888,10 +4988,6 @@ __lodash 4.17.21__
 __bser 2.1.1__
  * http://wezfurlong.org
  * Apache License 2.0
-
-__regenerator-runtime 0.13.7__
- * https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime
- * MIT License
 
 __strip-ansi 5.2.0__
  * sindresorhus.com
@@ -4903,10 +4999,6 @@ __color-convert 2.0.1__
 
 __internal-slot 1.0.3__
  * https://github.com/ljharb/internal-slot
- * MIT License
-
-__@babel/plugin-transform-block-scoping 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __aggregate-error 3.1.0__
@@ -4925,10 +5017,6 @@ __path-is-absolute 1.0.1__
  * sindresorhus.com
  * MIT License
 
-__@babel/plugin-transform-unicode-escapes 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __@types/tapable 1.0.8__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
@@ -4945,7 +5033,11 @@ __v8-compile-cache 2.3.0__
  * https://github.com/zertosh/v8-compile-cache
  * MIT License
 
-__is-callable 1.2.3__
+__autoprefixer 9.8.8__
+ * https://github.com/postcss/autoprefixer
+ * MIT License
+
+__is-callable 1.2.4__
  * http://ljharb.codes
  * MIT License
 
@@ -4953,16 +5045,12 @@ __postcss-color-gray 5.0.0__
  * https://github.com/shinnn
  * ISC License
 
-__autoprefixer 9.8.6__
- * https://github.com/postcss/autoprefixer
+__core-js 3.21.0__
+ * https://github.com/zloirock/core-js
  * MIT License
 
 __is-path-inside 2.1.0__
  * sindresorhus.com
- * MIT License
-
-__prop-types 15.7.2__
- * https://github.com/facebook/prop-types
  * MIT License
 
 __json5 1.0.1__
@@ -4981,12 +5069,16 @@ __error-stack-parser 2.0.6__
  * https://github.com/stacktracejs/error-stack-parser
  * MIT License
 
-__scheduler 0.20.2__
- * https://github.com/facebook/react
+__nth-check 2.0.1__
+ * https://github.com/fb55/nth-check
+ * BSD-2-Clause
+
+__regenerator-runtime 0.13.9__
+ * https://github.com/facebook/regenerator/tree/master/packages/runtime
  * MIT License
 
-__@babel/plugin-transform-react-jsx-self 7.14.5__
- * https://babel.dev/team
+__scheduler 0.20.2__
+ * https://github.com/facebook/react
  * MIT License
 
 __p-try 2.2.0__
@@ -5001,36 +5093,24 @@ __fs-extra 8.1.0__
  * https://github.com/jprichardson/node-fs-extra
  * MIT License
 
-__spdx-license-ids 3.0.9__
- * https://github.com/shinnn
- * CC0-1.0
+__is-bigint 1.0.4__
+ * https://github.com/inspect-js/is-bigint
+ * MIT License
 
 __indent-string 4.0.0__
  * sindresorhus.com
- * MIT License
-
-__nth-check 2.0.0__
- * https://github.com/fb55/nth-check
- * BSD-2-Clause
-
-__is-bigint 1.0.2__
- * https://github.com/inspect-js/is-bigint
  * MIT License
 
 __dns-txt 2.0.2__
  * https://twitter.com/wa7son
  * MIT License
 
-__@babel/helper-module-imports 7.14.5__
- * https://babel.dev/team
+__@jridgewell/resolve-uri 3.0.4__
+ * https://github.com/jridgewell/resolve-uri
  * MIT License
 
 __@types/source-list-map 0.1.2__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__@babel/runtime-corejs3 7.14.7__
- * https://babel.dev/team
  * MIT License
 
 __snapdragon 0.8.2__
@@ -5039,10 +5119,6 @@ __snapdragon 0.8.2__
 
 __terser-webpack-plugin 4.2.3__
  * https://github.com/webpack-contrib/terser-webpack-plugin
- * MIT License
-
-__@babel/plugin-transform-react-constant-elements 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __eslint-scope 5.1.1__
@@ -5069,24 +5145,28 @@ __semver 6.3.0__
  * https://github.com/npm/node-semver
  * ISC License
 
-__chokidar 3.5.2__
- * https://paulmillr.com
- * MIT License
+__tmpl 1.0.5__
+ * https://github.com/daaku/nodejs-tmpl
+ * BSD-3-Clause
 
 __sisteransi 1.0.5__
  * https://terkel.com
  * MIT License
 
-__tmpl 1.0.4__
- * https://github.com/daaku/nodejs-tmpl
- * BSD-3-Clause
-
-__@babel/plugin-syntax-jsx 7.14.5__
+__@babel/helper-split-export-declaration 7.16.7__
  * https://babel.dev/team
+ * MIT License
+
+__chokidar 3.5.3__
+ * https://paulmillr.com
  * MIT License
 
 __mixin-deep 1.3.2__
  * https://github.com/jonschlinkert
+ * MIT License
+
+__import-local 3.1.0__
+ * https://sindresorhus.com
  * MIT License
 
 __sort-keys 1.1.2__
@@ -5109,7 +5189,19 @@ __mdn-data 2.0.4__
  * https://github.com/mdn/data
  * CC0-1.0
 
-__sockjs 0.3.21__
+__express 4.17.2__
+ * https://github.com/expressjs/express
+ * MIT License
+
+__globby 11.1.0__
+ * https://sindresorhus.com
+ * MIT License
+
+__regexpu-core 5.0.1__
+ * https://mathiasbynens.be/
+ * MIT License
+
+__sockjs 0.3.24__
  * https://github.com/sockjs/sockjs-node
  * MIT License
 
@@ -5121,9 +5213,9 @@ __@babel/plugin-syntax-top-level-await 7.14.5__
  * https://babel.dev/team
  * MIT License
 
-__express 4.17.1__
- * https://github.com/expressjs/express
- * MIT License
+__babel-plugin-istanbul 6.1.1__
+ * https://github.com/istanbuljs/babel-plugin-istanbul
+ * BSD-3-Clause
 
 __last-call-webpack-plugin 3.0.0__
  * https://github.com/NMFR/last-call-webpack-plugin
@@ -5133,12 +5225,12 @@ __brace-expansion 1.1.11__
  * http://juliangruber.com
  * MIT License
 
-__ignore 5.1.8__
- * https://github.com/kaelzhang/node-ignore
- * MIT License
-
 __co 4.6.0__
  * https://github.com/tj/co
+ * MIT License
+
+__is-shared-array-buffer 1.0.1__
+ * http://ljharb.codes
  * MIT License
 
 __collection-visit 1.0.0__
@@ -5161,10 +5253,6 @@ __get-intrinsic 1.1.1__
  * https://github.com/ljharb/get-intrinsic
  * MIT License
 
-__@babel/plugin-transform-for-of 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __is-wsl 2.2.0__
  * sindresorhus.com
  * MIT License
@@ -5173,12 +5261,24 @@ __globals 11.12.0__
  * sindresorhus.com
  * MIT License
 
-__@babel/highlight 7.14.5__
- * https://babel.dev/team
+__eslint-plugin-flowtype 5.10.0__
+ * http://gajus.com
+ * BSD-3-Clause
+
+__mime-db 1.51.0__
+ * https://github.com/jshttp/mime-db
  * MIT License
 
 __alphanum-sort 1.0.2__
  * https://github.com/TrySound/alphanum-sort
+ * MIT License
+
+__@babel/helper-replace-supers 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/plugin-transform-modules-systemjs 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __dedent 0.7.0__
@@ -5203,10 +5303,6 @@ __postcss-safe-parser 5.0.2__
 
 __tryer 1.0.1__
  * https://philbooth.me/
- * MIT License
-
-__@babel/preset-react 7.12.1__
- * https://github.com/babel/babel
  * MIT License
 
 __on-finished 2.3.0__
@@ -5237,10 +5333,6 @@ __estraverse 4.3.0__
  * https://github.com/estools/estraverse
  * BSD-2-Clause
 
-__@typescript-eslint/parser 4.28.2__
- * https://github.com/typescript-eslint/typescript-eslint
- * BSD-2-Clause
-
 __expand-brackets 2.1.4__
  * https://github.com/jonschlinkert
  * MIT License
@@ -5257,15 +5349,19 @@ __es5-ext 0.10.53__
  * http://www.medikoo.com/
  * ISC License
 
+__@babel/plugin-transform-runtime 7.17.0__
+ * https://babel.dev/team
+ * MIT License
+
 __@babel/plugin-syntax-logical-assignment-operators 7.10.4__
  * https://github.com/babel/babel
  * MIT License
 
-__css-what 5.0.1__
- * http://feedic.com
- * BSD-2-Clause
+__@gar/promisify 1.1.2__
+ * https://github.com/wraithgar/gar-promisify
+ * MIT License
 
-__@babel/plugin-proposal-class-static-block 7.14.5__
+__@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression 7.16.7__
  * https://babel.dev/team
  * MIT License
 
@@ -5277,20 +5373,16 @@ __cipher-base 1.0.4__
  * https://github.com/crypto-browserify/cipher-base
  * MIT License
 
+__minipass 3.1.6__
+ * http://blog.izs.me/
+ * ISC License
+
 __postcss-lab-function 2.0.1__
  * https://github.com/jonathantneal/postcss-lab-function
  * CC0-1.0
 
-__fastq 1.11.1__
- * https://github.com/mcollina/fastq
- * ISC License
-
 __postcss-normalize-display-values 4.0.2__
  * http://beneb.info
- * MIT License
-
-__regexp.prototype.flags 1.3.1__
- * https://github.com/es-shims/RegExp.prototype.flags
  * MIT License
 
 __escape-string-regexp 2.0.0__
@@ -5300,10 +5392,6 @@ __escape-string-regexp 2.0.0__
 __json-schema-traverse 0.4.1__
  * https://github.com/epoberezkin/json-schema-traverse
  * MIT License
-
-__minipass 3.1.3__
- * http://blog.izs.me/
- * ISC License
 
 __big.js 5.2.2__
  * https://github.com/MikeMcl/big.js
@@ -5316,14 +5404,6 @@ __postcss-nesting 7.0.1__
 __console-browserify 1.2.0__
  * https://github.com/browserify/console-browserify
  * MIT License
-
-__eslint 7.30.0__
- * https://github.com/eslint/eslint
- * MIT License
-
-__glob 7.1.7__
- * http://blog.izs.me/
- * ISC License
 
 __xml-name-validator 3.0.0__
  * https://domenic.me/
@@ -5343,10 +5423,6 @@ __is-glob 3.1.0__
 
 __jest-mock 26.6.2__
  * https://github.com/facebook/jest
- * MIT License
-
-__@babel/plugin-transform-react-pure-annotations 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __array-flatten 1.1.1__
@@ -5377,10 +5453,6 @@ __function-bind 1.1.1__
  * https://github.com/Raynos/function-bind
  * MIT License
 
-__eslint-module-utils 2.6.1__
- * https://github.com/benmosher/eslint-plugin-import
- * MIT License
-
 __p-each-series 2.2.0__
  * https://sindresorhus.com
  * MIT License
@@ -5395,10 +5467,6 @@ __growly 1.3.0__
 
 __babel-plugin-dynamic-import-node 2.3.3__
  * https://github.com/airbnb/babel-plugin-dynamic-import-node
- * MIT License
-
-__@babel/plugin-proposal-nullish-coalescing-operator 7.12.1__
- * https://github.com/babel/babel
  * MIT License
 
 __@hapi/bourne 1.3.2__
@@ -5425,6 +5493,10 @@ __jest-runner 26.6.3__
  * https://github.com/facebook/jest
  * MIT License
 
+__caniuse-lite 1.0.30001309__
+ * http://beneb.info
+ * CC-BY-4.0
+
 __ajv-errors 1.0.1__
  * https://github.com/epoberezkin/ajv-errors
  * MIT License
@@ -5441,8 +5513,8 @@ __object-visit 1.0.1__
  * https://github.com/jonschlinkert
  * MIT License
 
-__debug 4.3.2__
- * https://github.com/visionmedia/debug
+__debug 4.3.3__
+ * https://github.com/debug-js/debug
  * MIT License
 
 __async-limiter 1.0.1__
@@ -5461,10 +5533,6 @@ __normalize-path 3.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__@babel/preset-typescript 7.12.1__
- * https://github.com/babel/babel
- * MIT License
-
 __postcss-minify-params 4.0.2__
  * https://github.com/cssnano/cssnano
  * MIT License
@@ -5473,16 +5541,8 @@ __websocket-extensions 0.1.4__
  * http://jcoglan.com/
  * Apache License 2.0
 
-__type 2.5.0__
- * https://www.medikoo.com/
- * ISC License
-
 __@webassemblyjs/helper-buffer 1.9.0__
  * https://github.com/xtuc/webassemblyjs
- * MIT License
-
-__@babel/plugin-proposal-decorators 7.12.1__
- * https://github.com/babel/babel
  * MIT License
 
 __is-color-stop 1.1.0__
@@ -5521,6 +5581,10 @@ __json-schema-traverse 1.0.0__
  * https://github.com/epoberezkin/json-schema-traverse
  * MIT License
 
+__@babel/plugin-transform-for-of 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
 __extglob 2.0.4__
  * https://github.com/jonschlinkert
  * MIT License
@@ -5529,12 +5593,12 @@ __which 2.0.2__
  * http://blog.izs.me
  * ISC License
 
-__typescript 4.3.5__
- * https://github.com/Microsoft/TypeScript
- * Apache License 2.0
-
 __query-string 4.3.4__
  * sindresorhus.com
+ * MIT License
+
+__@babel/plugin-transform-classes 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __resolve-url-loader 3.1.4__
@@ -5581,12 +5645,12 @@ __postcss-merge-rules 4.0.3__
  * http://beneb.info
  * MIT License
 
-__@babel/helper-member-expression-to-functions 7.14.7__
- * https://babel.dev/team
- * MIT License
-
 __prr 1.0.1__
  * https://github.com/rvagg
+ * MIT License
+
+__@babel/plugin-transform-react-pure-annotations 7.16.7__
+ * https://babel.dev/team
  * MIT License
 
 __assert 1.5.0__
@@ -5597,11 +5661,11 @@ __bn.js 5.2.0__
  * https://github.com/indutny/bn.js
  * MIT License
 
-__common-tags 1.8.0__
- * https://github.com/declandewet/common-tags
+__common-tags 1.8.2__
+ * https://github.com/zspecza/common-tags
  * MIT License
 
-__is-arguments 1.1.0__
+__is-arguments 1.1.1__
  * http://ljharb.codes
  * MIT License
 
@@ -5613,13 +5677,13 @@ __file-loader 6.1.1__
  * https://github.com/webpack-contrib/file-loader
  * MIT License
 
-__eslint-plugin-react-hooks 4.2.0__
- * https://github.com/facebook/react
- * MIT License
-
 __type-check 0.4.0__
  * https://github.com/gkz/type-check
  * MIT License
+
+__fastq 1.13.0__
+ * https://github.com/mcollina/fastq
+ * ISC License
 
 __callsites 2.0.0__
  * sindresorhus.com
@@ -5649,6 +5713,10 @@ __react-refresh 0.8.3__
  * https://github.com/facebook/react
  * MIT License
 
+__eslint 7.32.0__
+ * https://github.com/eslint/eslint
+ * MIT License
+
 __postcss-selector-matches 4.0.0__
  * https://github.com/postcss/postcss-selector-matches
  * MIT License
@@ -5661,8 +5729,8 @@ __capture-exit 2.0.0__
  * https://github.com/stefanpenner/capture-exit
  * ISC License
 
-__@babel/plugin-proposal-unicode-property-regex 7.14.5__
- * https://babel.dev/team
+__has-tostringtag 1.0.0__
+ * http://ljharb.codes
  * MIT License
 
 __is-root 2.1.0__
@@ -5673,8 +5741,8 @@ __postcss-gap-properties 2.0.0__
  * https://github.com/jonathantneal/postcss-gap-properties
  * CC0-1.0
 
-__core-js-compat 3.15.2__
- * https://github.com/zloirock/core-js
+__@babel/parser 7.17.0__
+ * https://babel.dev/team
  * MIT License
 
 __postcss-image-set-function 3.0.1__
@@ -5689,12 +5757,12 @@ __postcss-modules-local-by-default 3.0.3__
  * https://github.com/css-modules/postcss-modules-local-by-default
  * MIT License
 
-__fast-glob 3.2.6__
- * https://mrmlnc.com
- * MIT License
-
 __postcss-media-minmax 4.0.0__
  * https://github.com/postcss/postcss-media-minmax
+ * MIT License
+
+__babel-plugin-macros 3.1.0__
+ * https://kentcdodds.com
  * MIT License
 
 __dom-serializer 0.2.2__
@@ -5705,16 +5773,12 @@ __fs-write-stream-atomic 1.0.10__
  * http://blog.izs.me/
  * ISC License
 
-__accepts 1.3.7__
+__accepts 1.3.8__
  * https://github.com/jshttp/accepts
  * MIT License
 
 __url 0.11.0__
  * https://github.com/defunctzombie/node-url
- * MIT License
-
-__@babel/plugin-proposal-nullish-coalescing-operator 7.14.5__
- * https://babel.dev/team
  * MIT License
 
 __util 0.10.3__
@@ -5733,10 +5797,6 @@ __encodeurl 1.0.2__
  * https://github.com/pillarjs/encodeurl
  * MIT License
 
-__@typescript-eslint/visitor-keys 4.28.2__
- * https://github.com/typescript-eslint/typescript-eslint
- * MIT License
-
 __whatwg-fetch 3.6.2__
  * https://github.com/github/fetch
  * MIT License
@@ -5749,17 +5809,9 @@ __@types/istanbul-lib-report 3.0.0__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
-__@babel/plugin-transform-regenerator 7.14.5__
- * https://babel.dev/team
- * MIT License
-
 __promise-inflight 1.0.1__
  * http://re-becca.org/
  * ISC License
-
-__@babel/plugin-transform-duplicate-keys 7.14.5__
- * https://babel.dev/team
- * MIT License
 
 __@babel/plugin-syntax-class-static-block 7.14.5__
  * https://babel.dev/team
@@ -5781,9 +5833,9 @@ __svgo 1.3.2__
  * https://github.com/deepsweet
  * MIT License
 
-__@babel/plugin-proposal-dynamic-import 7.14.5__
- * https://babel.dev/team
- * MIT License
+__@typescript-eslint/typescript-estree 4.33.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * BSD-2-Clause
 
 __postcss-convert-values 4.0.1__
  * http://beneb.info
@@ -5801,10 +5853,6 @@ __expect 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
-__pirates 4.0.1__
- * http://ariporad.com
- * MIT License
-
 __unbox-primitive 1.0.1__
  * https://github.com/ljharb/unbox-primitive
  * MIT License
@@ -5817,12 +5865,16 @@ __@webassemblyjs/wasm-gen 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
 
+__ajv 8.10.0__
+ * https://github.com/ajv-validator/ajv
+ * MIT License
+
 __wrap-ansi 5.1.0__
  * sindresorhus.com
  * MIT License
 
-__colorette 1.2.2__
- * https://github.com/jorgebucaran/colorette
+__pirates 4.0.5__
+ * http://ariporad.com
  * MIT License
 
 __babel-jest 26.6.3__
@@ -5981,12 +6033,16 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.1.0__
+__badge4j 1.3.0__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
 __csscolor4j 1.0.0__
  * https://github.com/silentsoft/csscolor4j
+ * Apache License 2.0
+
+__simpleicons4j 1.2.0__
+ * https://github.com/silentsoft/simpleicons4j
  * Apache License 2.0
 
 __jul-to-slf4j 1.7.31__
@@ -7286,407 +7342,6 @@ terms of this License.
 ```
 ______
 
-__CC-BY-4.0__
-
-```
-Attribution 4.0 International
-
-=======================================================================
-
-Creative Commons Corporation ("Creative Commons") is not a law firm and
-does not provide legal services or legal advice. Distribution of
-Creative Commons public licenses does not create a lawyer-client or
-other relationship. Creative Commons makes its licenses and related
-information available on an "as-is" basis. Creative Commons gives no
-warranties regarding its licenses, any material licensed under their
-terms and conditions, or any related information. Creative Commons
-disclaims all liability for damages resulting from their use to the
-fullest extent possible.
-
-Using Creative Commons Public Licenses
-
-Creative Commons public licenses provide a standard set of terms and
-conditions that creators and other rights holders may use to share
-original works of authorship and other material subject to copyright
-and certain other rights specified in the public license below. The
-following considerations are for informational purposes only, are not
-exhaustive, and do not form part of our licenses.
-
-     Considerations for licensors: Our public licenses are
-     intended for use by those authorized to give the public
-     permission to use material in ways otherwise restricted by
-     copyright and certain other rights. Our licenses are
-     irrevocable. Licensors should read and understand the terms
-     and conditions of the license they choose before applying it.
-     Licensors should also secure all rights necessary before
-     applying our licenses so that the public can reuse the
-     material as expected. Licensors should clearly mark any
-     material not subject to the license. This includes other CC-
-     licensed material, or material used under an exception or
-     limitation to copyright. More considerations for licensors:
-    wiki.creativecommons.org/Considerations_for_licensors
-
-     Considerations for the public: By using one of our public
-     licenses, a licensor grants the public permission to use the
-     licensed material under specified terms and conditions. If
-     the licensor's permission is not necessary for any reason--for
-     example, because of any applicable exception or limitation to
-     copyright--then that use is not regulated by the license. Our
-     licenses grant only permissions under copyright and certain
-     other rights that a licensor has authority to grant. Use of
-     the licensed material may still be restricted for other
-     reasons, including because others have copyright or other
-     rights in the material. A licensor may make special requests,
-     such as asking that all changes be marked or described.
-     Although not required by our licenses, you are encouraged to
-     respect those requests where reasonable. More considerations
-     for the public:
-    wiki.creativecommons.org/Considerations_for_licensees
-
-=======================================================================
-
-Creative Commons Attribution 4.0 International Public License
-
-By exercising the Licensed Rights (defined below), You accept and agree
-to be bound by the terms and conditions of this Creative Commons
-Attribution 4.0 International Public License ("Public License"). To the
-extent this Public License may be interpreted as a contract, You are
-granted the Licensed Rights in consideration of Your acceptance of
-these terms and conditions, and the Licensor grants You such rights in
-consideration of benefits the Licensor receives from making the
-Licensed Material available under these terms and conditions.
-
-
-Section 1 -- Definitions.
-
-  a. Adapted Material means material subject to Copyright and Similar
-     Rights that is derived from or based upon the Licensed Material
-     and in which the Licensed Material is translated, altered,
-     arranged, transformed, or otherwise modified in a manner requiring
-     permission under the Copyright and Similar Rights held by the
-     Licensor. For purposes of this Public License, where the Licensed
-     Material is a musical work, performance, or sound recording,
-     Adapted Material is always produced where the Licensed Material is
-     synched in timed relation with a moving image.
-
-  b. Adapter's License means the license You apply to Your Copyright
-     and Similar Rights in Your contributions to Adapted Material in
-     accordance with the terms and conditions of this Public License.
-
-  c. Copyright and Similar Rights means copyright and/or similar rights
-     closely related to copyright including, without limitation,
-     performance, broadcast, sound recording, and Sui Generis Database
-     Rights, without regard to how the rights are labeled or
-     categorized. For purposes of this Public License, the rights
-     specified in Section 2(b)(1)-(2) are not Copyright and Similar
-     Rights.
-
-  d. Effective Technological Measures means those measures that, in the
-     absence of proper authority, may not be circumvented under laws
-     fulfilling obligations under Article 11 of the WIPO Copyright
-     Treaty adopted on December 20, 1996, and/or similar international
-     agreements.
-
-  e. Exceptions and Limitations means fair use, fair dealing, and/or
-     any other exception or limitation to Copyright and Similar Rights
-     that applies to Your use of the Licensed Material.
-
-  f. Licensed Material means the artistic or literary work, database,
-     or other material to which the Licensor applied this Public
-     License.
-
-  g. Licensed Rights means the rights granted to You subject to the
-     terms and conditions of this Public License, which are limited to
-     all Copyright and Similar Rights that apply to Your use of the
-     Licensed Material and that the Licensor has authority to license.
-
-  h. Licensor means the individual(s) or entity(ies) granting rights
-     under this Public License.
-
-  i. Share means to provide material to the public by any means or
-     process that requires permission under the Licensed Rights, such
-     as reproduction, public display, public performance, distribution,
-     dissemination, communication, or importation, and to make material
-     available to the public including in ways that members of the
-     public may access the material from a place and at a time
-     individually chosen by them.
-
-  j. Sui Generis Database Rights means rights other than copyright
-     resulting from Directive 96/9/EC of the European Parliament and of
-     the Council of 11 March 1996 on the legal protection of databases,
-     as amended and/or succeeded, as well as other essentially
-     equivalent rights anywhere in the world.
-
-  k. You means the individual or entity exercising the Licensed Rights
-     under this Public License. Your has a corresponding meaning.
-
-
-Section 2 -- Scope.
-
-  a. License grant.
-
-       1. Subject to the terms and conditions of this Public License,
-          the Licensor hereby grants You a worldwide, royalty-free,
-          non-sublicensable, non-exclusive, irrevocable license to
-          exercise the Licensed Rights in the Licensed Material to:
-
-            a. reproduce and Share the Licensed Material, in whole or
-               in part; and
-
-            b. produce, reproduce, and Share Adapted Material.
-
-       2. Exceptions and Limitations. For the avoidance of doubt, where
-          Exceptions and Limitations apply to Your use, this Public
-          License does not apply, and You do not need to comply with
-          its terms and conditions.
-
-       3. Term. The term of this Public License is specified in Section
-          6(a).
-
-       4. Media and formats; technical modifications allowed. The
-          Licensor authorizes You to exercise the Licensed Rights in
-          all media and formats whether now known or hereafter created,
-          and to make technical modifications necessary to do so. The
-          Licensor waives and/or agrees not to assert any right or
-          authority to forbid You from making technical modifications
-          necessary to exercise the Licensed Rights, including
-          technical modifications necessary to circumvent Effective
-          Technological Measures. For purposes of this Public License,
-          simply making modifications authorized by this Section 2(a)
-          (4) never produces Adapted Material.
-
-       5. Downstream recipients.
-
-            a. Offer from the Licensor -- Licensed Material. Every
-               recipient of the Licensed Material automatically
-               receives an offer from the Licensor to exercise the
-               Licensed Rights under the terms and conditions of this
-               Public License.
-
-            b. No downstream restrictions. You may not offer or impose
-               any additional or different terms or conditions on, or
-               apply any Effective Technological Measures to, the
-               Licensed Material if doing so restricts exercise of the
-               Licensed Rights by any recipient of the Licensed
-               Material.
-
-       6. No endorsement. Nothing in this Public License constitutes or
-          may be construed as permission to assert or imply that You
-          are, or that Your use of the Licensed Material is, connected
-          with, or sponsored, endorsed, or granted official status by,
-          the Licensor or others designated to receive attribution as
-          provided in Section 3(a)(1)(A)(i).
-
-  b. Other rights.
-
-       1. Moral rights, such as the right of integrity, are not
-          licensed under this Public License, nor are publicity,
-          privacy, and/or other similar personality rights; however, to
-          the extent possible, the Licensor waives and/or agrees not to
-          assert any such rights held by the Licensor to the limited
-          extent necessary to allow You to exercise the Licensed
-          Rights, but not otherwise.
-
-       2. Patent and trademark rights are not licensed under this
-          Public License.
-
-       3. To the extent possible, the Licensor waives any right to
-          collect royalties from You for the exercise of the Licensed
-          Rights, whether directly or through a collecting society
-          under any voluntary or waivable statutory or compulsory
-          licensing scheme. In all other cases the Licensor expressly
-          reserves any right to collect such royalties.
-
-
-Section 3 -- License Conditions.
-
-Your exercise of the Licensed Rights is expressly made subject to the
-following conditions.
-
-  a. Attribution.
-
-       1. If You Share the Licensed Material (including in modified
-          form), You must:
-
-            a. retain the following if it is supplied by the Licensor
-               with the Licensed Material:
-
-                 i. identification of the creator(s) of the Licensed
-                    Material and any others designated to receive
-                    attribution, in any reasonable manner requested by
-                    the Licensor (including by pseudonym if
-                    designated);
-
-                ii. a copyright notice;
-
-               iii. a notice that refers to this Public License;
-
-                iv. a notice that refers to the disclaimer of
-                    warranties;
-
-                 v. a URI or hyperlink to the Licensed Material to the
-                    extent reasonably practicable;
-
-            b. indicate if You modified the Licensed Material and
-               retain an indication of any previous modifications; and
-
-            c. indicate the Licensed Material is licensed under this
-               Public License, and include the text of, or the URI or
-               hyperlink to, this Public License.
-
-       2. You may satisfy the conditions in Section 3(a)(1) in any
-          reasonable manner based on the medium, means, and context in
-          which You Share the Licensed Material. For example, it may be
-          reasonable to satisfy the conditions by providing a URI or
-          hyperlink to a resource that includes the required
-          information.
-
-       3. If requested by the Licensor, You must remove any of the
-          information required by Section 3(a)(1)(A) to the extent
-          reasonably practicable.
-
-       4. If You Share Adapted Material You produce, the Adapter's
-          License You apply must not prevent recipients of the Adapted
-          Material from complying with this Public License.
-
-
-Section 4 -- Sui Generis Database Rights.
-
-Where the Licensed Rights include Sui Generis Database Rights that
-apply to Your use of the Licensed Material:
-
-  a. for the avoidance of doubt, Section 2(a)(1) grants You the right
-     to extract, reuse, reproduce, and Share all or a substantial
-     portion of the contents of the database;
-
-  b. if You include all or a substantial portion of the database
-     contents in a database in which You have Sui Generis Database
-     Rights, then the database in which You have Sui Generis Database
-     Rights (but not its individual contents) is Adapted Material; and
-
-  c. You must comply with the conditions in Section 3(a) if You Share
-     all or a substantial portion of the contents of the database.
-
-For the avoidance of doubt, this Section 4 supplements and does not
-replace Your obligations under this Public License where the Licensed
-Rights include other Copyright and Similar Rights.
-
-
-Section 5 -- Disclaimer of Warranties and Limitation of Liability.
-
-  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
-     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
-     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
-     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
-     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
-     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
-     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
-     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
-     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
-     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
-
-  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
-     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
-     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
-     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
-     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
-     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
-     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
-     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
-     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
-
-  c. The disclaimer of warranties and limitation of liability provided
-     above shall be interpreted in a manner that, to the extent
-     possible, most closely approximates an absolute disclaimer and
-     waiver of all liability.
-
-
-Section 6 -- Term and Termination.
-
-  a. This Public License applies for the term of the Copyright and
-     Similar Rights licensed here. However, if You fail to comply with
-     this Public License, then Your rights under this Public License
-     terminate automatically.
-
-  b. Where Your right to use the Licensed Material has terminated under
-     Section 6(a), it reinstates:
-
-       1. automatically as of the date the violation is cured, provided
-          it is cured within 30 days of Your discovery of the
-          violation; or
-
-       2. upon express reinstatement by the Licensor.
-
-     For the avoidance of doubt, this Section 6(b) does not affect any
-     right the Licensor may have to seek remedies for Your violations
-     of this Public License.
-
-  c. For the avoidance of doubt, the Licensor may also offer the
-     Licensed Material under separate terms or conditions or stop
-     distributing the Licensed Material at any time; however, doing so
-     will not terminate this Public License.
-
-  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
-     License.
-
-
-Section 7 -- Other Terms and Conditions.
-
-  a. The Licensor shall not be bound by any additional or different
-     terms or conditions communicated by You unless expressly agreed.
-
-  b. Any arrangements, understandings, or agreements regarding the
-     Licensed Material not stated herein are separate from and
-     independent of the terms and conditions of this Public License.
-
-
-Section 8 -- Interpretation.
-
-  a. For the avoidance of doubt, this Public License does not, and
-     shall not be interpreted to, reduce, limit, restrict, or impose
-     conditions on any use of the Licensed Material that could lawfully
-     be made without permission under this Public License.
-
-  b. To the extent possible, if any provision of this Public License is
-     deemed unenforceable, it shall be automatically reformed to the
-     minimum extent necessary to make it enforceable. If the provision
-     cannot be reformed, it shall be severed from this Public License
-     without affecting the enforceability of the remaining terms and
-     conditions.
-
-  c. No term or condition of this Public License will be waived and no
-     failure to comply consented to unless expressly agreed to by the
-     Licensor.
-
-  d. Nothing in this Public License constitutes or may be interpreted
-     as a limitation upon, or waiver of, any privileges and immunities
-     that apply to the Licensor or You, including from the legal
-     processes of any jurisdiction or authority.
-
-
-=======================================================================
-
-Creative Commons is not a party to its public
-licenses. Notwithstanding, Creative Commons may elect to apply one of
-its public licenses to material it publishes and in those instances
-will be considered the “Licensor.” The text of the Creative Commons
-public licenses is dedicated to the public domain under the CC0 Public
-Domain Dedication. Except for the limited purpose of indicating that
-material is shared under a Creative Commons public license or as
-otherwise permitted by the Creative Commons policies published at
-creativecommons.org/policies, Creative Commons does not authorize the
-use of the trademark "Creative Commons" or any other trademark or logo
-of Creative Commons without its prior written consent including,
-without limitation, in connection with any unauthorized modifications
-to any of its public licenses or any other arrangements,
-understandings, or agreements concerning use of licensed material. For
-the avoidance of doubt, this paragraph does not form part of the
-public licenses.
-
-Creative Commons may be contacted at creativecommons.org.
-```
-______
-
 __0BSD__
 
 ```
@@ -8874,6 +8529,407 @@ EXHIBIT A -Mozilla Public License.
      the notices in the Source Code files of the Original Code. You should
      use the text of this Exhibit A rather than the text found in the
      Original Code Source Code for Your Modifications.]
+```
+______
+
+__CC-BY-4.0__
+
+```
+Attribution 4.0 International
+
+=======================================================================
+
+Creative Commons Corporation ("Creative Commons") is not a law firm and
+does not provide legal services or legal advice. Distribution of
+Creative Commons public licenses does not create a lawyer-client or
+other relationship. Creative Commons makes its licenses and related
+information available on an "as-is" basis. Creative Commons gives no
+warranties regarding its licenses, any material licensed under their
+terms and conditions, or any related information. Creative Commons
+disclaims all liability for damages resulting from their use to the
+fullest extent possible.
+
+Using Creative Commons Public Licenses
+
+Creative Commons public licenses provide a standard set of terms and
+conditions that creators and other rights holders may use to share
+original works of authorship and other material subject to copyright
+and certain other rights specified in the public license below. The
+following considerations are for informational purposes only, are not
+exhaustive, and do not form part of our licenses.
+
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
+    wiki.creativecommons.org/Considerations_for_licensors
+
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More considerations
+     for the public:
+    wiki.creativecommons.org/Considerations_for_licensees
+
+=======================================================================
+
+Creative Commons Attribution 4.0 International Public License
+
+By exercising the Licensed Rights (defined below), You accept and agree
+to be bound by the terms and conditions of this Creative Commons
+Attribution 4.0 International Public License ("Public License"). To the
+extent this Public License may be interpreted as a contract, You are
+granted the Licensed Rights in consideration of Your acceptance of
+these terms and conditions, and the Licensor grants You such rights in
+consideration of benefits the Licensor receives from making the
+Licensed Material available under these terms and conditions.
+
+
+Section 1 -- Definitions.
+
+  a. Adapted Material means material subject to Copyright and Similar
+     Rights that is derived from or based upon the Licensed Material
+     and in which the Licensed Material is translated, altered,
+     arranged, transformed, or otherwise modified in a manner requiring
+     permission under the Copyright and Similar Rights held by the
+     Licensor. For purposes of this Public License, where the Licensed
+     Material is a musical work, performance, or sound recording,
+     Adapted Material is always produced where the Licensed Material is
+     synched in timed relation with a moving image.
+
+  b. Adapter's License means the license You apply to Your Copyright
+     and Similar Rights in Your contributions to Adapted Material in
+     accordance with the terms and conditions of this Public License.
+
+  c. Copyright and Similar Rights means copyright and/or similar rights
+     closely related to copyright including, without limitation,
+     performance, broadcast, sound recording, and Sui Generis Database
+     Rights, without regard to how the rights are labeled or
+     categorized. For purposes of this Public License, the rights
+     specified in Section 2(b)(1)-(2) are not Copyright and Similar
+     Rights.
+
+  d. Effective Technological Measures means those measures that, in the
+     absence of proper authority, may not be circumvented under laws
+     fulfilling obligations under Article 11 of the WIPO Copyright
+     Treaty adopted on December 20, 1996, and/or similar international
+     agreements.
+
+  e. Exceptions and Limitations means fair use, fair dealing, and/or
+     any other exception or limitation to Copyright and Similar Rights
+     that applies to Your use of the Licensed Material.
+
+  f. Licensed Material means the artistic or literary work, database,
+     or other material to which the Licensor applied this Public
+     License.
+
+  g. Licensed Rights means the rights granted to You subject to the
+     terms and conditions of this Public License, which are limited to
+     all Copyright and Similar Rights that apply to Your use of the
+     Licensed Material and that the Licensor has authority to license.
+
+  h. Licensor means the individual(s) or entity(ies) granting rights
+     under this Public License.
+
+  i. Share means to provide material to the public by any means or
+     process that requires permission under the Licensed Rights, such
+     as reproduction, public display, public performance, distribution,
+     dissemination, communication, or importation, and to make material
+     available to the public including in ways that members of the
+     public may access the material from a place and at a time
+     individually chosen by them.
+
+  j. Sui Generis Database Rights means rights other than copyright
+     resulting from Directive 96/9/EC of the European Parliament and of
+     the Council of 11 March 1996 on the legal protection of databases,
+     as amended and/or succeeded, as well as other essentially
+     equivalent rights anywhere in the world.
+
+  k. You means the individual or entity exercising the Licensed Rights
+     under this Public License. Your has a corresponding meaning.
+
+
+Section 2 -- Scope.
+
+  a. License grant.
+
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
+
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
+
+            b. produce, reproduce, and Share Adapted Material.
+
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
+
+       3. Term. The term of this Public License is specified in Section
+          6(a).
+
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
+
+       5. Downstream recipients.
+
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
+
+  b. Other rights.
+
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
+
+       2. Patent and trademark rights are not licensed under this
+          Public License.
+
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
+
+
+Section 3 -- License Conditions.
+
+Your exercise of the Licensed Rights is expressly made subject to the
+following conditions.
+
+  a. Attribution.
+
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+       4. If You Share Adapted Material You produce, the Adapter's
+          License You apply must not prevent recipients of the Adapted
+          Material from complying with this Public License.
+
+
+Section 4 -- Sui Generis Database Rights.
+
+Where the Licensed Rights include Sui Generis Database Rights that
+apply to Your use of the Licensed Material:
+
+  a. for the avoidance of doubt, Section 2(a)(1) grants You the right
+     to extract, reuse, reproduce, and Share all or a substantial
+     portion of the contents of the database;
+
+  b. if You include all or a substantial portion of the database
+     contents in a database in which You have Sui Generis Database
+     Rights, then the database in which You have Sui Generis Database
+     Rights (but not its individual contents) is Adapted Material; and
+
+  c. You must comply with the conditions in Section 3(a) if You Share
+     all or a substantial portion of the contents of the database.
+
+For the avoidance of doubt, this Section 4 supplements and does not
+replace Your obligations under this Public License where the Licensed
+Rights include other Copyright and Similar Rights.
+
+
+Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+
+  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
+     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
+     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
+     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
+     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
+     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
+     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
+     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
+     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
+     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
+
+  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
+     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
+     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
+     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
+     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
+     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
+     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
+     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
+     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
+
+  c. The disclaimer of warranties and limitation of liability provided
+     above shall be interpreted in a manner that, to the extent
+     possible, most closely approximates an absolute disclaimer and
+     waiver of all liability.
+
+
+Section 6 -- Term and Termination.
+
+  a. This Public License applies for the term of the Copyright and
+     Similar Rights licensed here. However, if You fail to comply with
+     this Public License, then Your rights under this Public License
+     terminate automatically.
+
+  b. Where Your right to use the Licensed Material has terminated under
+     Section 6(a), it reinstates:
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. For the avoidance of doubt, the Licensor may also offer the
+     Licensed Material under separate terms or conditions or stop
+     distributing the Licensed Material at any time; however, doing so
+     will not terminate this Public License.
+
+  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
+     License.
+
+
+Section 7 -- Other Terms and Conditions.
+
+  a. The Licensor shall not be bound by any additional or different
+     terms or conditions communicated by You unless expressly agreed.
+
+  b. Any arrangements, understandings, or agreements regarding the
+     Licensed Material not stated herein are separate from and
+     independent of the terms and conditions of this Public License.
+
+
+Section 8 -- Interpretation.
+
+  a. For the avoidance of doubt, this Public License does not, and
+     shall not be interpreted to, reduce, limit, restrict, or impose
+     conditions on any use of the Licensed Material that could lawfully
+     be made without permission under this Public License.
+
+  b. To the extent possible, if any provision of this Public License is
+     deemed unenforceable, it shall be automatically reformed to the
+     minimum extent necessary to make it enforceable. If the provision
+     cannot be reformed, it shall be severed from this Public License
+     without affecting the enforceability of the remaining terms and
+     conditions.
+
+  c. No term or condition of this Public License will be waived and no
+     failure to comply consented to unless expressly agreed to by the
+     Licensor.
+
+  d. Nothing in this Public License constitutes or may be interpreted
+     as a limitation upon, or waiver of, any privileges and immunities
+     that apply to the Licensor or You, including from the legal
+     processes of any jurisdiction or authority.
+
+
+=======================================================================
+
+Creative Commons is not a party to its public
+licenses. Notwithstanding, Creative Commons may elect to apply one of
+its public licenses to material it publishes and in those instances
+will be considered the “Licensor.” The text of the Creative Commons
+public licenses is dedicated to the public domain under the CC0 Public
+Domain Dedication. Except for the limited purpose of indicating that
+material is shared under a Creative Commons public license or as
+otherwise permitted by the Creative Commons policies published at
+creativecommons.org/policies, Creative Commons does not authorize the
+use of the trademark "Creative Commons" or any other trademark or logo
+of Creative Commons without its prior written consent including,
+without limitation, in connection with any unauthorized modifications
+to any of its public licenses or any other arrangements,
+understandings, or agreements concerning use of licensed material. For
+the avoidance of doubt, this paragraph does not form part of the
+public licenses.
+
+Creative Commons may be contacted at creativecommons.org.
 ```
 ______
 

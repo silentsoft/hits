@@ -2,7 +2,7 @@ package org.silentsoft.hits.controller;
 
 import org.silentsoft.badge4j.Badge;
 import org.silentsoft.hits.item.HitsItem;
-import org.silentsoft.hits.service.HitsService;
+import org.silentsoft.hits.service.PreviewService;
 import org.silentsoft.hits.utils.UniformedResourceNameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -26,10 +26,10 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 @Controller
-public class HitsController {
+public class PreviewController {
 
     @Autowired
-    private HitsService hitsService;
+    private PreviewService previewService;
 
     private LinkedBlockingQueue<HitsItem> queue = new LinkedBlockingQueue<>();
 
@@ -39,27 +39,27 @@ public class HitsController {
             boolean keepAlive = true;
             while (keepAlive) {
                 try {
-                    hits(queue.take());
+                    preview(queue.take());
                 } catch (InterruptedException e) {
                     keepAlive = false;
                 }
             }
         });
-        thread.setName("Hits Queue Worker Thread");
+        thread.setName("Preview Queue Worker Thread");
         thread.start();
     }
 
-    public void hits(HitsItem item) {
+    public void preview(HitsItem item) {
         try {
-            item.getDeferredResult().setResult(hitsService.hits(item));
+            item.getDeferredResult().setResult(previewService.preview(item));
         } catch (Throwable e) {
             sendError(item.getDeferredResult(), HttpStatus.SERVICE_UNAVAILABLE);
         }
     }
 
-    @RequestMapping(value = "/**/*.svg", method = RequestMethod.GET, produces = "image/svg+xml;charset=UTF-8")
+    @RequestMapping(value = "/**/*.preview", method = RequestMethod.GET, produces = "image/svg+xml;charset=UTF-8")
     @ResponseBody
-    public DeferredResult<String> hits(HttpServletRequest request,
+    public DeferredResult<String> preview(HttpServletRequest request,
                                        @RequestParam(name = "view", required = false, defaultValue = "total") String view,
                                        @RequestParam(name = "style", required = false, defaultValue = "flat") String style,
                                        @RequestParam(name = "label", required = false, defaultValue = "hits") String label,
@@ -79,8 +79,8 @@ public class HitsController {
         });
 
         String uri = URLDecoder.decode(String.valueOf(request.getAttribute(UrlPathHelper.PATH_ATTRIBUTE)), StandardCharsets.UTF_8.name());
-        String urn = UniformedResourceNameUtils.normalize(uri.substring(0, uri.lastIndexOf(".svg")));
-        String expectedUri = String.format("/%s.svg", urn);
+        String urn = UniformedResourceNameUtils.normalize(uri.substring(0, uri.lastIndexOf(".preview")));
+        String expectedUri = String.format("/%s.preview", urn);
         if (expectedUri.equals(uri)) {
             if (urn.length() == 0 || urn.contains(".") == false) {
                 sendError(deferredResult, HttpStatus.BAD_REQUEST, "Not a valid URI");

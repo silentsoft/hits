@@ -3,7 +3,7 @@
   <a href="https://hits.sh"><img src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
   <h3 align="center">
     <sup>
-      <h4>Hit counter for your GitHub or any kind of website.</h4>
+      <h4>Hit Counter for Your GitHub or Any Kind of Websites You Want</h4>
     </sup>
   </h3>
 </h1>

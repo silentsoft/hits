@@ -3,6 +3,7 @@ package org.silentsoft.hits.service;
 import org.silentsoft.badge4j.Badge;
 import org.silentsoft.badge4j.Style;
 import org.silentsoft.hits.entity.*;
+import org.silentsoft.hits.item.HitsItem;
 import org.silentsoft.hits.repository.*;
 import org.silentsoft.hits.utils.UniformedResourceNameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,10 +34,17 @@ public class HitsService {
     private HitsHostsStatisticsRepository hitsHostsStatisticsRepository;
 
     @Transactional(rollbackFor = Exception.class)
-    public String hits(String urn, String view, String style, String label, String color, String labelColor, String[] links, String logo, int logoWidth, Long extraCount) {
-        if (logo != null && logo.length() > 0) {
-            logo = logo.replaceAll(" ", "+");
-        }
+    public String hits(HitsItem item) {
+        String urn = item.getUrn();
+        String view = item.getView();
+        String style = item.getStyle();
+        String label = item.getLabel();
+        String color = item.getColor();
+        String labelColor = item.getLabelColor();
+        String[] links = item.getLinks();
+        String logo = item.getLogo();
+        int logoWidth = item.getLogoWidth();
+        Long extraCount = item.getExtraCount();
 
         long currentTimeMillis = System.currentTimeMillis();
         Date date = new Date(currentTimeMillis);

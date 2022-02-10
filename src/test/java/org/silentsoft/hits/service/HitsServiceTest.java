@@ -6,6 +6,7 @@ import org.silentsoft.hits.entity.HitsHostsEntity;
 import org.silentsoft.hits.entity.HitsHostsStatisticsEntity;
 import org.silentsoft.hits.entity.HitsUrnsEntity;
 import org.silentsoft.hits.entity.HitsUrnsStatisticsEntity;
+import org.silentsoft.hits.item.HitsItem;
 import org.silentsoft.hits.repository.HitsHostsRepository;
 import org.silentsoft.hits.repository.HitsHostsStatisticsRepository;
 import org.silentsoft.hits.repository.HitsUrnsRepository;
@@ -38,7 +39,7 @@ public class HitsServiceTest {
         Assertions.assertNull(hitsUrnsRepository.findByUrn("hits.sh/test"));
         Assertions.assertNull(hitsHostsRepository.findByHost("hits.sh"));
 
-        hitsService.hits("hits.sh/test", "total", "flat", "hits", "#4c1", "#555", null, null, 0, null);
+        hitsService.hits(new HitsItem(null, "hits.sh/test", "total", "flat", "hits", "#4c1", "#555", null, null, 0, null));
         {
             HitsUrnsEntity urnsEntity = hitsUrnsRepository.findByUrn("hits.sh/test");
             Assertions.assertNotNull(urnsEntity);
@@ -51,7 +52,7 @@ public class HitsServiceTest {
             Assertions.assertEquals(1, hostsCount);
         }
 
-        hitsService.hits("hits.sh/test", "total", "flat", "hits", "#4c1", "#555", null, null, 0, null);
+        hitsService.hits(new HitsItem(null, "hits.sh/test", "total", "flat", "hits", "#4c1", "#555", null, null, 0, null));
         {
             HitsUrnsEntity urnsEntity = hitsUrnsRepository.findByUrn("hits.sh/test");
             Assertions.assertNotNull(urnsEntity);

@@ -1,19 +1,5 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  font-family: Roboto Mono;
-}
-:focus,
-:hover,
-:active {
-  outline: none;
-}
-body {
-  margin: 0;
-  overflow: hidden;
-}
 #app {
+  font-family: Roboto Mono;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -22,7 +8,6 @@ body {
 #terminal {
   width: 100vw;
   height: 100vh;
-  transition: .2s;
 }
 #window {
   height: 40px;
@@ -58,6 +43,7 @@ body {
 #title,
 #field,
 #field > * > input {
+  outline: none;
   font-size: .85rem;
 }
 #badge,
@@ -74,7 +60,7 @@ body {
   width: 10px;
 }
 #field.dark::-webkit-scrollbar-thumb {
-  background-color: #333444;
+  background-color: #333333;
 }
 #field.light::-webkit-scrollbar-thumb {
   background-color: #ACA9BB;
@@ -124,18 +110,3 @@ body {
     background-color: transparent;
   }
 }
-/*
-@media only screen and (max-width: 600px), (max-height: 600px) {
-  #terminal {
-    height: 100vh;
-    width: 100vw;
-    min-width: 100vw;
-  }
-  #field {
-    height: 100%;
-  }
-  #window {
-    display: none;
-  }
-}
- */

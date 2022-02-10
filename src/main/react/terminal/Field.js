@@ -1,5 +1,6 @@
 import React from 'react';
-import {normalize} from './UniformedResourceNameUtils';
+import {normalize} from '../utils/UniformedResourceNameUtils';
+import Utils from "../utils/Utils";
 
 class Field extends React.Component {
     constructor(props) {
@@ -56,8 +57,6 @@ class Field extends React.Component {
     }
     componentDidMount() {
         this.handleInputEvaluation('help')
-
-        document.querySelector('#field-input').focus()
     }
     componentDidUpdate() {
         const field = document.querySelector('#field')
@@ -196,10 +195,6 @@ class Field extends React.Component {
         }
     }
     toQueryString(flags) {
-        if (flags.length === 0) {
-            return '';
-        }
-
         const camel = (value) => {
             if (value.includes('-')) {
                 return value.toLowerCase().replace(/[-][a-z]/g, capture => capture.replace('-', '').toUpperCase());
@@ -211,13 +206,24 @@ class Field extends React.Component {
         }
         const value = (flag) => {
             if (flag.includes('=')) {
-                return encodeURI(flag.substring(flag.indexOf('='), flag.length).replace(/[\"]/g, ''));
+                return encodeURI(flag.substring(flag.indexOf('=')+1, flag.length).replace(/[\"]/g, ''));
             }
             return '';
         }
-        const queries = flags.map(flag => camel(key(flag)).concat(value(flag)));
-
-        return '?' + queries.join('&');
+        return Utils.toQueryString(flags.reduce((acc, flag) => {
+            if (key(flag) === 'link') {
+                if (Array.isArray(acc[camel(key(flag))])) {
+                    if (acc[camel(key(flag))].length < 2) {
+                        acc[camel(key(flag))].push(value(flag));
+                    }
+                } else {
+                    acc[camel(key(flag))] = [value(flag)];
+                }
+            } else {
+                acc[camel(key(flag))] = value(flag);
+            }
+            return acc;
+        }, {}));
     }
     giveError(type, extra) {
         const field = { text: '', isError: true, hasBuffer: true}
