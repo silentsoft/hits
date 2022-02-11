@@ -7,13 +7,13 @@ export default function Header() {
                         <a href="/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90.25" height="28" role="img" aria-label="HITS: &#8734;">
                                 <title>HITS: &#8734;</title>
-                                <g shape-rendering="crispEdges">
+                                <g shapeRendering="crispEdges">
                                     <rect width="54.00" height="28" fill="#555"/>
                                     <rect x="54.00" width="36.25" height="28" fill="#4c1"/>
                                 </g>
-                                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+                                <g fill="#fff" textAnchor="middle" fontFamily="Verdana,Geneva,DejaVu Sans,sans-serif" textRendering="geometricPrecision" fontSize="100">
                                     <text transform="scale(.1)" x="270" y="175" textLength="300" fill="#fff">HITS</text>
-                                    <text transform="scale(.1)" x="721.25" y="175" textLength="122.5" fill="#fff" font-weight="bold">&#8734;</text>
+                                    <text transform="scale(.1)" x="721.25" y="175" textLength="122.5" fill="#fff" fontWeight="bold">&#8734;</text>
                                 </g>
                             </svg>
                         </a>
