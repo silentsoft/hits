@@ -4,7 +4,7 @@ import SimpleDropdown from "./components/SimpleDropdown";
 import BadgeCard from "./components/BadgeCard";
 import Utils from "./utils/Utils";
 import {normalize} from "./utils/UniformedResourceNameUtils";
-import { SketchPicker } from 'react-color';
+import { SketchPicker, SwatchesPicker } from 'react-color';
 import reactCSS from 'reactcss';
 
 export default function Content() {
@@ -62,15 +62,15 @@ export default function Content() {
     'default': {
         color: {
             width: '36px',
-            height: '14px',
+            height: '100%',
             borderRadius: '2px',
             background: `rgba(${ colorState.color.r }, ${ colorState.color.g }, ${ colorState.color.b }, ${ colorState.color.a })`,
         },
         swatch: {
             padding: '5px',
+            height: '100%',
             background: '#fff',
             borderRadius: '1px',
-            boxShadow: '0 0 0 1px rgba(0,0,0,.1)',
             display: 'inline-block',
             cursor: 'pointer',
         },
@@ -92,15 +92,15 @@ export default function Content() {
     'default': {
         color: {
         width: '36px',
-        height: '14px',
+        height: '100%',
         borderRadius: '2px',
         background: `rgba(${ labelColorState.color.r }, ${ labelColorState.color.g }, ${ labelColorState.color.b }, ${ labelColorState.color.a })`,
-        },
-        swatch: {
+    },
+    swatch: {
         padding: '5px',
+        height: '100%',
         background: '#fff',
         borderRadius: '1px',
-        boxShadow: '0 0 0 1px rgba(0,0,0,.1)',
         display: 'inline-block',
         cursor: 'pointer',
         },
@@ -267,36 +267,36 @@ export default function Content() {
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
                                     <label className="text-sm font-medium leading-none text-gray-700 pr-3">Color</label>
-                                    <div className="w-48">
-                                        <input type="text" className="w-full border border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder="#4c1" value={color} onChange={handleColorChange} />
-                                    </div>
-                                </div>
-                                <div className="flex flex-row items-center justify-end">
-                                    <div className="w-48">
-                                        <div style={ pickerStyles.swatch } onClick={ handleClickPicker }>
-                                        <div style={ pickerStyles.color } />
+                                    <div className="w-48 flex">
+                                        <div>
+                                            <input type="text" className="w-full border border-r-0 rounded-r-none border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder="#4c1" value={color} onChange={handleColorChange} />
                                         </div>
-                                        { colorState.displayColorPicker ? <div style={ pickerStyles.popover }>
-                                        <div style={ pickerStyles.cover } onClick={ handleClosePicker }/>
-                                        <SketchPicker color={ colorState.color } onChange={ handleChangePicker } />
-                                        </div> : null }
+                                        <div className="border border-gray-300 dark:border-gray-700 shadow-sm bg-transparent rounded-r">
+                                            <div style={ pickerStyles.swatch } onClick={ handleClickPicker }>
+                                                <div style={ pickerStyles.color } />
+                                            </div>
+                                            { colorState.displayColorPicker ? <div style={ pickerStyles.popover }>
+                                            <div style={ pickerStyles.cover } onClick={ handleClosePicker }/>
+                                                <SwatchesPicker color={ colorState.color } onSwatchHover={ handleChangePicker } onChangeComplete={ handleClosePicker }/>
+                                            </div> : null }
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
                                     <label className="text-sm font-medium leading-none text-gray-700 pr-3">Label Color</label>
-                                    <div className="w-48">
-                                        <input type="text" className="w-full border border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder="#555" value={labelColor} onChange={handleLabelColorChange} />
-                                    </div>
-                                </div>
-                                <div className="flex flex-row items-center justify-end">
-                                    <div className="w-48">
-                                        <div style={ labelPickerStyles.swatch } onClick={ handleClickPickerLabel }>
-                                        <div style={ labelPickerStyles.color } />
+                                    <div className="w-48 flex">
+                                        <div>
+                                            <input type="text" className="w-full border border-r-0 rounded-r-none border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder="#555" value={labelColor} onChange={handleLabelColorChange} />
                                         </div>
-                                        { labelColorState.displayColorPicker ? <div style={ labelPickerStyles.popover }>
-                                        <div style={ labelPickerStyles.cover } onClick={ handleClosePickerLabel }/>
-                                        <SketchPicker color={ labelColorState.color } onChange={ handleChangePickerLabel } />
-                                        </div> : null }
+                                        <div className="border border-gray-300 dark:border-gray-700 shadow-sm bg-transparent rounded-r">
+                                            <div style={ labelPickerStyles.swatch } onClick={ handleClickPickerLabel }>
+                                                <div style={ labelPickerStyles.color } />
+                                            </div>
+                                            { labelColorState.displayColorPicker ? <div style={ labelPickerStyles.popover }>
+                                            <div style={ labelPickerStyles.cover } onClick={ handleClosePickerLabel }/>
+                                                <SwatchesPicker color={ labelColorState.color } onSwatchHover={ handleChangePickerLabel } onChangeComplete={ handleClosePickerLabel }/>
+                                            </div> : null }
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
