@@ -265,7 +265,7 @@ class Field extends React.Component {
 
 const Text = ({ input, isCommand, isError, hasBuffer }) => <>
     <div>
-        {isCommand && <div id="query">Hits</div>}
+        {isCommand && <div id="query">Hits&gt;</div>}
         <span className={!isCommand && isError ? 'error' : ''}>{input}</span>
     </div>
     {hasBuffer && <div></div>}
