@@ -1,11 +1,123 @@
 import React from "react";
 import SimpleDropdown from "./components/SimpleDropdown";
-import {Circle} from "react-color/lib/components/circle/Circle";
+// import {Circle} from "react-color/lib/components/circle/Circle";
 import BadgeCard from "./components/BadgeCard";
 import Utils from "./utils/Utils";
 import {normalize} from "./utils/UniformedResourceNameUtils";
+import { SketchPicker } from 'react-color';
+import reactCSS from 'reactcss';
 
 export default function Content() {
+    const [colorState, setColorState] = React.useState({
+        displayColorPicker: false,
+        color: {
+          r: '68',
+          g: '204',
+          b: '17',
+          a: '1',
+        },
+      });
+    const [labelColorState, setLabelColorState] = React.useState({
+        displayColorPicker: false,
+        color: {
+          r: '85',
+          g: '85',
+          b: '85',
+          a: '1',
+        },
+      });
+
+      const handleClickPicker = () => {
+        setLabelColorState({ ...labelColorState, displayColorPicker: false })
+        setColorState({ ...colorState, displayColorPicker: !colorState.displayColorPicker })
+      };
+    
+      const handleClosePicker = () => {
+        setColorState({ ...colorState, displayColorPicker: false })
+      };
+    
+      const handleChangePicker = (color) => {
+        setColor(color.hex);
+        setColorState({ ...colorState, color: color.rgb })
+      };
+
+      //=============================================================================
+      const handleClickPickerLabel = () => {
+        setColorState({ ...colorState, displayColorPicker: false })
+        setLabelColorState({ ...labelColorState, displayColorPicker: !labelColorState.displayColorPicker })
+      };
+    
+      const handleClosePickerLabel = () => {
+        setLabelColorState({ ...labelColorState, displayColorPicker: false })
+      };
+    
+      const handleChangePickerLabel = (color) => {
+        setLabelColor(color.hex);
+        setLabelColorState({ ...labelColorState, color: {...labelColorState.color, ...color.hex} })
+      };
+    
+
+
+    const pickerStyles = reactCSS({
+    'default': {
+        color: {
+            width: '36px',
+            height: '14px',
+            borderRadius: '2px',
+            background: `rgba(${ colorState.color.r }, ${ colorState.color.g }, ${ colorState.color.b }, ${ colorState.color.a })`,
+        },
+        swatch: {
+            padding: '5px',
+            background: '#fff',
+            borderRadius: '1px',
+            boxShadow: '0 0 0 1px rgba(0,0,0,.1)',
+            display: 'inline-block',
+            cursor: 'pointer',
+        },
+        popover: {
+            position: 'absolute',
+            zIndex: '2',
+        },
+        cover: {
+            position: 'fixed',
+            top: '0px',
+            right: '0px',
+            bottom: '0px',
+            left: '0px',
+        },
+    },
+    });
+
+    const labelPickerStyles = reactCSS({
+    'default': {
+        color: {
+        width: '36px',
+        height: '14px',
+        borderRadius: '2px',
+        background: `rgba(${ labelColorState.color.r }, ${ labelColorState.color.g }, ${ labelColorState.color.b }, ${ labelColorState.color.a })`,
+        },
+        swatch: {
+        padding: '5px',
+        background: '#fff',
+        borderRadius: '1px',
+        boxShadow: '0 0 0 1px rgba(0,0,0,.1)',
+        display: 'inline-block',
+        cursor: 'pointer',
+        },
+        popover: {
+        position: 'absolute',
+        zIndex: '2',
+        },
+        cover: {
+        position: 'fixed',
+        top: '0px',
+        right: '0px',
+        bottom: '0px',
+        left: '0px',
+        },
+    },
+    });
+
 
     const [url, setUrl] = React.useState("");
     const [view, setView] = React.useState("total");
@@ -161,7 +273,13 @@ export default function Content() {
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
                                     <div className="w-48">
-                                        <Circle width={'13rem'} circleSize={9} color={color} onChange={color => setColor(color.hex)} colors={['#4c1', '#97ca00', '#dfb317', '#a4a61d', '#fe7d37', '#e05d44', '#007ec6', '#555', '#9f9f9f']} />
+                                        <div style={ pickerStyles.swatch } onClick={ handleClickPicker }>
+                                        <div style={ pickerStyles.color } />
+                                        </div>
+                                        { colorState.displayColorPicker ? <div style={ pickerStyles.popover }>
+                                        <div style={ pickerStyles.cover } onClick={ handleClosePicker }/>
+                                        <SketchPicker color={ colorState.color } onChange={ handleChangePicker } />
+                                        </div> : null }
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
@@ -172,7 +290,13 @@ export default function Content() {
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
                                     <div className="w-48">
-                                        <Circle width={'13rem'} circleSize={9} color={labelColor} onChange={color => setLabelColor(color.hex)} colors={['#4c1', '#97ca00', '#dfb317', '#a4a61d', '#fe7d37', '#e05d44', '#007ec6', '#555', '#9f9f9f']} />
+                                        <div style={ labelPickerStyles.swatch } onClick={ handleClickPickerLabel }>
+                                        <div style={ labelPickerStyles.color } />
+                                        </div>
+                                        { labelColorState.displayColorPicker ? <div style={ labelPickerStyles.popover }>
+                                        <div style={ labelPickerStyles.cover } onClick={ handleClosePickerLabel }/>
+                                        <SketchPicker color={ labelColorState.color } onChange={ handleChangePickerLabel } />
+                                        </div> : null }
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
