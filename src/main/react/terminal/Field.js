@@ -251,12 +251,12 @@ class Field extends React.Component {
             style={theme.field}
             tabIndex={0}
         >
-            {fieldHistory.map(({ text, isCommand, isError, hasBuffer }) => {
+            {fieldHistory.map(({ text, isCommand, isError, hasBuffer }, index) => {
                 if (Array.isArray(text)) {
-                    return <MultiText input={text} isError={isError} hasBuffer={hasBuffer}/>
+                    return <MultiText input={text} isError={isError} hasBuffer={hasBuffer} key={index}/>
                 }
 
-                return <Text input={text} isCommand={isCommand} isError={isError} hasBuffer={hasBuffer}/>
+                return <Text input={text} isCommand={isCommand} isError={isError} hasBuffer={hasBuffer} key={index}/>
             })}
             <UserText input={userInput} theme={theme.field} typingHandler={this.handleTyping} onChangeHandler={e => this.setState(state => ({userInput: e.target.value}))} />
         </div>
@@ -265,13 +265,13 @@ class Field extends React.Component {
 
 const Text = ({ input, isCommand, isError, hasBuffer }) => <>
     <div>
-        {isCommand && <div id="query">Hits></div>}
+        {isCommand && <div id="query">Hits</div>}
         <span className={!isCommand && isError ? 'error' : ''}>{input}</span>
     </div>
     {hasBuffer && <div></div>}
 </>
 const MultiText = ({ input, isError, hasBuffer }) => <>
-    {input.map(s => <Text input={s} isError={isError}/>)}
+    {input.map((s, index) => <Text input={s} isError={isError} key={index}/>)}
     {hasBuffer && <div></div>}
 </>
 const UserText = ({ input, theme, typingHandler, onChangeHandler }) => <div id="input-container">
