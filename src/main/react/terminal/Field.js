@@ -89,7 +89,7 @@ class Field extends React.Component {
                 }))
             }
         } else if (key === 'Enter') {
-            const { userInput } = this.state
+            const userInput = this.state.userInput.trim()
 
             if (userInput.length) {
                 this.setState(state => ({
@@ -100,7 +100,8 @@ class Field extends React.Component {
                 }), () => this.handleInputEvaluation(userInput))
             } else {
                 this.setState(state => ({
-                    fieldHistory: [...state.fieldHistory, {isCommand: true}]
+                    fieldHistory: [...state.fieldHistory, {isCommand: true}],
+                    userInput: ''
                 }))
             }
         }
