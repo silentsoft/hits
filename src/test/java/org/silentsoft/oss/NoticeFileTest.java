@@ -99,7 +99,7 @@ public class NoticeFileTest {
                     url = "https://github.com/motdotla/dotenv-expand";
                 } else if ("@babel/preset-modules 0.1.4".equals(lib)) {
                     url = "https://github.com/babel/preset-modules";
-                } else if ("@npmcli/fs 1.1.0".equals(lib)) {
+                } else if ("@npmcli/fs 1.1.1".equals(lib)) {
                     url = "https://github.com/npm/fs";
                 } else {
                     throw new RuntimeException(String.format("%s has an empty url.", lib));

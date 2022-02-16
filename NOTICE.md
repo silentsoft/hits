@@ -93,6 +93,10 @@ __strip-ansi 3.0.1__
  * sindresorhus.com
  * MIT License
 
+__@react-spring/types 9.3.2__
+ * https://github.com/pmndrs/react-spring
+ * MIT License
+
 __browserify-zlib 0.2.0__
  * https://github.com/devongovett/browserify-zlib
  * MIT License
@@ -127,6 +131,10 @@ __@webassemblyjs/helper-wasm-bytecode 1.9.0__
 
 __@babel/plugin-syntax-bigint 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-bigint
+ * MIT License
+
+__@nivo/core 0.79.0__
+ * https://github.com/plouc
  * MIT License
 
 __handle-thing 2.0.1__
@@ -173,13 +181,13 @@ __postcss-value-parser 4.2.0__
  * https://github.com/TrySound/postcss-value-parser
  * MIT License
 
+__@jridgewell/sourcemap-codec 1.4.11__
+ * https://github.com/jridgewell/sourcemap-codec
+ * MIT License
+
 __ieee754 1.2.1__
  * https://feross.org
  * BSD-3-Clause
-
-__@jridgewell/sourcemap-codec 1.4.10__
- * https://github.com/jridgewell/sourcemap-codec
- * MIT License
 
 __@babel/plugin-syntax-private-property-in-object 7.14.5__
  * https://babel.dev/team
@@ -353,6 +361,10 @@ __flatted 3.2.5__
  * https://github.com/WebReflection/flatted
  * ISC License
 
+__react-router 6.2.1__
+ * https://github.com/remix-run/react-router
+ * MIT License
+
 __copy-descriptor 0.1.1__
  * https://github.com/jonschlinkert
  * MIT License
@@ -465,6 +477,10 @@ __mime 2.6.0__
  * http://github.com/broofa
  * MIT License
 
+__d3-format 1.4.5__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
+
 __@babel/plugin-transform-typescript 7.16.8__
  * https://babel.dev/team
  * MIT License
@@ -549,6 +565,10 @@ __material-colors 1.2.6__
  * https://github.com/shuhei/material-colors
  * ISC License
 
+__@nivo/colors 0.79.1__
+ * https://github.com/plouc
+ * MIT License
+
 __@webassemblyjs/floating-point-hex-parser 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
@@ -589,6 +609,14 @@ __jest-serializer 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
+__@npmcli/fs 1.1.1__
+ * https://github.com/npm/fs
+ * ISC License
+
+__d3-shape 1.3.7__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
+
 __terser 4.8.0__
  * http://lisperator.net/
  * BSD-2-Clause
@@ -596,10 +624,6 @@ __terser 4.8.0__
 __@babel/plugin-transform-react-display-name 7.16.7__
  * https://babel.dev/team
  * MIT License
-
-__@npmcli/fs 1.1.0__
- * https://github.com/npm/fs
- * ISC License
 
 __source-map 0.6.1__
  * https://github.com/mozilla/source-map
@@ -649,20 +673,16 @@ __bytes 3.0.0__
  * http://tjholowaychuk.com
  * MIT License
 
-__@babel/helpers 7.17.0__
- * https://babel.dev/team
- * MIT License
-
 __@babel/highlight 7.16.10__
- * https://babel.dev/team
- * MIT License
-
-__@babel/runtime 7.17.0__
  * https://babel.dev/team
  * MIT License
 
 __emoji-regex 7.0.3__
  * https://mathiasbynens.be/
+ * MIT License
+
+__@babel/runtime 7.17.2__
+ * https://babel.dev/team
  * MIT License
 
 __acorn-walk 7.2.0__
@@ -725,7 +745,7 @@ __js-yaml 3.14.1__
  * https://github.com/nodeca/js-yaml
  * MIT License
 
-__node-releases 2.0.1__
+__node-releases 2.0.2__
  * https://github.com/chicoxyzzy/node-releases
  * MIT License
 
@@ -813,6 +833,10 @@ __require-main-filename 2.0.0__
  * https://github.com/yargs/require-main-filename
  * ISC License
 
+__@babel/helpers 7.17.2__
+ * https://babel.dev/team
+ * MIT License
+
 __has-bigints 1.0.1__
  * https://github.com/ljharb/has-bigints
  * MIT License
@@ -844,6 +868,10 @@ __pump 2.0.1__
 __asn1.js 5.4.1__
  * https://github.com/indutny/asn1.js
  * MIT License
+
+__d3-time 1.1.0__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
 
 __which-module 2.0.0__
  * https://github.com/nexdrew/which-module
@@ -969,12 +997,12 @@ __tinycolor2 1.4.2__
  * http://briangrinstead.com
  * MIT License
 
-__@types/prettier 2.4.3__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __postcss-minify-selectors 4.0.2__
  * http://beneb.info
+ * MIT License
+
+__@types/prettier 2.4.4__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __ast-types-flow 0.0.7__
@@ -1087,6 +1115,10 @@ __istanbul-lib-coverage 3.2.0__
 
 __@babel/plugin-transform-typeof-symbol 7.16.7__
  * https://babel.dev/team
+ * MIT License
+
+__@react-spring/animated 9.3.2__
+ * https://github.com/pmndrs/react-spring
  * MIT License
 
 __css-blank-pseudo 0.1.4__
@@ -1297,6 +1329,10 @@ __@babel/plugin-syntax-class-properties 7.12.13__
  * https://github.com/babel/babel
  * MIT License
 
+__d3-time 2.1.1__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
+
 __eslint-plugin-react 7.28.0__
  * https://github.com/yannickcr/eslint-plugin-react
  * MIT License
@@ -1309,16 +1345,16 @@ __content-disposition 0.5.4__
  * https://github.com/jshttp/content-disposition
  * MIT License
 
+__@nivo/recompose 0.79.0__
+ * https://github.com/plouc
+ * MIT License
+
 __charcodes 0.2.0__
  * https://github.com/xtuc/charcodes
  * MIT License
 
 __slice-ansi 4.0.0__
  * https://github.com/chalk/slice-ansi
- * MIT License
-
-__@babel/plugin-proposal-object-rest-spread 7.16.7__
- * https://babel.dev/team
  * MIT License
 
 __loglevel 1.8.0__
@@ -1395,10 +1431,6 @@ __cssnano-util-get-match 4.0.0__
 
 __strip-bom 4.0.0__
  * sindresorhus.com
- * MIT License
-
-__@babel/runtime-corejs3 7.17.0__
- * https://babel.dev/team
  * MIT License
 
 __punycode 1.4.1__
@@ -1479,6 +1511,10 @@ __has 1.0.3__
 
 __locate-path 3.0.0__
  * sindresorhus.com
+ * MIT License
+
+__@babel/runtime-corejs3 7.17.2__
+ * https://babel.dev/team
  * MIT License
 
 __path-dirname 1.0.2__
@@ -1649,6 +1685,10 @@ __strip-json-comments 3.1.1__
  * https://sindresorhus.com
  * MIT License
 
+__d3-path 1.0.9__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
+
 __resolve-from 3.0.0__
  * sindresorhus.com
  * MIT License
@@ -1661,10 +1701,6 @@ __caniuse-api 3.0.0__
  * https://github.com/nyalab/caniuse-api
  * MIT License
 
-__@types/node 17.0.16__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __pumpify 1.5.1__
  * https://github.com/mafintosh/pumpify
  * MIT License
@@ -1675,6 +1711,10 @@ __@typescript-eslint/visitor-keys 3.10.1__
 
 __unset-value 1.0.0__
  * https://github.com/jonschlinkert
+ * MIT License
+
+__@types/node 17.0.18__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __eslint-import-resolver-node 0.3.6__
@@ -1936,10 +1976,6 @@ __y18n 4.0.3__
 __@icons/material 0.2.4__
  * https://github.com/at-icons/material
  * MIT License
-
-__minimatch 3.0.5__
- * http://blog.izs.me
- * ISC License
 
 __upath 1.2.0__
  * https://github.com/anodynos/upath
@@ -2245,10 +2281,6 @@ __snapdragon-node 2.1.1__
  * https://github.com/jonschlinkert
  * MIT License
 
-__nanoid 3.2.0__
- * https://github.com/ai/nanoid
- * MIT License
-
 __normalize-url 3.3.0__
  * sindresorhus.com
  * MIT License
@@ -2365,12 +2397,12 @@ __chownr 2.0.0__
  * http://blog.izs.me/
  * ISC License
 
-__@babel/core 7.17.0__
- * https://babel.dev/team
- * MIT License
-
 __recursive-readdir 2.2.2__
  * http://jamisondance.com/
+ * MIT License
+
+__@babel/core 7.17.4__
+ * https://babel.dev/team
  * MIT License
 
 __@babel/plugin-transform-template-literals 7.16.7__
@@ -2441,7 +2473,7 @@ __@istanbuljs/schema 0.1.3__
  * https://github.com/istanbuljs/schema
  * MIT License
 
-__@ampproject/remapping 2.1.0__
+__@ampproject/remapping 2.1.2__
  * https://github.com/ampproject/remapping
  * Apache License 2.0
 
@@ -2466,6 +2498,10 @@ __lodash.truncate 4.4.2__
  * MIT License
 
 __@babel/plugin-transform-object-super 7.16.7__
+ * https://babel.dev/team
+ * MIT License
+
+__@babel/plugin-transform-react-jsx 7.17.3__
  * https://babel.dev/team
  * MIT License
 
@@ -2500,6 +2536,10 @@ __@babel/plugin-syntax-dynamic-import 7.8.3__
 __debug 2.6.9__
  * https://github.com/visionmedia/debug
  * MIT License
+
+__electron-to-chromium 1.4.71__
+ * https://github.com/kilian/electron-to-chromium
+ * ISC License
 
 __flush-write-stream 1.1.1__
  * @mafintosh
@@ -2571,6 +2611,10 @@ __string-width 4.2.3__
 
 __braces 3.0.2__
  * https://github.com/jonschlinkert
+ * MIT License
+
+__history 5.2.0__
+ * https://github.com/remix-run/history
  * MIT License
 
 __postcss-normalize-unicode 4.0.1__
@@ -2729,6 +2773,10 @@ __@sinonjs/fake-timers 6.0.1__
  * https://github.com/sinonjs/fake-timers
  * BSD-3-Clause
 
+__@nivo/legends 0.79.1__
+ * https://github.com/plouc
+ * MIT License
+
 __errno 0.1.8__
  * https://github.com/rvagg/node-errno
  * MIT License
@@ -2817,10 +2865,6 @@ __postcss-reduce-initial 4.0.3__
  * http://beneb.info
  * MIT License
 
-__electron-to-chromium 1.4.66__
- * https://github.com/kilian/electron-to-chromium
- * ISC License
-
 __optimize-css-assets-webpack-plugin 5.0.4__
  * https://github.com/NMFR/optimize-css-assets-webpack-plugin
  * MIT License
@@ -2907,10 +2951,6 @@ __@types/minimatch 3.0.5__
 
 __jest-jasmine2 26.6.3__
  * https://github.com/facebook/jest
- * MIT License
-
-__@babel/plugin-transform-destructuring 7.16.7__
- * https://babel.dev/team
  * MIT License
 
 __ansi-html 0.0.7__
@@ -3093,7 +3133,7 @@ __acorn 8.7.0__
  * https://github.com/acornjs/acorn
  * MIT License
 
-__@babel/plugin-proposal-decorators 7.17.0__
+__@babel/plugin-proposal-decorators 7.17.2__
  * https://babel.dev/team
  * MIT License
 
@@ -3107,6 +3147,10 @@ __find-cache-dir 3.3.2__
 
 __@babel/plugin-proposal-nullish-coalescing-operator 7.16.7__
  * https://babel.dev/team
+ * MIT License
+
+__@jridgewell/trace-mapping 0.3.4__
+ * https://github.com/jridgewell/trace-mapping
  * MIT License
 
 __is-extendable 1.0.1__
@@ -3136,6 +3180,10 @@ __browserify-aes 1.2.0__
 __is-regexp 1.0.0__
  * http://sindresorhus.com
  * MIT License
+
+__internmap 1.0.1__
+ * https://bost.ocks.org/mike
+ * ISC License
 
 __rework-visit 1.0.0__
  * https://github.com/reworkcss/rework-visit
@@ -3199,6 +3247,10 @@ __node-libs-browser 2.2.1__
 
 __timers-browserify 2.0.12__
  * https://convolv.es/
+ * MIT License
+
+__@nivo/tooltip 0.79.0__
+ * https://github.com/plouc
  * MIT License
 
 __array-unique 0.3.2__
@@ -3287,6 +3339,10 @@ __type-fest 0.3.1__
 
 __jest-haste-map 26.6.2__
  * https://github.com/facebook/jest
+ * MIT License
+
+__axios 0.26.0__
+ * https://github.com/axios/axios
  * MIT License
 
 __stack-utils 2.0.5__
@@ -3453,10 +3509,6 @@ __is-number 3.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__url-parse 1.5.4__
- * https://github.com/unshiftio/url-parse
- * MIT License
-
 __css-select-base-adapter 0.1.1__
  * https://github.com/nrkn/css-select-base-adapter
  * MIT License
@@ -3469,6 +3521,10 @@ __babel-plugin-syntax-object-rest-spread 6.13.0__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
  * MIT License
 
+__url-parse 1.5.6__
+ * https://github.com/unshiftio/url-parse
+ * MIT License
+
 __type-fest 0.21.3__
  * https://sindresorhus.com
  * MIT License
@@ -3476,10 +3532,6 @@ __type-fest 0.21.3__
 __type-fest 0.21.3__
  * https://sindresorhus.com
  * CC0-1.0
-
-__@babel/plugin-transform-react-jsx 7.16.7__
- * https://babel.dev/team
- * MIT License
 
 __is-absolute-url 2.1.0__
  * http://sindresorhus.com
@@ -3713,6 +3765,10 @@ __merge2 1.4.1__
  * https://github.com/teambition/merge2
  * MIT License
 
+__d3-interpolate 2.0.1__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
+
 __mississippi 3.0.0__
  * https://github.com/maxogden/mississippi
  * BSD-2-Clause
@@ -3745,7 +3801,7 @@ __@babel/plugin-syntax-object-rest-spread 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
  * MIT License
 
-__follow-redirects 1.14.7__
+__follow-redirects 1.14.8__
  * https://ruben.verborgh.org/
  * MIT License
 
@@ -3885,10 +3941,6 @@ __static-extend 0.1.2__
  * https://github.com/jonschlinkert
  * MIT License
 
-__jest-worker 27.5.0__
- * https://github.com/facebook/jest
- * MIT License
-
 __postcss-normalize-string 4.0.2__
  * http://beneb.info
  * MIT License
@@ -4021,6 +4073,10 @@ __find-cache-dir 2.1.0__
  * https://github.com/avajs/find-cache-dir
  * MIT License
 
+__jest-worker 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
 __imurmurhash 0.1.4__
  * https://github.com/homebrewing
  * MIT License
@@ -4105,6 +4161,10 @@ __fast-json-stable-stringify 2.1.0__
  * http://substack.net
  * MIT License
 
+__@nivo/calendar 0.79.1__
+ * https://github.com/plouc
+ * MIT License
+
 __is-core-module 2.8.1__
  * https://github.com/inspect-js/is-core-module
  * MIT License
@@ -4115,6 +4175,10 @@ __open 7.4.2__
 
 __workbox-window 5.1.4__
  * https://github.com/googlechrome/workbox
+ * MIT License
+
+__@react-spring/core 9.3.2__
+ * https://github.com/pmndrs/react-spring
  * MIT License
 
 __range-parser 1.2.1__
@@ -4205,10 +4269,6 @@ __repeat-string 1.6.1__
  * http://github.com/jonschlinkert
  * MIT License
 
-__@jridgewell/trace-mapping 0.3.2__
- * https://github.com/jridgewell/trace-mapping
- * MIT License
-
 __@tootallnate/once 1.1.2__
  * http://n8.io/
  * MIT License
@@ -4261,6 +4321,10 @@ __postcss-normalize-timing-functions 4.0.2__
  * http://beneb.info
  * MIT License
 
+__@react-spring/shared 9.3.2__
+ * https://github.com/pmndrs/react-spring
+ * MIT License
+
 __define-property 0.2.5__
  * https://github.com/jonschlinkert
  * MIT License
@@ -4300,6 +4364,10 @@ __toidentifier 1.0.1__
 __boolbase 1.0.0__
  * https://github.com/fb55/boolbase
  * ISC License
+
+__d3-color 2.0.0__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
 
 __is-date-object 1.0.5__
  * https://github.com/inspect-js/is-date-object
@@ -4353,6 +4421,10 @@ __next-tick 1.0.0__
  * http://www.medikoo.com/
  * MIT License
 
+__@react-spring/web 9.3.1__
+ * https://github.com/pmndrs/react-spring
+ * MIT License
+
 __crypto-browserify 3.12.0__
  * dominictarr.com
  * MIT License
@@ -4372,6 +4444,10 @@ __internal-ip 4.3.0__
 __@jest/source-map 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
+
+__d3-scale 3.3.0__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
 
 __type-detect 4.0.8__
  * http://alogicalparadox.com
@@ -4457,6 +4533,10 @@ __jest-watch-typeahead 0.6.1__
  * https://github.com/jest-community/jest-watch-typeahead
  * MIT License
 
+__@babel/plugin-proposal-object-rest-spread 7.17.3__
+ * https://babel.dev/team
+ * MIT License
+
 __@babel/preset-react 7.16.7__
  * https://babel.dev/team
  * MIT License
@@ -4505,12 +4585,12 @@ __pretty-format 26.6.2__
  * https://github.com/facebook/jest
  * MIT License
 
-__browserify-cipher 1.0.1__
- * https://github.com/crypto-browserify/browserify-cipher
+__@babel/traverse 7.17.3__
+ * https://babel.dev/team
  * MIT License
 
-__@babel/traverse 7.17.0__
- * https://babel.dev/team
+__browserify-cipher 1.0.1__
+ * https://github.com/crypto-browserify/browserify-cipher
  * MIT License
 
 __ansi-escapes 4.3.2__
@@ -4529,10 +4609,6 @@ __has-symbols 1.0.2__
  * http://ljharb.codes
  * MIT License
 
-__@babel/generator 7.17.0__
- * https://babel.dev/team
- * MIT License
-
 __node-int64 0.4.0__
  * https://github.com/broofa/node-int64
  * MIT License
@@ -4547,6 +4623,10 @@ __@webassemblyjs/utf8 1.9.0__
 
 __source-map-resolve 0.5.3__
  * https://github.com/lydell/source-map-resolve
+ * MIT License
+
+__@babel/generator 7.17.3__
+ * https://babel.dev/team
  * MIT License
 
 __@babel/plugin-transform-parameters 7.16.7__
@@ -4641,16 +4721,16 @@ __babel-plugin-named-asset-import 0.3.8__
  * https://github.com/facebook/create-react-app
  * MIT License
 
+__stackframe 1.2.1__
+ * https://github.com/stacktracejs/stackframe
+ * MIT License
+
 __unique-string 1.0.0__
  * sindresorhus.com
  * MIT License
 
 __fs-extra 9.1.0__
  * https://github.com/jprichardson/node-fs-extra
- * MIT License
-
-__stackframe 1.2.0__
- * https://github.com/stacktracejs/stackframe
  * MIT License
 
 __util.promisify 1.0.0__
@@ -4687,6 +4767,10 @@ __@npmcli/move-file 1.1.2__
 
 __xtend 4.0.2__
  * https://github.com/Raynos/xtend
+ * MIT License
+
+__@react-spring/rafz 9.3.2__
+ * https://github.com/pmndrs/react-spring
  * MIT License
 
 __css-loader 4.3.0__
@@ -5053,6 +5137,10 @@ __is-path-inside 2.1.0__
  * sindresorhus.com
  * MIT License
 
+__d3-scale-chromatic 2.0.0__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
+
 __json5 1.0.1__
  * https://github.com/json5/json5
  * MIT License
@@ -5061,13 +5149,13 @@ __@webassemblyjs/wast-parser 1.9.0__
  * https://github.com/xtuc/webassemblyjs
  * MIT License
 
+__error-stack-parser 2.0.7__
+ * https://github.com/stacktracejs/error-stack-parser
+ * MIT License
+
 __get-caller-file 2.0.5__
  * https://github.com/stefanpenner/get-caller-file
  * ISC License
-
-__error-stack-parser 2.0.6__
- * https://github.com/stacktracejs/error-stack-parser
- * MIT License
 
 __nth-check 2.0.1__
  * https://github.com/fb55/nth-check
@@ -5105,7 +5193,7 @@ __dns-txt 2.0.2__
  * https://twitter.com/wa7son
  * MIT License
 
-__@jridgewell/resolve-uri 3.0.4__
+__@jridgewell/resolve-uri 3.0.5__
  * https://github.com/jridgewell/resolve-uri
  * MIT License
 
@@ -5192,6 +5280,10 @@ __mdn-data 2.0.4__
 __express 4.17.2__
  * https://github.com/expressjs/express
  * MIT License
+
+__minimatch 3.1.2__
+ * http://blog.izs.me
+ * ISC License
 
 __globby 11.1.0__
  * https://sindresorhus.com
@@ -5365,9 +5457,17 @@ __@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression 
  * https://babel.dev/team
  * MIT License
 
+__caniuse-lite 1.0.30001312__
+ * http://beneb.info
+ * CC-BY-4.0
+
 __css-select 2.1.0__
  * https://github.com/fb55/css-select
  * BSD-2-Clause
+
+__d3-time-format 3.0.0__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
 
 __cipher-base 1.0.4__
  * https://github.com/crypto-browserify/cipher-base
@@ -5391,6 +5491,10 @@ __escape-string-regexp 2.0.0__
 
 __json-schema-traverse 0.4.1__
  * https://github.com/epoberezkin/json-schema-traverse
+ * MIT License
+
+__react-router-dom 6.2.1__
+ * https://github.com/remix-run/react-router
  * MIT License
 
 __big.js 5.2.2__
@@ -5492,10 +5596,6 @@ __workbox-webpack-plugin 5.1.4__
 __jest-runner 26.6.3__
  * https://github.com/facebook/jest
  * MIT License
-
-__caniuse-lite 1.0.30001309__
- * http://beneb.info
- * CC-BY-4.0
 
 __ajv-errors 1.0.1__
  * https://github.com/epoberezkin/ajv-errors
@@ -5608,6 +5708,10 @@ __resolve-url-loader 3.1.4__
 __postcss-preset-env 6.7.0__
  * https://github.com/csstools/postcss-preset-env
  * CC0-1.0
+
+__react-lifecycles-compat 3.0.4__
+ * https://github.com/reactjs/react-lifecycles-compat
+ * MIT License
 
 __select-hose 2.0.0__
  * https://github.com/indutny/select-hose
@@ -5737,13 +5841,13 @@ __is-root 2.1.0__
  * sindresorhus.com
  * MIT License
 
+__d3-array 2.12.1__
+ * http://bost.ocks.org/mike
+ * BSD-3-Clause
+
 __postcss-gap-properties 2.0.0__
  * https://github.com/jonathantneal/postcss-gap-properties
  * CC0-1.0
-
-__@babel/parser 7.17.0__
- * https://babel.dev/team
- * MIT License
 
 __postcss-image-set-function 3.0.1__
  * https://github.com/jonathantneal/postcss-image-set-function
@@ -5755,6 +5859,10 @@ __json-stable-stringify-without-jsonify 1.0.1__
 
 __postcss-modules-local-by-default 3.0.3__
  * https://github.com/css-modules/postcss-modules-local-by-default
+ * MIT License
+
+__@babel/parser 7.17.3__
+ * https://babel.dev/team
  * MIT License
 
 __postcss-media-minmax 4.0.0__
@@ -5781,8 +5889,16 @@ __url 0.11.0__
  * https://github.com/defunctzombie/node-url
  * MIT License
 
+__@babel/plugin-transform-destructuring 7.17.3__
+ * https://babel.dev/team
+ * MIT License
+
 __util 0.10.3__
  * http://www.joyent.com
+ * MIT License
+
+__nanoid 3.3.0__
+ * https://github.com/ai/nanoid
  * MIT License
 
 __json5 2.2.0__
@@ -6033,7 +6149,7 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.3.0__
+__badge4j 1.5.1__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
@@ -6041,7 +6157,7 @@ __csscolor4j 1.0.0__
  * https://github.com/silentsoft/csscolor4j
  * Apache License 2.0
 
-__simpleicons4j 1.2.0__
+__simpleicons4j 1.3.0__
  * https://github.com/silentsoft/simpleicons4j
  * Apache License 2.0
 
