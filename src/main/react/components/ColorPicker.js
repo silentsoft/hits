@@ -43,8 +43,9 @@ export default function ColorPicker(props) {
             },
             popover: {
                 position: 'absolute',
-                zIndex: '2',
-                marginInlineStart: '-173px',
+                zIndex: '20',
+                marginInlineStart: '-28px',
+                marginTop: '-273px',
             },
             cover: {
                 position: 'fixed',
@@ -58,18 +59,18 @@ export default function ColorPicker(props) {
 
     return (
         <div className="flex">
+            { displayColorPicker ? <div style={pickerStyles.popover}>
+                <div style={pickerStyles.cover} onClick={handleClose}/>
+                <SketchPicker color={thumbColor ? thumbColor : props.color} disableAlpha={true}
+                              onChange={handleChange}
+                              onChangeComplete={(color) => handleChangeComplete(color.hex)}
+                              presetColors={['#4c1', '#97ca00', '#dfb317', '#fe7d37', '#e05d44', '#007ec6', '#555', '#9f9f9f']}/>
+            </div> : null }
             <input type="text" className="w-full border border-r-0 rounded-r-none border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder={props.color} value={color} onChange={(e) => handleChangeComplete(e.target.value)} />
             <div className="border border-gray-300 dark:border-gray-700 shadow-sm bg-transparent rounded-r">
                 <div style={pickerStyles.swatch} onClick={handleClick}>
                     <div style={pickerStyles.color} />
                 </div>
-                { displayColorPicker ? <div style={pickerStyles.popover}>
-                    <div style={pickerStyles.cover} onClick={handleClose}/>
-                    <SketchPicker color={thumbColor ? thumbColor : props.color} disableAlpha={true}
-                                  onChange={handleChange}
-                                  onChangeComplete={(color) => handleChangeComplete(color.hex)}
-                                  presetColors={['#4c1', '#97ca00', '#dfb317', '#fe7d37', '#e05d44', '#007ec6', '#555', '#9f9f9f']}/>
-                </div> : null }
             </div>
         </div>
     );
