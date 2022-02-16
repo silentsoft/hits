@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd"
+        context="dev">
+    <changeSet author="hits" id="test-changelog-0000">
+        <loadUpdateData tableName="hits_hosts" primaryKey="host_id" file="db/changelog/hits/test/hits-hosts.csv"/>
+        <loadUpdateData tableName="hits_hosts_statistics" primaryKey="host_id,date" file="db/changelog/hits/test/hits-hosts-statistics.csv"/>
+        <loadUpdateData tableName="hits_urns" primaryKey="urn_id" file="db/changelog/hits/test/hits-urns.csv"/>
+        <loadUpdateData tableName="hits_urns_statistics" primaryKey="urn_id,date" file="db/changelog/hits/test/hits-urns-statistics.csv"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,10 +1,12 @@
+import {Link} from "react-router-dom";
+
 export default function Header() {
     return (
         <div className="bg-white overflow-y-hidden" >
             <nav className="w-full border-b">
-                <div className="py-3 container mx-auto px-6 flex items-center justify-between">
+                <div className="py-3 container mx-auto px-6 flex items-center justify-between max-w-screen-lg">
                     <div aria-label="Header. logo" role="img">
-                        <a href="/">
+                        <Link to="/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90.25" height="28" role="img" aria-label="HITS: &#8734;">
                                 <title>HITS: &#8734;</title>
                                 <g shapeRendering="crispEdges">
@@ -16,7 +18,7 @@ export default function Header() {
                                     <text transform="scale(.1)" x="721.25" y="175" textLength="122.5" fill="#fff" fontWeight="bold">&#8734;</text>
                                 </g>
                             </svg>
-                        </a>
+                        </Link>
                     </div>
                     <div className="flex space-x-3 items-center">
                         <button style={{color: '#1da1f2'}}>
@@ -40,14 +42,6 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
-            <div className="container mx-auto flex flex-col items-center py-12">
-                <div className="w-11/12 xl:w-8/12 md:w-5/6 sm:w-3/4 lg:flex justify-center items-center flex-col">
-                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-gray-800 font-black leading-7 md:leading-10">
-                        Hit Counter for Your GitHub or Any Kind of <span className="text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-purple-600">Websites</span> You Want
-                    </h1>
-                    <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-400 font-medium text-center text-md sm:text-lg">Now it's time to hit's. Happy hacking !</p>
-                </div>
-            </div>
         </div>
     );
 }

@@ -12,4 +12,6 @@ public interface HitsUrnsStatisticsRepository extends JpaRepository<HitsUrnsStat
 
     List<HitsUrnsStatisticsEntity> findById_UrnId(long id);
 
+    List<HitsUrnsStatisticsEntity> findById_UrnIdOrderById_DateDesc(long id);
+
 }

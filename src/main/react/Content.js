@@ -4,9 +4,10 @@ import BadgeCard from "./components/BadgeCard";
 import Utils from "./utils/Utils";
 import {normalize} from "./utils/UniformedResourceNameUtils";
 import ColorPicker from "./components/ColorPicker";
+import {Link} from "react-router-dom";
 
-export default function Content() {
-    const [url, setUrl] = React.useState("");
+export default function Content(props) {
+    const [url, setUrl] = React.useState(props.url ? props.url : "");
     const [view, setView] = React.useState("total");
     const [style, setStyle] = React.useState("flat");
     const [label, setLabel] = React.useState("");
@@ -85,7 +86,7 @@ export default function Content() {
         } else if (!isValidUrl()) {
             return INVALID_URL;
         }
-        return `[![Hits](https://hits.sh/${normalize(url)}.svg${toQueryString()})](https://hits.sh)`;
+        return `[![Hits](https://hits.sh/${normalize(url)}.svg${toQueryString()})](https://hits.sh/${normalize(url)}/)`;
     };
 
     const toHTML = () => {
@@ -94,7 +95,7 @@ export default function Content() {
         } else if (!isValidUrl()) {
             return INVALID_URL;
         }
-        return `<a href="https://hits.sh"><img src="https://hits.sh/${normalize(url)}.svg${toQueryString()}"/></a>`;
+        return `<a href="https://hits.sh/${normalize(url)}/"><img src="https://hits.sh/${normalize(url)}.svg${toQueryString()}"/></a>`;
     };
 
     const toImageLink = () => {
@@ -107,7 +108,7 @@ export default function Content() {
     };
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto max-w-screen-lg">
             <div className="flex flex-wrap">
                 <div className="w-full px-6 pb-5">
                     <div className="relative w-full">
@@ -195,7 +196,7 @@ export default function Content() {
                             <div className="w-7 border-b border-gray-400"/>
                         </div>
                         <div className="flex justify-center pb-3">
-                            {isValidUrl() && <img src={`${process.env.REACT_APP_URI}/${normalize(url)}.preview${toQueryString()}`} />}
+                            {isValidUrl() && <Link to={`/${normalize(url)}/`} style={{width: "fit-content"}}><img src={`${process.env.REACT_APP_URI}/${normalize(url)}.preview${toQueryString()}`} /></Link>}
                         </div>
                         <div className="space-y-6 pt-3">
                             <BadgeCard title="Markdown" render={toMarkdown} />

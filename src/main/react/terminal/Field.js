@@ -180,11 +180,11 @@ class Field extends React.Component {
                 fieldHistory: [...state.fieldHistory, {text: [
                     'Markdown:',
                     '',
-                    `\u00A0\u00A0[![Hits](https://hits.sh/${urn}.svg${query})](https://hits.sh)`,
+                    `\u00A0\u00A0[![Hits](https://hits.sh/${urn}.svg${query})](https://hits.sh/${urn}/)`,
                     '',
                     'HTML:',
                     '',
-                    `\u00A0\u00A0<a href="https://hits.sh"><img src="https://hits.sh/${urn}.svg${query}"/></a>`,
+                    `\u00A0\u00A0<a href="https://hits.sh/${urn}/"><img src="https://hits.sh/${urn}.svg${query}"/></a>`,
                     '',
                     'Image Link:',
                     '',
