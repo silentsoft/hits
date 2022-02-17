@@ -6149,7 +6149,7 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.5.1__
+__badge4j 1.5.2__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
