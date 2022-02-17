@@ -207,7 +207,7 @@ class Field extends React.Component {
         }
         const value = (flag) => {
             if (flag.includes('=')) {
-                return encodeURI(flag.substring(flag.indexOf('=')+1, flag.length).replace(/[\"]/g, ''));
+                return flag.substring(flag.indexOf('=')+1, flag.length).replace(/[\"]/g, '');
             }
             return '';
         }

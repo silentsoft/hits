@@ -70,7 +70,7 @@ export default class Utils {
         if (queryString.length > 0) {
             queryString += "&";
         }
-        queryString += key + "=" + value;
+        queryString += key + "=" + encodeURIComponent(value);
         return queryString;
     }
 }
