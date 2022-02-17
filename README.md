@@ -1,6 +1,6 @@
 <h1 align="center">
   Hits
-  <a href="https://hits.sh"><img src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
+  <a href="https://hits.sh/github.com/silentsoft/hits/"><img src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
   <h3 align="center">
     <sup>
       <h4>Hit Counter for Your GitHub or Any Kind of Websites You Want</h4>
