@@ -1,8 +1,7 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 
 import './Terminal.css';
 import Field from './Field';
-import {Link} from "react-router-dom";
 
 export default function Terminal() {
     const [theme, setTheme] = useState('dark');
@@ -57,9 +56,6 @@ export default function Terminal() {
                     <button className="btn red" onClick={handleClose}/>
                     <button className="btn yellow" onClick={handleMinimize}/>
                     <button className="btn green" onClick={handleMaximize}/>
-                    <div id="badge">
-                        <Link to="/hits.sh/"><img src={`${process.env.REACT_APP_URI}/hits.sh.svg`}/></Link>
-                    </div>
                     <span id="title" style={{color: themeVars.window.color}}>{title}</span>
                 </div>
                 <Field theme={themeVars} setTheme={setTheme} setTitle={setTitle}/>

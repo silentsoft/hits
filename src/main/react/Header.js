@@ -1,6 +1,15 @@
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
+import axios from "axios";
 
 export default function Header() {
+
+    useEffect(() => {
+        axios.get(`${process.env.REACT_APP_URI}/hits.sh.svg`).catch(error => {
+            console.log(error);
+        });
+    }, []);
+
     return (
         <div className="bg-white overflow-y-hidden" >
             <nav className="w-full border-b">
