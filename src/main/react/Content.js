@@ -130,43 +130,43 @@ export default function Content(props) {
                         <div className="flex justify-center pb-4">
                             <div className="flex-col space-y-3">
                                 <div className="flex flex-row items-center justify-end">
-                                    <label className="text-sm font-medium leading-none text-gray-700 pr-3">View Type</label>
+                                    <label className="text-right text-sm font-medium leading-none text-gray-700 pr-3">View Type</label>
                                     <div className="w-48">
                                         <SimpleDropdown items={['total', 'today-total']} onChange={handleViewChange}/>
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
-                                    <label className="text-sm font-medium leading-none text-gray-700 pr-3">Style</label>
+                                    <label className="text-right text-sm font-medium leading-none text-gray-700 pr-3">Style</label>
                                     <div className="w-48">
                                         <SimpleDropdown items={['flat', 'flat-square', 'for-the-badge', 'plastic']} onChange={handleStyleChange}/>
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
-                                    <label className="text-sm font-medium leading-none text-gray-700 pr-3">Label</label>
+                                    <label className="text-right text-sm font-medium leading-none text-gray-700 pr-3">Label</label>
                                     <div className="w-48">
                                         <input type="text" className="w-full border border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder="hits" value={label} onChange={handleLabelChange} />
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
-                                    <label className="text-sm font-medium leading-none text-gray-700 pr-3">Extra Count</label>
+                                    <label className="text-right text-sm font-medium leading-none text-gray-700 pr-3">Extra Count</label>
                                     <div className="w-48">
                                         <input type="number" min={0} className="w-full border border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder="0" value={extraCount} onKeyPress={handleNumberKeyPress} onChange={handleExtraCountChange} />
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
-                                    <label className="text-sm font-medium leading-none text-gray-700 pr-3">Color</label>
+                                    <label className="text-right text-sm font-medium leading-none text-gray-700 pr-3">Color</label>
                                     <div className="w-48">
                                         <ColorPicker color="#4c1" onChange={handleColorChange} />
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
-                                    <label className="text-sm font-medium leading-none text-gray-700 pr-3">Label Color</label>
+                                    <label className="text-right text-sm font-medium leading-none text-gray-700 pr-3">Label Color</label>
                                     <div className="w-48">
                                         <ColorPicker color="#555" onChange={handleLabelColorChange} />
                                     </div>
                                 </div>
                                 <div className="flex flex-row items-center justify-end">
-                                    <label className="text-sm font-medium leading-none text-gray-700 pr-3">Logo</label>
+                                    <label className="text-right text-sm font-medium leading-none text-gray-700 pr-3">Logo</label>
                                     <div className="w-48">
                                         <input type="text" className="w-full border border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder="slug or base64" value={logo} onChange={handleLogoChange} />
                                     </div>
