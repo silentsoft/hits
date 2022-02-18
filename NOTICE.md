@@ -1681,6 +1681,10 @@ __css-prefers-color-scheme 3.1.1__
  * https://github.com/csstools/css-prefers-color-scheme
  * CC0-1.0
 
+__env-cmd 10.1.0__
+ * https://github.com/toddbluhm/env-cmd
+ * MIT License
+
 __strip-json-comments 3.1.1__
  * https://sindresorhus.com
  * MIT License

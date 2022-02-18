@@ -48,12 +48,14 @@
             </activation>
             <properties>
                 <activatedProfile>dev</activatedProfile>
+                <npmBuildScript>build:dev</npmBuildScript>
             </properties>
         </profile>
         <profile>
             <id>production</id>
             <properties>
                 <activatedProfile>production</activatedProfile>
+                <npmBuildScript>build</npmBuildScript>
             </properties>
             <build>
                 <finalName>${project.artifactId}</finalName>
@@ -107,7 +109,7 @@
                             <executable>npm</executable>
                             <arguments>
                                 <argument>run</argument>
-                                <argument>build</argument>
+                                <argument>${npmBuildScript}</argument>
                             </arguments>
                         </configuration>
                     </execution>
