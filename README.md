@@ -112,3 +112,6 @@ Please note we have a [CODE_OF_CONDUCT](https://github.com/silentsoft/hits/blob/
 
 ## License
 Please refer to [LICENSE](https://github.com/silentsoft/hits/blob/main/LICENSE.txt) and [NOTICE](https://github.com/silentsoft/hits/blob/main/NOTICE.md).
+
+## Thanks to
+<a href="https://jb.gg/OpenSourceSupport"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." width="240"></a>
