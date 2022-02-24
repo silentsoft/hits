@@ -1,3 +1,8 @@
+# 1.1.0 (25 Feb 2022)
+
+## Enhancements
+- Add alt attribute to image tag
+
 # 1.0.0 (24 Feb 2022)
 
 ![](.images/hits-readme.png)
