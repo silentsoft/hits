@@ -95,7 +95,7 @@ export default function Content(props) {
         } else if (!isValidUrl()) {
             return INVALID_URL;
         }
-        return `<a href="https://hits.sh/${normalize(url)}/"><img src="https://hits.sh/${normalize(url)}.svg${toQueryString()}"/></a>`;
+        return `<a href="https://hits.sh/${normalize(url)}/"><img alt="Hits" src="https://hits.sh/${normalize(url)}.svg${toQueryString()}"/></a>`;
     };
 
     const toImageLink = () => {
