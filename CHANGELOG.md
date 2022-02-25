@@ -1,3 +1,8 @@
+# 1.2.0 (25 Feb 2022)
+
+## Enhancements
+- Add favicon files.
+
 # 1.1.0 (25 Feb 2022)
 
 ## Enhancements
