@@ -20,7 +20,7 @@ For example, to get a hits badge for `https://github.com/silentsoft/hits`:
   ```
 - HTML
   ```html
-  <a href="https://hits.sh/github.com/silentsoft/hits/"><img src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
+  <a href="https://hits.sh/github.com/silentsoft/hits/"><img alt="Hits" src="https://hits.sh/github.com/silentsoft/hits.svg"/></a>
   ```
 - Image Link
   ```
