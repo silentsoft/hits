@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileColor" content="#00a300">
     <meta name="description" content="Hit Counter for Your GitHub or Any Kind of Websites You Want" />
     <meta property="og:title" content="Hits">
     <meta property="og:description" content="Hit Counter for Your GitHub or Any Kind of Websites You Want">
@@ -15,6 +16,10 @@
     <meta property="og:image:height" content="630" />
     <link rel="canonical" href="https://hits.sh/">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest">
     <% if (process.env.REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID) { %>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<%= process.env.REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID %>"></script>
