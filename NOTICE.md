@@ -4817,7 +4817,7 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.5.2__
+__badge4j 1.7.0__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
@@ -4825,7 +4825,7 @@ __csscolor4j 1.0.0__
  * https://github.com/silentsoft/csscolor4j
  * Apache License 2.0
 
-__simpleicons4j 1.3.0__
+__simpleicons4j 1.5.0__
  * https://github.com/silentsoft/simpleicons4j
  * Apache License 2.0
 
