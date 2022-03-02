@@ -9,52 +9,24 @@ __combined-stream 1.0.8__
  * http://debuggable.com/
  * MIT License
 
-__html-webpack-plugin 4.5.0__
- * https://github.com/jantimon
- * MIT License
-
 __@babel/plugin-transform-new-target 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__@webassemblyjs/ast 1.9.0__
- * https://github.com/xtuc/webassemblyjs
+__postcss-initial 4.0.1__
+ * https://github.com/maximkoretskiy/postcss-initial
  * MIT License
 
 __regenerate-unicode-properties 10.0.1__
  * https://mathiasbynens.be/
  * MIT License
 
-__@types/html-minifier-terser 5.1.2__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__cssnano-preset-default 4.0.8__
- * http://beneb.info
- * MIT License
-
-__jest-snapshot 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
 __is-stream 2.0.1__
  * https://sindresorhus.com
  * MIT License
 
-__rollup 1.32.1__
- * https://github.com/rollup/rollup
- * MIT License
-
 __@babel/plugin-proposal-logical-assignment-operators 7.16.7__
  * https://babel.dev/team
- * MIT License
-
-__unique-slug 2.0.2__
- * http://re-becca.org
- * ISC License
-
-__pify 2.3.0__
- * sindresorhus.com
  * MIT License
 
 __emojis-list 3.0.0__
@@ -65,53 +37,37 @@ __domelementtype 1.3.1__
  * https://github.com/fb55/domelementtype
  * BSD-2-Clause
 
-__serialize-javascript 5.0.1__
- * https://github.com/yahoo/serialize-javascript
- * BSD-3-Clause
-
 __yallist 4.0.0__
  * http://blog.izs.me/
  * ISC License
 
-__@babel/code-frame 7.12.11__
- * https://github.com/babel/babel
- * MIT License
+__espree 9.3.1__
+ * https://github.com/eslint/espree
+ * BSD-2-Clause
 
 __webidl-conversions 6.1.0__
  * https://domenic.me/
  * BSD-2-Clause
 
-__@jest/environment 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__postcss-custom-properties 8.0.11__
- * https://github.com/postcss/postcss-custom-properties
- * MIT License
-
-__strip-ansi 3.0.1__
- * sindresorhus.com
- * MIT License
+__cliui 7.0.4__
+ * https://github.com/yargs/cliui
+ * ISC License
 
 __@react-spring/types 9.3.2__
  * https://github.com/pmndrs/react-spring
  * MIT License
 
-__browserify-zlib 0.2.0__
- * https://github.com/devongovett/browserify-zlib
- * MIT License
-
-__postcss-replace-overflow-wrap 3.0.0__
- * https://github.com/MattDiMu/postcss-replace-overflow-wrap
- * MIT License
-
-__workbox-navigation-preload 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__@hapi/address 2.1.4__
- * https://github.com/hapijs/address
+__filesize 8.0.7__
+ * https://github.com/avoidwork/filesize.js
  * BSD-3-Clause
+
+__postcss-selector-not 5.0.0__
+ * https://github.com/postcss/postcss-selector-not
+ * MIT License
+
+__postcss-place 7.0.4__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __array-union 2.1.0__
  * sindresorhus.com
@@ -121,16 +77,28 @@ __string-natural-compare 3.0.1__
  * https://github.com/nwoltman/string-natural-compare
  * MIT License
 
-__cssnano-util-raw-cache 4.0.1__
- * http://beneb.info
+__postcss-minify-font-values 5.1.0__
+ * https://github.com/cssnano/cssnano
  * MIT License
 
-__@webassemblyjs/helper-wasm-bytecode 1.9.0__
- * https://github.com/xtuc/webassemblyjs
+__throat 6.0.1__
+ * https://github.com/ForbesLindesay/throat
  * MIT License
 
 __@babel/plugin-syntax-bigint 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-bigint
+ * MIT License
+
+__del 6.0.0__
+ * https://sindresorhus.com
+ * MIT License
+
+__renderkid 3.0.0__
+ * https://github.com/AriaMinaei/RenderKid
+ * MIT License
+
+__jest-resolve-dependencies 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __@nivo/core 0.79.0__
@@ -141,13 +109,9 @@ __handle-thing 2.0.1__
  * https://github.com/indutny/handle-thing
  * MIT License
 
-__has-value 0.3.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__is-extendable 0.1.1__
- * https://github.com/jonschlinkert
- * MIT License
+__glob-parent 6.0.2__
+ * https://gulpjs.com/
+ * ISC License
 
 __array-flatten 2.1.2__
  * http://blakeembrey.me
@@ -157,26 +121,6 @@ __@types/babel__core 7.1.18__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
-__brorand 1.1.0__
- * https://github.com/indutny/brorand
- * MIT License
-
-__rollup-plugin-terser 5.3.1__
- * https://github.com/TrySound/rollup-plugin-terser
- * MIT License
-
-__file-uri-to-path 1.0.0__
- * http://n8.io/
- * MIT License
-
-__remove-trailing-separator 1.1.0__
- * https://github.com/darsain/remove-trailing-separator
- * ISC License
-
-__@typescript-eslint/typescript-estree 3.10.1__
- * https://github.com/typescript-eslint/typescript-eslint
- * BSD-2-Clause
-
 __postcss-value-parser 4.2.0__
  * https://github.com/TrySound/postcss-value-parser
  * MIT License
@@ -185,16 +129,12 @@ __@jridgewell/sourcemap-codec 1.4.11__
  * https://github.com/jridgewell/sourcemap-codec
  * MIT License
 
-__ieee754 1.2.1__
- * https://feross.org
- * BSD-3-Clause
-
 __@babel/plugin-syntax-private-property-in-object 7.14.5__
  * https://babel.dev/team
  * MIT License
 
-__base64-js 1.5.1__
- * https://github.com/beatgammit/base64-js
+__jest-haste-map 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __spdy-transport 3.0.0__
@@ -205,12 +145,12 @@ __serve-static 1.14.2__
  * https://github.com/expressjs/serve-static
  * MIT License
 
+__postcss-color-rebeccapurple 7.0.2__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
 __@babel/plugin-syntax-export-namespace-from 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-export-namespace-from
- * MIT License
-
-__postcss-selector-parser 5.0.0__
- * https://github.com/postcss/postcss-selector-parser
  * MIT License
 
 __define-properties 1.1.3__
@@ -221,48 +161,32 @@ __string.prototype.trimend 1.0.4__
  * https://github.com/es-shims/String.prototype.trimEnd
  * MIT License
 
-__from2 2.3.0__
- * http://hughsk.io/
- * MIT License
-
-__jest-matcher-utils 26.6.2__
- * https://github.com/facebook/jest
+__retry 0.13.1__
+ * http://debuggable.com/
  * MIT License
 
 __cssom 0.3.8__
  * https://github.com/NV/CSSOM
  * MIT License
 
-__diffie-hellman 5.0.3__
- * https://github.com/crypto-browserify/diffie-hellman
- * MIT License
-
 __@babel/plugin-transform-duplicate-keys 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__jest-diff 26.6.2__
- * https://github.com/facebook/jest
+__@csstools/postcss-is-pseudo-class 2.0.0__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
+__core-js-compat 3.21.1__
+ * https://github.com/zloirock/core-js
  * MIT License
 
-__core-js-compat 3.21.0__
- * https://github.com/zloirock/core-js
+__postcss-minify-selectors 5.2.0__
+ * http://beneb.info
  * MIT License
 
 __https-proxy-agent 5.0.0__
  * http://n8.io/
- * MIT License
-
-__create-hmac 1.1.7__
- * https://github.com/crypto-browserify/createHmac
- * MIT License
-
-__is-absolute-url 3.0.3__
- * sindresorhus.com
- * MIT License
-
-__create-ecdh 4.0.4__
- * https://github.com/crypto-browserify/createECDH
  * MIT License
 
 __emoji-regex 8.0.0__
@@ -281,20 +205,20 @@ __camelcase 6.3.0__
  * https://sindresorhus.com
  * MIT License
 
+__jest-message-util 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
 __http-proxy-agent 4.0.1__
  * http://n8.io/
  * MIT License
 
-__qs 6.9.6__
+__qs 6.9.7__
  * https://github.com/ljharb/qs
  * BSD-3-Clause
 
-__fs-extra 7.0.1__
- * https://github.com/jprichardson/node-fs-extra
- * MIT License
-
-__domain-browser 1.2.0__
- * http://bevry.me
+__@jest/core 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __eslint-plugin-import 2.25.4__
@@ -313,8 +237,8 @@ __pretty-bytes 5.6.0__
  * https://sindresorhus.com
  * MIT License
 
-__react-scripts 4.0.3__
- * https://github.com/facebook/create-react-app
+__@webassemblyjs/ast 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __@babel/plugin-proposal-class-properties 7.16.7__
@@ -325,20 +249,12 @@ __ms 2.1.2__
  * https://github.com/zeit/ms
  * MIT License
 
-__workbox-core 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
 __estraverse 5.3.0__
  * https://github.com/estools/estraverse
  * BSD-2-Clause
 
 __svg-parser 2.0.4__
  * https://github.com/Rich-Harris/svg-parser
- * MIT License
-
-__wrap-ansi 6.2.0__
- * sindresorhus.com
  * MIT License
 
 __depd 1.1.2__
@@ -353,6 +269,10 @@ __ansi-regex 5.0.1__
  * sindresorhus.com
  * MIT License
 
+__react-router 6.2.2__
+ * https://github.com/remix-run/react-router
+ * MIT License
+
 __source-map-support 0.5.21__
  * https://github.com/evanw/node-source-map-support
  * MIT License
@@ -361,48 +281,28 @@ __flatted 3.2.5__
  * https://github.com/WebReflection/flatted
  * ISC License
 
-__react-router 6.2.1__
- * https://github.com/remix-run/react-router
- * MIT License
-
-__copy-descriptor 0.1.1__
- * https://github.com/jonschlinkert
+__postcss-js 4.0.0__
+ * https://github.com/postcss/postcss-js
  * MIT License
 
 __kind-of 6.0.3__
  * https://github.com/jonschlinkert
  * MIT License
 
-__postcss-initial 3.0.4__
- * https://github.com/maximkoretskiy/postcss-initial
- * MIT License
-
-__dotenv 8.2.0__
- * https://github.com/motdotla/dotenv
- * BSD-2-Clause
-
 __istanbul-lib-report 3.0.0__
  * https://github.com/istanbuljs/istanbuljs
  * BSD-3-Clause
 
-__postcss-normalize-repeat-style 4.0.2__
+__postcss-minify-gradients 5.1.0__
  * http://beneb.info
  * MIT License
-
-__node-forge 0.10.0__
- * http://digitalbazaar.com/
- * BSD-3-Clause
-
-__node-forge 0.10.0__
- * http://digitalbazaar.com/
- * GPL-2.0
 
 __@types/parse-json 4.0.0__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
-__postcss-selector-not 4.0.1__
- * https://github.com/postcss/postcss-selector-not
+__wrap-ansi 7.0.0__
+ * https://sindresorhus.com
  * MIT License
 
 __@types/q 1.5.5__
@@ -421,10 +321,6 @@ __emoji-regex 9.2.2__
  * https://mathiasbynens.be/
  * MIT License
 
-__extend-shallow 3.0.2__
- * https://github.com/jonschlinkert
- * MIT License
-
 __get-package-type 0.1.0__
  * https://github.com/cfware/get-package-type
  * MIT License
@@ -433,8 +329,8 @@ __array-includes 3.1.4__
  * http://ljharb.codes
  * MIT License
 
-__tempy 0.3.0__
- * sindresorhus.com
+__postcss-colormin 5.3.0__
+ * http://beneb.info
  * MIT License
 
 __readdirp 3.6.0__
@@ -443,14 +339,6 @@ __readdirp 3.6.0__
 
 __regenerate 1.4.2__
  * https://mathiasbynens.be/
- * MIT License
-
-__@babel/plugin-proposal-class-static-block 7.16.7__
- * https://babel.dev/team
- * MIT License
-
-__jest-util 26.6.2__
- * https://github.com/facebook/jest
  * MIT License
 
 __yaml 1.10.2__
@@ -469,13 +357,9 @@ __word-wrap 1.2.3__
  * https://github.com/jonschlinkert
  * MIT License
 
-__workbox-streams 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__mime 2.6.0__
- * http://github.com/broofa
- * MIT License
+__postcss-focus-visible 6.0.4__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __d3-format 1.4.5__
  * http://bost.ocks.org/mike
@@ -485,16 +369,12 @@ __@babel/plugin-transform-typescript 7.16.8__
  * https://babel.dev/team
  * MIT License
 
-__@webassemblyjs/helper-fsm 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * ISC License
-
 __chalk 2.4.2__
  * https://github.com/chalk/chalk
  * MIT License
 
-__array-uniq 1.0.3__
- * sindresorhus.com
+__@babel/helper-module-transforms 7.17.6__
+ * https://babel.dev/team
  * MIT License
 
 __find-up 3.0.0__
@@ -505,17 +385,9 @@ __@babel/plugin-proposal-async-generator-functions 7.16.8__
  * https://babel.dev/team
  * MIT License
 
-__babylon 6.18.0__
- * https://github.com/babel/babylon
+__@types/express-serve-static-core 4.17.28__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
-
-__object.pick 1.3.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__cliui 6.0.0__
- * https://github.com/yargs/cliui
- * ISC License
 
 __supports-color 7.2.0__
  * sindresorhus.com
@@ -533,10 +405,6 @@ __ms 2.1.3__
  * https://github.com/vercel/ms
  * MIT License
 
-__cacache 15.3.0__
- * https://github.com/npm/cacache
- * ISC License
-
 __path-type 4.0.0__
  * sindresorhus.com
  * MIT License
@@ -545,20 +413,8 @@ __@babel/plugin-proposal-private-methods 7.16.11__
  * https://babel.dev/team
  * MIT License
 
-__@jest/types 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__uniq 1.0.1__
- * https://github.com/mikolalysenko/uniq
- * MIT License
-
 __@types/babel__template 7.4.1__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__des.js 1.0.1__
- * https://github.com/indutny/des.js
  * MIT License
 
 __material-colors 1.2.6__
@@ -569,57 +425,41 @@ __@nivo/colors 0.79.1__
  * https://github.com/plouc
  * MIT License
 
-__@webassemblyjs/floating-point-hex-parser 1.9.0__
- * https://github.com/xtuc/webassemblyjs
+__workbox-background-sync 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
 __browser-process-hrtime 1.0.0__
  * https://github.com/kumavis/browser-process-hrtime
  * BSD-2-Clause
 
-__arity-n 1.0.4__
- * https://github.com/stoeffel/arityN
- * MIT License
-
 __@svgr/babel-plugin-remove-jsx-attribute 5.4.0__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-remove-jsx-attribute
  * MIT License
 
-__pinkie-promise 2.0.1__
- * github.com/floatdrop
+__postcss-normalize-charset 5.1.0__
+ * https://github.com/cssnano/cssnano
  * MIT License
 
-__binary-extensions 1.13.1__
- * sindresorhus.com
+__locate-path 6.0.0__
+ * https://sindresorhus.com
  * MIT License
 
 __@babel/plugin-transform-async-to-generator 7.16.8__
  * https://babel.dev/team
  * MIT License
 
+__@webassemblyjs/helper-wasm-section 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * MIT License
+
 __eslint-plugin-jsx-a11y 6.5.1__
  * https://github.com/jsx-eslint/eslint-plugin-jsx-a11y
  * MIT License
 
-__extend-shallow 2.0.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__jest-serializer 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__@npmcli/fs 1.1.1__
- * https://github.com/npm/fs
- * ISC License
-
 __d3-shape 1.3.7__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
-
-__terser 4.8.0__
- * http://lisperator.net/
- * BSD-2-Clause
 
 __@babel/plugin-transform-react-display-name 7.16.7__
  * https://babel.dev/team
@@ -629,25 +469,21 @@ __source-map 0.6.1__
  * https://github.com/mozilla/source-map
  * BSD-3-Clause
 
-__fill-range 4.0.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__sanitize.css 10.0.0__
- * https://github.com/csstools/sanitize.css
- * CC0-1.0
-
 __mkdirp 0.5.5__
  * http://substack.net
+ * MIT License
+
+__@webassemblyjs/helper-api-error 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __postcss-selector-parser 6.0.9__
  * https://github.com/postcss/postcss-selector-parser
  * MIT License
 
-__minipass-flush 1.0.5__
- * https://izs.me
- * ISC License
+__pretty-error 4.0.0__
+ * https://github.com/AriaMinaei/pretty-error
+ * MIT License
 
 __type-fest 0.20.2__
  * https://sindresorhus.com
@@ -656,10 +492,6 @@ __type-fest 0.20.2__
 __type-fest 0.20.2__
  * https://sindresorhus.com
  * CC0-1.0
-
-__is-wsl 1.1.0__
- * sindresorhus.com
- * MIT License
 
 __typedarray-to-buffer 3.1.5__
  * http://feross.org/
@@ -667,6 +499,10 @@ __typedarray-to-buffer 3.1.5__
 
 __deep-equal 1.1.1__
  * http://substack.net
+ * MIT License
+
+__ansi-regex 6.0.1__
+ * https://sindresorhus.com
  * MIT License
 
 __bytes 3.0.0__
@@ -677,10 +513,6 @@ __@babel/highlight 7.16.10__
  * https://babel.dev/team
  * MIT License
 
-__emoji-regex 7.0.3__
- * https://mathiasbynens.be/
- * MIT License
-
 __@babel/runtime 7.17.2__
  * https://babel.dev/team
  * MIT License
@@ -689,20 +521,12 @@ __acorn-walk 7.2.0__
  * https://github.com/acornjs/acorn
  * MIT License
 
-__builtin-status-codes 3.0.0__
- * bendrucker.me
- * MIT License
-
-__lodash._reinterpolate 3.0.0__
- * http://allyoucanleet.com/
+__prompts 2.4.2__
+ * https://terkel.com
  * MIT License
 
 __lines-and-columns 1.2.4__
  * https://github.com/eventualbuddha/lines-and-columns
- * MIT License
-
-__prompts 2.4.0__
- * https://terkel.com
  * MIT License
 
 __picocolors 0.2.1__
@@ -721,81 +545,89 @@ __methods 1.1.2__
  * https://github.com/jshttp/methods
  * MIT License
 
-__yargs-parser 13.1.2__
- * https://github.com/yargs/yargs-parser
+__@types/range-parser 1.2.4__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__defined 1.0.0__
+ * http://substack.net
+ * MIT License
+
+__tailwindcss 3.0.23__
+ * https://github.com/tailwindlabs/tailwindcss
+ * MIT License
+
+__postcss-modules-values 4.0.0__
+ * https://github.com/css-modules/postcss-modules-values
  * ISC License
-
-__hsl-regex 1.0.0__
- * https://github.com/regexps/hsl-regex
- * MIT License
-
-__arr-flatten 1.1.0__
- * https://github.com/jonschlinkert
- * MIT License
 
 __picocolors 1.0.0__
  * https://github.com/alexeyraspopov/picocolors
  * ISC License
 
-__caller-path 2.0.0__
- * sindresorhus.com
+__argparse 2.0.1__
+ * https://github.com/nodeca/argparse
+ * Python-2.0
+
+__http-proxy-middleware 2.0.3__
+ * https://github.com/chimurai/http-proxy-middleware
  * MIT License
 
 __js-yaml 3.14.1__
  * https://github.com/nodeca/js-yaml
  * MIT License
 
+__get-stream 6.0.1__
+ * https://sindresorhus.com
+ * MIT License
+
 __node-releases 2.0.2__
  * https://github.com/chicoxyzzy/node-releases
+ * MIT License
+
+__jest-watch-typeahead 1.0.0__
+ * https://github.com/jest-community/jest-watch-typeahead
  * MIT License
 
 __setprototypeof 1.1.0__
  * https://github.com/wesleytodd/setprototypeof
  * ISC License
 
-__babel-eslint 10.1.0__
- * https://github.com/babel/babel-eslint
- * MIT License
-
-__cliui 5.0.0__
- * https://github.com/yargs/cliui
- * ISC License
-
-__shell-quote 1.7.2__
+__shell-quote 1.7.3__
  * http://substack.net
  * MIT License
 
-__path-key 2.0.1__
- * sindresorhus.com
+__postcss-unique-selectors 5.1.0__
+ * http://beneb.info
  * MIT License
 
-__arr-diff 4.0.0__
- * https://github.com/jonschlinkert
+__commander 7.2.0__
+ * https://github.com/tj/commander.js
  * MIT License
 
-__css 2.2.4__
- * https://github.com/reworkcss/css
- * MIT License
+__css-prefers-color-scheme 6.0.3__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __acorn-jsx 5.3.2__
  * https://github.com/acornjs/acorn-jsx
  * MIT License
 
-__postcss-values-parser 2.0.1__
- * shellscape
+__js-yaml 4.1.0__
+ * https://github.com/nodeca/js-yaml
+ * MIT License
+
+__fraction.js 4.1.3__
+ * http://www.xarg.org/
  * MIT License
 
 __tr46 2.1.0__
  * https://github.com/jsdom/tr46
  * MIT License
 
-__pako 1.0.11__
- * https://github.com/nodeca/pako
+__postcss-flexbugs-fixes 5.0.2__
+ * https://github.com/luisrudge/postcss-flexbugs-fixes
  * MIT License
-
-__pako 1.0.11__
- * https://github.com/nodeca/pako
- * zlib License
 
 __babel-preset-react-app 10.0.1__
  * https://github.com/facebook/create-react-app
@@ -803,18 +635,6 @@ __babel-preset-react-app 10.0.1__
 
 __http-parser-js 0.5.5__
  * https://github.com/creationix
- * MIT License
-
-__path-is-inside 1.0.2__
- * https://domenic.me
- * WTFPL
-
-__path-is-inside 1.0.2__
- * https://domenic.me
- * MIT License
-
-__browserify-rsa 4.1.0__
- * https://github.com/crypto-browserify/browserify-rsa
  * MIT License
 
 __write-file-atomic 3.0.3__
@@ -825,13 +645,9 @@ __etag 1.8.1__
  * https://github.com/jshttp/etag
  * MIT License
 
-__postcss-flexbugs-fixes 4.2.1__
- * https://github.com/luisrudge/postcss-flexbugs-fixes
+__webpack-sources 3.2.3__
+ * https://github.com/webpack/webpack-sources
  * MIT License
-
-__require-main-filename 2.0.0__
- * https://github.com/yargs/require-main-filename
- * ISC License
 
 __@babel/helpers 7.17.2__
  * https://babel.dev/team
@@ -845,41 +661,41 @@ __@humanwhocodes/object-schema 1.2.1__
  * https://github.com/humanwhocodes/object-schema
  * BSD-3-Clause
 
+__ci-info 3.3.0__
+ * https://twitter.com/wa7son
+ * MIT License
+
 __ws 7.5.7__
  * http://2x.io
- * MIT License
-
-__webpack-log 2.0.0__
- * https://github.com/webpack-contrib/webpack-log
- * MIT License
-
-__source-map-url 0.4.1__
- * https://github.com/lydell/source-map-url
  * MIT License
 
 __parent-module 1.0.1__
  * sindresorhus.com
  * MIT License
 
-__pump 2.0.1__
- * https://github.com/mafintosh/pump
- * MIT License
-
-__asn1.js 5.4.1__
- * https://github.com/indutny/asn1.js
+__webpack-dev-server 4.7.4__
+ * https://github.com/webpack/webpack-dev-server
  * MIT License
 
 __d3-time 1.1.0__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
 
-__which-module 2.0.0__
- * https://github.com/nexdrew/which-module
- * ISC License
-
-__ts-pnp 1.2.0__
- * https://github.com/arcanis/ts-pnp
+__@jest/reporters 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
+
+__@webassemblyjs/floating-point-hex-parser 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * MIT License
+
+__@jest/test-result 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__@webassemblyjs/leb128 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * Apache License 2.0
 
 __requires-port 1.0.0__
  * https://github.com/unshiftio/requires-port
@@ -893,10 +709,6 @@ __@istanbuljs/load-nyc-config 1.1.0__
  * https://github.com/istanbuljs/load-nyc-config
  * ISC License
 
-__@webassemblyjs/helper-module-context 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
-
 __doctrine 3.0.0__
  * https://github.com/eslint/doctrine
  * Apache License 2.0
@@ -905,21 +717,13 @@ __lodash.merge 4.6.2__
  * https://github.com/lodash/lodash
  * MIT License
 
-__jest-each 26.6.2__
- * mattphillips
- * MIT License
-
-__component-emitter 1.3.0__
- * https://github.com/component/emitter
- * MIT License
-
-__public-encrypt 4.0.3__
- * https://github.com/crypto-browserify/publicEncrypt
- * MIT License
-
 __symbol-tree 3.2.4__
  * https://github.com/jsdom/js-symbol-tree
  * MIT License
+
+__@typescript-eslint/typescript-estree 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * BSD-2-Clause
 
 __events 3.3.0__
  * http://jeditoolkit.com
@@ -929,76 +733,40 @@ __@babel/plugin-syntax-import-meta 7.10.4__
  * https://github.com/babel/babel
  * MIT License
 
-__cssnano-util-same-parent 4.0.1__
- * http://beneb.info
- * MIT License
-
-__jest-docblock 26.0.0__
- * https://github.com/facebook/jest
- * MIT License
-
-__body-parser 1.19.1__
+__body-parser 1.19.2__
  * https://github.com/expressjs/body-parser
+ * MIT License
+
+__postcss-opacity-percentage 1.1.2__
+ * https://marcgoertz.de/
  * MIT License
 
 __react-is 16.13.1__
  * https://github.com/facebook/react
  * MIT License
 
-__spdx-correct 3.1.1__
- * https://kemitchell.com
- * Apache License 2.0
-
 __is-binary-path 2.1.0__
  * sindresorhus.com
  * MIT License
 
-__@typescript-eslint/experimental-utils 3.10.1__
- * https://github.com/typescript-eslint/typescript-eslint
+__postcss-replace-overflow-wrap 4.0.0__
+ * https://github.com/MattDiMu/postcss-replace-overflow-wrap
  * MIT License
 
-__browserslist 4.14.2__
- * https://github.com/browserslist/browserslist
- * MIT License
-
-__clean-css 4.2.4__
- * http://twitter.com/jakubpawlowicz
+__schema-utils 4.0.0__
+ * https://github.com/webpack-contrib
  * MIT License
 
 __@babel/plugin-syntax-flow 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__@typescript-eslint/parser 4.33.0__
- * https://github.com/typescript-eslint/typescript-eslint
- * BSD-2-Clause
-
-__@webassemblyjs/ieee754 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
-
-__has-values 1.0.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__parse-asn1 5.1.6__
- * https://github.com/crypto-browserify/parse-asn1
- * ISC License
-
-__is-plain-object 2.0.4__
- * https://github.com/jonschlinkert
- * MIT License
-
-__jest-resolve 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
 __tinycolor2 1.4.2__
  * http://briangrinstead.com
  * MIT License
 
-__postcss-minify-selectors 4.0.2__
- * http://beneb.info
+__jest-environment-node 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __@types/prettier 2.4.4__
@@ -1025,24 +793,20 @@ __picomatch 2.3.1__
  * https://github.com/jonschlinkert
  * MIT License
 
-__jest-leak-detector 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__jest-resolve 26.6.0__
- * https://github.com/facebook/jest
- * MIT License
-
-__tar 6.1.11__
- * http://blog.izs.me/
- * ISC License
-
 __delayed-stream 1.0.0__
  * http://debuggable.com/
  * MIT License
 
+__find-up 5.0.0__
+ * https://sindresorhus.com
+ * MIT License
+
 __@babel/plugin-transform-spread 7.16.7__
  * https://babel.dev/team
+ * MIT License
+
+__@pmmmwh/react-refresh-webpack-plugin 0.5.4__
+ * https://github.com/pmmmwh/react-refresh-webpack-plugin
  * MIT License
 
 __stable 0.1.8__
@@ -1053,17 +817,13 @@ __decimal.js 10.3.1__
  * https://github.com/MikeMcl/decimal.js
  * MIT License
 
-__postcss-modules-values 3.0.0__
- * https://github.com/css-modules/postcss-modules-values
- * ISC License
-
-__react-app-polyfill 2.0.0__
- * https://github.com/facebook/create-react-app
+__async 0.9.2__
+ * https://github.com/caolan/async
  * MIT License
 
-__jest-changed-files 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
+__serialize-javascript 6.0.0__
+ * https://github.com/yahoo/serialize-javascript
+ * BSD-3-Clause
 
 __lodash-es 4.17.21__
  * https://github.com/lodash/lodash
@@ -1077,10 +837,6 @@ __levn 0.4.1__
  * https://github.com/gkz/levn
  * MIT License
 
-__is-windows 1.0.2__
- * https://github.com/jonschlinkert
- * MIT License
-
 __jsesc 0.5.0__
  * http://mathiasbynens.be/
  * MIT License
@@ -1089,25 +845,17 @@ __compression 1.7.4__
  * https://github.com/expressjs/compression
  * MIT License
 
-__kind-of 4.0.0__
- * https://github.com/jonschlinkert
- * MIT License
-
 __require-from-string 2.0.2__
  * github.com/floatdrop
  * MIT License
 
-__uniqs 2.0.0__
- * https://github.com/fgnass/uniqs
+__fs-extra 10.0.1__
+ * https://github.com/jprichardson/node-fs-extra
  * MIT License
 
 __is-typedarray 1.0.0__
  * http://hughsk.io/
  * MIT License
-
-__aproba 1.2.0__
- * https://github.com/iarna/aproba
- * ISC License
 
 __istanbul-lib-coverage 3.2.0__
  * https://github.com/istanbuljs/istanbuljs
@@ -1121,28 +869,24 @@ __@react-spring/animated 9.3.2__
  * https://github.com/pmndrs/react-spring
  * MIT License
 
-__css-blank-pseudo 0.1.4__
- * https://github.com/csstools/css-blank-pseudo
- * CC0-1.0
-
-__elliptic 6.5.4__
- * https://github.com/indutny/elliptic
+__postcss-reduce-transforms 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __reactcss 1.2.3__
  * https://github.com/casesandberg/reactcss
  * MIT License
 
-__color-string 1.9.0__
- * https://github.com/Qix-/color-string
+__jsonpointer 5.0.0__
+ * https://github.com/janl/node-jsonpointer
  * MIT License
 
 __webpack-sources 1.4.3__
  * https://github.com/webpack/webpack-sources
  * MIT License
 
-__is-data-descriptor 0.1.4__
- * https://github.com/jonschlinkert
+__camelcase-css 2.0.1__
+ * https://www.svachon.com/
  * MIT License
 
 __strip-final-newline 2.0.0__
@@ -1151,6 +895,10 @@ __strip-final-newline 2.0.0__
 
 __p-limit 1.3.0__
  * sindresorhus.com
+ * MIT License
+
+__@jest/source-map 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __is-path-cwd 2.2.0__
@@ -1173,28 +921,20 @@ __object.hasown 1.1.0__
  * https://github.com/es-shims/Object.hasOwn
  * MIT License
 
-__flatten 1.0.3__
- * http://jesusabdullah.net
- * MIT License
-
 __@babel/plugin-transform-shorthand-properties 7.16.7__
  * https://babel.dev/team
+ * MIT License
+
+__colord 2.9.2__
+ * https://github.com/omgovich/colord
  * MIT License
 
 __convert-source-map 1.8.0__
  * http://thlorenz.com
  * MIT License
 
-__eslint-scope 4.0.3__
- * https://github.com/eslint/eslint-scope
- * BSD-2-Clause
-
 __jest-worker 26.6.2__
  * https://github.com/facebook/jest
- * MIT License
-
-__renderkid 2.0.7__
- * https://github.com/AriaMinaei/RenderKid
  * MIT License
 
 __proxy-addr 2.0.7__
@@ -1217,36 +957,20 @@ __xmlchars 2.2.0__
  * https://github.com/lddubeau/xmlchars
  * MIT License
 
-__@webassemblyjs/leb128 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
-
 __jsx-ast-utils 3.2.1__
  * https://github.com/jsx-eslint/jsx-ast-utils
  * MIT License
 
-__is-descriptor 1.0.2__
- * https://github.com/jonschlinkert
- * MIT License
-
-__@rollup/plugin-node-resolve 7.1.3__
- * https://github.com/rollup/plugins
- * MIT License
-
-__kind-of 3.2.2__
- * https://github.com/jonschlinkert
- * MIT License
-
-__throat 5.0.0__
- * https://github.com/ForbesLindesay/throat
+__@types/html-minifier-terser 6.1.0__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __@svgr/hast-util-to-babel-ast 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/hast-util-to-babel-ast
  * MIT License
 
-__postcss-discard-overridden 4.0.1__
- * https://github.com/cssnano/cssnano
+__eslint 8.10.0__
+ * https://github.com/eslint/eslint
  * MIT License
 
 __no-case 3.0.4__
@@ -1265,64 +989,36 @@ __esquery 1.4.0__
  * https://github.com/estools/esquery
  * BSD-3-Clause
 
+__jest-runtime 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
 __istanbul-reports 3.1.4__
  * https://github.com/istanbuljs/istanbuljs
  * BSD-3-Clause
 
-__sockjs-client 1.5.2__
- * https://github.com/sockjs/sockjs-client
- * MIT License
-
 __p-limit 2.3.0__
  * sindresorhus.com
- * MIT License
-
-__resolve-url 0.2.1__
- * https://github.com/lydell/resolve-url
- * MIT License
-
-__original 1.0.2__
- * https://github.com/unshiftio/original
  * MIT License
 
 __promise 8.1.0__
  * https://github.com/then/promise
  * MIT License
 
-__workbox-strategies 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__sane 4.1.0__
- * https://github.com/amasad/sane
- * MIT License
-
 __react-color 2.19.3__
  * https://github.com/casesandberg/react-color
  * MIT License
-
-__copy-concurrently 1.0.5__
- * http://re-becca.org/
- * ISC License
 
 __@babel/plugin-proposal-numeric-separator 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__istanbul-lib-instrument 4.0.3__
- * https://github.com/istanbuljs/istanbuljs
- * BSD-3-Clause
+__@jest/globals 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
 
-__postcss-svgo 4.0.3__
+__postcss-normalize-url 5.1.0__
  * http://beneb.info
- * MIT License
-
-__webpack 4.44.2__
- * https://github.com/webpack/webpack
- * MIT License
-
-__querystring 0.2.0__
- * https://github.com/Gozala/querystring
  * MIT License
 
 __@babel/plugin-syntax-class-properties 7.12.13__
@@ -1333,13 +1029,17 @@ __d3-time 2.1.1__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
 
-__eslint-plugin-react 7.28.0__
- * https://github.com/yannickcr/eslint-plugin-react
+__clean-css 5.2.4__
+ * https://github.com/clean-css/clean-css
  * MIT License
 
-__get-stream 5.2.0__
- * https://sindresorhus.com
- * MIT License
+__node-forge 1.2.1__
+ * http://digitalbazaar.com/
+ * BSD-3-Clause
+
+__node-forge 1.2.1__
+ * http://digitalbazaar.com/
+ * GPL-2.0
 
 __content-disposition 0.5.4__
  * https://github.com/jshttp/content-disposition
@@ -1353,17 +1053,9 @@ __charcodes 0.2.0__
  * https://github.com/xtuc/charcodes
  * MIT License
 
-__slice-ansi 4.0.0__
- * https://github.com/chalk/slice-ansi
- * MIT License
-
-__loglevel 1.8.0__
- * http://tim-perry.co.uk
- * MIT License
-
-__microevent.ts 0.1.1__
- * https://github.com/DirtyHairy/
- * MIT License
+__@csstools/postcss-font-format-keywords 1.0.0__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __@babel/plugin-syntax-decorators 7.17.0__
  * https://babel.dev/team
@@ -1381,36 +1073,20 @@ __detect-newline 3.1.0__
  * sindresorhus.com
  * MIT License
 
-__async-each 1.0.3__
- * https://paulmillr.com/
- * MIT License
-
-__@jest/fake-timers 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
 __multicast-dns-service-types 1.1.0__
  * @mafintosh
- * MIT License
-
-__acorn 6.4.2__
- * https://github.com/acornjs/acorn
  * MIT License
 
 __@babel/plugin-syntax-typescript 7.16.7__
  * https://babel.dev/team
  * MIT License
 
+__@types/bonjour 3.5.10__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
 __is-docker 2.2.1__
  * https://sindresorhus.com
- * MIT License
-
-__querystring 0.2.1__
- * https://github.com/Gozala/querystring
- * MIT License
-
-__to-arraybuffer 1.0.1__
- * https://github.com/jhiesey/to-arraybuffer
  * MIT License
 
 __@svgr/babel-plugin-replace-jsx-attribute-value 5.0.1__
@@ -1421,20 +1097,12 @@ __string.prototype.trimstart 1.0.4__
  * https://github.com/es-shims/String.prototype.trimStart
  * MIT License
 
-__postcss-calc 7.0.5__
- * https://github.com/postcss/postcss-calc
- * MIT License
-
-__cssnano-util-get-match 4.0.0__
- * http://beneb.info
+__cosmiconfig 6.0.0__
+ * https://github.com/davidtheclark/cosmiconfig
  * MIT License
 
 __strip-bom 4.0.0__
  * sindresorhus.com
- * MIT License
-
-__punycode 1.4.1__
- * https://mathiasbynens.be/
  * MIT License
 
 __cookie-signature 1.0.6__
@@ -1445,10 +1113,6 @@ __portfinder 1.0.28__
  * https://github.com/http-party/node-portfinder
  * MIT License
 
-__yargs 13.3.2__
- * https://github.com/yargs/yargs
- * MIT License
-
 __lodash.memoize 4.1.2__
  * http://allyoucanleet.com/
  * MIT License
@@ -1457,45 +1121,25 @@ __@babel/helper-get-function-arity 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__path-browserify 0.0.1__
- * http://substack.net
+__react-app-polyfill 3.0.0__
+ * https://github.com/facebook/create-react-app
  * MIT License
 
 __send 0.17.2__
  * https://github.com/pillarjs/send
  * MIT License
 
-__babel-loader 8.1.0__
- * https://github.com/babel/babel-loader
- * MIT License
-
-__jest-worker 24.9.0__
- * https://github.com/facebook/jest
- * MIT License
-
 __tsutils 3.21.0__
  * https://github.com/ajafff/tsutils
+ * MIT License
+
+__babel-preset-jest 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __esrecurse 4.3.0__
  * https://github.com/estools/esrecurse
  * BSD-2-Clause
-
-__html-minifier-terser 5.1.1__
- * https://github.com/DanielRuf/html-minifier-terser
- * MIT License
-
-__evp_bytestokey 1.0.3__
- * https://github.com/crypto-browserify/EVP_BytesToKey
- * MIT License
-
-__is-directory 0.3.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__rgb-regex 1.0.1__
- * https://github.com/regexps/rgb-regex
- * MIT License
 
 __aria-query 4.2.2__
  * https://github.com/A11yance/aria-query
@@ -1513,21 +1157,17 @@ __locate-path 3.0.0__
  * sindresorhus.com
  * MIT License
 
-__@babel/runtime-corejs3 7.17.2__
- * https://babel.dev/team
+__workbox-streams 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
-__path-dirname 1.0.2__
- * https://github.com/es128/path-dirname
+__@babel/runtime-corejs3 7.17.2__
+ * https://babel.dev/team
  * MIT License
 
 __lru-cache 6.0.0__
  * https://github.com/isaacs/node-lru-cache
  * ISC License
-
-__postcss-browser-comments 3.0.0__
- * https://github.com/csstools/postcss-browser-comments
- * CC0-1.0
 
 __walker 1.0.8__
  * https://github.com/daaku/nodejs-walker
@@ -1545,6 +1185,10 @@ __inherits 2.0.3__
  * https://github.com/isaacs/inherits
  * ISC License
 
+__@types/yargs 16.0.4__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
 __postcss 7.0.39__
  * https://github.com/postcss/postcss
  * MIT License
@@ -1557,24 +1201,16 @@ __source-map-js 1.0.2__
  * https://github.com/7rulnik/source-map-js
  * BSD-3-Clause
 
-__node-notifier 8.0.2__
- * https://github.com/mikaelbr/node-notifier
+__@typescript-eslint/scope-manager 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
-
-__eslint-visitor-keys 1.3.0__
- * https://github.com/mysticatea
- * Apache License 2.0
 
 __process-nextick-args 2.0.1__
  * https://github.com/calvinmetcalf/process-nextick-args
  * MIT License
 
-__set-blocking 2.0.0__
- * https://github.com/yargs/set-blocking
- * ISC License
-
-__jest-watcher 26.6.2__
- * https://github.com/facebook/jest
+__@babel/plugin-transform-react-constant-elements 7.17.6__
+ * https://babel.dev/team
  * MIT License
 
 __camel-case 4.1.2__
@@ -1589,28 +1225,12 @@ __ajv-keywords 3.5.2__
  * https://github.com/epoberezkin/ajv-keywords
  * MIT License
 
-__util 0.11.1__
- * http://www.joyent.com
- * MIT License
-
-__@jest/globals 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__postcss 7.0.36__
- * https://github.com/postcss/postcss
- * MIT License
-
-__cosmiconfig 5.2.1__
- * https://github.com/davidtheclark/cosmiconfig
+__@webassemblyjs/wasm-edit 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __ip 1.1.5__
  * https://github.com/indutny/node-ip
- * MIT License
-
-__rollup-plugin-babel 4.4.0__
- * https://github.com/rollup/rollup-plugin-babel
  * MIT License
 
 __bfj 7.0.2__
@@ -1621,21 +1241,9 @@ __resolve 2.0.0-next.3__
  * http://substack.net
  * MIT License
 
-__globby 11.0.1__
- * sindresorhus.com
- * MIT License
-
-__postcss-modules-extract-imports 2.0.0__
- * https://github.com/css-modules/postcss-modules-extract-imports
- * ISC License
-
 __debug 3.2.7__
  * https://github.com/visionmedia/debug
  * MIT License
-
-__postcss-color-mod-function 3.0.3__
- * https://github.com/jonathantneal/postcss-color-mod-function
- * CC0-1.0
 
 __eslint-visitor-keys 2.1.0__
  * https://github.com/mysticatea
@@ -1645,41 +1253,33 @@ __css-select 4.2.1__
  * https://github.com/fb55/css-select
  * BSD-2-Clause
 
-__jest-circus 26.6.0__
- * https://github.com/facebook/jest
+__workbox-build 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
-__object-copy 0.1.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__import-local 2.0.0__
- * sindresorhus.com
- * MIT License
-
-__shellwords 0.1.1__
- * http://jimmycuadra.com/
- * MIT License
-
-__inherits 2.0.1__
- * https://github.com/isaacs/inherits
+__y18n 5.0.8__
+ * https://github.com/yargs/y18n
  * ISC License
+
+__ajv-keywords 5.1.0__
+ * https://github.com/epoberezkin/ajv-keywords
+ * MIT License
+
+__postcss-page-break 3.0.4__
+ * https://github.com/shrpne/postcss-page-break
+ * MIT License
 
 __dot-case 3.0.4__
  * http://blakeembrey.me
  * MIT License
 
+__postcss-custom-selectors 6.0.0__
+ * https://github.com/postcss/postcss-custom-selectors
+ * MIT License
+
 __@babel/helper-validator-identifier 7.16.7__
  * https://babel.dev/team
  * MIT License
-
-__@webassemblyjs/wasm-edit 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
-
-__css-prefers-color-scheme 3.1.1__
- * https://github.com/csstools/css-prefers-color-scheme
- * CC0-1.0
 
 __env-cmd 10.1.0__
  * https://github.com/toddbluhm/env-cmd
@@ -1693,33 +1293,25 @@ __d3-path 1.0.9__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
 
-__resolve-from 3.0.0__
- * sindresorhus.com
- * MIT License
-
 __@babel/plugin-transform-flow-strip-types 7.16.7__
  * https://babel.dev/team
+ * MIT License
+
+__svgo 2.8.0__
+ * https://github.com/deepsweet
+ * MIT License
+
+__@types/node 17.0.21__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __caniuse-api 3.0.0__
  * https://github.com/nyalab/caniuse-api
  * MIT License
 
-__pumpify 1.5.1__
- * https://github.com/mafintosh/pumpify
- * MIT License
-
-__@typescript-eslint/visitor-keys 3.10.1__
- * https://github.com/typescript-eslint/typescript-eslint
- * MIT License
-
-__unset-value 1.0.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__@types/node 17.0.18__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
+__v8-to-istanbul 8.1.1__
+ * https://github.com/istanbuljs/v8-to-istanbul
+ * ISC License
 
 __eslint-import-resolver-node 0.3.6__
  * me@benmosher.com
@@ -1729,24 +1321,8 @@ __import-fresh 3.3.0__
  * https://sindresorhus.com
  * MIT License
 
-__webpack-dev-server 3.11.1__
- * https://github.com/webpack/webpack-dev-server
- * MIT License
-
 __run-parallel 1.2.0__
  * https://feross.org
- * MIT License
-
-__type-fest 0.8.1__
- * sindresorhus.com
- * MIT License
-
-__type-fest 0.8.1__
- * sindresorhus.com
- * CC0-1.0
-
-__ansi-colors 3.2.4__
- * https://github.com/doowb
  * MIT License
 
 __supports-preserve-symlinks-flag 1.0.0__
@@ -1757,28 +1333,16 @@ __mimic-fn 2.1.0__
  * sindresorhus.com
  * MIT License
 
-__@pmmmwh/react-refresh-webpack-plugin 0.4.3__
- * https://github.com/pmmmwh/react-refresh-webpack-plugin
- * MIT License
-
-__postcss-focus-within 3.0.0__
- * https://github.com/jonathantneal/postcss-focus-within
- * CC0-1.0
-
 __side-channel 1.0.4__
  * https://github.com/ljharb/side-channel
- * MIT License
-
-__simple-swizzle 0.2.2__
- * http://github.com/qix-
  * MIT License
 
 __tapable 1.1.3__
  * https://github.com/webpack/tapable
  * MIT License
 
-__cache-base 1.0.1__
- * https://github.com/jonschlinkert
+__@types/sockjs 0.3.33__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __type-check 0.3.2__
@@ -1788,10 +1352,6 @@ __type-check 0.3.2__
 __semver 7.0.0__
  * https://github.com/npm/node-semver
  * ISC License
-
-__babel-extract-comments 1.0.0__
- * https://github.com/jonschlinkert
- * MIT License
 
 __is-number 7.0.0__
  * https://github.com/jonschlinkert
@@ -1805,14 +1365,6 @@ __@bcoe/v8-coverage 0.2.3__
  * https://demurgos.net
  * MIT License
 
-__jest-config 26.6.3__
- * https://github.com/facebook/jest
- * MIT License
-
-__postcss-unique-selectors 4.0.1__
- * http://beneb.info
- * MIT License
-
 __sourcemap-codec 1.4.8__
  * https://github.com/Rich-Harris/sourcemap-codec
  * MIT License
@@ -1821,73 +1373,65 @@ __domutils 1.7.0__
  * https://github.com/FB55/domutils
  * BSD-2-Clause
 
-__memory-fs 0.5.0__
- * https://github.com/webpack/memory-fs
+__workbox-core 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
-__map-cache 0.2.2__
- * https://github.com/jonschlinkert
+__postcss-normalize-timing-functions 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __dom-serializer 1.3.2__
  * https://github.com/cheeriojs/dom-renderer
  * MIT License
 
-__ansi-regex 2.1.1__
- * sindresorhus.com
- * MIT License
-
-__is-ci 2.0.0__
- * https://twitter.com/wa7son
- * MIT License
-
-__@types/normalize-package-data 2.4.1__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
 __@xtuc/ieee754 1.2.0__
  * http://feross.org
  * BSD-3-Clause
 
-__icss-utils 4.1.1__
- * https://github.com/css-modules/icss-utils
+__postcss-color-hex-alpha 8.0.3__
+ * https://github.com/csstools/postcss-plugins
+ * MIT License
+
+__postcss-normalize-positions 5.1.0__
+ * http://beneb.info
+ * MIT License
+
+__workbox-recipes 6.5.0__
+ * https://github.com/googlechrome/workbox
+ * MIT License
+
+__postcss-modules-extract-imports 3.0.0__
+ * https://github.com/css-modules/postcss-modules-extract-imports
  * ISC License
 
-__is-accessor-descriptor 0.1.6__
- * https://github.com/jonschlinkert
- * MIT License
-
-__postcss-loader 3.0.0__
- * https://github.com/postcss/postcss-loader
- * MIT License
+__@csstools/postcss-hwb-function 1.0.0__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __prop-types 15.8.1__
  * https://github.com/facebook/prop-types
  * MIT License
 
-__ssri 8.0.1__
- * https://github.com/npm/ssri
- * ISC License
-
 __@types/estree 0.0.39__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__workbox-google-analytics 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
 __istanbul-lib-source-maps 4.0.1__
  * https://github.com/istanbuljs/istanbuljs
  * BSD-3-Clause
 
-__parse-json 4.0.0__
- * sindresorhus.com
- * MIT License
+__postcss-nesting 10.1.2__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __@rollup/pluginutils 3.1.0__
  * https://github.com/rollup/plugins
  * MIT License
-
-__unique-filename 1.1.1__
- * http://re-becca.org/
- * ISC License
 
 __onetime 5.1.2__
  * https://sindresorhus.com
@@ -1905,29 +1449,21 @@ __asynckit 0.4.0__
  * https://github.com/alexindigo/asynckit
  * MIT License
 
-__minimalistic-crypto-utils 1.0.1__
- * https://github.com/indutny/minimalistic-crypto-utils
- * MIT License
-
 __cross-spawn 7.0.3__
  * https://github.com/moxystudio/node-cross-spawn
  * MIT License
 
-__stylehacks 4.0.3__
- * http://beneb.info
- * MIT License
+__@humanwhocodes/config-array 0.9.5__
+ * https://github.com/humanwhocodes/config-array
+ * Apache License 2.0
 
 __locate-path 2.0.0__
  * sindresorhus.com
  * MIT License
 
-__css-has-pseudo 0.10.0__
- * https://github.com/csstools/css-has-pseudo
- * CC0-1.0
-
-__postcss-place 4.0.1__
- * https://github.com/jonathantneal/postcss-place
- * CC0-1.0
+__@jest/console 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
 
 __es-abstract 1.19.1__
  * http://ljharb.codes
@@ -1941,8 +1477,8 @@ __fast-glob 3.2.11__
  * https://mrmlnc.com
  * MIT License
 
-__rework 1.0.1__
- * https://github.com/reworkcss/rework
+__emittery 0.8.1__
+ * https://sindresorhus.com
  * MIT License
 
 __path-exists 3.0.0__
@@ -1957,8 +1493,8 @@ __content-type 1.0.4__
  * https://github.com/jshttp/content-type
  * MIT License
 
-__html-entities 1.4.0__
- * https://github.com/mdevils/node-html-entities
+__workbox-strategies 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
 __identity-obj-proxy 3.0.0__
@@ -1969,16 +1505,12 @@ __is-string 1.0.7__
  * https://github.com/ljharb/is-string
  * MIT License
 
-__postcss-page-break 2.0.0__
- * https://github.com/shrpne/postcss-page-break
- * MIT License
-
-__y18n 4.0.3__
- * https://github.com/yargs/y18n
- * ISC License
-
 __@icons/material 0.2.4__
  * https://github.com/at-icons/material
+ * MIT License
+
+__@types/body-parser 1.19.2__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __upath 1.2.0__
@@ -1993,49 +1525,45 @@ __minimatch 3.0.4__
  * http://blog.izs.me
  * ISC License
 
-__sha.js 2.4.11__
- * dominictarr.com
+__workbox-routing 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
-
-__sha.js 2.4.11__
- * dominictarr.com
- * BSD-3-Clause
 
 __@nodelib/fs.walk 1.2.8__
  * https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk
- * MIT License
-
-__hash.js 1.1.7__
- * https://github.com/indutny/hash.js
  * MIT License
 
 __asap 2.0.6__
  * https://github.com/kriskowal/asap
  * MIT License
 
+__dotenv 10.0.0__
+ * https://github.com/motdotla/dotenv
+ * BSD-2-Clause
+
+__@types/express 4.17.13__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__fs-monkey 1.0.3__
+ * https://github.com/streamich/fs-monkey
+ * Unlicense
+
 __path-to-regexp 0.1.7__
  * https://github.com/component/path-to-regexp
+ * MIT License
+
+__react-refresh 0.11.0__
+ * https://github.com/facebook/react
  * MIT License
 
 __parseurl 1.3.3__
  * https://github.com/pillarjs/parseurl
  * MIT License
 
-__jest-regex-util 26.0.0__
- * https://github.com/facebook/jest
- * MIT License
-
 __@svgr/webpack 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/webpack
  * MIT License
-
-__postcss-env-function 2.0.2__
- * https://github.com/jonathantneal/postcss-env-function
- * CC0-1.0
-
-__v8-to-istanbul 7.1.2__
- * https://github.com/istanbuljs/v8-to-istanbul
- * ISC License
 
 __array.prototype.flat 1.2.5__
  * http://ljharb.codes
@@ -2045,16 +1573,8 @@ __pkg-dir 4.2.0__
  * sindresorhus.com
  * MIT License
 
-__pump 3.0.0__
- * https://github.com/mafintosh/pump
- * MIT License
-
 __@svgr/plugin-jsx 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/plugin-jsx
- * MIT License
-
-__split-string 3.1.0__
- * https://github.com/jonschlinkert
  * MIT License
 
 __uri-js 4.4.1__
@@ -2069,40 +1589,32 @@ __sprintf-js 1.0.3__
  * http://alexei.ro/
  * BSD-3-Clause
 
-__eventsource 1.1.0__
- * https://github.com/EventSource/eventsource
+__@babel/eslint-parser 7.17.0__
+ * https://babel.dev/team
  * MIT License
 
-__eslint-plugin-jest 24.7.0__
- * jkimbo.com
- * MIT License
+__@typescript-eslint/parser 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * BSD-2-Clause
+
+__typescript 4.6.2__
+ * https://github.com/Microsoft/TypeScript
+ * Apache License 2.0
+
+__human-signals 2.1.0__
+ * https://github.com/ehmicky
+ * Apache License 2.0
 
 __on-headers 1.0.2__
  * https://github.com/jshttp/on-headers
- * MIT License
-
-__randomfill 1.0.4__
- * https://github.com/crypto-browserify/randomfill
  * MIT License
 
 __http-errors 1.6.3__
  * http://jongleberry.com
  * MIT License
 
-__compose-function 3.0.3__
- * https://github.com/stoeffel/compose-function
- * MIT License
-
-__postcss-normalize-whitespace 4.0.2__
- * http://beneb.info
- * MIT License
-
 __batch 0.6.1__
  * https://github.com/visionmedia/batch
- * MIT License
-
-__to-regex-range 2.1.1__
- * https://github.com/jonschlinkert
  * MIT License
 
 __tslib 1.14.1__
@@ -2113,21 +1625,9 @@ __@babel/plugin-proposal-json-strings 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__cssnano 4.1.11__
- * http://beneb.info
- * MIT License
-
 __ajv 6.12.6__
  * https://github.com/ajv-validator/ajv
  * MIT License
-
-__json3 3.3.3__
- * http://kitcambridge.be/
- * MIT License
-
-__is-resolvable 1.1.0__
- * https://github.com/shinnn
- * ISC License
 
 __damerau-levenshtein 1.0.8__
  * https://github.com/tad-lispy/node-damerau-levenshtein
@@ -2137,7 +1637,7 @@ __is-glob 4.0.3__
  * https://github.com/jonschlinkert
  * MIT License
 
-__postcss 8.4.6__
+__postcss 8.4.7__
  * https://github.com/postcss/postcss
  * MIT License
 
@@ -2149,32 +1649,40 @@ __@svgr/babel-plugin-svg-dynamic-title 5.4.0__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-svg-dynamic-title
  * MIT License
 
-__jest-validate 26.6.2__
- * https://github.com/facebook/jest
+__p-retry 4.6.1__
+ * sindresorhus.com
+ * MIT License
+
+__postcss-clamp 4.0.0__
+ * https://github.com/polemius/postcss-clamp
  * MIT License
 
 __ansi-styles 4.3.0__
  * sindresorhus.com
  * MIT License
 
-__core-js 2.6.12__
- * https://github.com/zloirock/core-js
- * MIT License
-
 __@babel/helper-remap-async-to-generator 7.16.8__
  * https://babel.dev/team
- * MIT License
-
-__eslint-webpack-plugin 2.6.0__
- * https://github.com/webpack-contrib/eslint-webpack-plugin
  * MIT License
 
 __gensync 1.0.0-beta.2__
  * https://github.com/loganfsmyth/gensync
  * MIT License
 
+__postcss-discard-duplicates 5.1.0__
+ * http://beneb.info
+ * MIT License
+
+__ansi-html-community 0.0.8__
+ * https://github.com/mahdyar/ansi-html-community
+ * Apache License 2.0
+
 __global-prefix 3.0.0__
  * https://github.com/jonschlinkert
+ * MIT License
+
+__is-path-inside 3.0.3__
+ * sindresorhus.com
  * MIT License
 
 __strip-bom 3.0.0__
@@ -2209,22 +1717,6 @@ __abab 2.0.5__
  * https://github.com/jsdom/abab
  * BSD-3-Clause
 
-__fragment-cache 0.2.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__setimmediate 1.0.5__
- * https://github.com/YuzuJS/setImmediate
- * MIT License
-
-__get-value 2.0.6__
- * https://github.com/jonschlinkert
- * MIT License
-
-__os-browserify 0.3.0__
- * https://github.com/CoderPuppy/os-browserify
- * MIT License
-
 __@types/stack-utils 2.0.1__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
@@ -2233,17 +1725,9 @@ __@babel/template 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__url-loader 4.1.1__
- * https://github.com/webpack-contrib/url-loader
- * MIT License
-
 __unpipe 1.0.0__
  * https://github.com/stream-utils/unpipe
  * MIT License
-
-__hosted-git-info 2.8.9__
- * http://re-becca.org
- * ISC License
 
 __nwsapi 2.2.0__
  * http://www.iport.it/
@@ -2253,16 +1737,16 @@ __regenerator-transform 0.14.5__
  * https://github.com/facebook/regenerator/tree/master/packages/regenerator-transform
  * MIT License
 
-__cross-spawn 6.0.5__
- * https://github.com/moxystudio/node-cross-spawn
- * MIT License
-
 __magic-string 0.25.7__
  * https://github.com/rich-harris/magic-string
  * MIT License
 
 __language-tags 1.0.5__
  * https://github.com/mattcg/language-tags
+ * MIT License
+
+__@apideck/better-ajv-errors 0.3.3__
+ * https://apideck.com/
  * MIT License
 
 __is-boolean-object 1.1.2__
@@ -2277,20 +1761,12 @@ __ignore 4.0.6__
  * https://github.com/kaelzhang/node-ignore
  * MIT License
 
-__postcss-discard-empty 4.0.1__
- * http://beneb.info
- * MIT License
-
-__snapdragon-node 2.1.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__normalize-url 3.3.0__
- * sindresorhus.com
- * MIT License
-
 __path-exists 4.0.0__
  * sindresorhus.com
+ * MIT License
+
+__css-minimizer-webpack-plugin 3.4.1__
+ * https://github.com/webpack-contrib/css-minimizer-webpack-plugin
  * MIT License
 
 __@babel/helper-environment-visitor 7.16.7__
@@ -2301,8 +1777,16 @@ __prelude-ls 1.2.1__
  * https://github.com/gkz/prelude-ls
  * MIT License
 
+__jake 10.8.2__
+ * http://fleegix.org
+ * Apache License 2.0
+
 __@rollup/plugin-replace 2.4.2__
  * https://github.com/rollup/plugins
+ * MIT License
+
+__@typescript-eslint/visitor-keys 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
 __connect-history-api-fallback 1.6.0__
@@ -2313,6 +1797,10 @@ __mime 1.6.0__
  * http://github.com/broofa
  * MIT License
 
+__@types/resolve 1.17.1__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
 __@types/babel__traverse 7.14.2__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
@@ -2321,28 +1809,20 @@ __collect-v8-coverage 1.0.1__
  * https://github.com/SimenB/collect-v8-coverage
  * MIT License
 
+__expect 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
 __readable-stream 2.3.7__
  * https://github.com/nodejs/readable-stream
  * MIT License
 
-__set-value 2.0.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__arrify 2.0.1__
- * sindresorhus.com
- * MIT License
+__eslint-plugin-flowtype 8.0.3__
+ * http://gajus.com
+ * BSD-3-Clause
 
 __utils-merge 1.0.1__
  * http://www.jaredhanson.net/
- * MIT License
-
-__type 2.6.0__
- * https://www.medikoo.com/
- * ISC License
-
-__normalize-path 2.1.1__
- * https://github.com/jonschlinkert
  * MIT License
 
 __@babel/plugin-proposal-optional-chaining 7.16.7__
@@ -2353,20 +1833,12 @@ __rimraf 3.0.2__
  * http://blog.izs.me/
  * ISC License
 
-__ripemd160 2.0.2__
- * https://github.com/crypto-browserify/ripemd160
- * MIT License
+__eslint-visitor-keys 3.3.0__
+ * https://github.com/mysticatea
+ * Apache License 2.0
 
-__base 0.11.2__
- * https://github.com/jonschlinkert
- * MIT License
-
-__readdirp 2.2.1__
- * thlorenz.com
- * MIT License
-
-__is-plain-obj 1.1.0__
- * sindresorhus.com
+__jest-docblock 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __uuid 8.3.2__
@@ -2385,9 +1857,13 @@ __color-name 1.1.4__
  * https://github.com/colorjs/color-name
  * MIT License
 
-__type 1.2.0__
- * https://www.medikoo.com/
- * ISC License
+__@types/serve-static 1.13.10__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__@csstools/normalize.css 12.0.0__
+ * https://github.com/csstools/normalize.css
+ * CC0-1.0
 
 __param-case 3.0.4__
  * http://blakeembrey.me
@@ -2397,16 +1873,12 @@ __p-locate 4.1.0__
  * sindresorhus.com
  * MIT License
 
-__chownr 2.0.0__
- * http://blog.izs.me/
- * ISC License
+__terser 5.12.0__
+ * http://lisperator.net/
+ * BSD-2-Clause
 
 __recursive-readdir 2.2.2__
  * http://jamisondance.com/
- * MIT License
-
-__@babel/core 7.17.4__
- * https://babel.dev/team
  * MIT License
 
 __@babel/plugin-transform-template-literals 7.16.7__
@@ -2421,28 +1893,16 @@ __confusing-browser-globals 1.0.11__
  * https://github.com/facebook/create-react-app
  * MIT License
 
-__convert-source-map 0.3.5__
- * http://thlorenz.com
- * MIT License
-
 __http-errors 1.8.1__
  * http://jongleberry.com
  * MIT License
 
-__ansi-regex 4.1.0__
- * sindresorhus.com
+__arg 5.0.1__
+ * https://github.com/vercel/arg
  * MIT License
 
 __utila 0.4.0__
  * https://github.com/AriaMinaei/utila
- * MIT License
-
-__del 4.1.1__
- * sindresorhus.com
- * MIT License
-
-__eslint-config-react-app 6.0.0__
- * https://github.com/facebook/create-react-app
  * MIT License
 
 __flat-cache 3.0.4__
@@ -2453,28 +1913,36 @@ __buffer-indexof 1.1.1__
  * https://github.com/soldair/node-buffer-indexof
  * MIT License
 
+__@rollup/plugin-babel 5.3.1__
+ * https://github.com/rollup/plugins
+ * MIT License
+
+__postcss-loader 6.2.1__
+ * https://github.com/webpack-contrib/postcss-loader
+ * MIT License
+
 __css-what 5.1.0__
  * http://feedic.com
  * BSD-2-Clause
-
-__strip-eof 1.0.0__
- * sindresorhus.com
- * MIT License
-
-__lodash.templatesettings 4.2.0__
- * https://github.com/lodash/lodash
- * MIT License
 
 __kleur 3.0.3__
  * lukeed.com
  * MIT License
 
-__process 0.11.10__
- * https://github.com/shtylman/node-process
- * MIT License
-
 __@istanbuljs/schema 0.1.3__
  * https://github.com/istanbuljs/schema
+ * MIT License
+
+__jest-mock 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__@babel/core 7.17.5__
+ * https://babel.dev/team
+ * MIT License
+
+__@webassemblyjs/wasm-opt 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __@ampproject/remapping 2.1.2__
@@ -2485,20 +1953,12 @@ __axe-core 4.4.1__
  * https://github.com/dequelabs/axe-core
  * MPL-2.0
 
-__workbox-google-analytics 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
 __callsites 3.1.0__
  * sindresorhus.com
  * MIT License
 
 __locate-path 5.0.0__
  * sindresorhus.com
- * MIT License
-
-__lodash.truncate 4.4.2__
- * http://allyoucanleet.com/
  * MIT License
 
 __@babel/plugin-transform-object-super 7.16.7__
@@ -2513,24 +1973,20 @@ __@babel/plugin-transform-reserved-words 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__babel-plugin-jest-hoist 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
+__cssdb 6.4.0__
+ * https://github.com/csstools/cssdb
+ * CC0-1.0
 
 __duplexer 0.1.2__
  * https://github.com/Raynos/duplexer
  * MIT License
 
-__opn 5.5.0__
- * sindresorhus.com
- * MIT License
+__postcss-focus-within 5.0.4__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
-__array-union 1.0.2__
- * sindresorhus.com
- * MIT License
-
-__diff-sequences 26.6.2__
- * https://github.com/facebook/jest
+__@types/connect 3.4.35__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __@babel/plugin-syntax-dynamic-import 7.8.3__
@@ -2541,20 +1997,12 @@ __debug 2.6.9__
  * https://github.com/visionmedia/debug
  * MIT License
 
-__electron-to-chromium 1.4.71__
- * https://github.com/kilian/electron-to-chromium
- * ISC License
-
-__flush-write-stream 1.1.1__
- * @mafintosh
+__html-minifier-terser 6.1.0__
+ * https://github.com/terser/html-minifier-terser
  * MIT License
 
 __merge-stream 2.0.0__
  * https://github.com/grncdr/merge-stream
- * MIT License
-
-__buffer-xor 1.0.3__
- * https://github.com/crypto-browserify/buffer-xor
  * MIT License
 
 __require-directory 2.1.1__
@@ -2569,13 +2017,9 @@ __form-data 3.0.1__
  * http://debuggable.com/
  * MIT License
 
-__postcss-pseudo-class-any-link 6.0.0__
- * https://github.com/jonathantneal/postcss-pseudo-class-any-link
+__postcss-browser-comments 4.0.0__
+ * https://github.com/csstools/postcss-browser-comments
  * CC0-1.0
-
-__@webassemblyjs/helper-code-frame 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
 
 __@svgr/babel-plugin-transform-react-native-svg 5.4.0__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-transform-react-native-svg
@@ -2585,13 +2029,13 @@ __@babel/helper-create-regexp-features-plugin 7.17.0__
  * https://babel.dev/team
  * MIT License
 
-__decode-uri-component 0.2.0__
- * github.com/SamVerschueren
- * MIT License
-
 __@svgr/babel-plugin-remove-jsx-empty-expression 5.0.1__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-remove-jsx-empty-expression
  * MIT License
+
+__electron-to-chromium 1.4.75__
+ * https://github.com/kilian/electron-to-chromium
+ * ISC License
 
 __@svgr/babel-plugin-transform-svg-component 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-transform-svg-component
@@ -2601,13 +2045,17 @@ __domexception 2.0.1__
  * https://domenic.me/
  * MIT License
 
-__es6-iterator 2.0.3__
- * http://www.medikoo.com/
- * MIT License
+__css-declaration-sorter 6.1.4__
+ * https://selwyn.cc/
+ * ISC License
 
 __test-exclude 6.0.0__
  * https://github.com/istanbuljs/test-exclude
  * ISC License
+
+__jest-runner 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
 
 __string-width 4.2.3__
  * sindresorhus.com
@@ -2617,28 +2065,16 @@ __braces 3.0.2__
  * https://github.com/jonschlinkert
  * MIT License
 
-__history 5.2.0__
- * https://github.com/remix-run/history
- * MIT License
-
-__postcss-normalize-unicode 4.0.1__
- * http://beneb.info
- * MIT License
-
 __unicode-match-property-value-ecmascript 2.0.0__
  * https://mathiasbynens.be/
  * MIT License
 
-__pascalcase 0.1.1__
- * https://github.com/jonschlinkert
+__rollup-plugin-terser 7.0.2__
+ * https://github.com/TrySound/rollup-plugin-terser
  * MIT License
 
-__glob-parent 3.1.0__
- * https://github.com/es128
- * ISC License
-
-__isobject 2.1.0__
- * https://github.com/jonschlinkert
+__@types/connect-history-api-fallback 1.3.5__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __wbuf 1.7.3__
@@ -2649,36 +2085,44 @@ __concat-map 0.0.1__
  * http://substack.net
  * MIT License
 
-__end-of-stream 1.4.4__
- * https://github.com/mafintosh/end-of-stream
+__postcss-preset-env 7.4.1__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
+__didyoumean 1.2.2__
+ * http://dcporter.net/
+ * Apache License 2.0
+
+__babel-jest 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __finalhandler 1.1.2__
  * https://github.com/pillarjs/finalhandler
  * MIT License
 
+__pretty-format 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__postcss-custom-media 8.0.0__
+ * https://github.com/postcss/postcss-custom-media
+ * MIT License
+
 __react-is 17.0.2__
  * https://github.com/facebook/react
+ * MIT License
+
+__autoprefixer 10.4.2__
+ * https://github.com/postcss/autoprefixer
  * MIT License
 
 __@babel/plugin-transform-block-scoped-functions 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__dot-prop 5.3.0__
- * sindresorhus.com
- * MIT License
-
 __htmlparser2 6.1.0__
  * https://github.com/fb55/htmlparser2
- * MIT License
-
-__pkg-dir 3.0.0__
- * sindresorhus.com
- * MIT License
-
-__postcss-normalize-charset 4.0.1__
- * https://github.com/cssnano/cssnano
  * MIT License
 
 __regex-parser 2.2.11__
@@ -2693,20 +2137,16 @@ __@babel/plugin-transform-dotall-regex 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__webpack-manifest-plugin 2.2.0__
- * https://github.com/danethurber/webpack-manifest-plugin
- * MIT License
-
 __entities 2.2.0__
  * https://github.com/fb55/entities
  * BSD-2-Clause
 
-__string_decoder 1.1.1__
- * https://github.com/nodejs/string_decoder
+__postcss-custom-properties 12.1.4__
+ * https://github.com/csstools/postcss-plugins
  * MIT License
 
-__parallel-transform 1.2.0__
- * https://github.com/mafintosh/parallel-transform
+__string_decoder 1.1.1__
+ * https://github.com/nodejs/string_decoder
  * MIT License
 
 __source-list-map 2.0.1__
@@ -2717,33 +2157,17 @@ __universalify 0.1.2__
  * https://github.com/RyanZim/universalify
  * MIT License
 
-__@jest/test-sequencer 26.6.3__
+__@jest/transform 27.5.1__
  * https://github.com/facebook/jest
  * MIT License
 
-__gzip-size 5.1.1__
- * sindresorhus.com
- * MIT License
-
-__postcss-custom-media 7.0.8__
- * https://github.com/postcss/postcss-custom-media
- * MIT License
-
-__p-map 2.1.0__
- * sindresorhus.com
+__@types/serve-index 1.9.1__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __@babel/helper-hoist-variables 7.16.7__
  * https://babel.dev/team
  * MIT License
-
-__type-fest 0.6.0__
- * sindresorhus.com
- * MIT License
-
-__type-fest 0.6.0__
- * sindresorhus.com
- * CC0-1.0
 
 __which 1.3.1__
  * http://blog.izs.me
@@ -2769,48 +2193,24 @@ __forwarded 0.2.0__
  * https://github.com/jshttp/forwarded
  * MIT License
 
-__workbox-build 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__@sinonjs/fake-timers 6.0.1__
- * https://github.com/sinonjs/fake-timers
- * BSD-3-Clause
-
 __@nivo/legends 0.79.1__
  * https://github.com/plouc
- * MIT License
-
-__errno 0.1.8__
- * https://github.com/rvagg/node-errno
  * MIT License
 
 __coa 2.0.2__
  * http://github.com/veged
  * MIT License
 
-__jest 26.6.0__
- * https://github.com/facebook/jest
+__eslint-config-react-app 7.0.0__
+ * https://github.com/facebook/create-react-app
  * MIT License
-
-__terser 5.10.0__
- * http://lisperator.net/
- * BSD-2-Clause
 
 __pkg-up 3.1.0__
  * sindresorhus.com
  * MIT License
 
-__atob 2.1.2__
- * https://coolaj86.com
- * MIT License
-
-__atob 2.1.2__
- * https://coolaj86.com
- * Apache License 2.0
-
-__workbox-expiration 5.1.4__
- * https://github.com/googlechrome/workbox
+__case-sensitive-paths-webpack-plugin 2.4.0__
+ * https://github.com/Urthen/case-sensitive-paths-webpack-plugin
  * MIT License
 
 __get-symbol-description 1.0.0__
@@ -2829,22 +2229,6 @@ __leven 3.1.0__
  * sindresorhus.com
  * MIT License
 
-__hash-base 3.1.0__
- * https://github.com/fanatid
- * MIT License
-
-__jest-environment-jsdom 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__espree 7.3.1__
- * https://github.com/eslint/espree
- * BSD-2-Clause
-
-__browserify-sign 4.2.1__
- * https://github.com/crypto-browserify/browserify-sign
- * ISC License
-
 __get-own-enumerable-property-symbols 3.0.2__
  * mightyiam
  * ISC License
@@ -2853,33 +2237,21 @@ __binary-extensions 2.2.0__
  * sindresorhus.com
  * MIT License
 
-__ssri 6.0.2__
- * https://github.com/zkat/ssri
- * ISC License
-
 __eslint-plugin-react-hooks 4.3.0__
  * https://github.com/facebook/react
  * MIT License
 
+__file-loader 6.2.0__
+ * https://github.com/webpack-contrib/file-loader
+ * MIT License
+
+__postcss-env-function 4.0.5__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
 __anymatch 3.1.2__
  * https://github.com/es128
  * ISC License
-
-__postcss-reduce-initial 4.0.3__
- * http://beneb.info
- * MIT License
-
-__optimize-css-assets-webpack-plugin 5.0.4__
- * https://github.com/NMFR/optimize-css-assets-webpack-plugin
- * MIT License
-
-__to-regex 3.0.2__
- * https://github.com/jonschlinkert
- * MIT License
-
-__safe-regex 1.1.0__
- * http://substack.net
- * MIT License
 
 __@babel/helper-compilation-targets 7.16.7__
  * https://babel.dev/team
@@ -2901,14 +2273,6 @@ __hoopy 0.1.4__
  * https://philbooth.me/
  * MIT License
 
-__jest-cli 26.6.3__
- * https://github.com/facebook/jest
- * MIT License
-
-__postcss-selector-parser 3.1.2__
- * https://github.com/postcss/postcss-selector-parser
- * MIT License
-
 __minimalistic-assert 1.0.1__
  * https://github.com/calvinmetcalf/minimalistic-assert
  * ISC License
@@ -2921,89 +2285,37 @@ __chalk 4.1.2__
  * https://github.com/chalk/chalk
  * MIT License
 
-__workbox-routing 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__globby 6.1.0__
- * sindresorhus.com
- * MIT License
-
-__minipass-pipeline 1.2.4__
- * https://izs.me
- * ISC License
-
-__ws 6.2.2__
- * http://2x.io
- * MIT License
-
-__is-obj 2.0.0__
- * sindresorhus.com
- * MIT License
-
-__bn.js 4.12.0__
- * https://github.com/indutny/bn.js
- * MIT License
-
-__arr-union 3.1.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__@types/minimatch 3.0.5__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__jest-jasmine2 26.6.3__
- * https://github.com/facebook/jest
- * MIT License
-
-__ansi-html 0.0.7__
- * https://github.com/Tjatse/ansi-html
- * Apache License 2.0
-
-__class-utils 0.3.6__
- * https://github.com/jonschlinkert
- * MIT License
-
-__minipass-collect 1.0.2__
- * https://izs.me
- * ISC License
-
 __merge-descriptors 1.0.1__
  * http://jongleberry.com
  * MIT License
 
-__postcss-color-functional-notation 2.0.1__
- * https://github.com/jonathantneal/postcss-color-functional-notation
- * CC0-1.0
-
-__@typescript-eslint/experimental-utils 4.33.0__
- * https://github.com/typescript-eslint/typescript-eslint
+__jest-diff 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __find-up 2.1.0__
  * sindresorhus.com
  * MIT License
 
-__move-concurrently 1.0.1__
- * http://re-becca.org/
- * ISC License
-
 __graceful-fs 4.2.9__
  * https://github.com/isaacs/node-graceful-fs
  * ISC License
+
+__postcss-dir-pseudo-class 6.0.4__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __dns-packet 1.3.4__
  * https://github.com/mafintosh/dns-packet
  * MIT License
 
-__mkdirp 1.0.4__
- * https://github.com/isaacs/node-mkdirp
+__@jest/types 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
-__postcss-normalize 8.0.1__
- * https://github.com/csstools/postcss-normalize
- * CC0-1.0
+__resolve-url-loader 4.0.0__
+ * https://github.com/bholloway/resolve-url-loader
+ * MIT License
 
 __@babel/helper-member-expression-to-functions 7.16.7__
  * https://babel.dev/team
@@ -3013,32 +2325,12 @@ __json-parse-even-better-errors 2.3.1__
  * https://github.com/npm/json-parse-even-better-errors
  * MIT License
 
-__@webassemblyjs/helper-wasm-section 1.9.0__
- * https://github.com/xtuc/webassemblyjs
+__open 8.4.0__
+ * https://sindresorhus.com
  * MIT License
 
-__case-sensitive-paths-webpack-plugin 2.3.0__
- * https://github.com/Urthen/case-sensitive-paths-webpack-plugin
- * MIT License
-
-__default-gateway 4.2.0__
- * https://github.com/silverwind/default-gateway
- * BSD-2-Clause
-
-__cssnano-util-get-arguments 4.0.0__
- * http://beneb.info
- * MIT License
-
-__normalize-package-data 2.5.0__
- * https://github.com/npm/normalize-package-data
- * BSD-2-Clause
-
-__miller-rabin 4.0.1__
- * https://github.com/indutny/miller-rabin
- * MIT License
-
-__crypto-random-string 1.0.0__
- * sindresorhus.com
+__strip-comments 2.0.1__
+ * https://github.com/jonschlinkert
  * MIT License
 
 __eventemitter3 4.0.7__
@@ -3049,16 +2341,8 @@ __html-encoding-sniffer 2.0.1__
  * https://domenic.me/
  * MIT License
 
-__@webassemblyjs/wasm-parser 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
-
 __type-is 1.6.18__
  * https://github.com/jshttp/type-is
- * MIT License
-
-__ci-info 2.0.0__
- * https://twitter.com/wa7son
  * MIT License
 
 __detect-port-alt 1.1.6__
@@ -3069,8 +2353,12 @@ __@babel/code-frame 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__browserslist 4.19.1__
- * https://github.com/browserslist/browserslist
+__css-loader 6.6.0__
+ * https://github.com/webpack-contrib/css-loader
+ * MIT License
+
+__es-module-lexer 0.9.3__
+ * https://github.com/guybedford/es-module-lexer
  * MIT License
 
 __vary 1.1.2__
@@ -3081,12 +2369,16 @@ __@babel/plugin-transform-sticky-regex 7.16.7__
  * https://babel.dev/team
  * MIT License
 
+__browserslist 4.19.3__
+ * https://github.com/browserslist/browserslist
+ * MIT License
+
 __is-regex 1.1.4__
  * https://github.com/inspect-js/is-regex
  * MIT License
 
-__https-browserify 1.0.0__
- * http://substack.net
+__jest-serializer 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __loader-utils 1.4.0__
@@ -3097,36 +2389,28 @@ __string-length 4.0.2__
  * https://sindresorhus.com
  * MIT License
 
-__get-stream 4.1.0__
- * sindresorhus.com
- * MIT License
+__@csstools/postcss-ic-unit 1.0.0__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
-__yargs-parser 18.1.3__
- * https://github.com/yargs/yargs-parser
- * ISC License
+__jest-matcher-utils 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
 
 __source-map 0.7.3__
  * https://github.com/mozilla/source-map
  * BSD-3-Clause
 
-__postcss-discard-comments 4.0.2__
- * http://beneb.info
- * MIT License
-
 __escape-string-regexp 1.0.5__
  * sindresorhus.com
- * MIT License
-
-__immer 8.0.1__
- * https://github.com/immerjs/immer
  * MIT License
 
 __is-potential-custom-element-name 1.0.1__
  * https://mathiasbynens.be/
  * MIT License
 
-__num2fraction 1.2.2__
- * http://iyunlu.com/view
+__normalize-url 6.1.0__
+ * https://sindresorhus.com
  * MIT License
 
 __@babel/plugin-proposal-export-namespace-from 7.16.7__
@@ -3137,12 +2421,12 @@ __acorn 8.7.0__
  * https://github.com/acornjs/acorn
  * MIT License
 
-__@babel/plugin-proposal-decorators 7.17.2__
- * https://babel.dev/team
+__lilconfig 2.0.4__
+ * https://github.com/antonk52/lilconfig
  * MIT License
 
-__@types/webpack-sources 3.2.0__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
+__@babel/plugin-proposal-decorators 7.17.2__
+ * https://babel.dev/team
  * MIT License
 
 __find-cache-dir 3.3.2__
@@ -3157,16 +2441,8 @@ __@jridgewell/trace-mapping 0.3.4__
  * https://github.com/jridgewell/trace-mapping
  * MIT License
 
-__is-extendable 1.0.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__duplexify 3.7.1__
- * https://github.com/mafintosh/duplexify
- * MIT License
-
-__chokidar 2.1.8__
- * https://paulmillr.com
+__iconv-lite 0.6.3__
+ * https://github.com/ashtuchkin/iconv-lite
  * MIT License
 
 __ipaddr.js 1.9.1__
@@ -3177,10 +2453,6 @@ __tough-cookie 4.0.0__
  * https://github.com/salesforce/tough-cookie
  * BSD-3-Clause
 
-__browserify-aes 1.2.0__
- * https://github.com/crypto-browserify/browserify-aes
- * MIT License
-
 __is-regexp 1.0.0__
  * http://sindresorhus.com
  * MIT License
@@ -3189,20 +2461,16 @@ __internmap 1.0.1__
  * https://bost.ocks.org/mike
  * ISC License
 
-__rework-visit 1.0.0__
- * https://github.com/reworkcss/rework-visit
+__@jest/environment 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __regjsgen 0.6.0__
  * https://ofcr.se/
  * MIT License
 
-__read-pkg-up 7.0.1__
- * sindresorhus.com
- * MIT License
-
-__nan 2.15.0__
- * https://github.com/nodejs/nan
+__postcss-normalize-display-values 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __ansi-styles 3.2.1__
@@ -3211,10 +2479,6 @@ __ansi-styles 3.2.1__
 
 __unicode-canonical-property-names-ecmascript 2.0.0__
  * https://mathiasbynens.be/
- * MIT License
-
-__is-stream 1.1.0__
- * sindresorhus.com
  * MIT License
 
 __domelementtype 2.2.0__
@@ -3229,36 +2493,16 @@ __esprima 4.0.1__
  * https://github.com/jquery/esprima
  * BSD-2-Clause
 
-__run-queue 1.0.3__
- * http://re-becca.org/
- * ISC License
-
-__pretty-error 2.1.2__
- * https://github.com/AriaMinaei/pretty-error
- * MIT License
-
 __supports-color 5.5.0__
  * sindresorhus.com
  * MIT License
 
-__pify 4.0.1__
- * sindresorhus.com
- * MIT License
-
-__node-libs-browser 2.2.1__
- * https://github.com/webpack/node-libs-browser
- * MIT License
-
-__timers-browserify 2.0.12__
- * https://convolv.es/
+__selfsigned 2.0.0__
+ * http://joseoncode.com
  * MIT License
 
 __@nivo/tooltip 0.79.0__
  * https://github.com/plouc
- * MIT License
-
-__array-unique 0.3.2__
- * https://github.com/jonschlinkert
  * MIT License
 
 __mime-types 2.1.34__
@@ -3269,40 +2513,20 @@ __object.fromentries 2.0.5__
  * https://github.com/es-shims/Object.fromEntries
  * MIT License
 
-__pinkie 2.0.4__
- * github.com/floatdrop
- * MIT License
-
-__is-descriptor 0.1.6__
- * https://github.com/jonschlinkert
- * MIT License
-
-__stream-shift 1.0.1__
- * @mafintosh
- * MIT License
-
-__@babel/helper-module-transforms 7.16.7__
- * https://babel.dev/team
+__postcss-normalize-whitespace 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __css-tree 1.1.3__
  * https://github.com/lahmatiy
  * MIT License
 
-__has-value 1.0.0__
- * https://github.com/jonschlinkert
+__acorn-import-assertions 1.8.0__
+ * https://github.com/xtuc/acorn-import-assertions
  * MIT License
 
-__@typescript-eslint/eslint-plugin 4.33.0__
- * https://github.com/typescript-eslint/typescript-eslint
- * MIT License
-
-__color 3.2.1__
- * https://github.com/Qix-/color
- * MIT License
-
-__watchpack 1.7.5__
- * https://github.com/webpack/watchpack
+__mini-css-extract-plugin 2.5.3__
+ * https://github.com/webpack-contrib/mini-css-extract-plugin
  * MIT License
 
 __@babel/preset-typescript 7.16.7__
@@ -3313,16 +2537,16 @@ __relateurl 0.2.7__
  * http://www.svachon.com/
  * MIT License
 
-__map-visit 1.0.0__
- * https://github.com/jonschlinkert
+__jest-snapshot 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
-__postcss-color-hex-alpha 5.0.3__
- * https://github.com/postcss/postcss-color-hex-alpha
+__sass-loader 12.6.0__
+ * https://github.com/webpack-contrib/sass-loader
  * MIT License
 
-__@types/webpack 4.41.32__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
+__temp-dir 2.0.0__
+ * sindresorhus.com
  * MIT License
 
 __thunky 1.1.0__
@@ -3333,44 +2557,24 @@ __@svgr/babel-plugin-svg-em-dimensions 5.4.0__
  * https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-svg-em-dimensions
  * MIT License
 
-__type-fest 0.3.1__
- * sindresorhus.com
- * MIT License
-
-__type-fest 0.3.1__
- * sindresorhus.com
- * CC0-1.0
-
-__jest-haste-map 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
 __axios 0.26.0__
  * https://github.com/axios/axios
+ * MIT License
+
+__define-lazy-prop 2.0.0__
+ * sindresorhus.com
  * MIT License
 
 __stack-utils 2.0.5__
  * github.com/jamestalmage
  * MIT License
 
-__jest-message-util 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__postcss-overflow-shorthand 2.0.0__
- * https://github.com/jonathantneal/postcss-overflow-shorthand
- * CC0-1.0
-
-__selfsigned 1.10.14__
- * http://joseoncode.com
+__style-loader 3.3.1__
+ * https://github.com/webpack-contrib/style-loader
  * MIT License
 
 __object.getownpropertydescriptors 2.1.3__
  * https://github.com/es-shims/object.getownpropertydescriptors
- * MIT License
-
-__npm-run-path 2.0.2__
- * sindresorhus.com
  * MIT License
 
 __address 1.1.2__
@@ -3385,10 +2589,6 @@ __@babel/plugin-transform-literals 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__@jest/test-result 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
 __css-tree 1.0.0-alpha.37__
  * https://github.com/lahmatiy
  * MIT License
@@ -3397,56 +2597,24 @@ __eslint-module-utils 2.7.3__
  * https://github.com/import-js/eslint-plugin-import
  * MIT License
 
-__jest-resolve-dependencies 26.6.3__
- * https://github.com/facebook/jest
- * MIT License
-
-__normalize-url 1.9.1__
- * sindresorhus.com
- * MIT License
-
-__cssdb 4.4.0__
- * https://github.com/csstools/cssdb
- * CC0-1.0
-
-__postcss-font-variant 4.0.1__
- * https://github.com/postcss/postcss-font-variant
- * MIT License
-
-__table 6.8.0__
- * http://gajus.com
- * BSD-3-Clause
-
 __@babel/helper-builder-binary-assignment-operator-visitor 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__constants-browserify 1.0.0__
- * http://juliangruber.com
+__loader-utils 3.2.0__
+ * https://github.com/webpack/loader-utils
  * MIT License
 
 __is-number-object 1.0.6__
  * https://github.com/inspect-js/is-number-object
  * MIT License
 
+__postcss-convert-values 5.1.0__
+ * http://beneb.info
+ * MIT License
+
 __babel-plugin-polyfill-regenerator 0.3.1__
  * https://github.com/babel/babel-polyfills
- * MIT License
-
-__md5.js 1.3.5__
- * https://github.com/fanatid
- * MIT License
-
-__is-path-in-cwd 2.1.0__
- * sindresorhus.com
- * MIT License
-
-__killable 1.0.1__
- * https://github.com/marten-de-vries/killable
- * ISC License
-
-__strip-comments 1.0.2__
- * https://github.com/jonschlinkert
  * MIT License
 
 __balanced-match 1.0.2__
@@ -3465,68 +2633,44 @@ __sax 1.2.4__
  * http://blog.izs.me/
  * ISC License
 
-__prepend-http 1.0.4__
- * sindresorhus.com
+__colorette 2.0.16__
+ * https://github.com/jorgebucaran/colorette
  * MIT License
 
-__anymatch 2.0.0__
- * http://github.com/es128
- * ISC License
-
-__@types/resolve 0.0.8__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__progress 2.0.3__
- * https://github.com/visionmedia/node-progress
- * MIT License
-
-__braces 2.3.2__
- * https://github.com/jonschlinkert
- * MIT License
-
-__jest-environment-node 26.6.2__
- * https://github.com/facebook/jest
+__whatwg-url 7.1.0__
+ * https://github.com/jsdom/whatwg-url
  * MIT License
 
 __@babel/plugin-syntax-optional-catch-binding 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-optional-catch-binding
  * MIT License
 
-__create-hash 1.2.0__
- * https://github.com/crypto-browserify/createHash
+__adjust-sourcemap-loader 4.0.0__
+ * https://github.com/bholloway/adjust-sourcemap-loader
+ * MIT License
+
+__@webassemblyjs/ieee754 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __argparse 1.0.10__
  * https://github.com/nodeca/argparse
  * MIT License
 
-__fork-ts-checker-webpack-plugin 4.1.6__
- * https://github.com/TypeStrong/fork-ts-checker-webpack-plugin
+__postcss-load-config 3.1.3__
+ * https://github.com/postcss/postcss-load-config
  * MIT License
 
-__hsla-regex 1.0.0__
- * https://github.com/regexps/hsla-regex
+__string-length 5.0.1__
+ * https://sindresorhus.com
  * MIT License
 
-__is-number 3.0.0__
- * https://github.com/jonschlinkert
+__crypto-random-string 2.0.0__
+ * sindresorhus.com
  * MIT License
 
 __css-select-base-adapter 0.1.1__
  * https://github.com/nrkn/css-select-base-adapter
- * MIT License
-
-__ip-regex 2.1.0__
- * sindresorhus.com
- * MIT License
-
-__babel-plugin-syntax-object-rest-spread 6.13.0__
- * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
- * MIT License
-
-__url-parse 1.5.6__
- * https://github.com/unshiftio/url-parse
  * MIT License
 
 __type-fest 0.21.3__
@@ -3537,33 +2681,17 @@ __type-fest 0.21.3__
  * https://sindresorhus.com
  * CC0-1.0
 
-__is-absolute-url 2.1.0__
- * http://sindresorhus.com
- * MIT License
-
-__snapdragon-util 3.0.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__to-object-path 0.3.0__
- * https://github.com/jonschlinkert
- * MIT License
-
 __source-map 0.5.7__
  * https://github.com/mozilla/source-map
  * BSD-3-Clause
-
-__@typescript-eslint/types 4.33.0__
- * https://github.com/typescript-eslint/typescript-eslint
- * MIT License
 
 __@babel/helper-function-name 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__native-url 0.2.6__
- * https://github.com/GoogleChromeLabs/native-url
- * Apache License 2.0
+__postcss-merge-rules 5.1.0__
+ * http://beneb.info
+ * MIT License
 
 __webidl-conversions 5.0.0__
  * https://domenic.me/
@@ -3597,16 +2725,8 @@ __copy-text-to-clipboard 3.0.1__
  * https://sindresorhus.com
  * MIT License
 
-__postcss-merge-longhand 4.0.11__
- * http://beneb.info
- * MIT License
-
-__@cnakazawa/watch 1.0.4__
- * https://github.com/mikeal/watch
- * Apache License 2.0
-
-__p-retry 3.0.1__
- * sindresorhus.com
+__watchpack 2.3.1__
+ * https://github.com/webpack/watchpack
  * MIT License
 
 __@svgr/babel-preset 5.5.0__
@@ -3616,6 +2736,10 @@ __@svgr/babel-preset 5.5.0__
 __@types/graceful-fs 4.1.5__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
+
+__postcss-lab-function 4.1.1__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __clean-stack 2.2.0__
  * sindresorhus.com
@@ -3633,17 +2757,21 @@ __@babel/plugin-transform-modules-amd 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__kind-of 5.1.0__
- * https://github.com/jonschlinkert
+__postcss-double-position-gradients 3.1.0__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
+__postcss-minify-params 5.1.0__
+ * https://github.com/cssnano/cssnano
  * MIT License
 
-__emojis-list 2.1.0__
- * https://github.com/Kikobeats
+__postcss-discard-empty 5.1.0__
+ * http://beneb.info
  * MIT License
 
-__yallist 3.1.1__
- * http://blog.izs.me/
- * ISC License
+__@babel/plugin-proposal-class-static-block 7.17.6__
+ * https://babel.dev/team
+ * MIT License
 
 __neo-async 2.6.2__
  * https://github.com/suguru03/neo-async
@@ -3661,21 +2789,33 @@ __resolve 1.22.0__
  * http://substack.net
  * MIT License
 
-__workbox-range-requests 5.1.4__
- * https://github.com/googlechrome/workbox
+__jest-regex-util 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
-__@hapi/hoek 8.5.1__
- * https://github.com/hapijs/hoek
- * BSD-3-Clause
+__yargs 16.2.0__
+ * https://github.com/yargs/yargs
+ * MIT License
 
 __supports-color 8.1.1__
  * https://sindresorhus.com
  * MIT License
 
+__json-schema 0.4.0__
+ * https://github.com/kriszyp/json-schema
+ * AFL-2.1
+
+__json-schema 0.4.0__
+ * https://github.com/kriszyp/json-schema
+ * BSD-3-Clause
+
 __path-key 3.1.1__
  * sindresorhus.com
  * MIT License
+
+__css-blank-pseudo 3.0.3__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __color-convert 1.9.3__
  * https://github.com/Qix-/color-convert
@@ -3697,17 +2837,9 @@ __@babel/plugin-transform-modules-umd 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__temp-dir 1.0.0__
- * sindresorhus.com
- * MIT License
-
-__union-value 1.0.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__workbox-precaching 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
+__@sinonjs/fake-timers 8.1.0__
+ * https://github.com/sinonjs/fake-timers
+ * BSD-3-Clause
 
 __@svgr/plugin-svgo 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/plugin-svgo
@@ -3725,21 +2857,17 @@ __@types/babel__generator 7.6.4__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
-__validate-npm-package-license 3.0.4__
- * https://kemitchell.com
- * Apache License 2.0
-
-__yargs 15.4.1__
- * https://github.com/yargs/yargs
- * MIT License
-
-__urix 0.1.0__
- * https://github.com/lydell/urix
- * MIT License
-
 __domutils 2.8.0__
  * https://github.com/fb55/domutils
  * BSD-2-Clause
+
+__follow-redirects 1.14.9__
+ * https://ruben.verborgh.org/
+ * MIT License
+
+__execa 5.1.1__
+ * https://sindresorhus.com
+ * MIT License
 
 __has-flag 3.0.0__
  * sindresorhus.com
@@ -3749,37 +2877,37 @@ __istanbul-lib-instrument 5.1.0__
  * https://github.com/istanbuljs/istanbuljs
  * BSD-3-Clause
 
-__worker-rpc 0.1.1__
- * https://github.com/DirtyHairy/
- * MIT License
-
 __array.prototype.flatmap 1.2.5__
  * http://ljharb.codes
  * MIT License
 
-__es6-symbol 3.1.3__
- * http://www.medikoo.com/
- * ISC License
+__postcss-calc 8.2.4__
+ * https://github.com/postcss/postcss-calc
+ * MIT License
+
+__jest-util 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
 
 __is-symbol 1.0.4__
  * https://github.com/inspect-js/is-symbol
+ * MIT License
+
+__jest-each 27.5.1__
+ * mattphillips
  * MIT License
 
 __merge2 1.4.1__
  * https://github.com/teambition/merge2
  * MIT License
 
+__postcss-svgo 5.1.0__
+ * http://beneb.info
+ * MIT License
+
 __d3-interpolate 2.0.1__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
-
-__mississippi 3.0.0__
- * https://github.com/maxogden/mississippi
- * BSD-2-Clause
-
-__workbox-cacheable-response 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
 
 __object-inspect 1.12.0__
  * http://substack.net
@@ -3789,24 +2917,8 @@ __commander 4.1.1__
  * https://github.com/tj/commander.js
  * MIT License
 
-__stream-browserify 2.0.2__
- * http://substack.net
- * MIT License
-
-__webpack-dev-middleware 3.7.3__
- * https://github.com/webpack/webpack-dev-middleware
- * MIT License
-
-__enquirer 2.3.6__
- * https://github.com/jonschlinkert
- * MIT License
-
 __@babel/plugin-syntax-object-rest-spread 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
- * MIT License
-
-__follow-redirects 1.14.8__
- * https://ruben.verborgh.org/
  * MIT License
 
 __faye-websocket 0.11.4__
@@ -3815,18 +2927,6 @@ __faye-websocket 0.11.4__
 
 __js-tokens 4.0.0__
  * https://github.com/lydell/js-tokens
- * MIT License
-
-__import-cwd 2.1.0__
- * sindresorhus.com
- * MIT License
-
-__postcss-logical 3.0.0__
- * https://github.com/jonathantneal/postcss-logical
- * CC0-1.0
-
-__tty-browserify 0.0.0__
- * http://substack.net
  * MIT License
 
 __react-error-overlay 6.0.10__
@@ -3845,73 +2945,53 @@ __@nodelib/fs.scandir 2.1.5__
  * https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir
  * MIT License
 
-__@webassemblyjs/helper-api-error 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
-
-__cjs-module-lexer 0.6.0__
- * https://github.com/guybedford/cjs-module-lexer
+__raw-body 2.4.3__
+ * http://jongleberry.com
  * MIT License
 
 __is-weakref 1.0.2__
  * https://github.com/inspect-js/is-weakref
  * MIT License
 
-__iferr 0.1.5__
- * https://github.com/shesek/iferr
+__jest-leak-detector 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
-__raw-body 2.4.2__
- * http://jongleberry.com
- * MIT License
-
-__postcss-normalize-url 4.0.1__
- * http://beneb.info
- * MIT License
+__source-map 0.8.0-beta.0__
+ * https://github.com/mozilla/source-map
+ * BSD-3-Clause
 
 __queue-microtask 1.2.3__
  * https://feross.org
  * MIT License
 
-__hmac-drbg 1.0.1__
- * https://github.com/indutny/hmac-drbg
- * MIT License
-
-__core-js-pure 3.21.0__
+__core-js-pure 3.21.1__
  * https://github.com/zloirock/core-js
  * MIT License
 
-__node-releases 1.1.77__
- * https://github.com/chicoxyzzy/node-releases
+__enhanced-resolve 5.9.1__
+ * https://github.com/webpack/enhanced-resolve
  * MIT License
 
 __signal-exit 3.0.7__
  * https://github.com/tapjs/signal-exit
  * ISC License
 
-__browserify-des 1.0.2__
- * https://github.com/crypto-browserify/browserify-des
- * MIT License
-
-__worker-farm 1.7.0__
- * https://github.com/rvagg/node-worker-farm
- * MIT License
-
 __@babel/plugin-transform-unicode-regex 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__micromatch 3.1.10__
- * https://github.com/jonschlinkert
+__eslint-plugin-jest 25.7.0__
+ * jkimbo.com
  * MIT License
 
-__postcss-load-config 2.1.2__
- * https://github.com/postcss/postcss-load-config
- * MIT License
+__icss-utils 5.1.0__
+ * https://github.com/css-modules/icss-utils
+ * ISC License
 
-__human-signals 1.1.1__
- * https://github.com/ehmicky
- * Apache License 2.0
+__postcss-nested 5.0.6__
+ * https://github.com/postcss/postcss-nested
+ * MIT License
 
 __schema-utils 3.1.1__
  * https://github.com/webpack-contrib
@@ -3925,10 +3005,6 @@ __deep-is 0.1.4__
  * http://thlorenz.com
  * MIT License
 
-__make-dir 2.1.0__
- * sindresorhus.com
- * MIT License
-
 __media-typer 0.3.0__
  * https://github.com/jshttp/media-typer
  * MIT License
@@ -3937,21 +3013,17 @@ __ms 2.0.0__
  * https://github.com/zeit/ms
  * MIT License
 
-__postcss-minify-gradients 4.0.2__
- * http://beneb.info
- * MIT License
-
-__static-extend 0.1.2__
- * https://github.com/jonschlinkert
- * MIT License
-
-__postcss-normalize-string 4.0.2__
- * http://beneb.info
+__immer 9.0.12__
+ * https://github.com/immerjs/immer
  * MIT License
 
 __@babel/plugin-transform-named-capturing-groups-regex 7.16.8__
  * https://babel.dev/team
  * MIT License
+
+__idb 6.1.5__
+ * https://github.com/jakearchibald/idb
+ * ISC License
 
 __whatwg-mimetype 2.3.0__
  * https://domenic.me/
@@ -3959,18 +3031,6 @@ __whatwg-mimetype 2.3.0__
 
 __escape-html 1.0.3__
  * https://github.com/component/escape-html
- * MIT License
-
-__@hapi/joi 15.1.1__
- * https://github.com/hapijs/joi
- * BSD-3-Clause
-
-__@jest/console 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__@typescript-eslint/visitor-keys 4.33.0__
- * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
 __json-parse-better-errors 1.0.2__
@@ -3989,16 +3049,36 @@ __core-util-is 1.0.3__
  * http://blog.izs.me/
  * MIT License
 
-__spdx-exceptions 2.3.0__
- * https://github.com/kemitchell/spdx-exceptions.json
- * CC-BY-3.0
+__char-regex 2.0.1__
+ * https://github.com/Richienb/char-regex
+ * MIT License
+
+__jest-changed-files 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__@types/mime 1.3.2__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
 
 __shebang-regex 3.0.0__
  * sindresorhus.com
  * MIT License
 
+__@types/qs 6.9.7__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
+ * MIT License
+
+__glob-to-regexp 0.4.1__
+ * https://github.com/fitzgen/glob-to-regexp
+ * BSD-2-Clause
+
 __setprototypeof 1.2.0__
  * https://github.com/wesleytodd/setprototypeof
+ * ISC License
+
+__yargs-parser 20.2.9__
+ * https://github.com/yargs/yargs-parser
  * ISC License
 
 __@types/json5 0.0.29__
@@ -4009,10 +3089,6 @@ __whatwg-encoding 1.0.5__
  * https://domenic.me/
  * MIT License
 
-__define-property 2.0.2__
- * https://github.com/jonschlinkert
- * MIT License
-
 __dotenv-expand 5.1.0__
  * https://github.com/motdotla/dotenv-expand
  * BSD-2-Clause
@@ -4021,17 +3097,17 @@ __negotiator 0.6.3__
  * https://github.com/jshttp/negotiator
  * MIT License
 
-__pnp-webpack-plugin 1.6.4__
- * https://github.com/arcanis/pnp-webpack-plugin
+__@webassemblyjs/utf8 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * MIT License
+
+__workbox-expiration 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
 __tslib 2.3.1__
  * https://github.com/Microsoft/tslib
  * 0BSD
-
-__lodash.template 4.5.0__
- * https://github.com/lodash/lodash
- * MIT License
 
 __@babel/plugin-syntax-jsx 7.16.7__
  * https://babel.dev/team
@@ -4043,6 +3119,10 @@ __@babel/plugin-transform-computed-properties 7.16.7__
 
 __p-locate 2.0.0__
  * sindresorhus.com
+ * MIT License
+
+__resolve.exports 1.1.0__
+ * https://lukeed.com
  * MIT License
 
 __dns-equal 1.0.0__
@@ -4061,10 +3141,6 @@ __q 1.5.1__
  * https://github.com/kriskowal
  * MIT License
 
-__import-fresh 2.0.0__
- * sindresorhus.com
- * MIT License
-
 __jsonfile 6.1.0__
  * https://github.com/jprichardson/node-jsonfile
  * MIT License
@@ -4072,10 +3148,6 @@ __jsonfile 6.1.0__
 __regjsparser 0.8.4__
  * https://github.com/jviereck/regjsparser
  * BSD-2-Clause
-
-__find-cache-dir 2.1.0__
- * https://github.com/avajs/find-cache-dir
- * MIT License
 
 __jest-worker 27.5.1__
  * https://github.com/facebook/jest
@@ -4085,16 +3157,8 @@ __imurmurhash 0.1.4__
  * https://github.com/homebrewing
  * MIT License
 
-__loader-runner 2.4.0__
- * https://github.com/webpack/loader-runner
- * MIT License
-
 __optionator 0.9.1__
  * https://github.com/gkz/optionator
- * MIT License
-
-__regex-not 1.0.2__
- * https://github.com/jonschlinkert
  * MIT License
 
 __text-table 0.2.0__
@@ -4105,40 +3169,28 @@ __@babel/plugin-syntax-json-strings 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-json-strings
  * MIT License
 
-__@csstools/convert-colors 1.4.0__
- * https://github.com/jonathantneal/convert-colors
- * CC0-1.0
-
 __escodegen 2.0.0__
  * https://github.com/estools/escodegen
  * BSD-2-Clause
 
-__execa 4.1.0__
- * https://sindresorhus.com
- * MIT License
+__default-gateway 6.0.3__
+ * https://github.com/silverwind/default-gateway
+ * BSD-2-Clause
 
 __has-flag 4.0.0__
  * sindresorhus.com
- * MIT License
-
-__querystringify 2.2.0__
- * https://github.com/unshiftio/querystringify
- * MIT License
-
-__@jest/core 26.6.3__
- * https://github.com/facebook/jest
  * MIT License
 
 __babel-plugin-polyfill-corejs2 0.3.1__
  * https://github.com/babel/babel-polyfills
  * MIT License
 
-__babel-plugin-transform-object-rest-spread 6.26.0__
- * https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread
- * MIT License
-
 __react-dom 17.0.2__
  * https://github.com/facebook/react
+ * MIT License
+
+__terser-webpack-plugin 5.3.1__
+ * https://github.com/webpack-contrib/terser-webpack-plugin
  * MIT License
 
 __agent-base 6.0.2__
@@ -4153,14 +3205,6 @@ __doctrine 2.1.0__
  * https://github.com/eslint/doctrine
  * Apache License 2.0
 
-__workbox-sw 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__bindings 1.5.0__
- * http://tootallnate.net
- * MIT License
-
 __fast-json-stable-stringify 2.1.0__
  * http://substack.net
  * MIT License
@@ -4173,16 +3217,12 @@ __is-core-module 2.8.1__
  * https://github.com/inspect-js/is-core-module
  * MIT License
 
-__open 7.4.2__
- * https://sindresorhus.com
- * MIT License
-
-__workbox-window 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
 __@react-spring/core 9.3.2__
  * https://github.com/pmndrs/react-spring
+ * MIT License
+
+__@types/http-proxy 1.17.8__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __range-parser 1.2.1__
@@ -4193,32 +3233,24 @@ __is-module 1.0.0__
  * http://jongleberry.com
  * MIT License
 
-__spdx-license-ids 3.0.11__
- * https://github.com/shinnn
- * CC0-1.0
-
-__@humanwhocodes/config-array 0.5.0__
- * https://github.com/humanwhocodes/config-array
- * Apache License 2.0
-
-__rsvp 4.8.5__
- * https://github.com/tildeio/rsvp.js
- * MIT License
-
-__has-values 0.1.4__
- * https://github.com/jonschlinkert
- * MIT License
-
 __object.values 1.1.5__
  * https://github.com/es-shims/Object.values
  * MIT License
 
-__retry 0.12.0__
- * http://debuggable.com/
+__postcss-merge-longhand 5.1.0__
+ * http://beneb.info
  * MIT License
 
-__postcss-value-parser 3.3.1__
- * https://github.com/TrySound/postcss-value-parser
+__workbox-webpack-plugin 6.5.0__
+ * https://github.com/googlechrome/workbox
+ * MIT License
+
+__@jest/fake-timers 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__postcss-normalize-repeat-style 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __resolve-from 5.0.0__
@@ -4229,21 +3261,9 @@ __ee-first 1.1.1__
  * http://jongleberry.com
  * MIT License
 
-__postcss-reduce-transforms 4.0.2__
- * http://beneb.info
- * MIT License
-
-__@jest/reporters 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__vendors 1.0.4__
- * https://wooorm.com
- * MIT License
-
-__spdx-expression-parse 3.0.1__
- * https://kemitchell.com
- * MIT License
+__sanitize.css 13.0.0__
+ * https://github.com/csstools/sanitize.css
+ * CC0-1.0
 
 __fill-range 7.0.1__
  * https://github.com/jonschlinkert
@@ -4253,8 +3273,8 @@ __loose-envify 1.4.0__
  * https://github.com/zertosh/loose-envify
  * MIT License
 
-__exec-sh 0.3.6__
- * https://github.com/tsertkov/exec-sh
+__jest-resolve 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __schema-utils 2.7.1__
@@ -4269,41 +3289,21 @@ __http-proxy 1.18.1__
  * https://github.com/http-party/node-http-proxy
  * MIT License
 
-__repeat-string 1.6.1__
- * http://github.com/jonschlinkert
+__schema-utils 2.7.0__
+ * https://github.com/webpack-contrib
  * MIT License
 
 __@tootallnate/once 1.1.2__
  * http://n8.io/
  * MIT License
 
-__nanomatch 1.2.13__
- * https://github.com/jonschlinkert
- * MIT License
-
-__loader-utils 1.2.3__
- * https://github.com/webpack/loader-utils
- * MIT License
-
 __loader-utils 2.0.2__
  * https://github.com/webpack/loader-utils
  * MIT License
 
-__filesize 6.1.0__
- * https://github.com/avoidwork/filesize.js
- * BSD-3-Clause
-
-__loader-utils 2.0.0__
- * https://github.com/webpack/loader-utils
- * MIT License
-
-__read-pkg 5.2.0__
- * sindresorhus.com
- * MIT License
-
-__@typescript-eslint/scope-manager 4.33.0__
- * https://github.com/typescript-eslint/typescript-eslint
- * MIT License
+__css-has-pseudo 3.0.4__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __multicast-dns 6.2.3__
  * @mafintosh
@@ -4313,44 +3313,32 @@ __@babel/helper-skip-transparent-expression-wrappers 7.16.0__
  * https://babel.dev/team
  * MIT License
 
-__postcss-discard-duplicates 4.0.2__
- * http://beneb.info
- * MIT License
-
-__supports-color 6.1.0__
- * sindresorhus.com
- * MIT License
-
-__postcss-normalize-timing-functions 4.0.2__
- * http://beneb.info
+__cjs-module-lexer 1.2.2__
+ * https://github.com/guybedford/cjs-module-lexer
  * MIT License
 
 __@react-spring/shared 9.3.2__
  * https://github.com/pmndrs/react-spring
  * MIT License
 
-__define-property 0.2.5__
- * https://github.com/jonschlinkert
+__stylehacks 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __char-regex 1.0.2__
  * https://github.com/Richienb/char-regex
  * MIT License
 
-__bytes 3.1.1__
+__bytes 3.1.2__
  * http://tjholowaychuk.com
- * MIT License
-
-__p-finally 1.0.0__
- * sindresorhus.com
  * MIT License
 
 __error-ex 1.3.2__
  * https://github.com/qix-/node-error-ex
  * MIT License
 
-__uuid 3.4.0__
- * https://github.com/uuidjs/uuid
+__webpack-sources 2.3.1__
+ * https://github.com/webpack/webpack-sources
  * MIT License
 
 __levn 0.3.0__
@@ -4360,6 +3348,10 @@ __levn 0.3.0__
 __minimist 1.2.5__
  * http://substack.net
  * MIT License
+
+__postcss-logical 5.0.4__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __toidentifier 1.0.1__
  * https://github.com/component/toidentifier
@@ -4377,6 +3369,10 @@ __is-date-object 1.0.5__
  * https://github.com/inspect-js/is-date-object
  * MIT License
 
+__loader-runner 4.2.0__
+ * https://github.com/webpack/loader-runner
+ * MIT License
+
 __resolve-from 4.0.0__
  * sindresorhus.com
  * MIT License
@@ -4385,52 +3381,52 @@ __@babel/helper-optimise-call-expression 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__assign-symbols 1.0.0__
- * https://github.com/jonschlinkert
+__unique-string 2.0.0__
+ * sindresorhus.com
  * MIT License
+
+__cssnano-utils 3.1.0__
+ * https://github.com/cssnano/cssnano
+ * MIT License
+
+__eslint-plugin-react 7.29.2__
+ * https://github.com/yannickcr/eslint-plugin-react
+ * MIT License
+
+__postcss-normalize 10.0.1__
+ * https://github.com/csstools/postcss-normalize
+ * CC0-1.0
 
 __p-try 1.0.0__
  * sindresorhus.com
  * MIT License
 
-__use 3.1.1__
- * https://github.com/jonschlinkert
- * MIT License
-
-__through2 2.0.5__
- * https://github.com/rvagg
+__tempy 0.6.0__
+ * https://sindresorhus.com
  * MIT License
 
 __detect-node 2.1.0__
  * https://github.com/iliakan/detect-node
  * MIT License
 
+__@csstools/postcss-progressive-custom-properties 1.2.0__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
 __randombytes 2.1.0__
  * https://github.com/crypto-browserify/randombytes
- * MIT License
-
-__convert-source-map 1.7.0__
- * http://thlorenz.com
- * MIT License
-
-__is-data-descriptor 1.0.0__
- * https://github.com/jonschlinkert
  * MIT License
 
 __babel-plugin-polyfill-corejs3 0.5.2__
  * https://github.com/babel/babel-polyfills
  * MIT License
 
-__next-tick 1.0.0__
- * http://www.medikoo.com/
- * MIT License
+__acorn-node 1.8.2__
+ * https://github.com/browserify/acorn-node
+ * Apache License 2.0
 
 __@react-spring/web 9.3.1__
  * https://github.com/pmndrs/react-spring
- * MIT License
-
-__crypto-browserify 3.12.0__
- * dominictarr.com
  * MIT License
 
 __buffer-from 1.1.2__
@@ -4441,14 +3437,6 @@ __functional-red-black-tree 1.0.1__
  * https://github.com/mikolalysenko/functional-red-black-tree
  * MIT License
 
-__internal-ip 4.3.0__
- * sindresorhus.com
- * MIT License
-
-__@jest/source-map 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
 __d3-scale 3.3.0__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
@@ -4457,41 +3445,29 @@ __type-detect 4.0.8__
  * http://alogicalparadox.com
  * MIT License
 
-__jest-runtime 26.6.3__
- * https://github.com/facebook/jest
- * MIT License
-
-__postcss-colormin 4.0.3__
- * http://beneb.info
- * MIT License
-
 __raf 3.4.1__
  * https://github.com/chrisdickinson/raf
  * MIT License
 
-__define-property 1.0.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__postcss-dir-pseudo-class 5.0.0__
- * https://github.com/jonathantneal/postcss-dir-pseudo-class
- * CC0-1.0
-
 __exit 0.1.2__
  * http://benalman.com/
+ * MIT License
+
+__tr46 1.0.1__
+ * https://github.com/Sebmaster/tr46.js
  * MIT License
 
 __is-obj 1.0.1__
  * sindresorhus.com
  * MIT License
 
-__@types/uglify-js 3.13.1__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
+__postcss-normalize-string 5.1.0__
+ * http://beneb.info
  * MIT License
 
-__infer-owner 1.0.4__
- * https://izs.me
- * ISC License
+__workbox-precaching 6.5.0__
+ * https://github.com/googlechrome/workbox
+ * MIT License
 
 __@svgr/core 5.5.0__
  * https://github.com/gregberge/svgr/tree/master/packages/core
@@ -4505,6 +3481,10 @@ __reusify 1.0.4__
  * https://github.com/mcollina/reusify
  * MIT License
 
+__ipaddr.js 2.0.1__
+ * https://github.com/whitequark/ipaddr.js
+ * MIT License
+
 __shebang-command 2.0.0__
  * github.com/kevva
  * MIT License
@@ -4512,10 +3492,6 @@ __shebang-command 2.0.0__
 __stringify-object 3.3.0__
  * sindresorhus.com
  * BSD-2-Clause
-
-__typescript 4.5.5__
- * https://github.com/Microsoft/TypeScript
- * Apache License 2.0
 
 __@babel/plugin-transform-arrow-functions 7.16.7__
  * https://babel.dev/team
@@ -4525,18 +3501,6 @@ __at-least-node 1.0.0__
  * https://github.com/RyanZim/at-least-node
  * ISC License
 
-__resolve 1.18.1__
- * http://substack.net
- * MIT License
-
-__@babel/core 7.12.3__
- * https://github.com/babel/babel
- * MIT License
-
-__jest-watch-typeahead 0.6.1__
- * https://github.com/jest-community/jest-watch-typeahead
- * MIT License
-
 __@babel/plugin-proposal-object-rest-spread 7.17.3__
  * https://babel.dev/team
  * MIT License
@@ -4545,24 +3509,12 @@ __@babel/preset-react 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__decamelize 1.2.0__
- * sindresorhus.com
- * MIT License
-
-__jsonfile 4.0.0__
- * https://github.com/jprichardson/node-jsonfile
- * MIT License
-
 __lodash.debounce 4.0.8__
  * http://allyoucanleet.com/
  * MIT License
 
-__shebang-command 1.2.0__
- * github.com/kevva
- * MIT License
-
-__vm-browserify 1.1.2__
- * http://substack.net
+__@types/eslint-scope 3.7.3__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __@babel/plugin-transform-react-jsx-development 7.16.7__
@@ -4581,20 +3533,32 @@ __@babel/plugin-syntax-nullish-coalescing-operator 7.8.3__
  * https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-nullish-coalescing-operator
  * MIT License
 
+__has-symbols 1.0.3__
+ * http://ljharb.codes
+ * MIT License
+
 __fresh 0.5.2__
  * http://tjholowaychuk.com
  * MIT License
 
-__pretty-format 26.6.2__
- * https://github.com/facebook/jest
+__html-entities 2.3.2__
+ * https://github.com/mdevils/html-entities
+ * MIT License
+
+__is-plain-obj 3.0.0__
+ * https://sindresorhus.com
+ * MIT License
+
+__postcss-ordered-values 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __@babel/traverse 7.17.3__
  * https://babel.dev/team
  * MIT License
 
-__browserify-cipher 1.0.1__
- * https://github.com/crypto-browserify/browserify-cipher
+__jest-config 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __ansi-escapes 4.3.2__
@@ -4609,24 +3573,8 @@ __timsort 0.3.0__
  * http://mziccard.me/
  * MIT License
 
-__has-symbols 1.0.2__
- * http://ljharb.codes
- * MIT License
-
 __node-int64 0.4.0__
  * https://github.com/broofa/node-int64
- * MIT License
-
-__postcss-attribute-case-insensitive 4.0.2__
- * https://github.com/Semigradsky/postcss-attribute-case-insensitive
- * MIT License
-
-__@webassemblyjs/utf8 1.9.0__
- * https://github.com/xtuc/webassemblyjs
- * MIT License
-
-__source-map-resolve 0.5.3__
- * https://github.com/lydell/source-map-resolve
  * MIT License
 
 __@babel/generator 7.17.3__
@@ -4635,14 +3583,6 @@ __@babel/generator 7.17.3__
 
 __@babel/plugin-transform-parameters 7.16.7__
  * https://babel.dev/team
- * MIT License
-
-__eslint-utils 2.1.0__
- * https://github.com/mysticatea/eslint-utils
- * MIT License
-
-__is-buffer 1.1.6__
- * http://feross.org/
  * MIT License
 
 __async 2.6.3__
@@ -4657,37 +3597,17 @@ __@babel/plugin-transform-unicode-escapes 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__cookie 0.4.1__
+__cookie 0.4.2__
  * https://github.com/jshttp/cookie
- * MIT License
-
-__shebang-regex 1.0.0__
- * sindresorhus.com
- * MIT License
-
-__stream-each 1.2.3__
- * @mafintosh
  * MIT License
 
 __punycode 2.1.1__
  * https://mathiasbynens.be/
  * MIT License
 
-__fsevents 1.2.13__
- * https://github.com/strongloop/fsevents
+__postcss-reduce-initial 5.1.0__
+ * http://beneb.info
  * MIT License
-
-__memory-fs 0.4.1__
- * https://github.com/webpack/memory-fs
- * MIT License
-
-__stream-http 2.8.3__
- * https://github.com/jhiesey/stream-http
- * MIT License
-
-__d 1.0.1__
- * http://www.medikoo.com/
- * ISC License
 
 __@types/istanbul-lib-coverage 2.0.4__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -4697,28 +3617,8 @@ __unquote 1.1.1__
  * https://github.com/lakenen/node-unquote
  * MIT License
 
-__concat-stream 1.6.2__
- * https://github.com/maxogden/concat-stream
- * MIT License
-
-__rollup-pluginutils 2.8.2__
- * https://github.com/rollup/rollup-pluginutils
- * MIT License
-
 __@babel/plugin-transform-block-scoping 7.16.7__
  * https://babel.dev/team
- * MIT License
-
-__css-declaration-sorter 4.0.1__
- * https://selwyn.cc/
- * MIT License
-
-__regenerator-runtime 0.11.1__
- * https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime
- * MIT License
-
-__typedarray 0.0.6__
- * http://substack.net
  * MIT License
 
 __babel-plugin-named-asset-import 0.3.8__
@@ -4729,24 +3629,8 @@ __stackframe 1.2.1__
  * https://github.com/stacktracejs/stackframe
  * MIT License
 
-__unique-string 1.0.0__
- * sindresorhus.com
- * MIT License
-
 __fs-extra 9.1.0__
  * https://github.com/jprichardson/node-fs-extra
- * MIT License
-
-__util.promisify 1.0.0__
- * https://github.com/ljharb/util.promisify
- * MIT License
-
-__semver 5.7.1__
- * https://github.com/npm/node-semver
- * ISC License
-
-__workbox-background-sync 5.1.4__
- * https://github.com/googlechrome/workbox
  * MIT License
 
 __@babel/plugin-proposal-unicode-property-regex 7.16.7__
@@ -4757,16 +3641,8 @@ __nth-check 1.0.2__
  * https://github.com/fb55/nth-check
  * BSD-2-Clause
 
-__punycode 1.3.2__
- * https://mathiasbynens.be/
- * MIT License
-
-__@types/glob 7.2.0__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__@npmcli/move-file 1.1.2__
- * https://github.com/npm/move-file
+__util.promisify 1.0.1__
+ * https://github.com/ljharb/util.promisify
  * MIT License
 
 __xtend 4.0.2__
@@ -4777,37 +3653,37 @@ __@react-spring/rafz 9.3.2__
  * https://github.com/pmndrs/react-spring
  * MIT License
 
-__css-loader 4.3.0__
- * https://github.com/webpack-contrib/css-loader
+__cssnano 5.1.0__
+ * http://beneb.info
  * MIT License
 
-__is-arrayish 0.3.2__
- * http://github.com/qix-
+__@webassemblyjs/helper-numbers 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
  * MIT License
 
-__is-fullwidth-code-point 2.0.0__
- * sindresorhus.com
+__@typescript-eslint/experimental-utils 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
-__@surma/rollup-plugin-off-main-thread 1.4.2__
- * https://github.com/surma/rollup-plugin-off-main-thread
- * Apache License 2.0
+__@webassemblyjs/wasm-gen 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * MIT License
 
 __w3c-hr-time 1.0.2__
  * https://github.com/jsdom/w3c-hr-time
- * MIT License
-
-__@webassemblyjs/wasm-opt 1.9.0__
- * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __object-is 1.1.5__
  * https://github.com/es-shims/object-is
  * MIT License
 
-__cacache 12.0.4__
- * https://github.com/npm/cacache
- * ISC License
+__commander 8.3.0__
+ * https://github.com/tj/commander.js
+ * MIT License
+
+__postcss-gap-properties 3.0.3__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __slash 3.0.0__
  * sindresorhus.com
@@ -4821,21 +3697,17 @@ __axobject-query 2.2.0__
  * https://github.com/A11yance/axobject-query
  * Apache License 2.0
 
-__@typescript-eslint/types 3.10.1__
- * https://github.com/typescript-eslint/typescript-eslint
- * MIT License
-
-__sass-loader 10.2.1__
- * https://github.com/webpack-contrib/sass-loader
+__@webassemblyjs/helper-buffer 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __makeerror 1.0.12__
  * https://github.com/daaku/nodejs-makeerror
  * BSD-3-Clause
 
-__minizlib 2.1.2__
- * http://blog.izs.me/
- * MIT License
+__@surma/rollup-plugin-off-main-thread 2.2.3__
+ * https://github.com/surma/rollup-plugin-off-main-thread
+ * Apache License 2.0
 
 __@babel/plugin-transform-regenerator 7.16.7__
  * https://babel.dev/team
@@ -4843,14 +3715,6 @@ __@babel/plugin-transform-regenerator 7.16.7__
 
 __natural-compare 1.4.0__
  * https://github.com/litejs/natural-compare-lite
- * MIT License
-
-__import-from 2.1.0__
- * sindresorhus.com
- * MIT License
-
-__@babel/plugin-transform-react-constant-elements 7.16.7__
- * https://babel.dev/team
  * MIT License
 
 __inflight 1.0.6__
@@ -4869,6 +3733,14 @@ __@babel/plugin-proposal-dynamic-import 7.16.7__
  * https://babel.dev/team
  * MIT License
 
+__@rushstack/eslint-patch 1.1.0__
+ * https://github.com/microsoft/rushstack
+ * MIT License
+
+__quick-lru 5.1.1__
+ * https://sindresorhus.com
+ * MIT License
+
 __domhandler 4.3.0__
  * https://github.com/fb55/domhandler
  * BSD-2-Clause
@@ -4877,77 +3749,57 @@ __@nodelib/fs.stat 2.0.5__
  * https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat
  * MIT License
 
-__path-parse 1.0.7__
- * https://github.com/jbgutierrez/path-parse
+__workbox-range-requests 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
-__nice-try 1.0.5__
- * https://github.com/electerious/nice-try
+__path-parse 1.0.7__
+ * https://github.com/jbgutierrez/path-parse
  * MIT License
 
 __escalade 3.1.1__
  * https://lukeed.com
  * MIT License
 
+__@eslint/eslintrc 1.2.0__
+ * https://github.com/eslint/eslintrc
+ * MIT License
+
 __fast-levenshtein 2.0.6__
  * http://www.hiddentao.com/
  * MIT License
 
-__rimraf 2.7.1__
- * http://blog.izs.me/
- * ISC License
+__lodash.sortby 4.7.0__
+ * http://allyoucanleet.com/
+ * MIT License
 
 __to-fast-properties 2.0.0__
  * sindresorhus.com
  * MIT License
 
-__@eslint/eslintrc 0.4.3__
- * https://github.com/eslint/eslintrc
+__@csstools/postcss-oklab-function 1.0.1__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
+__jest-watcher 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
-__@webassemblyjs/wast-printer 1.9.0__
- * https://github.com/xtuc/webassemblyjs
+__jest-circus 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
-
-__repeat-element 1.1.4__
- * https://github.com/jonschlinkert
- * MIT License
-
-__enhanced-resolve 4.5.0__
- * https://github.com/webpack/enhanced-resolve
- * MIT License
-
-__chownr 1.1.4__
- * http://blog.izs.me/
- * ISC License
-
-__ext 1.6.0__
- * http://www.medikoo.com/
- * ISC License
 
 __wrappy 1.0.2__
  * http://blog.izs.me/
  * ISC License
 
-__postcss-custom-selectors 5.1.2__
- * https://github.com/postcss/postcss-custom-selectors
- * MIT License
-
-__mini-css-extract-plugin 0.11.3__
- * https://github.com/webpack-contrib/mini-css-extract-plugin
+__rollup 2.68.0__
+ * https://github.com/rollup/rollup
  * MIT License
 
 __saxes 5.0.1__
  * https://github.com/lddubeau/saxes
  * ISC License
-
-__postcss-ordered-values 4.1.2__
- * http://beneb.info
- * MIT License
-
-__ansi-colors 4.1.1__
- * https://github.com/doowb
- * MIT License
 
 __mdn-data 2.0.14__
  * https://github.com/mdn/data
@@ -4961,72 +3813,28 @@ __file-entry-cache 6.0.1__
  * http://royriojas.com
  * MIT License
 
-__resolve-cwd 2.0.0__
- * sindresorhus.com
- * MIT License
-
-__execa 1.0.0__
- * sindresorhus.com
- * MIT License
-
-__for-in 1.0.2__
- * https://github.com/jonschlinkert
+__fork-ts-checker-webpack-plugin 6.5.0__
+ * https://github.com/TypeStrong/fork-ts-checker-webpack-plugin
  * MIT License
 
 __lodash.uniq 4.5.0__
  * http://allyoucanleet.com/
  * MIT License
 
-__posix-character-classes 0.1.1__
- * https://github.com/jonschlinkert
+__tapable 2.2.1__
+ * https://github.com/webpack/tapable
  * MIT License
 
-__buffer 4.9.2__
- * http://feross.org
- * MIT License
-
-__querystring-es3 0.2.1__
- * https://github.com/mike-spainhower/querystring
- * MIT License
-
-__@csstools/normalize.css 10.1.0__
- * https://github.com/csstools/normalize.css
- * CC0-1.0
-
-__cyclist 1.0.1__
- * https://github.com/mafintosh/cyclist
+__postcss-discard-overridden 5.1.0__
+ * https://github.com/cssnano/cssnano
  * MIT License
 
 __is-extglob 2.1.1__
  * https://github.com/jonschlinkert
  * MIT License
 
-__is-binary-path 1.0.1__
- * sindresorhus.com
- * MIT License
-
-__workbox-broadcast-update 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__astral-regex 2.0.0__
- * github.com/kevva
- * MIT License
-
-__semver 7.3.2__
- * https://github.com/npm/node-semver
- * ISC License
-
-__cssesc 2.0.0__
- * https://mathiasbynens.be/
- * MIT License
-
 __unicode-match-property-ecmascript 2.0.0__
  * https://mathiasbynens.be/
- * MIT License
-
-__eslint-plugin-testing-library 3.10.2__
- * https://mario.dev/
  * MIT License
 
 __semver 7.3.5__
@@ -5049,24 +3857,20 @@ __isexe 2.0.0__
  * http://blog.izs.me/
  * ISC License
 
-__strip-ansi 6.0.0__
- * sindresorhus.com
- * MIT License
-
 __esutils 2.0.3__
  * https://github.com/estools/esutils
  * BSD-2-Clause
 
-__@babel/code-frame 7.10.4__
- * https://github.com/babel/babel
- * MIT License
-
-__@babel/helper-create-class-features-plugin 7.17.1__
+__@babel/helper-create-class-features-plugin 7.17.6__
  * https://babel.dev/team
  * MIT License
 
 __supports-hyperlinks 2.2.0__
  * github.com/jamestalmage
+ * MIT License
+
+__eslint-plugin-testing-library 5.0.5__
+ * https://mario.dev/
  * MIT License
 
 __lodash 4.17.21__
@@ -5076,10 +3880,6 @@ __lodash 4.17.21__
 __bser 2.1.1__
  * http://wezfurlong.org
  * Apache License 2.0
-
-__strip-ansi 5.2.0__
- * sindresorhus.com
- * MIT License
 
 __color-convert 2.0.1__
  * https://github.com/Qix-/color-convert
@@ -5097,7 +3897,7 @@ __fs.realpath 1.0.0__
  * http://blog.izs.me/
  * ISC License
 
-__jest-get-type 26.3.0__
+__jest-validate 27.5.1__
  * https://github.com/facebook/jest
  * MIT License
 
@@ -5105,12 +3905,8 @@ __path-is-absolute 1.0.1__
  * sindresorhus.com
  * MIT License
 
-__@types/tapable 1.0.8__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__babel-preset-jest 26.6.2__
- * https://github.com/facebook/jest
+__ansi-styles 5.2.0__
+ * https://sindresorhus.com
  * MIT License
 
 __optionator 0.8.3__
@@ -5121,36 +3917,36 @@ __v8-compile-cache 2.3.0__
  * https://github.com/zertosh/v8-compile-cache
  * MIT License
 
-__autoprefixer 9.8.8__
- * https://github.com/postcss/autoprefixer
+__core-js 3.21.1__
+ * https://github.com/zloirock/core-js
  * MIT License
 
 __is-callable 1.2.4__
  * http://ljharb.codes
  * MIT License
 
-__postcss-color-gray 5.0.0__
- * https://github.com/shinnn
- * ISC License
-
-__core-js 3.21.0__
- * https://github.com/zloirock/core-js
- * MIT License
-
-__is-path-inside 2.1.0__
- * sindresorhus.com
- * MIT License
-
 __d3-scale-chromatic 2.0.0__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
+
+__type-fest 0.16.0__
+ * https://sindresorhus.com
+ * MIT License
+
+__type-fest 0.16.0__
+ * https://sindresorhus.com
+ * CC0-1.0
 
 __json5 1.0.1__
  * https://github.com/json5/json5
  * MIT License
 
-__@webassemblyjs/wast-parser 1.9.0__
- * https://github.com/xtuc/webassemblyjs
+__postcss-pseudo-class-any-link 7.1.1__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
+__babel-loader 8.2.3__
+ * https://github.com/babel/babel-loader
  * MIT License
 
 __error-stack-parser 2.0.7__
@@ -5181,12 +3977,12 @@ __bonjour 3.5.0__
  * https://twitter.com/wa7son
  * MIT License
 
-__fs-extra 8.1.0__
- * https://github.com/jprichardson/node-fs-extra
- * MIT License
-
 __is-bigint 1.0.4__
  * https://github.com/inspect-js/is-bigint
+ * MIT License
+
+__@typescript-eslint/eslint-plugin 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
 __indent-string 4.0.0__
@@ -5201,41 +3997,37 @@ __@jridgewell/resolve-uri 3.0.5__
  * https://github.com/jridgewell/resolve-uri
  * MIT License
 
-__@types/source-list-map 0.1.2__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__snapdragon 0.8.2__
- * https://github.com/jonschlinkert
- * MIT License
-
-__terser-webpack-plugin 4.2.3__
- * https://github.com/webpack-contrib/terser-webpack-plugin
+__strip-ansi 7.0.1__
+ * https://sindresorhus.com
  * MIT License
 
 __eslint-scope 5.1.1__
  * https://github.com/eslint/eslint-scope
  * BSD-2-Clause
 
+__detective 5.2.0__
+ * http://substack.net
+ * MIT License
+
 __statuses 1.5.0__
  * https://github.com/jshttp/statuses
- * MIT License
-
-__is-accessor-descriptor 1.0.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__strict-uri-encode 1.1.0__
- * github.com/kevva
- * MIT License
-
-__emittery 0.7.2__
- * https://sindresorhus.com
  * MIT License
 
 __semver 6.3.0__
  * https://github.com/npm/node-semver
  * ISC License
+
+__memfs 3.4.1__
+ * https://github.com/streamich/memfs
+ * Unlicense
+
+__object-hash 2.2.0__
+ * https://github.com/puleos/object-hash
+ * MIT License
+
+__postcss-font-variant 5.0.0__
+ * https://github.com/postcss/postcss-font-variant
+ * MIT License
 
 __tmpl 1.0.5__
  * https://github.com/daaku/nodejs-tmpl
@@ -5243,6 +4035,10 @@ __tmpl 1.0.5__
 
 __sisteransi 1.0.5__
  * https://terkel.com
+ * MIT License
+
+__ws 8.5.0__
+ * http://2x.io
  * MIT License
 
 __@babel/helper-split-export-declaration 7.16.7__
@@ -5253,35 +4049,31 @@ __chokidar 3.5.3__
  * https://paulmillr.com
  * MIT License
 
-__mixin-deep 1.3.2__
- * https://github.com/jonschlinkert
- * MIT License
+__postcss-color-functional-notation 4.2.2__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
 __import-local 3.1.0__
  * https://sindresorhus.com
  * MIT License
 
-__sort-keys 1.1.2__
- * sindresorhus.com
+__webpack-dev-middleware 5.3.1__
+ * https://github.com/webpack/webpack-dev-middleware
  * MIT License
 
-__postcss-color-rebeccapurple 4.0.1__
- * https://github.com/postcss/postcss-color-rebeccapurple
+__@typescript-eslint/type-utils 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
-__babel-runtime 6.26.0__
- * https://github.com/babel/babel/tree/master/packages/babel-runtime
- * MIT License
-
-__figgy-pudding 3.5.2__
- * https://github.com/npm/figgy-pudding
- * ISC License
+__ejs 3.1.6__
+ * http://fleegix.org
+ * Apache License 2.0
 
 __mdn-data 2.0.4__
  * https://github.com/mdn/data
  * CC0-1.0
 
-__express 4.17.2__
+__express 4.17.3__
  * https://github.com/expressjs/express
  * MIT License
 
@@ -5301,24 +4093,28 @@ __sockjs 0.3.24__
  * https://github.com/sockjs/sockjs-node
  * MIT License
 
-__estree-walker 0.6.1__
- * https://github.com/Rich-Harris/estree-walker
- * MIT License
-
 __@babel/plugin-syntax-top-level-await 7.14.5__
  * https://babel.dev/team
+ * MIT License
+
+__@csstools/postcss-normalize-display-values 1.0.0__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
+__@types/ws 8.5.2__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __babel-plugin-istanbul 6.1.1__
  * https://github.com/istanbuljs/babel-plugin-istanbul
  * BSD-3-Clause
 
-__last-call-webpack-plugin 3.0.0__
- * https://github.com/NMFR/last-call-webpack-plugin
- * MIT License
-
 __brace-expansion 1.1.11__
  * http://juliangruber.com
+ * MIT License
+
+__@types/retry 0.12.1__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __co 4.6.0__
@@ -5327,10 +4123,6 @@ __co 4.6.0__
 
 __is-shared-array-buffer 1.0.1__
  * http://ljharb.codes
- * MIT License
-
-__collection-visit 1.0.0__
- * https://github.com/jonschlinkert
  * MIT License
 
 __is-fullwidth-code-point 3.0.0__
@@ -5349,6 +4141,10 @@ __get-intrinsic 1.1.1__
  * https://github.com/ljharb/get-intrinsic
  * MIT License
 
+__workbox-sw 6.5.0__
+ * https://github.com/googlechrome/workbox
+ * MIT License
+
 __is-wsl 2.2.0__
  * sindresorhus.com
  * MIT License
@@ -5357,16 +4153,16 @@ __globals 11.12.0__
  * sindresorhus.com
  * MIT License
 
-__eslint-plugin-flowtype 5.10.0__
- * http://gajus.com
- * BSD-3-Clause
+__cssnano-preset-default 5.2.0__
+ * http://beneb.info
+ * MIT License
 
 __mime-db 1.51.0__
  * https://github.com/jshttp/mime-db
  * MIT License
 
-__alphanum-sort 1.0.2__
- * https://github.com/TrySound/alphanum-sort
+__react-scripts 5.0.0__
+ * https://github.com/facebook/create-react-app
  * MIT License
 
 __@babel/helper-replace-supers 7.16.7__
@@ -5381,20 +4177,12 @@ __dedent 0.7.0__
  * http://desmondbrand.com
  * MIT License
 
-__react-dev-utils 11.0.4__
- * https://github.com/facebook/create-react-app
- * MIT License
+__postcss-overflow-shorthand 3.0.3__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
 
-__@jest/transform 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
-__watchpack-chokidar2 2.0.1__
- * https://github.com/webpack/watchpack
- * MIT License
-
-__postcss-safe-parser 5.0.2__
- * https://github.com/postcss/postcss-safe-parser
+__@types/trusted-types 2.0.2__
+ * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
 __tryer 1.0.1__
@@ -5421,29 +4209,29 @@ __harmony-reflect 1.6.2__
  * git+https://tvcutsem@github.com/tvcutsem/harmony-reflect
  * MPL-1.1
 
-__caller-callsite 2.0.0__
- * sindresorhus.com
- * MIT License
-
 __estraverse 4.3.0__
  * https://github.com/estools/estraverse
  * BSD-2-Clause
 
-__expand-brackets 2.1.4__
- * https://github.com/jonschlinkert
+__jest 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__p-locate 5.0.0__
+ * https://sindresorhus.com
+ * MIT License
+
+__ajv-formats 2.1.1__
+ * https://github.com/ajv-validator/ajv-formats
  * MIT License
 
 __once 1.4.0__
  * http://blog.izs.me/
  * ISC License
 
-__postcss-minify-font-values 4.0.2__
- * https://github.com/cssnano/cssnano
+__workbox-window 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
-
-__es5-ext 0.10.53__
- * http://www.medikoo.com/
- * ISC License
 
 __@babel/plugin-transform-runtime 7.17.0__
  * https://babel.dev/team
@@ -5451,10 +4239,6 @@ __@babel/plugin-transform-runtime 7.17.0__
 
 __@babel/plugin-syntax-logical-assignment-operators 7.10.4__
  * https://github.com/babel/babel
- * MIT License
-
-__@gar/promisify 1.1.2__
- * https://github.com/wraithgar/gar-promisify
  * MIT License
 
 __@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression 7.16.7__
@@ -5473,20 +4257,8 @@ __d3-time-format 3.0.0__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
 
-__cipher-base 1.0.4__
- * https://github.com/crypto-browserify/cipher-base
- * MIT License
-
-__minipass 3.1.6__
- * http://blog.izs.me/
- * ISC License
-
-__postcss-lab-function 2.0.1__
- * https://github.com/jonathantneal/postcss-lab-function
- * CC0-1.0
-
-__postcss-normalize-display-values 4.0.2__
- * http://beneb.info
+__react-router-dom 6.2.2__
+ * https://github.com/remix-run/react-router
  * MIT License
 
 __escape-string-regexp 2.0.0__
@@ -5497,52 +4269,36 @@ __json-schema-traverse 0.4.1__
  * https://github.com/epoberezkin/json-schema-traverse
  * MIT License
 
-__react-router-dom 6.2.1__
- * https://github.com/remix-run/react-router
- * MIT License
-
 __big.js 5.2.2__
  * https://github.com/MikeMcl/big.js
- * MIT License
-
-__postcss-nesting 7.0.1__
- * https://github.com/jonathantneal/postcss-nesting
- * CC0-1.0
-
-__console-browserify 1.2.0__
- * https://github.com/browserify/console-browserify
  * MIT License
 
 __xml-name-validator 3.0.0__
  * https://domenic.me/
  * Apache License 2.0
 
+__babel-plugin-jest-hoist 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
 __chrome-trace-event 1.0.3__
  * https://github.com/samccone/chrome-trace-event
- * MIT License
-
-__css-color-names 0.0.4__
- * http://www.daveeddy.com
- * MIT License
-
-__is-glob 3.1.0__
- * https://github.com/jonschlinkert
- * MIT License
-
-__jest-mock 26.6.2__
- * https://github.com/facebook/jest
  * MIT License
 
 __array-flatten 1.1.1__
  * http://blakeembrey.me
  * MIT License
 
+__postcss-image-set-function 4.0.6__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
 __cssesc 3.0.0__
  * https://mathiasbynens.be/
  * MIT License
 
-__adjust-sourcemap-loader 3.0.0__
- * https://github.com/bholloway/adjust-sourcemap-loader
+__postcss-discard-comments 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __@sinonjs/commons 1.8.3__
@@ -5553,56 +4309,40 @@ __deepmerge 4.2.2__
  * https://github.com/TehShrike/deepmerge
  * MIT License
 
-__string-width 3.1.0__
- * sindresorhus.com
+__diff-sequences 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__history 5.3.0__
+ * https://github.com/remix-run/history
  * MIT License
 
 __function-bind 1.1.1__
  * https://github.com/Raynos/function-bind
  * MIT License
 
-__p-each-series 2.2.0__
- * https://sindresorhus.com
+__webpack-manifest-plugin 4.1.1__
+ * https://github.com/shellscape/webpack-manifest-plugin
  * MIT License
+
+__common-path-prefix 3.0.0__
+ * https://novemberborn.net/
+ * ISC License
 
 __@types/istanbul-reports 3.0.1__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__growly 1.3.0__
- * http://ibrahimalrajhi.com/
  * MIT License
 
 __babel-plugin-dynamic-import-node 2.3.3__
  * https://github.com/airbnb/babel-plugin-dynamic-import-node
  * MIT License
 
-__@hapi/bourne 1.3.2__
- * https://github.com/hapijs/bourne
- * BSD-3-Clause
-
 __lower-case 2.0.2__
  * http://blakeembrey.me
  * MIT License
 
-__fs-minipass 2.1.0__
- * http://blog.izs.me/
- * ISC License
-
 __serve-index 1.9.1__
  * https://github.com/expressjs/serve-index
- * MIT License
-
-__workbox-webpack-plugin 5.1.4__
- * https://github.com/googlechrome/workbox
- * MIT License
-
-__jest-runner 26.6.3__
- * https://github.com/facebook/jest
- * MIT License
-
-__ajv-errors 1.0.1__
- * https://github.com/epoberezkin/ajv-errors
  * MIT License
 
 __prelude-ls 1.1.2__
@@ -5613,20 +4353,12 @@ __@babel/plugin-syntax-numeric-separator 7.10.4__
  * https://github.com/babel/babel
  * MIT License
 
-__object-visit 1.0.1__
- * https://github.com/jonschlinkert
+__@typescript-eslint/utils 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
  * MIT License
 
 __debug 4.3.3__
  * https://github.com/debug-js/debug
- * MIT License
-
-__async-limiter 1.0.1__
- * https://github.com/strml/async-limiter
- * MIT License
-
-__indexes-of 1.0.1__
- * dominictarr.com
  * MIT License
 
 __is-generator-fn 2.1.0__
@@ -5637,48 +4369,52 @@ __normalize-path 3.0.0__
  * https://github.com/jonschlinkert
  * MIT License
 
-__postcss-minify-params 4.0.2__
- * https://github.com/cssnano/cssnano
- * MIT License
-
 __websocket-extensions 0.1.4__
  * http://jcoglan.com/
  * Apache License 2.0
 
-__@webassemblyjs/helper-buffer 1.9.0__
- * https://github.com/xtuc/webassemblyjs
+__dlv 1.1.3__
+ * http://jasonformat.com
  * MIT License
 
-__is-color-stop 1.1.0__
- * https://github.com/pigcan/is-color-stop
+__source-map-loader 3.0.1__
+ * https://github.com/webpack-contrib/source-map-loader
+ * MIT License
+
+__webidl-conversions 4.0.2__
+ * https://domenic.me/
+ * BSD-2-Clause
+
+__@csstools/postcss-color-function 1.0.2__
+ * https://github.com/csstools/postcss-plugins
+ * CC0-1.0
+
+__@typescript-eslint/types 5.13.0__
+ * https://github.com/typescript-eslint/typescript-eslint
+ * MIT License
+
+__postcss-modules-local-by-default 4.0.0__
+ * https://github.com/css-modules/postcss-modules-local-by-default
+ * MIT License
+
+__html-webpack-plugin 5.5.0__
+ * https://github.com/jantimon
  * MIT License
 
 __he 1.2.0__
  * https://mathiasbynens.be/
  * MIT License
 
-__hex-color-regex 1.1.0__
- * http://www.tunnckocore.tk
- * MIT License
-
 __p-map 4.0.0__
  * https://sindresorhus.com
  * MIT License
-
-__rgba-regex 1.0.0__
- * https://github.com/johnotander/rgba-regex
- * MIT License
-
-__@hapi/topo 3.1.6__
- * https://github.com/hapijs/topo
- * BSD-3-Clause
 
 __es-to-primitive 1.2.1__
  * https://github.com/ljharb/es-to-primitive
  * MIT License
 
-__terser-webpack-plugin 1.4.5__
- * https://github.com/webpack-contrib/terser-webpack-plugin
+__react-dev-utils 12.0.0__
+ * https://github.com/facebook/create-react-app
  * MIT License
 
 __json-schema-traverse 1.0.0__
@@ -5689,29 +4425,21 @@ __@babel/plugin-transform-for-of 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__extglob 2.0.4__
- * https://github.com/jonschlinkert
- * MIT License
-
 __which 2.0.2__
  * http://blog.izs.me
  * ISC License
 
-__query-string 4.3.4__
- * sindresorhus.com
+__@jest/test-sequencer 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__gzip-size 6.0.0__
+ * https://sindresorhus.com
  * MIT License
 
 __@babel/plugin-transform-classes 7.16.7__
  * https://babel.dev/team
  * MIT License
-
-__resolve-url-loader 3.1.4__
- * https://github.com/bholloway/resolve-url-loader
- * MIT License
-
-__postcss-preset-env 6.7.0__
- * https://github.com/csstools/postcss-preset-env
- * CC0-1.0
 
 __react-lifecycles-compat 3.0.4__
  * https://github.com/reactjs/react-lifecycles-compat
@@ -5725,10 +4453,6 @@ __universalify 2.0.0__
  * https://github.com/RyanZim/universalify
  * MIT License
 
-__postcss-focus-visible 4.0.0__
- * https://github.com/jonathantneal/postcss-focus-visible
- * CC0-1.0
-
 __safe-buffer 5.1.2__
  * http://feross.org
  * MIT License
@@ -5737,37 +4461,17 @@ __regexpp 3.2.0__
  * https://github.com/mysticatea
  * MIT License
 
-__schema-utils 1.0.0__
- * https://github.com/webpack-contrib
- * MIT License
-
-__ejs 2.7.4__
- * http://fleegix.org
- * Apache License 2.0
-
 __ini 1.3.8__
  * http://blog.izs.me/
  * ISC License
-
-__postcss-merge-rules 4.0.3__
- * http://beneb.info
- * MIT License
-
-__prr 1.0.1__
- * https://github.com/rvagg
- * MIT License
 
 __@babel/plugin-transform-react-pure-annotations 7.16.7__
  * https://babel.dev/team
  * MIT License
 
-__assert 1.5.0__
- * https://github.com/browserify/commonjs-assert
- * MIT License
-
-__bn.js 5.2.0__
- * https://github.com/indutny/bn.js
- * MIT License
+__postcss-modules-scope 3.0.0__
+ * https://github.com/css-modules/postcss-modules-scope
+ * ISC License
 
 __common-tags 1.8.2__
  * https://github.com/zspecza/common-tags
@@ -5781,8 +4485,8 @@ __npm-run-path 4.0.1__
  * sindresorhus.com
  * MIT License
 
-__file-loader 6.1.1__
- * https://github.com/webpack-contrib/file-loader
+__postcss-normalize-unicode 5.1.0__
+ * http://beneb.info
  * MIT License
 
 __type-check 0.4.0__
@@ -5793,52 +4497,48 @@ __fastq 1.13.0__
  * https://github.com/mcollina/fastq
  * ISC License
 
-__callsites 2.0.0__
- * sindresorhus.com
- * MIT License
-
-__lru-cache 5.1.1__
- * https://github.com/isaacs/node-lru-cache
- * ISC License
-
-__postcss-modules-scope 2.2.0__
- * https://github.com/css-modules/postcss-modules-scope
- * ISC License
-
-__ret 0.1.15__
- * https://github.com/fent
- * MIT License
-
 __to-regex-range 5.0.1__
  * https://github.com/jonschlinkert
  * MIT License
 
-__postcss-double-position-gradients 1.0.0__
- * https://github.com/jonathantneal/postcss-double-position-gradients
- * CC0-1.0
+__eslint-scope 7.1.1__
+ * https://github.com/eslint/eslint-scope
+ * BSD-2-Clause
 
-__react-refresh 0.8.3__
- * https://github.com/facebook/react
+__jest-environment-jsdom 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
-__eslint 7.32.0__
- * https://github.com/eslint/eslint
+__jest-get-type 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
-__postcss-selector-matches 4.0.0__
- * https://github.com/postcss/postcss-selector-matches
+__workbox-navigation-preload 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
-__style-loader 1.3.0__
- * https://github.com/webpack-contrib/style-loader
+__postcss-media-minmax 5.0.0__
+ * https://github.com/postcss/postcss-media-minmax
  * MIT License
 
-__capture-exit 2.0.0__
- * https://github.com/stefanpenner/capture-exit
- * ISC License
+__@webassemblyjs/helper-wasm-bytecode 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * MIT License
+
+__@webassemblyjs/wast-printer 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * MIT License
 
 __has-tostringtag 1.0.0__
  * http://ljharb.codes
+ * MIT License
+
+__postcss-attribute-case-insensitive 5.0.0__
+ * https://github.com/Semigradsky/postcss-attribute-case-insensitive
+ * MIT License
+
+__eslint-webpack-plugin 3.1.1__
+ * https://github.com/webpack-contrib/eslint-webpack-plugin
  * MIT License
 
 __is-root 2.1.0__
@@ -5849,28 +4549,28 @@ __d3-array 2.12.1__
  * http://bost.ocks.org/mike
  * BSD-3-Clause
 
-__postcss-gap-properties 2.0.0__
- * https://github.com/jonathantneal/postcss-gap-properties
- * CC0-1.0
-
-__postcss-image-set-function 3.0.1__
- * https://github.com/jonathantneal/postcss-image-set-function
- * CC0-1.0
+__@rollup/plugin-node-resolve 11.2.1__
+ * https://github.com/rollup/plugins
+ * MIT License
 
 __json-stable-stringify-without-jsonify 1.0.1__
  * http://substack.net
- * MIT License
-
-__postcss-modules-local-by-default 3.0.3__
- * https://github.com/css-modules/postcss-modules-local-by-default
  * MIT License
 
 __@babel/parser 7.17.3__
  * https://babel.dev/team
  * MIT License
 
-__postcss-media-minmax 4.0.0__
- * https://github.com/postcss/postcss-media-minmax
+__@webassemblyjs/wasm-parser 1.11.1__
+ * https://github.com/xtuc/webassemblyjs
+ * MIT License
+
+__jest-cli 27.5.1__
+ * https://github.com/facebook/jest
+ * MIT License
+
+__slash 4.0.0__
+ * https://sindresorhus.com
  * MIT License
 
 __babel-plugin-macros 3.1.0__
@@ -5881,41 +4581,33 @@ __dom-serializer 0.2.2__
  * https://github.com/cheeriojs/dom-renderer
  * MIT License
 
-__fs-write-stream-atomic 1.0.10__
- * http://blog.izs.me/
- * ISC License
-
 __accepts 1.3.8__
  * https://github.com/jshttp/accepts
  * MIT License
 
-__url 0.11.0__
- * https://github.com/defunctzombie/node-url
+__jest-jasmine2 27.5.1__
+ * https://github.com/facebook/jest
  * MIT License
 
 __@babel/plugin-transform-destructuring 7.17.3__
  * https://babel.dev/team
  * MIT License
 
-__util 0.10.3__
- * http://www.joyent.com
- * MIT License
-
-__nanoid 3.3.0__
- * https://github.com/ai/nanoid
- * MIT License
-
 __json5 2.2.0__
  * https://github.com/json5/json5
  * MIT License
 
-__postcss-normalize-positions 4.0.2__
- * http://beneb.info
+__nanoid 3.3.1__
+ * https://github.com/ai/nanoid
  * MIT License
 
 __encodeurl 1.0.2__
  * https://github.com/pillarjs/encodeurl
  * MIT License
+
+__filelist 1.0.2__
+ * http://fleegix.org
+ * Apache License 2.0
 
 __whatwg-fetch 3.6.2__
  * https://github.com/github/fetch
@@ -5929,76 +4621,48 @@ __@types/istanbul-lib-report 3.0.0__
  * https://github.com/DefinitelyTyped/DefinitelyTyped
  * MIT License
 
-__promise-inflight 1.0.1__
- * http://re-becca.org/
- * ISC License
+__workbox-cacheable-response 6.5.0__
+ * https://github.com/googlechrome/workbox
+ * MIT License
 
 __@babel/plugin-syntax-class-static-block 7.14.5__
  * https://babel.dev/team
  * MIT License
 
-__pbkdf2 3.1.2__
- * https://github.com/crypto-browserify/pbkdf2
+__workbox-broadcast-update 6.5.0__
+ * https://github.com/googlechrome/workbox
  * MIT License
 
 __call-bind 1.0.2__
  * https://github.com/ljharb/call-bind
  * MIT License
 
-__isobject 3.0.1__
- * https://github.com/jonschlinkert
- * MIT License
-
 __svgo 1.3.2__
  * https://github.com/deepsweet
  * MIT License
 
-__@typescript-eslint/typescript-estree 4.33.0__
- * https://github.com/typescript-eslint/typescript-eslint
- * BSD-2-Clause
-
-__postcss-convert-values 4.0.1__
- * http://beneb.info
+__webpack 5.69.1__
+ * https://github.com/webpack/webpack
  * MIT License
 
 __estree-walker 1.0.1__
  * https://github.com/Rich-Harris/estree-walker
  * MIT License
 
-__http-proxy-middleware 0.19.1__
- * https://github.com/chimurai/http-proxy-middleware
- * MIT License
-
-__expect 26.6.2__
- * https://github.com/facebook/jest
- * MIT License
-
 __unbox-primitive 1.0.1__
  * https://github.com/ljharb/unbox-primitive
- * MIT License
-
-__@types/yargs 15.0.14__
- * https://github.com/DefinitelyTyped/DefinitelyTyped
- * MIT License
-
-__@webassemblyjs/wasm-gen 1.9.0__
- * https://github.com/xtuc/webassemblyjs
  * MIT License
 
 __ajv 8.10.0__
  * https://github.com/ajv-validator/ajv
  * MIT License
 
-__wrap-ansi 5.1.0__
- * sindresorhus.com
- * MIT License
+__@trysound/sax 0.2.0__
+ * http://blog.izs.me/
+ * ISC License
 
 __pirates 4.0.5__
  * http://ariporad.com
- * MIT License
-
-__babel-jest 26.6.3__
- * https://github.com/facebook/jest
  * MIT License
 
 __antlr 2.7.7__
@@ -6153,7 +4817,7 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.5.2__
+__badge4j 1.7.0__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
@@ -6161,7 +4825,7 @@ __csscolor4j 1.0.0__
  * https://github.com/silentsoft/csscolor4j
  * Apache License 2.0
 
-__simpleicons4j 1.3.0__
+__simpleicons4j 1.5.0__
  * https://github.com/silentsoft/simpleicons4j
  * Apache License 2.0
 
@@ -6264,17 +4928,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```
 ______
 
-__ISC License__
-
-```
-Copyright <YEAR> <OWNER>
-
-Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-```
-______
-
 __BSD-2-Clause__
 
 ```
@@ -6287,6 +4940,17 @@ Redistribution and use in source and binary forms, with or without modification,
 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+______
+
+__ISC License__
+
+```
+Copyright <YEAR> <OWNER>
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 ______
 
@@ -6304,351 +4968,6 @@ Redistribution and use in source and binary forms, with or without modification,
 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-```
-______
-
-__GPL-2.0__
-
-```
-                    GNU GENERAL PUBLIC LICENSE
-                       Version 2, June 1991
-
- Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-                            Preamble
-
-  The licenses for most software are designed to take away your
-freedom to share and change it.  By contrast, the GNU General Public
-License is intended to guarantee your freedom to share and change free
-software--to make sure the software is free for all its users.  This
-General Public License applies to most of the Free Software
-Foundation's software and to any other program whose authors commit to
-using it.  (Some other Free Software Foundation software is covered by
-the GNU Lesser General Public License instead.)  You can apply it to
-your programs, too.
-
-  When we speak of free software, we are referring to freedom, not
-price.  Our General Public Licenses are designed to make sure that you
-have the freedom to distribute copies of free software (and charge for
-this service if you wish), that you receive source code or can get it
-if you want it, that you can change the software or use pieces of it
-in new free programs; and that you know you can do these things.
-
-  To protect your rights, we need to make restrictions that forbid
-anyone to deny you these rights or to ask you to surrender the rights.
-These restrictions translate to certain responsibilities for you if you
-distribute copies of the software, or if you modify it.
-
-  For example, if you distribute copies of such a program, whether
-gratis or for a fee, you must give the recipients all the rights that
-you have.  You must make sure that they, too, receive or can get the
-source code.  And you must show them these terms so they know their
-rights.
-
-  We protect your rights with two steps: (1) copyright the software, and
-(2) offer you this license which gives you legal permission to copy,
-distribute and/or modify the software.
-
-  Also, for each author's protection and ours, we want to make certain
-that everyone understands that there is no warranty for this free
-software.  If the software is modified by someone else and passed on, we
-want its recipients to know that what they have is not the original, so
-that any problems introduced by others will not reflect on the original
-authors' reputations.
-
-  Finally, any free program is threatened constantly by software
-patents.  We wish to avoid the danger that redistributors of a free
-program will individually obtain patent licenses, in effect making the
-program proprietary.  To prevent this, we have made it clear that any
-patent must be licensed for everyone's free use or not licensed at all.
-
-  The precise terms and conditions for copying, distribution and
-modification follow.
-
-                    GNU GENERAL PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-  0. This License applies to any program or other work which contains
-a notice placed by the copyright holder saying it may be distributed
-under the terms of this General Public License.  The "Program", below,
-refers to any such program or work, and a "work based on the Program"
-means either the Program or any derivative work under copyright law:
-that is to say, a work containing the Program or a portion of it,
-either verbatim or with modifications and/or translated into another
-language.  (Hereinafter, translation is included without limitation in
-the term "modification".)  Each licensee is addressed as "you".
-
-Activities other than copying, distribution and modification are not
-covered by this License; they are outside its scope.  The act of
-running the Program is not restricted, and the output from the Program
-is covered only if its contents constitute a work based on the
-Program (independent of having been made by running the Program).
-Whether that is true depends on what the Program does.
-
-  1. You may copy and distribute verbatim copies of the Program's
-source code as you receive it, in any medium, provided that you
-conspicuously and appropriately publish on each copy an appropriate
-copyright notice and disclaimer of warranty; keep intact all the
-notices that refer to this License and to the absence of any warranty;
-and give any other recipients of the Program a copy of this License
-along with the Program.
-
-You may charge a fee for the physical act of transferring a copy, and
-you may at your option offer warranty protection in exchange for a fee.
-
-  2. You may modify your copy or copies of the Program or any portion
-of it, thus forming a work based on the Program, and copy and
-distribute such modifications or work under the terms of Section 1
-above, provided that you also meet all of these conditions:
-
-    a) You must cause the modified files to carry prominent notices
-    stating that you changed the files and the date of any change.
-
-    b) You must cause any work that you distribute or publish, that in
-    whole or in part contains or is derived from the Program or any
-    part thereof, to be licensed as a whole at no charge to all third
-    parties under the terms of this License.
-
-    c) If the modified program normally reads commands interactively
-    when run, you must cause it, when started running for such
-    interactive use in the most ordinary way, to print or display an
-    announcement including an appropriate copyright notice and a
-    notice that there is no warranty (or else, saying that you provide
-    a warranty) and that users may redistribute the program under
-    these conditions, and telling the user how to view a copy of this
-    License.  (Exception: if the Program itself is interactive but
-    does not normally print such an announcement, your work based on
-    the Program is not required to print an announcement.)
-
-These requirements apply to the modified work as a whole.  If
-identifiable sections of that work are not derived from the Program,
-and can be reasonably considered independent and separate works in
-themselves, then this License, and its terms, do not apply to those
-sections when you distribute them as separate works.  But when you
-distribute the same sections as part of a whole which is a work based
-on the Program, the distribution of the whole must be on the terms of
-this License, whose permissions for other licensees extend to the
-entire whole, and thus to each and every part regardless of who wrote it.
-
-Thus, it is not the intent of this section to claim rights or contest
-your rights to work written entirely by you; rather, the intent is to
-exercise the right to control the distribution of derivative or
-collective works based on the Program.
-
-In addition, mere aggregation of another work not based on the Program
-with the Program (or with a work based on the Program) on a volume of
-a storage or distribution medium does not bring the other work under
-the scope of this License.
-
-  3. You may copy and distribute the Program (or a work based on it,
-under Section 2) in object code or executable form under the terms of
-Sections 1 and 2 above provided that you also do one of the following:
-
-    a) Accompany it with the complete corresponding machine-readable
-    source code, which must be distributed under the terms of Sections
-    1 and 2 above on a medium customarily used for software interchange; or,
-
-    b) Accompany it with a written offer, valid for at least three
-    years, to give any third party, for a charge no more than your
-    cost of physically performing source distribution, a complete
-    machine-readable copy of the corresponding source code, to be
-    distributed under the terms of Sections 1 and 2 above on a medium
-    customarily used for software interchange; or,
-
-    c) Accompany it with the information you received as to the offer
-    to distribute corresponding source code.  (This alternative is
-    allowed only for noncommercial distribution and only if you
-    received the program in object code or executable form with such
-    an offer, in accord with Subsection b above.)
-
-The source code for a work means the preferred form of the work for
-making modifications to it.  For an executable work, complete source
-code means all the source code for all modules it contains, plus any
-associated interface definition files, plus the scripts used to
-control compilation and installation of the executable.  However, as a
-special exception, the source code distributed need not include
-anything that is normally distributed (in either source or binary
-form) with the major components (compiler, kernel, and so on) of the
-operating system on which the executable runs, unless that component
-itself accompanies the executable.
-
-If distribution of executable or object code is made by offering
-access to copy from a designated place, then offering equivalent
-access to copy the source code from the same place counts as
-distribution of the source code, even though third parties are not
-compelled to copy the source along with the object code.
-
-  4. You may not copy, modify, sublicense, or distribute the Program
-except as expressly provided under this License.  Any attempt
-otherwise to copy, modify, sublicense or distribute the Program is
-void, and will automatically terminate your rights under this License.
-However, parties who have received copies, or rights, from you under
-this License will not have their licenses terminated so long as such
-parties remain in full compliance.
-
-  5. You are not required to accept this License, since you have not
-signed it.  However, nothing else grants you permission to modify or
-distribute the Program or its derivative works.  These actions are
-prohibited by law if you do not accept this License.  Therefore, by
-modifying or distributing the Program (or any work based on the
-Program), you indicate your acceptance of this License to do so, and
-all its terms and conditions for copying, distributing or modifying
-the Program or works based on it.
-
-  6. Each time you redistribute the Program (or any work based on the
-Program), the recipient automatically receives a license from the
-original licensor to copy, distribute or modify the Program subject to
-these terms and conditions.  You may not impose any further
-restrictions on the recipients' exercise of the rights granted herein.
-You are not responsible for enforcing compliance by third parties to
-this License.
-
-  7. If, as a consequence of a court judgment or allegation of patent
-infringement or for any other reason (not limited to patent issues),
-conditions are imposed on you (whether by court order, agreement or
-otherwise) that contradict the conditions of this License, they do not
-excuse you from the conditions of this License.  If you cannot
-distribute so as to satisfy simultaneously your obligations under this
-License and any other pertinent obligations, then as a consequence you
-may not distribute the Program at all.  For example, if a patent
-license would not permit royalty-free redistribution of the Program by
-all those who receive copies directly or indirectly through you, then
-the only way you could satisfy both it and this License would be to
-refrain entirely from distribution of the Program.
-
-If any portion of this section is held invalid or unenforceable under
-any particular circumstance, the balance of the section is intended to
-apply and the section as a whole is intended to apply in other
-circumstances.
-
-It is not the purpose of this section to induce you to infringe any
-patents or other property right claims or to contest validity of any
-such claims; this section has the sole purpose of protecting the
-integrity of the free software distribution system, which is
-implemented by public license practices.  Many people have made
-generous contributions to the wide range of software distributed
-through that system in reliance on consistent application of that
-system; it is up to the author/donor to decide if he or she is willing
-to distribute software through any other system and a licensee cannot
-impose that choice.
-
-This section is intended to make thoroughly clear what is believed to
-be a consequence of the rest of this License.
-
-  8. If the distribution and/or use of the Program is restricted in
-certain countries either by patents or by copyrighted interfaces, the
-original copyright holder who places the Program under this License
-may add an explicit geographical distribution limitation excluding
-those countries, so that distribution is permitted only in or among
-countries not thus excluded.  In such case, this License incorporates
-the limitation as if written in the body of this License.
-
-  9. The Free Software Foundation may publish revised and/or new versions
-of the General Public License from time to time.  Such new versions will
-be similar in spirit to the present version, but may differ in detail to
-address new problems or concerns.
-
-Each version is given a distinguishing version number.  If the Program
-specifies a version number of this License which applies to it and "any
-later version", you have the option of following the terms and conditions
-either of that version or of any later version published by the Free
-Software Foundation.  If the Program does not specify a version number of
-this License, you may choose any version ever published by the Free Software
-Foundation.
-
-  10. If you wish to incorporate parts of the Program into other free
-programs whose distribution conditions are different, write to the author
-to ask for permission.  For software which is copyrighted by the Free
-Software Foundation, write to the Free Software Foundation; we sometimes
-make exceptions for this.  Our decision will be guided by the two goals
-of preserving the free status of all derivatives of our free software and
-of promoting the sharing and reuse of software generally.
-
-                            NO WARRANTY
-
-  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
-FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
-OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
-PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
-OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
-TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
-PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
-REPAIR OR CORRECTION.
-
-  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
-WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
-REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
-INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
-OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
-TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
-YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
-PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGES.
-
-                     END OF TERMS AND CONDITIONS
-
-            How to Apply These Terms to Your New Programs
-
-  If you develop a new program, and you want it to be of the greatest
-possible use to the public, the best way to achieve this is to make it
-free software which everyone can redistribute and change under these terms.
-
-  To do so, attach the following notices to the program.  It is safest
-to attach them to the start of each source file to most effectively
-convey the exclusion of warranty; and each file should have at least
-the "copyright" line and a pointer to where the full notice is found.
-
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
-
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License along
-    with this program; if not, write to the Free Software Foundation, Inc.,
-    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-Also add information on how to contact you by electronic and paper mail.
-
-If the program is interactive, make it output a short notice like this
-when it starts in an interactive mode:
-
-    Gnomovision version 69, Copyright (C) year name of author
-    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
-
-The hypothetical commands `show w' and `show c' should show the appropriate
-parts of the General Public License.  Of course, the commands you use may
-be called something other than `show w' and `show c'; they could even be
-mouse-clicks or menu items--whatever suits your program.
-
-You should also get your employer (if you work as a programmer) or your
-school, if any, to sign a "copyright disclaimer" for the program, if
-necessary.  Here is a sample; alter the names:
-
-  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
-  `Gnomovision' (which makes passes at compilers) written by James Hacker.
-
-  <signature of Ty Coon>, 1 April 1989
-  Ty Coon, President of Vice
-
-This General Public License does not permit incorporating your program into
-proprietary programs.  If your program is a subroutine library, you may
-consider it more useful to permit linking proprietary applications with the
-library.  If this is what you want to do, use the GNU Lesser General
-Public License instead of this License.
 ```
 ______
 
@@ -6779,45 +5098,263 @@ express Statement of Purpose.
 ```
 ______
 
-__zlib License__
+__Python-2.0__
 
 ```
-Copyright (c) <year> <copyright holders>
+A. HISTORY OF THE SOFTWARE
+==========================
 
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any damages
-arising from the use of this software.
+Python was created in the early 1990s by Guido van Rossum at Stichting
+Mathematisch Centrum (CWI, see http://www.cwi.nl) in the Netherlands
+as a successor of a language called ABC.  Guido remains Python's
+principal author, although it includes many contributions from others.
 
-Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
-freely, subject to the following restrictions:
+In 1995, Guido continued his work on Python at the Corporation for
+National Research Initiatives (CNRI, see http://www.cnri.reston.va.us)
+in Reston, Virginia where he released several versions of the
+software.
 
-1. The origin of this software must not be misrepresented; you must not
-   claim that you wrote the original software. If you use this software
-   in a product, an acknowledgment in the product documentation would be
-   appreciated but is not required.
-2. Altered source versions must be plainly marked as such, and must not be
-   misrepresented as being the original software.
-3. This notice may not be removed or altered from any source distribution.
-```
-______
+In May 2000, Guido and the Python core development team moved to
+BeOpen.com to form the BeOpen PythonLabs team.  In October of the same
+year, the PythonLabs team moved to Digital Creations, which became
+Zope Corporation.  In 2001, the Python Software Foundation (PSF, see
+https://www.python.org/psf/) was formed, a non-profit organization
+created specifically to own Python-related Intellectual Property.
+Zope Corporation was a sponsoring member of the PSF.
 
-__WTFPL__
+All Python releases are Open Source (see http://www.opensource.org for
+the Open Source Definition).  Historically, most, but not all, Python
+releases have also been GPL-compatible; the table below summarizes
+the various releases.
 
-```
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+    Release         Derived     Year        Owner       GPL-
+                    from                                compatible? (1)
 
- Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+    0.9.0 thru 1.2              1991-1995   CWI         yes
+    1.3 thru 1.5.2  1.2         1995-1999   CNRI        yes
+    1.6             1.5.2       2000        CNRI        no
+    2.0             1.6         2000        BeOpen.com  no
+    1.6.1           1.6         2001        CNRI        yes (2)
+    2.1             2.0+1.6.1   2001        PSF         no
+    2.0.1           2.0+1.6.1   2001        PSF         yes
+    2.1.1           2.1+2.0.1   2001        PSF         yes
+    2.1.2           2.1.1       2002        PSF         yes
+    2.1.3           2.1.2       2002        PSF         yes
+    2.2 and above   2.1.1       2001-now    PSF         yes
 
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
+Footnotes:
 
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+(1) GPL-compatible doesn't mean that we're distributing Python under
+    the GPL.  All Python licenses, unlike the GPL, let you distribute
+    a modified version without making your changes open source.  The
+    GPL-compatible licenses make it possible to combine Python with
+    other software that is released under the GPL; the others don't.
 
-  0. You just DO WHAT THE FUCK YOU WANT TO.
+(2) According to Richard Stallman, 1.6.1 is not GPL-compatible,
+    because its license has a choice of law clause.  According to
+    CNRI, however, Stallman's lawyer has told CNRI's lawyer that 1.6.1
+    is "not incompatible" with the GPL.
+
+Thanks to the many outside volunteers who have worked under Guido's
+direction to make these releases possible.
+
+
+B. TERMS AND CONDITIONS FOR ACCESSING OR OTHERWISE USING PYTHON
+===============================================================
+
+PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+--------------------------------------------
+
+1. This LICENSE AGREEMENT is between the Python Software Foundation
+("PSF"), and the Individual or Organization ("Licensee") accessing and
+otherwise using this software ("Python") in source or binary form and
+its associated documentation.
+
+2. Subject to the terms and conditions of this License Agreement, PSF hereby
+grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,
+analyze, test, perform and/or display publicly, prepare derivative works,
+distribute, and otherwise use Python alone or in any derivative version,
+provided, however, that PSF's License Agreement and PSF's notice of copyright,
+i.e., "Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010,
+2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020 Python Software Foundation;
+All Rights Reserved" are retained in Python alone or in any derivative version
+prepared by Licensee.
+
+3. In the event Licensee prepares a derivative work that is based on
+or incorporates Python or any part thereof, and wants to make
+the derivative work available to others as provided herein, then
+Licensee hereby agrees to include in any such work a brief summary of
+the changes made to Python.
+
+4. PSF is making Python available to Licensee on an "AS IS"
+basis.  PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND
+DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS
+FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT
+INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON
+FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS
+A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON,
+OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material
+breach of its terms and conditions.
+
+7. Nothing in this License Agreement shall be deemed to create any
+relationship of agency, partnership, or joint venture between PSF and
+Licensee.  This License Agreement does not grant permission to use PSF
+trademarks or trade name in a trademark sense to endorse or promote
+products or services of Licensee, or any third party.
+
+8. By copying, installing or otherwise using Python, Licensee
+agrees to be bound by the terms and conditions of this License
+Agreement.
+
+
+BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0
+-------------------------------------------
+
+BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1
+
+1. This LICENSE AGREEMENT is between BeOpen.com ("BeOpen"), having an
+office at 160 Saratoga Avenue, Santa Clara, CA 95051, and the
+Individual or Organization ("Licensee") accessing and otherwise using
+this software in source or binary form and its associated
+documentation ("the Software").
+
+2. Subject to the terms and conditions of this BeOpen Python License
+Agreement, BeOpen hereby grants Licensee a non-exclusive,
+royalty-free, world-wide license to reproduce, analyze, test, perform
+and/or display publicly, prepare derivative works, distribute, and
+otherwise use the Software alone or in any derivative version,
+provided, however, that the BeOpen Python License is retained in the
+Software, alone or in any derivative version prepared by Licensee.
+
+3. BeOpen is making the Software available to Licensee on an "AS IS"
+basis.  BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND
+DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS
+FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT
+INFRINGE ANY THIRD PARTY RIGHTS.
+
+4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE
+SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS
+AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY
+DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+5. This License Agreement will automatically terminate upon a material
+breach of its terms and conditions.
+
+6. This License Agreement shall be governed by and interpreted in all
+respects by the law of the State of California, excluding conflict of
+law provisions.  Nothing in this License Agreement shall be deemed to
+create any relationship of agency, partnership, or joint venture
+between BeOpen and Licensee.  This License Agreement does not grant
+permission to use BeOpen trademarks or trade names in a trademark
+sense to endorse or promote products or services of Licensee, or any
+third party.  As an exception, the "BeOpen Python" logos available at
+http://www.pythonlabs.com/logos.html may be used according to the
+permissions granted on that web page.
+
+7. By copying, installing or otherwise using the software, Licensee
+agrees to be bound by the terms and conditions of this License
+Agreement.
+
+
+CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1
+---------------------------------------
+
+1. This LICENSE AGREEMENT is between the Corporation for National
+Research Initiatives, having an office at 1895 Preston White Drive,
+Reston, VA 20191 ("CNRI"), and the Individual or Organization
+("Licensee") accessing and otherwise using Python 1.6.1 software in
+source or binary form and its associated documentation.
+
+2. Subject to the terms and conditions of this License Agreement, CNRI
+hereby grants Licensee a nonexclusive, royalty-free, world-wide
+license to reproduce, analyze, test, perform and/or display publicly,
+prepare derivative works, distribute, and otherwise use Python 1.6.1
+alone or in any derivative version, provided, however, that CNRI's
+License Agreement and CNRI's notice of copyright, i.e., "Copyright (c)
+1995-2001 Corporation for National Research Initiatives; All Rights
+Reserved" are retained in Python 1.6.1 alone or in any derivative
+version prepared by Licensee.  Alternately, in lieu of CNRI's License
+Agreement, Licensee may substitute the following text (omitting the
+quotes): "Python 1.6.1 is made available subject to the terms and
+conditions in CNRI's License Agreement.  This Agreement together with
+Python 1.6.1 may be located on the Internet using the following
+unique, persistent identifier (known as a handle): 1895.22/1013.  This
+Agreement may also be obtained from a proxy server on the Internet
+using the following URL: http://hdl.handle.net/1895.22/1013".
+
+3. In the event Licensee prepares a derivative work that is based on
+or incorporates Python 1.6.1 or any part thereof, and wants to make
+the derivative work available to others as provided herein, then
+Licensee hereby agrees to include in any such work a brief summary of
+the changes made to Python 1.6.1.
+
+4. CNRI is making Python 1.6.1 available to Licensee on an "AS IS"
+basis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND
+DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS
+FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT
+INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON
+1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS
+A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1,
+OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material
+breach of its terms and conditions.
+
+7. This License Agreement shall be governed by the federal
+intellectual property law of the United States, including without
+limitation the federal copyright law, and, to the extent such
+U.S. federal law does not apply, by the law of the Commonwealth of
+Virginia, excluding Virginia's conflict of law provisions.
+Notwithstanding the foregoing, with regard to derivative works based
+on Python 1.6.1 that incorporate non-separable material that was
+previously distributed under the GNU General Public License (GPL), the
+law of the Commonwealth of Virginia shall govern this License
+Agreement only as to issues arising under or with respect to
+Paragraphs 4, 5, and 7 of this License Agreement.  Nothing in this
+License Agreement shall be deemed to create any relationship of
+agency, partnership, or joint venture between CNRI and Licensee.  This
+License Agreement does not grant permission to use CNRI trademarks or
+trade name in a trademark sense to endorse or promote products or
+services of Licensee, or any third party.
+
+8. By clicking on the "ACCEPT" button where indicated, or by copying,
+installing or otherwise using Python 1.6.1, Licensee agrees to be
+bound by the terms and conditions of this License Agreement.
+
+        ACCEPT
+
+
+CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2
+--------------------------------------------------
+
+Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam,
+The Netherlands.  All rights reserved.
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of Stichting Mathematisch
+Centrum or CWI not be used in advertising or publicity pertaining to
+distribution of the software without specific, written prior
+permission.
+
+STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE
+FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 ______
 
@@ -7462,6 +5999,381 @@ terms of this License.
 ```
 ______
 
+__GPL-2.0__
+
+```
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+Foundation's software and to any other program whose authors commit to
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Lesser General Public License instead.)  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+this service if you wish), that you receive source code or can get it
+if you want it, that you can change the software or use pieces of it
+in new free programs; and that you know you can do these things.
+
+  To protect your rights, we need to make restrictions that forbid
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+distribute copies of the software, or if you modify it.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must give the recipients all the rights that
+you have.  You must make sure that they, too, receive or can get the
+source code.  And you must show them these terms so they know their
+rights.
+
+  We protect your rights with two steps: (1) copyright the software, and
+(2) offer you this license which gives you legal permission to copy,
+distribute and/or modify the software.
+
+  Also, for each author's protection and ours, we want to make certain
+that everyone understands that there is no warranty for this free
+software.  If the software is modified by someone else and passed on, we
+want its recipients to know that what they have is not the original, so
+that any problems introduced by others will not reflect on the original
+authors' reputations.
+
+  Finally, any free program is threatened constantly by software
+patents.  We wish to avoid the danger that redistributors of a free
+program will individually obtain patent licenses, in effect making the
+program proprietary.  To prevent this, we have made it clear that any
+patent must be licensed for everyone's free use or not licensed at all.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. This License applies to any program or other work which contains
+a notice placed by the copyright holder saying it may be distributed
+under the terms of this General Public License.  The "Program", below,
+refers to any such program or work, and a "work based on the Program"
+means either the Program or any derivative work under copyright law:
+that is to say, a work containing the Program or a portion of it,
+either verbatim or with modifications and/or translated into another
+language.  (Hereinafter, translation is included without limitation in
+the term "modification".)  Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not
+covered by this License; they are outside its scope.  The act of
+running the Program is not restricted, and the output from the Program
+is covered only if its contents constitute a work based on the
+Program (independent of having been made by running the Program).
+Whether that is true depends on what the Program does.
+
+  1. You may copy and distribute verbatim copies of the Program's
+source code as you receive it, in any medium, provided that you
+conspicuously and appropriately publish on each copy an appropriate
+copyright notice and disclaimer of warranty; keep intact all the
+notices that refer to this License and to the absence of any warranty;
+and give any other recipients of the Program a copy of this License
+along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and
+you may at your option offer warranty protection in exchange for a fee.
+
+  2. You may modify your copy or copies of the Program or any portion
+of it, thus forming a work based on the Program, and copy and
+distribute such modifications or work under the terms of Section 1
+above, provided that you also meet all of these conditions:
+
+    a) You must cause the modified files to carry prominent notices
+    stating that you changed the files and the date of any change.
+
+    b) You must cause any work that you distribute or publish, that in
+    whole or in part contains or is derived from the Program or any
+    part thereof, to be licensed as a whole at no charge to all third
+    parties under the terms of this License.
+
+    c) If the modified program normally reads commands interactively
+    when run, you must cause it, when started running for such
+    interactive use in the most ordinary way, to print or display an
+    announcement including an appropriate copyright notice and a
+    notice that there is no warranty (or else, saying that you provide
+    a warranty) and that users may redistribute the program under
+    these conditions, and telling the user how to view a copy of this
+    License.  (Exception: if the Program itself is interactive but
+    does not normally print such an announcement, your work based on
+    the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole.  If
+identifiable sections of that work are not derived from the Program,
+and can be reasonably considered independent and separate works in
+themselves, then this License, and its terms, do not apply to those
+sections when you distribute them as separate works.  But when you
+distribute the same sections as part of a whole which is a work based
+on the Program, the distribution of the whole must be on the terms of
+this License, whose permissions for other licensees extend to the
+entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest
+your rights to work written entirely by you; rather, the intent is to
+exercise the right to control the distribution of derivative or
+collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program
+with the Program (or with a work based on the Program) on a volume of
+a storage or distribution medium does not bring the other work under
+the scope of this License.
+
+  3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+Sections 1 and 2 above provided that you also do one of the following:
+
+    a) Accompany it with the complete corresponding machine-readable
+    source code, which must be distributed under the terms of Sections
+    1 and 2 above on a medium customarily used for software interchange; or,
+
+    b) Accompany it with a written offer, valid for at least three
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    machine-readable copy of the corresponding source code, to be
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+    c) Accompany it with the information you received as to the offer
+    to distribute corresponding source code.  (This alternative is
+    allowed only for noncommercial distribution and only if you
+    received the program in object code or executable form with such
+    an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for
+making modifications to it.  For an executable work, complete source
+code means all the source code for all modules it contains, plus any
+associated interface definition files, plus the scripts used to
+control compilation and installation of the executable.  However, as a
+special exception, the source code distributed need not include
+anything that is normally distributed (in either source or binary
+form) with the major components (compiler, kernel, and so on) of the
+operating system on which the executable runs, unless that component
+itself accompanies the executable.
+
+If distribution of executable or object code is made by offering
+access to copy from a designated place, then offering equivalent
+access to copy the source code from the same place counts as
+distribution of the source code, even though third parties are not
+compelled to copy the source along with the object code.
+
+  4. You may not copy, modify, sublicense, or distribute the Program
+except as expressly provided under this License.  Any attempt
+otherwise to copy, modify, sublicense or distribute the Program is
+void, and will automatically terminate your rights under this License.
+However, parties who have received copies, or rights, from you under
+this License will not have their licenses terminated so long as such
+parties remain in full compliance.
+
+  5. You are not required to accept this License, since you have not
+signed it.  However, nothing else grants you permission to modify or
+distribute the Program or its derivative works.  These actions are
+prohibited by law if you do not accept this License.  Therefore, by
+modifying or distributing the Program (or any work based on the
+Program), you indicate your acceptance of this License to do so, and
+all its terms and conditions for copying, distributing or modifying
+the Program or works based on it.
+
+  6. Each time you redistribute the Program (or any work based on the
+Program), the recipient automatically receives a license from the
+original licensor to copy, distribute or modify the Program subject to
+these terms and conditions.  You may not impose any further
+restrictions on the recipients' exercise of the rights granted herein.
+You are not responsible for enforcing compliance by third parties to
+this License.
+
+  7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+distribute so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+license would not permit royalty-free redistribution of the Program by
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under
+any particular circumstance, the balance of the section is intended to
+apply and the section as a whole is intended to apply in other
+circumstances.
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+such claims; this section has the sole purpose of protecting the
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+generous contributions to the wide range of software distributed
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+to distribute software through any other system and a licensee cannot
+impose that choice.
+
+This section is intended to make thoroughly clear what is believed to
+be a consequence of the rest of this License.
+
+  8. If the distribution and/or use of the Program is restricted in
+certain countries either by patents or by copyrighted interfaces, the
+original copyright holder who places the Program under this License
+may add an explicit geographical distribution limitation excluding
+those countries, so that distribution is permitted only in or among
+countries not thus excluded.  In such case, this License incorporates
+the limitation as if written in the body of this License.
+
+  9. The Free Software Foundation may publish revised and/or new versions
+of the General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+Each version is given a distinguishing version number.  If the Program
+specifies a version number of this License which applies to it and "any
+later version", you have the option of following the terms and conditions
+either of that version or of any later version published by the Free
+Software Foundation.  If the Program does not specify a version number of
+this License, you may choose any version ever published by the Free Software
+Foundation.
+
+  10. If you wish to incorporate parts of the Program into other free
+programs whose distribution conditions are different, write to the author
+to ask for permission.  For software which is copyrighted by the Free
+Software Foundation, write to the Free Software Foundation; we sometimes
+make exceptions for this.  Our decision will be guided by the two goals
+of preserving the free status of all derivatives of our free software and
+of promoting the sharing and reuse of software generally.
+
+                            NO WARRANTY
+
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+                     END OF TERMS AND CONDITIONS
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+
+  To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+convey the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the program is interactive, make it output a short notice like this
+when it starts in an interactive mode:
+
+    Gnomovision version 69, Copyright (C) year name of author
+    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, the commands you use may
+be called something other than `show w' and `show c'; they could even be
+mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your
+school, if any, to sign a "copyright disclaimer" for the program, if
+necessary.  Here is a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+  `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+  <signature of Ty Coon>, 1 April 1989
+  Ty Coon, President of Vice
+
+This General Public License does not permit incorporating your program into
+proprietary programs.  If your program is a subroutine library, you may
+consider it more useful to permit linking proprietary applications with the
+library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.
+```
+______
+
+__Unlicense__
+
+```
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/>
+```
+______
+
 __0BSD__
 
 ```
@@ -7852,328 +6764,54 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 ```
 ______
 
-__CC-BY-3.0__
+__AFL-2.1__
 
 ```
-Creative Commons Legal Code
+The Academic Free License
+v.2.1
 
-Attribution 3.0 Unported
+This Academic Free License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following notice immediately following the copyright notice for the Original Work:
 
-    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
-    LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN
-    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
-    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
-    REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR
-    DAMAGES RESULTING FROM ITS USE.
+     Licensed under the Academic Free License version 2.1
 
-License
+1) Grant of Copyright License. Licensor hereby grants You a world-wide, royalty-free, non-exclusive, perpetual, sublicenseable license to do the following:
 
-THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
-COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
-COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
-AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+     a) to reproduce the Original Work in copies;
+     b) to prepare derivative works ("Derivative Works") based upon the Original Work;
+     c) to distribute copies of the Original Work and Derivative Works to the public;
+     d) to perform the Original Work publicly; and
+     e) to display the Original Work publicly.
 
-BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
-TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY
-BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS
-CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
-CONDITIONS.
+2) Grant of Patent License. Licensor hereby grants You a world-wide, royalty-free, non-exclusive, perpetual, sublicenseable license, under patent claims owned or controlled by the Licensor that are embodied in the Original Work as furnished by the Licensor, to make, use, sell and offer for sale the Original Work and Derivative Works.
 
-1. Definitions
+3) Grant of Source Code License. The term "Source Code" means the preferred form of the Original Work for making modifications to it and all available documentation describing how to modify the Original Work. Licensor hereby agrees to provide a machine-readable copy of the Source Code of the Original Work along with each copy of the Original Work that Licensor distributes. Licensor reserves the right to satisfy this obligation by placing a machine-readable copy of the Source Code in an information repository reasonably calculated to permit inexpensive and convenient access by You for as long as Licensor continues to distribute the Original Work, and by publishing the address of that information repository in a notice immediately following the copyright notice that applies to the Original Work.
 
- a. "Adaptation" means a work based upon the Work, or upon the Work and
-    other pre-existing works, such as a translation, adaptation,
-    derivative work, arrangement of music or other alterations of a
-    literary or artistic work, or phonogram or performance and includes
-    cinematographic adaptations or any other form in which the Work may be
-    recast, transformed, or adapted including in any form recognizably
-    derived from the original, except that a work that constitutes a
-    Collection will not be considered an Adaptation for the purpose of
-    this License. For the avoidance of doubt, where the Work is a musical
-    work, performance or phonogram, the synchronization of the Work in
-    timed-relation with a moving image ("synching") will be considered an
-    Adaptation for the purpose of this License.
- b. "Collection" means a collection of literary or artistic works, such as
-    encyclopedias and anthologies, or performances, phonograms or
-    broadcasts, or other works or subject matter other than works listed
-    in Section 1(f) below, which, by reason of the selection and
-    arrangement of their contents, constitute intellectual creations, in
-    which the Work is included in its entirety in unmodified form along
-    with one or more other contributions, each constituting separate and
-    independent works in themselves, which together are assembled into a
-    collective whole. A work that constitutes a Collection will not be
-    considered an Adaptation (as defined above) for the purposes of this
-    License.
- c. "Distribute" means to make available to the public the original and
-    copies of the Work or Adaptation, as appropriate, through sale or
-    other transfer of ownership.
- d. "Licensor" means the individual, individuals, entity or entities that
-    offer(s) the Work under the terms of this License.
- e. "Original Author" means, in the case of a literary or artistic work,
-    the individual, individuals, entity or entities who created the Work
-    or if no individual or entity can be identified, the publisher; and in
-    addition (i) in the case of a performance the actors, singers,
-    musicians, dancers, and other persons who act, sing, deliver, declaim,
-    play in, interpret or otherwise perform literary or artistic works or
-    expressions of folklore; (ii) in the case of a phonogram the producer
-    being the person or legal entity who first fixes the sounds of a
-    performance or other sounds; and, (iii) in the case of broadcasts, the
-    organization that transmits the broadcast.
- f. "Work" means the literary and/or artistic work offered under the terms
-    of this License including without limitation any production in the
-    literary, scientific and artistic domain, whatever may be the mode or
-    form of its expression including digital form, such as a book,
-    pamphlet and other writing; a lecture, address, sermon or other work
-    of the same nature; a dramatic or dramatico-musical work; a
-    choreographic work or entertainment in dumb show; a musical
-    composition with or without words; a cinematographic work to which are
-    assimilated works expressed by a process analogous to cinematography;
-    a work of drawing, painting, architecture, sculpture, engraving or
-    lithography; a photographic work to which are assimilated works
-    expressed by a process analogous to photography; a work of applied
-    art; an illustration, map, plan, sketch or three-dimensional work
-    relative to geography, topography, architecture or science; a
-    performance; a broadcast; a phonogram; a compilation of data to the
-    extent it is protected as a copyrightable work; or a work performed by
-    a variety or circus performer to the extent it is not otherwise
-    considered a literary or artistic work.
- g. "You" means an individual or entity exercising rights under this
-    License who has not previously violated the terms of this License with
-    respect to the Work, or who has received express permission from the
-    Licensor to exercise rights under this License despite a previous
-    violation.
- h. "Publicly Perform" means to perform public recitations of the Work and
-    to communicate to the public those public recitations, by any means or
-    process, including by wire or wireless means or public digital
-    performances; to make available to the public Works in such a way that
-    members of the public may access these Works from a place and at a
-    place individually chosen by them; to perform the Work to the public
-    by any means or process and the communication to the public of the
-    performances of the Work, including by public digital performance; to
-    broadcast and rebroadcast the Work by any means including signs,
-    sounds or images.
- i. "Reproduce" means to make copies of the Work by any means including
-    without limitation by sound or visual recordings and the right of
-    fixation and reproducing fixations of the Work, including storage of a
-    protected performance or phonogram in digital form or other electronic
-    medium.
+4) Exclusions From License Grant. Neither the names of Licensor, nor the names of any contributors to the Original Work, nor any of their trademarks or service marks, may be used to endorse or promote products derived from this Original Work without express prior written permission of the Licensor. Nothing in this License shall be deemed to grant any rights to trademarks, copyrights, patents, trade secrets or any other intellectual property of Licensor except as expressly stated herein. No patent license is granted to make, use, sell or offer to sell embodiments of any patent claims other than the licensed claims defined in Section 2. No right is granted to the trademarks of Licensor even if such marks are included in the Original Work. Nothing in this License shall be interpreted to prohibit Licensor from licensing under different terms from this License any Original Work that Licensor otherwise would have a right to license.
 
-2. Fair Dealing Rights. Nothing in this License is intended to reduce,
-limit, or restrict any uses free from copyright or rights arising from
-limitations or exceptions that are provided for in connection with the
-copyright protection under copyright law or other applicable laws.
+5) This section intentionally omitted.
 
-3. License Grant. Subject to the terms and conditions of this License,
-Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
-perpetual (for the duration of the applicable copyright) license to
-exercise the rights in the Work as stated below:
+6) Attribution Rights. You must retain, in the Source Code of any Derivative Works that You create, all copyright, patent or trademark notices from the Source Code of the Original Work, as well as any notices of licensing and any descriptive text identified therein as an "Attribution Notice." You must cause the Source Code for any Derivative Works that You create to carry a prominent Attribution Notice reasonably calculated to inform recipients that You have modified the Original Work.
 
- a. to Reproduce the Work, to incorporate the Work into one or more
-    Collections, and to Reproduce the Work as incorporated in the
-    Collections;
- b. to create and Reproduce Adaptations provided that any such Adaptation,
-    including any translation in any medium, takes reasonable steps to
-    clearly label, demarcate or otherwise identify that changes were made
-    to the original Work. For example, a translation could be marked "The
-    original work was translated from English to Spanish," or a
-    modification could indicate "The original work has been modified.";
- c. to Distribute and Publicly Perform the Work including as incorporated
-    in Collections; and,
- d. to Distribute and Publicly Perform Adaptations.
- e. For the avoidance of doubt:
+7) Warranty of Provenance and Disclaimer of Warranty. Licensor warrants that the copyright in and to the Original Work and the patent rights granted herein by Licensor are owned by the Licensor or are sublicensed to You under the terms of this License with the permission of the contributor(s) of those copyrights and patent rights. Except as expressly stated in the immediately proceeding sentence, the Original Work is provided under this License on an "AS IS" BASIS and WITHOUT WARRANTY, either express or implied, including, without limitation, the warranties of NON-INFRINGEMENT, MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY OF THE ORIGINAL WORK IS WITH YOU. This DISCLAIMER OF WARRANTY constitutes an essential part of this License. No license to Original Work is granted hereunder except under this disclaimer.
 
-     i. Non-waivable Compulsory License Schemes. In those jurisdictions in
-        which the right to collect royalties through any statutory or
-        compulsory licensing scheme cannot be waived, the Licensor
-        reserves the exclusive right to collect such royalties for any
-        exercise by You of the rights granted under this License;
-    ii. Waivable Compulsory License Schemes. In those jurisdictions in
-        which the right to collect royalties through any statutory or
-        compulsory licensing scheme can be waived, the Licensor waives the
-        exclusive right to collect such royalties for any exercise by You
-        of the rights granted under this License; and,
-   iii. Voluntary License Schemes. The Licensor waives the right to
-        collect royalties, whether individually or, in the event that the
-        Licensor is a member of a collecting society that administers
-        voluntary licensing schemes, via that society, from any exercise
-        by You of the rights granted under this License.
+8) Limitation of Liability. Under no circumstances and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall the Licensor be liable to any person for any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or the use of the Original Work including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses. This limitation of liability shall not apply to liability for death or personal injury resulting from Licensor's negligence to the extent applicable law prohibits such limitation. Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so this exclusion and limitation may not apply to You.
 
-The above rights may be exercised in all media and formats whether now
-known or hereafter devised. The above rights include the right to make
-such modifications as are technically necessary to exercise the rights in
-other media and formats. Subject to Section 8(f), all rights not expressly
-granted by Licensor are hereby reserved.
+ 9) Acceptance and Termination. If You distribute copies of the Original Work or a Derivative Work, You must make a reasonable effort under the circumstances to obtain the express assent of recipients to the terms of this License. Nothing else but this License (or another written agreement between Licensor and You) grants You permission to create Derivative Works based upon the Original Work or to exercise any of the rights granted in Section 1 herein, and any attempt to do so except under the terms of this License (or another written agreement between Licensor and You) is expressly prohibited by U.S. copyright law, the equivalent laws of other countries, and by international treaty. Therefore, by exercising any of the rights granted to You in Section 1 herein, You indicate Your acceptance of this License and all of its terms and conditions.
 
-4. Restrictions. The license granted in Section 3 above is expressly made
-subject to and limited by the following restrictions:
+10) Termination for Patent Action. This License shall terminate automatically and You may no longer exercise any of the rights granted to You by this License as of the date You commence an action, including a cross-claim or counterclaim, against Licensor or any licensee alleging that the Original Work infringes a patent. This termination provision shall not apply for an action alleging patent infringement by combinations of the Original Work with other software or hardware.
 
- a. You may Distribute or Publicly Perform the Work only under the terms
-    of this License. You must include a copy of, or the Uniform Resource
-    Identifier (URI) for, this License with every copy of the Work You
-    Distribute or Publicly Perform. You may not offer or impose any terms
-    on the Work that restrict the terms of this License or the ability of
-    the recipient of the Work to exercise the rights granted to that
-    recipient under the terms of the License. You may not sublicense the
-    Work. You must keep intact all notices that refer to this License and
-    to the disclaimer of warranties with every copy of the Work You
-    Distribute or Publicly Perform. When You Distribute or Publicly
-    Perform the Work, You may not impose any effective technological
-    measures on the Work that restrict the ability of a recipient of the
-    Work from You to exercise the rights granted to that recipient under
-    the terms of the License. This Section 4(a) applies to the Work as
-    incorporated in a Collection, but this does not require the Collection
-    apart from the Work itself to be made subject to the terms of this
-    License. If You create a Collection, upon notice from any Licensor You
-    must, to the extent practicable, remove from the Collection any credit
-    as required by Section 4(b), as requested. If You create an
-    Adaptation, upon notice from any Licensor You must, to the extent
-    practicable, remove from the Adaptation any credit as required by
-    Section 4(b), as requested.
- b. If You Distribute, or Publicly Perform the Work or any Adaptations or
-    Collections, You must, unless a request has been made pursuant to
-    Section 4(a), keep intact all copyright notices for the Work and
-    provide, reasonable to the medium or means You are utilizing: (i) the
-    name of the Original Author (or pseudonym, if applicable) if supplied,
-    and/or if the Original Author and/or Licensor designate another party
-    or parties (e.g., a sponsor institute, publishing entity, journal) for
-    attribution ("Attribution Parties") in Licensor's copyright notice,
-    terms of service or by other reasonable means, the name of such party
-    or parties; (ii) the title of the Work if supplied; (iii) to the
-    extent reasonably practicable, the URI, if any, that Licensor
-    specifies to be associated with the Work, unless such URI does not
-    refer to the copyright notice or licensing information for the Work;
-    and (iv) , consistent with Section 3(b), in the case of an Adaptation,
-    a credit identifying the use of the Work in the Adaptation (e.g.,
-    "French translation of the Work by Original Author," or "Screenplay
-    based on original Work by Original Author"). The credit required by
-    this Section 4 (b) may be implemented in any reasonable manner;
-    provided, however, that in the case of a Adaptation or Collection, at
-    a minimum such credit will appear, if a credit for all contributing
-    authors of the Adaptation or Collection appears, then as part of these
-    credits and in a manner at least as prominent as the credits for the
-    other contributing authors. For the avoidance of doubt, You may only
-    use the credit required by this Section for the purpose of attribution
-    in the manner set out above and, by exercising Your rights under this
-    License, You may not implicitly or explicitly assert or imply any
-    connection with, sponsorship or endorsement by the Original Author,
-    Licensor and/or Attribution Parties, as appropriate, of You or Your
-    use of the Work, without the separate, express prior written
-    permission of the Original Author, Licensor and/or Attribution
-    Parties.
- c. Except as otherwise agreed in writing by the Licensor or as may be
-    otherwise permitted by applicable law, if You Reproduce, Distribute or
-    Publicly Perform the Work either by itself or as part of any
-    Adaptations or Collections, You must not distort, mutilate, modify or
-    take other derogatory action in relation to the Work which would be
-    prejudicial to the Original Author's honor or reputation. Licensor
-    agrees that in those jurisdictions (e.g. Japan), in which any exercise
-    of the right granted in Section 3(b) of this License (the right to
-    make Adaptations) would be deemed to be a distortion, mutilation,
-    modification or other derogatory action prejudicial to the Original
-    Author's honor and reputation, the Licensor will waive or not assert,
-    as appropriate, this Section, to the fullest extent permitted by the
-    applicable national law, to enable You to reasonably exercise Your
-    right under Section 3(b) of this License (right to make Adaptations)
-    but not otherwise.
+11) Jurisdiction, Venue and Governing Law. Any action or suit relating to this License may be brought only in the courts of a jurisdiction wherein the Licensor resides or in which Licensor conducts its primary business, and under the laws of that jurisdiction excluding its conflict-of-law provisions. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any use of the Original Work outside the scope of this License or after its termination shall be subject to the requirements and penalties of the U.S. Copyright Act, 17 U.S.C. 짠 101 et seq., the equivalent laws of other countries, and international treaty. This section shall survive the termination of this License.
 
-5. Representations, Warranties and Disclaimer
+12) Attorneys Fees. In any action to enforce the terms of this License or seeking damages relating thereto, the prevailing party shall be entitled to recover its costs and expenses, including, without limitation, reasonable attorneys' fees and costs incurred in connection with such action, including any appeal of such action. This section shall survive the termination of this License.
 
-UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR
-OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY
-KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE,
-INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY,
-FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF
-LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS,
-WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION
-OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+13) Miscellaneous. This License represents the complete agreement concerning the subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
 
-6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE
-LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR
-ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES
-ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS
-BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+14) Definition of "You" in This License. "You" throughout this License, whether in upper or lower case, means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License. For legal entities, "You" includes any entity that controls, is controlled by, or is under common control with you. For purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
 
-7. Termination
+15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.
 
- a. This License and the rights granted hereunder will terminate
-    automatically upon any breach by You of the terms of this License.
-    Individuals or entities who have received Adaptations or Collections
-    from You under this License, however, will not have their licenses
-    terminated provided such individuals or entities remain in full
-    compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will
-    survive any termination of this License.
- b. Subject to the above terms and conditions, the license granted here is
-    perpetual (for the duration of the applicable copyright in the Work).
-    Notwithstanding the above, Licensor reserves the right to release the
-    Work under different license terms or to stop distributing the Work at
-    any time; provided, however that any such election will not serve to
-    withdraw this License (or any other license that has been, or is
-    required to be, granted under the terms of this License), and this
-    License will continue in full force and effect unless terminated as
-    stated above.
-
-8. Miscellaneous
-
- a. Each time You Distribute or Publicly Perform the Work or a Collection,
-    the Licensor offers to the recipient a license to the Work on the same
-    terms and conditions as the license granted to You under this License.
- b. Each time You Distribute or Publicly Perform an Adaptation, Licensor
-    offers to the recipient a license to the original Work on the same
-    terms and conditions as the license granted to You under this License.
- c. If any provision of this License is invalid or unenforceable under
-    applicable law, it shall not affect the validity or enforceability of
-    the remainder of the terms of this License, and without further action
-    by the parties to this agreement, such provision shall be reformed to
-    the minimum extent necessary to make such provision valid and
-    enforceable.
- d. No term or provision of this License shall be deemed waived and no
-    breach consented to unless such waiver or consent shall be in writing
-    and signed by the party to be charged with such waiver or consent.
- e. This License constitutes the entire agreement between the parties with
-    respect to the Work licensed here. There are no understandings,
-    agreements or representations with respect to the Work not specified
-    here. Licensor shall not be bound by any additional provisions that
-    may appear in any communication from You. This License may not be
-    modified without the mutual written agreement of the Licensor and You.
- f. The rights granted under, and the subject matter referenced, in this
-    License were drafted utilizing the terminology of the Berne Convention
-    for the Protection of Literary and Artistic Works (as amended on
-    September 28, 1979), the Rome Convention of 1961, the WIPO Copyright
-    Treaty of 1996, the WIPO Performances and Phonograms Treaty of 1996
-    and the Universal Copyright Convention (as revised on July 24, 1971).
-    These rights and subject matter take effect in the relevant
-    jurisdiction in which the License terms are sought to be enforced
-    according to the corresponding provisions of the implementation of
-    those treaty provisions in the applicable national law. If the
-    standard suite of rights granted under applicable copyright law
-    includes additional rights not granted under this License, such
-    additional rights are deemed to be included in the License; this
-    License is not intended to restrict the license of any rights under
-    applicable law.
-
-
-Creative Commons Notice
-
-    Creative Commons is not a party to this License, and makes no warranty
-    whatsoever in connection with the Work. Creative Commons will not be
-    liable to You or any party on any legal theory for any damages
-    whatsoever, including without limitation any general, special,
-    incidental or consequential damages arising in connection to this
-    license. Notwithstanding the foregoing two (2) sentences, if Creative
-    Commons has expressly identified itself as the Licensor hereunder, it
-    shall have all rights and obligations of Licensor.
-
-    Except for the limited purpose of indicating to the public that the
-    Work is licensed under the CCPL, Creative Commons does not authorize
-    the use by either party of the trademark "Creative Commons" or any
-    related trademark or logo of Creative Commons without the prior
-    written consent of Creative Commons. Any permitted use will be in
-    compliance with Creative Commons' then-current trademark usage
-    guidelines, as may be published on its website or otherwise made
-    available upon request from time to time. For the avoidance of doubt,
-    this trademark restriction does not form part of this License.
-
-    Creative Commons may be contacted at https://creativecommons.org/.
+This license is Copyright (C) 2003-2004 Lawrence E. Rosen. All rights reserved.
+Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.
 ```
 ______
 
