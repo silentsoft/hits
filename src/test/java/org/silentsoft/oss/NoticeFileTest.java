@@ -72,12 +72,6 @@ public class NoticeFileTest {
             LicenseDetailJsonObject detail = entry.getValue();
             String lib = String.join(" ", detail.getName(), detail.getVersion());
 
-            if ("MIT*".equals(detail.getLicenses())) {
-                if ("rework 1.0.1".equals(lib)) {
-                    detail.setLicenses("MIT");
-                }
-            }
-
             String url = detail.getUrl();
             url = (url != null) ? url : detail.getRepository();
             url = (url != null) ? url : "";
@@ -85,22 +79,8 @@ public class NoticeFileTest {
                 url = url.substring(0, url.length() - ".git".length());
             }
             if ("".equals(url)) {
-                if ("@webassemblyjs/helper-fsm 1.9.0".equals(lib)) {
-                    url = "https://github.com/xtuc/webassemblyjs";
-                } else if ("@webassemblyjs/ieee754 1.9.0".equals(lib)) {
-                    url = "https://github.com/xtuc/webassemblyjs";
-                } else if ("@webassemblyjs/leb128 1.9.0".equals(lib)) {
-                    url = "https://github.com/xtuc/webassemblyjs";
-                } else if ("rework-visit 1.0.0".equals(lib)) {
-                    url = "https://github.com/reworkcss/rework-visit";
-                } else if ("@webassemblyjs/helper-api-error 1.9.0".equals(lib)) {
-                    url = "https://github.com/xtuc/webassemblyjs";
-                } else if ("dotenv-expand 5.1.0".equals(lib)) {
+                if ("dotenv-expand 5.1.0".equals(lib)) {
                     url = "https://github.com/motdotla/dotenv-expand";
-                } else if ("@babel/preset-modules 0.1.4".equals(lib)) {
-                    url = "https://github.com/babel/preset-modules";
-                } else if ("@npmcli/fs 1.1.1".equals(lib)) {
-                    url = "https://github.com/npm/fs";
                 } else {
                     throw new RuntimeException(String.format("%s has an empty url.", lib));
                 }

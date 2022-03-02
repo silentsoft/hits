@@ -34,14 +34,14 @@ export default function Dashboard() {
     return (
         <div className="flex h-screen">
             <div className="w-full h-full">
-                <div className="h-screen" style={{minHeight: "fit-content"}}>
+                <div className="h-screen min-h-fit">
                     <Header/>
                     <div className="container mx-auto px-6">
                         <div className="flex flex-wrap pb-3">
                             <div className="container mx-auto flex flex-col items-center space-y-8 sm:space-y-12 py-8 sm:py-12">
                                 <div className="w-11/12 xl:w-8/12 md:w-5/6 sm:w-3/4 lg:flex justify-center items-center flex-col">
                                     <h1 className="text-2xl text-center text-gray-800 font-bold leading-7">
-                                        <span className="text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-purple-600">{urn}</span>
+                                        <span className="text-transparent bg-clip-text bg-gradient-to-br from-emerald-400 to-violet-600">{urn}</span>
                                     </h1>
                                 </div>
                                 {items.length > 0 ? (

@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/main/react/**/*.{js,jsx,ts,tsx}', './src/main/resources/public/index.html'],
+  content: ['./src/main/react/**/*.{js,jsx,ts,tsx}', './src/main/resources/public/index.html'],
   darkMode: 'class', // false or 'media' or 'class'
   theme: {
     extend: {
@@ -13,9 +13,6 @@ module.exports = {
         wiggle: 'wiggle 200ms ease-in-out',
       }
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }
