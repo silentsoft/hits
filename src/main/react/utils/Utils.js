@@ -1,5 +1,9 @@
 export default class Utils {
     static toQueryString(object) {
+        if (object == null) {
+            return "";
+        }
+
         let queryString = "";
 
         const defaultViewType = "total";
