@@ -1,0 +1,26 @@
+jobs:
+  include:
+    - language: node_js
+    - language: java
+      cache:
+        directories:
+          - "$HOME/.m2"
+      before_install:
+        # "node" is an alias for the latest version
+        - nvm install node
+      script:
+        # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+        - mvn clean verify sonar:sonar -Pcoverage -DskipRedundantTests -Dsonar.projectKey=silentsoft_hits -Dsonar.sources=src/main/java,src/main/react
+
+git:
+  depth: false
+
+addons:
+  sonarcloud:
+    organization: "silentsoft"
+    token:
+      secure: "O9I2+3DaVmoEuRblOn+Wv2EQSWlzCoujmBxBYmBlAudvmFXIPocPcHJXJT2hnLdKJDhVBv922JRuawwLSqVnGnNZuN9NWqDZbN79lEOXA6789V3Dd2M6LZhbEzRzNcCh2oqv8T8estta6Cf7po7CNkplZ1lbCxnKmzyv6Vuw8pqSf5UgYfZoMg+noL44qigt2d5RB3eZK9zkvNCbG8y+oHg9jmEsXJ+RVUEzHhKQwly5rlGiTqBf7yqD79hgSCmFDy7hUWpf/s8zLJQm0TdeiMn0lC82nWG0tjGwUMPbK98dhxEzFJL6NJTo4BkuDDHGAkshexwA0I7kTaWIsbHdgeFqKLy1fCz9QeL1fotzq4Cbcn1WyuvmWzBflRiNaHuKuh21Exk6iHCbe742eQu7BLpzoyhdUyUkIlaUTaJQ3AbX1oCsKCzdb5z0p9a6sMjNpSVuthXeQnc5cE+8MJnxE/kv6Bx/+ptDSWkoFkHZm+RPVLp7eNlct3NfXNcDyXAvKfRCwo+8uLi0BskKQE3Qb0rnxG1usJiAmMBc83z30A6gKPmEF6kvowl6Ej269bCL/MI1PcPiTsVEdW147oPtKzkyccYa+UKhPbER/1iJaFpTUQeyBHWK9A+yjo7V7Bsw2oyHzqukhKPoA1A504nWmuquyTJ0MvjFGbbMfYop1hE="
+
+notifications:
+  slack:
+    secure: "wnKJB3Yaxaw77Ls5WiDSNzrHbNmUhdgiigCiFk121UncDfX1zBhlUAze05v7FllnY4/iHTeJoXRCDUMHfj7KPjLXutaoqa0YidpVQxWtxPJMbajBesSTjuOwjjrl5LDCWriNnRhUfcSDZwoDJSVH6ArhaXcftUX0yyHHqnr2TNc60+hfSScJNolmmgy9ht14D/7Pi2p92CmbNEVf1+sDxRnjtanV0Sk9neMTDcNuLvJYxnf+Y7mJtSgjkQsz/3UgLYDbEWmpVynONuSOu05sAG0zWTLZIXJPGL7+W2mW3VSP85wF8APVvLDB9lafY129Q1XnTUaFdu6F3ZMu9L7+CIbXhDspoikjonkhthCJDm6KtJ4+KBxLN03GDwqXy/rVpk6ER6i9jOp5bwrt7BHCbin5zYpsoMWZdpj1TyeI8zRDJdLm0GIxRxx08jAxHJSphnt+dzR7qMIymD9nv12rYVCejcosGooLWRBD+EtNSwdD/8Ne3MnfhN8m9cuiZHtcNKPjcS1Uk6m0GWU4pL4ZP0An+0cbfcnoMWZiG3Ic3iA9Ho9bSCfm1c1uNV/lwJfV4/hfx/8tiAjzoijTFTN8oIBXqsMnnDsPax1OXDGZvKCM8mWHtSmPLcIJMErY6fwEJgMnlr752RPA2ZQHR+tvT3eZa0PZonOqDPl30bt21Is="
