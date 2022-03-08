@@ -6,11 +6,11 @@ jobs:
         directories:
           - "$HOME/.m2"
       before_install:
-        # "node" is an alias for the latest version
-        - nvm install node
+        - nvm install $(< .nvmrc)
       script:
-        # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-        - mvn clean verify sonar:sonar -Pcoverage -DskipRedundantTests -Dsonar.projectKey=silentsoft_hits -Dsonar.sources=src/main/java,src/main/react
+        - npm install
+        - npm test
+        - mvn clean verify sonar:sonar -Pcoverage -DskipRedundantTests -Dsonar.projectKey=silentsoft_hits -Dsonar.sources=src/main/java,src/main/react -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
 
 git:
   depth: false

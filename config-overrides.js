@@ -23,7 +23,8 @@ module.exports = {
         ];
         config.collectCoverage = true;
         config.collectCoverageFrom = [
-            '<rootDir>/**/*.{js,jsx,ts,tsx}'
+            '**/*.{js,jsx,ts,tsx}',
+            '!**/*.d.ts'
         ];
         config.coverageDirectory = path.resolve(__dirname, 'coverage');
         return config;
