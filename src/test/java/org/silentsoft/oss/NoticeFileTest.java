@@ -37,8 +37,6 @@ public class NoticeFileTest {
     }
 
     private void addFrontendLibraries(NoticeFileGenerator.NoticeFileBuilder noticeBuilder) throws Exception {
-        noticeBuilder.addLibrary("Terminal Style Portfolio in ReactJS", "by Jacob Lockett", "https://codepen.io/HuntingHawk/pen/rNaEZxW", License.of("MIT"));
-
         File directory = Paths.get(System.getProperty("user.dir")).toFile();
 
         StringBuilder commandBuilder = new StringBuilder();
