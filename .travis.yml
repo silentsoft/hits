@@ -10,7 +10,7 @@ jobs:
       script:
         - npm install
         - npm test
-        - mvn clean verify sonar:sonar -Pcoverage -DskipRedundantTests -Dsonar.projectKey=silentsoft_hits -Dsonar.sources=src/main/java,src/main/react -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+        - mvn clean verify sonar:sonar -Pcoverage -DskipRedundantTests -Dsonar.projectKey=silentsoft_hits -Dsonar.sources=src/main/java,src/main/react -Dsonar.coverage.exclusions=**/index.*,**/setupTests.*,**/*.d.ts,**/__tests__/**/*,**/*.spec.*,**/*.test.* -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
 
 git:
   depth: false
