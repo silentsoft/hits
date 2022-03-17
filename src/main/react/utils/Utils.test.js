@@ -20,6 +20,8 @@ test("toQueryString", () => {
     expect(Utils.toQueryString({labelColor: "#123"})).toBe("?labelColor=123");
     expect(Utils.toQueryString({labelColor: "123456"})).toBe("?labelColor=123456");
     expect(Utils.toQueryString({labelColor: "#123456"})).toBe("?labelColor=123456");
+    expect(Utils.toQueryString({link: " "})).toBe("");
+    expect(Utils.toQueryString({link: [" "]})).toBe("");
     expect(Utils.toQueryString({link: "https://hits.sh"})).toBe("?link=https%3A%2F%2Fhits.sh");
     expect(Utils.toQueryString({link: ["https://hits.sh", "https://hits.sh"]})).toBe("?link=https%3A%2F%2Fhits.sh&link=https%3A%2F%2Fhits.sh");
     expect(Utils.toQueryString({logo: "logo"})).toBe("?logo=logo");

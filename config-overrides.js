@@ -17,6 +17,13 @@ module.exports = {
         config.roots = [
             '<rootDir>'
         ];
+        config.setupFilesAfterEnv = [
+            '<rootDir>/setupTests.js'
+        ];
+        config.transformIgnorePatterns = [
+            '<rootDir>/node_modules/',
+            '\\.pnp\\.[^\\\/]+$'
+        ];
         config.testMatch = [
             '<rootDir>/**/__tests__/**/*.{js,jsx,ts,tsx}',
             '<rootDir>/**/*.{spec,test}.{js,jsx,ts,tsx}'
@@ -24,7 +31,8 @@ module.exports = {
         config.collectCoverage = true;
         config.collectCoverageFrom = [
             '**/*.{js,jsx,ts,tsx}',
-            '!**/*.d.ts'
+            '!**/*.d.ts',
+            '!index.{js,jsx,ts,tsx}',
         ];
         config.coverageDirectory = path.resolve(__dirname, 'coverage');
         return config;

@@ -1,8 +1,8 @@
 export default function SimpleDropdown(props) {
     return (
         <div className="w-full border border-gray-300 dark:border-gray-700 shadow-sm rounded flex relative">
-            <select type="text" onChange={props.onChange} className="bg-white dark:bg-gray-800 appearance-none z-10 pl-3 py-1.5 w-full border border-transparent focus:outline-none focus:border-indigo-700  text-gray-800 dark:text-gray-100 rounded">
-                {props.items.map((item, index) => {
+            <select data-testid="select" type="text" onChange={props.onChange} className="bg-white dark:bg-gray-800 appearance-none z-10 pl-3 py-1.5 w-full border border-transparent focus:outline-none focus:border-indigo-700  text-gray-800 dark:text-gray-100 rounded">
+                {props.items?.map((item, index) => {
                     return <option key={index} value={item}>{item}</option>;
                 })}
             </select>
