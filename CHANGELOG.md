@@ -1,3 +1,10 @@
+# 1.4.0 (18 Mar 2022)
+
+## Enhancements
+- Add auto focus feature.
+- Remove terminal component.
+- Supports [simple-icons v6.14.0](https://github.com/simple-icons/simple-icons/releases/tag/6.14.0).
+
 # 1.3.0 (2 Mar 2022)
 
 ## Enhancements
