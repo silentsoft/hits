@@ -48,15 +48,15 @@ export default function Dashboard() {
                                     <div className="mx-auto container flex justify-center items-center">
                                         <div className="grid grid-cols-3 gap-x-2 sm:gap-x-4 md:gap-x-6 lg:gap-x-8">
                                             <div className="flex justify-center flex-col items-center bg-white shadow rounded-2xl w-24 h-20 sm:w-32 sm:h-24 md:w-44 md:h-28">
-                                                <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold leading-10 text-center text-gray-800">{weekly}</h2>
+                                                <h2 data-testid="weekly" className="text-lg sm:text-xl md:text-2xl font-extrabold leading-10 text-center text-gray-800">{weekly}</h2>
                                                 <p className="mt-1 sm:mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Weekly</p>
                                             </div>
                                             <div className="flex justify-center flex-col items-center bg-white shadow rounded-2xl w-24 h-20 sm:w-32 sm:h-24 md:w-44 md:h-28">
-                                                <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold leading-10 text-center text-gray-800">{monthly}</h2>
+                                                <h2 data-testid="monthly" className="text-lg sm:text-xl md:text-2xl font-extrabold leading-10 text-center text-gray-800">{monthly}</h2>
                                                 <p className="mt-1 sm:mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Monthly</p>
                                             </div>
                                             <div className="flex justify-center flex-col items-center bg-white shadow rounded-2xl w-24 h-20 sm:w-32 sm:h-24 md:w-44 md:h-28">
-                                                <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold leading-10 text-center text-gray-800">{total}</h2>
+                                                <h2 data-testid="total" className="text-lg sm:text-xl md:text-2xl font-extrabold leading-10 text-center text-gray-800">{total}</h2>
                                                 <p className="mt-1 sm:mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">Total</p>
                                             </div>
                                         </div>
@@ -66,7 +66,7 @@ export default function Dashboard() {
                             {items.length > 0 ? (
                                 items.reduce((acc, item, index) => {
                                     acc.push(
-                                        <div key={index} className="mx-auto container flex justify-center items-center w-full h-28 sm:h-32 md:h-40 lg:h-44 max-w-screen-lg">
+                                        <div data-testid="chart" key={index} className="mx-auto container flex justify-center items-center w-full h-28 sm:h-32 md:h-40 lg:h-44 max-w-screen-lg">
                                             <ResponsiveCalendar
                                                 data={item.data}
                                                 from={item.from}
@@ -82,7 +82,7 @@ export default function Dashboard() {
                                     );
                                     return acc;
                                 }, [])) : (
-                                <div className="mx-auto container flex justify-center items-center w-full h-28 sm:h-32 md:h-40 lg:h-44 max-w-screen-lg">
+                                <div data-testid="chart" className="mx-auto container flex justify-center items-center w-full h-28 sm:h-32 md:h-40 lg:h-44 max-w-screen-lg">
                                     <ResponsiveCalendar
                                         data={[]}
                                         from={new Date().getFullYear() + '-01-01'}

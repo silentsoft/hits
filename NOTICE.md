@@ -1,10 +1,6 @@
 # Hits
 Copyright (c) silentsoft.org. All rights reserved.
 
-__Terminal Style Portfolio in ReactJS by Jacob Lockett__
- * https://codepen.io/HuntingHawk/pen/rNaEZxW
- * MIT License
-
 __combined-stream 1.0.8__
  * http://debuggable.com/
  * MIT License
@@ -4817,7 +4813,7 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.7.0__
+__badge4j 1.9.0__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
@@ -4825,7 +4821,7 @@ __csscolor4j 1.0.0__
  * https://github.com/silentsoft/csscolor4j
  * Apache License 2.0
 
-__simpleicons4j 1.5.0__
+__simpleicons4j 1.7.0__
  * https://github.com/silentsoft/simpleicons4j
  * Apache License 2.0
 

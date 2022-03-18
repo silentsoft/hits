@@ -59,8 +59,8 @@ export default function ColorPicker(props) {
 
     return (
         <div className="flex">
-            { displayColorPicker ? <div style={pickerStyles.popover}>
-                <div style={pickerStyles.cover} onClick={handleClose}/>
+            { displayColorPicker ? <div data-testid="sketch-picker-wrapper" style={pickerStyles.popover}>
+                <div data-testid="cover" style={pickerStyles.cover} onClick={handleClose}/>
                 <SketchPicker color={thumbColor ? thumbColor : props.color} disableAlpha={true}
                               onChange={handleChange}
                               onChangeComplete={(color) => handleChangeComplete(color.hex)}
@@ -68,8 +68,8 @@ export default function ColorPicker(props) {
             </div> : null }
             <input type="text" className="w-full border border-r-0 rounded-r-none border-gray-300 dark:border-gray-700 pl-3 py-1.5 shadow-sm rounded focus:outline-none bg-transparent focus:border-indigo-700 text-gray-800 dark:text-gray-100" placeholder={props.color} value={color} onChange={(e) => handleChangeComplete(e.target.value)} />
             <div className="border border-gray-300 dark:border-gray-700 shadow-sm bg-transparent rounded-r">
-                <div style={pickerStyles.swatch} onClick={handleClick}>
-                    <div style={pickerStyles.color} />
+                <div data-testid="swatch" style={pickerStyles.swatch} onClick={handleClick}>
+                    <div data-testid="color" style={pickerStyles.color} />
                 </div>
             </div>
         </div>

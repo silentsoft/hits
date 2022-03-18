@@ -3,8 +3,7 @@ package org.silentsoft.oss;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.condition.DisabledOnOs;
-import org.junit.jupiter.api.condition.OS;
+import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 
 import java.io.*;
 import java.nio.file.Paths;
@@ -16,7 +15,7 @@ import java.util.stream.Stream;
 public class NoticeFileTest {
 
     @Test
-    @DisabledOnOs(OS.WINDOWS)
+    @DisabledIfSystemProperty(named = "skipRedundantTests", matches = "true")
     public void noticeFileTest() throws Exception {
         NoticeFileGenerator.NoticeFileBuilder noticeBuilder = NoticeFileGenerator.newInstance("Hits", "silentsoft.org");
 
@@ -24,9 +23,6 @@ public class NoticeFileTest {
         addBackendLibraries(noticeBuilder);
 
         String markdown = noticeBuilder.generate();
-        System.out.println("--------START OF THE NOTICE FILE--------");
-        System.out.println(markdown);
-        System.out.println("---------END OF THE NOTICE FILE---------");
 
         StringBuilder stringBuilder = new StringBuilder();
         try (FileReader fileReader = new FileReader(Paths.get(System.getProperty("user.dir"), "NOTICE.md").toFile());
@@ -41,8 +37,6 @@ public class NoticeFileTest {
     }
 
     private void addFrontendLibraries(NoticeFileGenerator.NoticeFileBuilder noticeBuilder) throws Exception {
-        noticeBuilder.addLibrary("Terminal Style Portfolio in ReactJS", "by Jacob Lockett", "https://codepen.io/HuntingHawk/pen/rNaEZxW", License.of("MIT"));
-
         File directory = Paths.get(System.getProperty("user.dir")).toFile();
 
         StringBuilder commandBuilder = new StringBuilder();

@@ -2,7 +2,7 @@
 source : src/main/java/org/silentsoft/hits/utils/UniformedResourceNameUtils.java
  */
 export const normalize = (uri) => {
-    if (uri.length === 0) {
+    if (uri == null || uri.length === 0) {
         return "";
     }
 

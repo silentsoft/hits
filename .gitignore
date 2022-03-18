@@ -43,6 +43,9 @@ build/
 # testing
 /coverage
 
+# wrapper
+/node
+
 # production
 /build
 

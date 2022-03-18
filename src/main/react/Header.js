@@ -6,7 +6,7 @@ export default function Header() {
 
     useEffect(() => {
         axios.get(`${process.env.REACT_APP_URI}/hits.sh.svg`).catch(error => {
-            console.log(error);
+            console.error(error);
         });
     }, []);
 
