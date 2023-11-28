@@ -1,9 +1,3 @@
-### [Notice] Service maintenance
-#### Schedule
-- On Tuesday, November 28, from 06:00 a.m. to 18:00 p.m. (GMT+9, about 12 hours)
-
----
-
 <h1 align="center">
   Hits</br>
   <a href="https://status.hits.sh"><img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m788691469-6cb5e6a1ce844e9f64a4b046"></a>
