@@ -1,18 +1,25 @@
 import {useRef, useState} from "react";
-import copy from "copy-text-to-clipboard";
 
 export default function BadgeCard(props) {
     const valueRef = useRef(null);
     const [copied, setCopied] = useState(false);
     const copyToClipboard = () => {
-        try {
-            copy(valueRef.current.textContent);
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(valueRef.current.textContent).then(() => {
+                setCopied(true);
+                setTimeout(() => {
+                    setCopied(false);
+                }, 1500);
+            })
+        } else {
+            const textarea = document.createElement('textarea');
+            textarea.value = valueRef.current.textContent;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
             setCopied(true);
-            setTimeout(() => {
-                setCopied(false);
-            }, 1500);
-        } catch (e) {
-            console.error(e);
+            setTimeout(() => setCopied(false), 1500);
+            document.body.removeChild(textarea);
         }
     };
     return (
