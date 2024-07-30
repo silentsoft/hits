@@ -2717,10 +2717,6 @@ __make-dir 3.1.0__
  * sindresorhus.com
  * MIT License
 
-__copy-text-to-clipboard 3.0.1__
- * https://sindresorhus.com
- * MIT License
-
 __watchpack 2.3.1__
  * https://github.com/webpack/watchpack
  * MIT License

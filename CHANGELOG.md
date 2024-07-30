@@ -1,3 +1,8 @@
+# 1.4.1 (31 Jul 2024)
+
+## Bugfixes
+- Fix clipboard copy issue
+
 # 1.4.0 (18 Mar 2022)
 
 ## Enhancements
