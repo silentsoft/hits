@@ -1,3 +1,9 @@
+# 1.4.2 (29 May 2025)
+
+## Enhancements
+- Update Twitter icon to X (#24)
+- Update GitHub icon
+
 # 1.4.1 (31 Jul 2024)
 
 ## Bugfixes

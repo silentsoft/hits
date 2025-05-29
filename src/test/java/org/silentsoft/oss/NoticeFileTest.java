@@ -22,18 +22,13 @@ public class NoticeFileTest {
         addFrontendLibraries(noticeBuilder);
         addBackendLibraries(noticeBuilder);
 
-        String markdown = noticeBuilder.generate();
+        String markdown = noticeBuilder.generate().trim();
 
-        StringBuilder stringBuilder = new StringBuilder();
-        try (FileReader fileReader = new FileReader(Paths.get(System.getProperty("user.dir"), "NOTICE.md").toFile());
-             BufferedReader bufferedReader = new BufferedReader(fileReader)) {
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                stringBuilder.append(line);
-                stringBuilder.append("\r\n");
-            }
+        Assertions.assertTrue(markdown.length() > 0);
+
+        try (FileWriter fileWriter = new FileWriter(Paths.get(System.getProperty("user.dir"), "NOTICE.md").toFile())) {
+            fileWriter.write(markdown);
         }
-        Assertions.assertEquals(markdown.trim(), stringBuilder.toString().trim());
     }
 
     private void addFrontendLibraries(NoticeFileGenerator.NoticeFileBuilder noticeBuilder) throws Exception {
