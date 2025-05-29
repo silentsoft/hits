@@ -773,10 +773,6 @@ __ast-types-flow 0.0.7__
  * https://github.com/kyldvs/ast-types-flow
  * ISC License
 
-__fsevents 2.3.2__
- * https://github.com/fsevents/fsevents
- * MIT License
-
 __@babel/helper-define-polyfill-provider 0.3.1__
  * https://github.com/babel/babel-polyfills
  * MIT License
@@ -4809,15 +4805,15 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.9.0__
+__badge4j 1.13.0__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
-__csscolor4j 1.0.0__
+__csscolor4j 1.1.0__
  * https://github.com/silentsoft/csscolor4j
  * Apache License 2.0
 
-__simpleicons4j 1.7.0__
+__simpleicons4j 14.15.0__
  * https://github.com/silentsoft/simpleicons4j
  * Apache License 2.0
 
@@ -6792,7 +6788,7 @@ This Academic Free License (the "License") applies to any original work of autho
 
 10) Termination for Patent Action. This License shall terminate automatically and You may no longer exercise any of the rights granted to You by this License as of the date You commence an action, including a cross-claim or counterclaim, against Licensor or any licensee alleging that the Original Work infringes a patent. This termination provision shall not apply for an action alleging patent infringement by combinations of the Original Work with other software or hardware.
 
-11) Jurisdiction, Venue and Governing Law. Any action or suit relating to this License may be brought only in the courts of a jurisdiction wherein the Licensor resides or in which Licensor conducts its primary business, and under the laws of that jurisdiction excluding its conflict-of-law provisions. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any use of the Original Work outside the scope of this License or after its termination shall be subject to the requirements and penalties of the U.S. Copyright Act, 17 U.S.C. Ïß† 101 et seq., the equivalent laws of other countries, and international treaty. This section shall survive the termination of this License.
+11) Jurisdiction, Venue and Governing Law. Any action or suit relating to this License may be brought only in the courts of a jurisdiction wherein the Licensor resides or in which Licensor conducts its primary business, and under the laws of that jurisdiction excluding its conflict-of-law provisions. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Any use of the Original Work outside the scope of this License or after its termination shall be subject to the requirements and penalties of the U.S. Copyright Act, 17 U.S.C. Ïß? 101 et seq., the equivalent laws of other countries, and international treaty. This section shall survive the termination of this License.
 
 12) Attorneys Fees. In any action to enforce the terms of this License or seeking damages relating thereto, the prevailing party shall be entitled to recover its costs and expenses, including, without limitation, reasonable attorneys' fees and costs incurred in connection with such action, including any appeal of such action. This section shall survive the termination of this License.
 
@@ -7665,7 +7661,7 @@ Section 8 -- Interpretation.
 Creative Commons is not a party to its public
 licenses. Notwithstanding, Creative Commons may elect to apply one of
 its public licenses to material it publishes and in those instances
-will be considered the ‚ÄúLicensor.‚Äù The text of the Creative Commons
+will be considered the ?úLicensor.?? The text of the Creative Commons
 public licenses is dedicated to the public domain under the CC0 Public
 Domain Dedication. Except for the limited purpose of indicating that
 material is shared under a Creative Commons public license or as
