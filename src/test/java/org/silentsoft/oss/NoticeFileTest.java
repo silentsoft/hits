@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
@@ -26,8 +28,10 @@ public class NoticeFileTest {
 
         Assertions.assertTrue(markdown.length() > 0);
 
-        try (FileWriter fileWriter = new FileWriter(Paths.get(System.getProperty("user.dir"), "NOTICE.md").toFile())) {
-            fileWriter.write(markdown);
+        try (Writer writer = new OutputStreamWriter(
+                Files.newOutputStream(Paths.get(System.getProperty("user.dir"), "NOTICE.md").toFile().toPath()),
+                StandardCharsets.UTF_8)) {
+            writer.write(markdown);
         }
     }
 
