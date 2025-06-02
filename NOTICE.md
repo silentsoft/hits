@@ -773,10 +773,6 @@ __ast-types-flow 0.0.7__
  * https://github.com/kyldvs/ast-types-flow
  * ISC License
 
-__fsevents 2.3.2__
- * https://github.com/fsevents/fsevents
- * MIT License
-
 __@babel/helper-define-polyfill-provider 0.3.1__
  * https://github.com/babel/babel-polyfills
  * MIT License
@@ -4809,7 +4805,7 @@ __lombok 1.18.20__
  * https://projectlombok.org
  * MIT License
 
-__badge4j 1.13.0__
+__badge4j 1.14.0__
  * https://github.com/silentsoft/badge4j
  * Apache License 2.0
 
@@ -4817,7 +4813,7 @@ __csscolor4j 1.1.0__
  * https://github.com/silentsoft/csscolor4j
  * Apache License 2.0
 
-__simpleicons4j 14.15.0__
+__simpleicons4j 15.0.0__
  * https://github.com/silentsoft/simpleicons4j
  * Apache License 2.0
 
