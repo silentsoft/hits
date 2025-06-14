@@ -2,7 +2,7 @@
   "name": "hits",
   "version": "1.4.5",
   "private": true,
-  "dependencies":   {
+  "dependencies": {
     "@nivo/calendar": "^0.79.1",
     "@nivo/colors": "^0.79.1",
     "@nivo/core": "^0.79.0",
@@ -14,26 +14,29 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0"
   },
-  "scripts":   {
+  "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "build:dev": "env-cmd -f .env.development react-app-rewired build",
+    "build": "react-app-rewired build && react-snap",
+    "build:dev": "env-cmd -f .env.development react-app-rewired build && react-snap",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
-  "browserslist":   {
-    "production":     [
+  "reactSnap": {
+    "source": "target/classes/public"
+  },
+  "browserslist": {
+    "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
-    "development":     [
+    "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
-  "devDependencies":   {
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -43,6 +46,7 @@
     "license-checker": "^25.0.1",
     "postcss": "^8.4.7",
     "react-app-rewired": "^2.2.1",
+    "react-snap": "^1.23.0",
     "tailwindcss": "^3.0.23"
   }
 }
