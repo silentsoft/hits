@@ -11,7 +11,7 @@
 
     <groupId>org.silentsoft</groupId>
     <artifactId>hits</artifactId>
-    <version>1.4.14</version>
+    <version>1.4.15</version>
 
     <name>Hits</name>
     <description>Hit Counter for Your GitHub or Any Kind of Websites You Want</description>

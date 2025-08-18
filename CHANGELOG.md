@@ -1,3 +1,8 @@
+# 1.4.15 (18 Aug 2025)
+
+## Dependency Updates
+- [badge4j v1.25.0](https://github.com/silentsoft/badge4j/releases/tag/v1.25.0)
+
 # 1.4.14 (11 Aug 2025)
 
 ## Dependency Updates
