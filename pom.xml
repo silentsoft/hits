@@ -184,7 +184,7 @@
         <dependency>
             <groupId>org.silentsoft</groupId>
             <artifactId>badge4j</artifactId>
-            <version>1.31.0</version>
+            <version>1.32.0</version>
         </dependency>
         <dependency>
             <groupId>org.silentsoft.oss</groupId>
