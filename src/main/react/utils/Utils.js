@@ -32,12 +32,12 @@ export default class Utils {
             queryString = Utils.#appendQueryString(queryString, "extraCount", extraCount);
         }
 
-        const color = object.color?.replaceAll("#", "").trim();
+        const color = object.color?.replace(/#/g, "").trim();
         if (color && color.length > 0 && defaultColors.indexOf(color) === -1) {
             queryString = Utils.#appendQueryString(queryString, "color", color);
         }
 
-        const labelColor = object.labelColor?.replaceAll("#", "").trim();
+        const labelColor = object.labelColor?.replace(/#/g, "").trim();
         if (labelColor && labelColor.length > 0 && defaultLabelColors.indexOf(labelColor) === -1) {
             queryString = Utils.#appendQueryString(queryString, "labelColor", labelColor);
         }

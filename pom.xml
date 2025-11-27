@@ -11,10 +11,10 @@
 
     <groupId>org.silentsoft</groupId>
     <artifactId>hits</artifactId>
-    <version>1.4.27</version>
+    <version>1.5.0</version>
 
     <name>Hits</name>
-    <description>Hit Counter for Your GitHub or Any Kind of Websites You Want</description>
+    <description>A fast, simple and privacy-friendly way to count hits on your GitHub repositories, websites and more.</description>
     <url>https://github.com/silentsoft/hits</url>
 
     <scm>

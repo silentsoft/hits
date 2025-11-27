@@ -57,4 +57,13 @@ public class ApiControllerTest {
         mvc.perform(get(String.format("/api/urns/%s", x251))).andExpect(status().isUriTooLong());
     }
 
+    @Test
+    public void globalStatsTest() throws Exception {
+        mvc.perform(get("/api/stats/global"))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType("application/json;charset=UTF-8"))
+                .andExpect(jsonPath("$.totalBadges").exists())
+                .andExpect(jsonPath("$.totalHits").exists());
+    }
+
 }

@@ -1,5 +1,5 @@
-import {render, screen} from "@testing-library/react";
-import {MemoryRouter} from "react-router-dom";
+import { render, screen } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import axios from "axios";
 
@@ -37,29 +37,29 @@ describe("Dashboard", () => {
             }
         });
 
-        await render(<MemoryRouter initialEntries={["/github.com/silentsoft/hits/"]}><Dashboard/></MemoryRouter>);
+        await render(<MemoryRouter initialEntries={["/github.com/silentsoft/hits/"]}><Dashboard /></MemoryRouter>);
 
         expect(screen.getByText("github.com/silentsoft/hits")).toBeInTheDocument();
         expect(screen.getByTestId("weekly")).toHaveTextContent("1");
-        expect(screen.getByText("Weekly")).toBeInTheDocument();
+        expect(screen.getByText("Weekly Hits")).toBeInTheDocument();
         expect(screen.getByTestId("monthly")).toHaveTextContent("2");
-        expect(screen.getByText("Monthly")).toBeInTheDocument();
+        expect(screen.getByText("Monthly Hits")).toBeInTheDocument();
         expect(screen.getByTestId("total")).toHaveTextContent("3");
-        expect(screen.getByText("Total")).toBeInTheDocument();
+        expect(screen.getByText("Total Hits")).toBeInTheDocument();
         expect(screen.getAllByTestId("chart")).toHaveLength(2);
     });
     it("should render without items", () => {
         axios.get.mockRejectedValue(new Error());
 
-        render(<MemoryRouter initialEntries={["/github.com/silentsoft/hits/"]}><Dashboard/></MemoryRouter>);
+        render(<MemoryRouter initialEntries={["/github.com/silentsoft/hits/"]}><Dashboard /></MemoryRouter>);
 
         expect(screen.getByText("github.com/silentsoft/hits")).toBeInTheDocument();
-        expect(screen.queryByTestId("weekly")).not.toBeInTheDocument();
-        expect(screen.queryByText("Weekly")).not.toBeInTheDocument();
-        expect(screen.queryByTestId("monthly")).not.toBeInTheDocument();
-        expect(screen.queryByText("Monthly")).not.toBeInTheDocument();
-        expect(screen.queryByTestId("total")).not.toBeInTheDocument();
-        expect(screen.queryByText("Total")).not.toBeInTheDocument();
+        expect(screen.getByTestId("weekly")).toHaveTextContent("0");
+        expect(screen.getByText("Weekly Hits")).toBeInTheDocument();
+        expect(screen.getByTestId("monthly")).toHaveTextContent("0");
+        expect(screen.getByText("Monthly Hits")).toBeInTheDocument();
+        expect(screen.getByTestId("total")).toHaveTextContent("0");
+        expect(screen.getByText("Total Hits")).toBeInTheDocument();
         expect(screen.getAllByTestId("chart")).toHaveLength(1);
     });
 });
