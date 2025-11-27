@@ -89,16 +89,12 @@ You can see the statistics of your website by replacing the `.svg` with `/` in t
 
 For example, to get a statistics for `https://github.com/silentsoft/hits` then visit [https://hits.sh/github.com/silentsoft/hits/](https://hits.sh/github.com/silentsoft/hits/)
 
-![](.images/hits-statistics.png)
-
 ## Installation
 ```
 $ git clone https://github.com/silentsoft/hits.git
 $ cd hits
 $ mvnw spring-boot:run
 ```
-
-![](.images/hits-screenshot.png)
 
 ## Packaging
 ```

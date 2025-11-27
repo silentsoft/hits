@@ -1,19 +1,18 @@
 export default function SimpleDropdown(props) {
     return (
-        <div className="w-full border border-gray-300 dark:border-gray-700 shadow-sm rounded flex relative">
-            <select data-testid="select" type="text" onChange={props.onChange} className="bg-white dark:bg-gray-800 appearance-none z-10 pl-3 py-1.5 w-full border border-transparent focus:outline-none focus:border-indigo-700  text-gray-800 dark:text-gray-100 rounded">
+        <div className="w-full relative">
+            <select
+                data-testid="select"
+                onChange={props.onChange}
+                className="w-full bg-slate-800/50 border border-white/10 rounded px-3 py-1.5 text-sm text-white focus:border-violet-500 focus:outline-none appearance-none cursor-pointer hover:bg-slate-800/70 transition-colors"
+            >
                 {props.items?.map((item, index) => {
-                    return <option key={index} value={item}>{item}</option>;
+                    return <option key={index} value={item} className="bg-slate-900 text-white">{item}</option>;
                 })}
             </select>
-            <div className="px-4 flex items-center border-l border-gray-300 dark:border-gray-700 flex-col justify-center text-gray-500 dark:text-gray-400 absolute right-0 bottom-0 top-0 mx-auto z-20 pointer-events-none ">
-                <svg tabIndex={0} xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-up" width={16} height={16} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" />
-                    <polyline points="6 15 12 9 18 15" />
-                </svg>
-                <svg tabIndex={0} xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-down" width={16} height={16} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" />
-                    <polyline points="6 9 12 15 18 9" />
+            <div className="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none text-slate-400">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
             </div>
         </div>

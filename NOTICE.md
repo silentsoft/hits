@@ -773,6 +773,10 @@ __ast-types-flow 0.0.7__
  * https://github.com/kyldvs/ast-types-flow
  * ISC License
 
+__fsevents 2.3.2__
+ * https://github.com/fsevents/fsevents
+ * MIT License
+
 __@babel/helper-define-polyfill-provider 0.3.1__
  * https://github.com/babel/babel-polyfills
  * MIT License

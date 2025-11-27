@@ -1,3 +1,11 @@
+# 1.5.0 (27 Nov 2025)
+
+## Enhancements
+- **UI Overhaul**: Complete redesign with a modern dark theme.
+- **New Pages**: Added dedicated pages for [Docs](https://hits.sh/docs/), [Showcase](https://hits.sh/showcase/), [Changelog](https://hits.sh/changelog/), [FAQ](https://hits.sh/faq/), [Privacy](https://hits.sh/privacy/) and [Terms](https://hits.sh/terms/).
+- **Global Stats**: Global statistics (Total Badges, Total Hits) displayed on the home page with animations.
+- **SEO**: Added `sitemap.xml`, updated `robots.txt`, and improved metadata for better search engine visibility.
+
 # 1.4.27 (24 Nov 2025)
 
 ## Dependency Updates

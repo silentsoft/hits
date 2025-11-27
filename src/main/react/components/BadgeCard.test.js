@@ -1,58 +1,66 @@
-import {render, screen} from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import BadgeCard from "./BadgeCard";
 import userEvent from "@testing-library/user-event";
-import {act} from "react-dom/test-utils";
+import { act } from "react-dom/test-utils";
 
 describe("BadgeCard", () => {
+    beforeEach(() => {
+        jest.useFakeTimers();
+    });
+
+    afterEach(() => {
+        jest.runOnlyPendingTimers();
+        jest.useRealTimers();
+    });
+
     it("should be displayed the success icon after copy", async () => {
         Object.assign(navigator, {
             clipboard: {
                 writeText: jest.fn().mockResolvedValue(undefined)
             }
-        })
+        });
 
-        jest.useFakeTimers();
-
-        render(<BadgeCard title="foo" render={() => "bar"} />);
+        const { container } = render(<BadgeCard title="foo" render={() => "bar"} />);
 
         expect(screen.getByText("foo")).toBeInTheDocument();
         expect(screen.getByText("bar")).toBeInTheDocument();
 
-        expect(screen.queryByTitle("Copy")).toBeInTheDocument();
-        expect(screen.queryByTitle("Copied!")).not.toBeInTheDocument();
+        expect(screen.queryByText("Copied")).not.toBeInTheDocument();
 
-        await userEvent.click(screen.getByTitle("Copy"));
+        const copyButton = container.querySelector('.cursor-pointer');
+        await userEvent.click(copyButton);
 
         expect(navigator.clipboard.writeText).toHaveBeenCalledWith("bar");
 
-        expect(screen.queryByTitle("Copy")).not.toBeInTheDocument();
-        expect(screen.queryByTitle("Copied!")).toBeInTheDocument();
+        expect(await screen.findByText("Copied")).toBeInTheDocument();
 
         act(() => {
+            jest.runOnlyPendingTimers();
             jest.advanceTimersByTime(1500);
         });
 
-        expect(screen.queryByTitle("Copy")).toBeInTheDocument();
-        expect(screen.queryByTitle("Copied!")).not.toBeInTheDocument();
+        expect(screen.queryByText("Copied")).not.toBeInTheDocument();
     });
+
     it("should fallback to execCommand when clipboard API is not available", async () => {
         delete navigator.clipboard;
 
         document.execCommand = jest.fn();
 
-        render(<BadgeCard title="foo" render={() => "bar"} />);
+        const { container } = render(<BadgeCard title="foo" render={() => "bar"} />);
 
-        await userEvent.click(screen.getByTitle("Copy"));
+        const copyButton = container.querySelector('.cursor-pointer');
+        await userEvent.click(copyButton);
 
         expect(document.execCommand).toHaveBeenCalledWith("copy");
 
-        expect(await screen.findByTitle("Copied!")).toBeInTheDocument();
+        expect(await screen.findByText("Copied")).toBeInTheDocument();
 
         act(() => {
+            jest.runOnlyPendingTimers();
             jest.advanceTimersByTime(1500);
         });
 
-        expect(screen.queryByTitle("Copy")).toBeInTheDocument();
-        expect(screen.queryByTitle("Copied!")).not.toBeInTheDocument();
+        expect(screen.queryByText("Copied")).not.toBeInTheDocument();
     });
 });
