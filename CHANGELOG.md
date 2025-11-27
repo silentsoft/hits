@@ -1,3 +1,8 @@
+# 1.5.1 (28 Nov 2025)
+
+## Enhancements
+- **Mobile UI Improvements**: Adjusted layout for better mobile experience.
+
 # 1.5.0 (27 Nov 2025)
 
 ## Enhancements
@@ -167,7 +172,7 @@
 
 # 1.0.0 (24 Feb 2022)
 
-![](.images/hits-readme.png)
+![](https://raw.githubusercontent.com/silentsoft/hits/refs/tags/v1.0.0/.images/hits-readme.png)
 
 ## Getting Started
 `Hits` supports the following three of the most common use cases: `Markdown`, `HTML` and `Image Link`.
@@ -251,7 +256,7 @@ You can see the statistics of your website by replacing the `.svg` with `/` in t
 
 For example, to get a statistics for `https://github.com/silentsoft/hits` then visit [https://hits.sh/github.com/silentsoft/hits/](https://hits.sh/github.com/silentsoft/hits/)
 
-![](.images/hits-statistics.png)
+![](https://raw.githubusercontent.com/silentsoft/hits/refs/tags/v1.0.0/.images/hits-statistics.png)
 
 ## Installation
 ```
@@ -260,7 +265,7 @@ $ cd hits
 $ mvnw spring-boot:run
 ```
 
-![](.images/hits-screenshot.png)
+![](https://raw.githubusercontent.com/silentsoft/hits/refs/tags/v1.0.0/.images/hits-screenshot.png)
 
 ## Packaging
 ```

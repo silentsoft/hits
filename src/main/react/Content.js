@@ -125,7 +125,6 @@ export default function Content(props) {
                             placeholder="https://github.com/silentsoft/hits"
                             value={url}
                             onChange={handleUrlChange}
-                            autoFocus
                         />
                     </div>
 

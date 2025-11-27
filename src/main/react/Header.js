@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function Header() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
         axios.get(`${process.env.REACT_APP_URI}/hits.sh.svg`).catch(error => {
@@ -10,10 +11,18 @@ export default function Header() {
         });
     }, []);
 
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
+
     return (
-        <nav className="relative z-10 container max-w-4xl mx-auto px-6 py-8 flex justify-between items-center">
-            <div aria-label="Header. logo" role="img">
-                <Link to="/">
+        <nav className="relative z-50 container max-w-4xl mx-auto px-6 py-8 flex justify-between items-center">
+            <div aria-label="Header. logo" role="img" className="z-50">
+                <Link to="/" onClick={closeMenu}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="90.25" height="28" role="img" aria-label="HITS: &#8734;">
                         <title>HITS: &#8734;</title>
                         <g shapeRendering="crispEdges">
@@ -27,12 +36,41 @@ export default function Header() {
                     </svg>
                 </Link>
             </div>
-            <div className="space-x-8 text-sm font-medium text-slate-300">
+
+            {/* Desktop Menu */}
+            <div className="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
                 <Link to="/docs/" className="hover:text-white transition-colors">Docs</Link>
                 <Link to="/showcase/" className="hover:text-white transition-colors">Showcase</Link>
                 <Link to="/changelog/" className="hover:text-white transition-colors">Changelog</Link>
                 <Link to="/faq/" className="hover:text-white transition-colors">FAQ</Link>
             </div>
+
+            {/* Mobile Hamburger Button */}
+            <button
+                className="md:hidden z-50 text-slate-300 hover:text-white focus:outline-none transition-colors"
+                onClick={toggleMenu}
+                aria-label="Toggle menu"
+            >
+                {isMenuOpen ? (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                ) : (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                )}
+            </button>
+
+            {/* Mobile Menu Overlay */}
+            {isMenuOpen && (
+                <div className="fixed inset-0 bg-[#0B0F19] z-40 flex flex-col justify-center items-center space-y-8 md:hidden">
+                    <Link to="/docs/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Docs</Link>
+                    <Link to="/showcase/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Showcase</Link>
+                    <Link to="/changelog/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Changelog</Link>
+                    <Link to="/faq/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>FAQ</Link>
+                </div>
+            )}
         </nav>
     );
 }
