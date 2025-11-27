@@ -315,6 +315,34 @@ export default function Changelog() {
         return parts.length > 0 ? parts : text;
     };
 
+    const renderBoldText = (text) => {
+        // Convert **bold** to <strong> tags
+        const boldRegex = /\*\*([^*]+)\*\*/g;
+        const parts = [];
+        let lastIndex = 0;
+        let match;
+
+        while ((match = boldRegex.exec(text)) !== null) {
+            if (match.index > lastIndex) {
+                const beforeText = text.substring(lastIndex, match.index);
+                parts.push(...(Array.isArray(renderInlineCode(beforeText)) ? renderInlineCode(beforeText) : [beforeText]));
+            }
+            parts.push(
+                <strong key={match.index} className="font-semibold text-slate-200">
+                    {renderInlineCode(match[1])}
+                </strong>
+            );
+            lastIndex = match.index + match[0].length;
+        }
+
+        if (lastIndex < text.length) {
+            const remainingText = text.substring(lastIndex);
+            parts.push(...(Array.isArray(renderInlineCode(remainingText)) ? renderInlineCode(remainingText) : [remainingText]));
+        }
+
+        return parts.length > 0 ? parts : renderInlineCode(text);
+    };
+
     const renderInlineCode = (text) => {
         // Convert `code` to styled inline code
         const codeRegex = /`([^`]+)`/g;
@@ -352,11 +380,11 @@ export default function Changelog() {
                     return (
                         <li key={idx} className={`flex items-start ${marginClass}`}>
                             <span className="text-purple-400 mr-2 mt-0.5">•</span>
-                            <div className="flex-1">
+                            <div className="flex-1 min-w-0">
                                 {item.isImage && item.imageData ? (
                                     <img src={item.imageData.src} alt={item.imageData.alt} className="inline-block max-h-6" />
                                 ) : (
-                                    <span>{renderInlineCode(item.text)}</span>
+                                    <span>{renderBoldText(item.text)}</span>
                                 )}
                                 {item.nested && item.nested.length > 0 && (
                                     <div className="mt-2 space-y-2">
@@ -377,13 +405,13 @@ export default function Changelog() {
                 case 'text':
                     return (
                         <p key={idx} className="text-slate-400">
-                            {renderInlineCode(item.content)}
+                            {renderBoldText(item.content)}
                         </p>
                     );
                 case 'code':
                     return (
                         <pre key={idx} className="bg-slate-900/50 p-4 rounded-lg overflow-x-auto max-w-full">
-                            <code className="text-sm text-slate-300 whitespace-pre-wrap break-words">{item.content}</code>
+                            <code className="text-sm text-slate-300 whitespace-pre">{item.content}</code>
                         </pre>
                     );
                 case 'image':
@@ -415,13 +443,13 @@ export default function Changelog() {
             case 'text':
                 return (
                     <p key={idx} className="text-slate-400 mb-2">
-                        {renderInlineCode(contentItem.content)}
+                        {renderBoldText(contentItem.content)}
                     </p>
                 );
             case 'code':
                 return (
                     <pre key={idx} className="bg-slate-900/50 p-4 rounded-lg overflow-x-auto max-w-full">
-                        <code className="text-sm text-slate-300">{contentItem.content}</code>
+                        <code className="text-sm text-slate-300 whitespace-pre">{contentItem.content}</code>
                     </pre>
                 );
             case 'image':
@@ -475,7 +503,7 @@ export default function Changelog() {
                                 {/* Render sections */}
                                 {entry.sections.map((section, sIdx) => (
                                     <div key={sIdx} className="mb-4 last:mb-0">
-                                        <h3 className="text-lg font-semibold text-slate-300 mb-3">{section.title}</h3>
+                                        <h3 className="text-lg font-semibold text-slate-100 mb-3">{section.title}</h3>
                                         <div className="space-y-2">
                                             {section.content.map((item, cIdx) => renderContent(item, cIdx))}
                                         </div>
