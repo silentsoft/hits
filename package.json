@@ -1,8 +1,8 @@
 {
   "name": "hits",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "private": true,
-  "dependencies": {
+  "dependencies":   {
     "@nivo/calendar": "^0.79.1",
     "@nivo/colors": "^0.79.1",
     "@nivo/core": "^0.79.0",
@@ -14,26 +14,26 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0"
   },
-  "scripts": {
+  "scripts":   {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "build:dev": "env-cmd -f .env.development react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
-  "browserslist": {
-    "production": [
+  "browserslist":   {
+    "production":     [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
-    "development": [
+    "development":     [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
+  "devDependencies":   {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
