@@ -39,6 +39,7 @@ export default function Header() {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <Link to="/about/" className="hover:text-white transition-colors">About</Link>
                 <Link to="/docs/" className="hover:text-white transition-colors">Docs</Link>
                 <Link to="/showcase/" className="hover:text-white transition-colors">Showcase</Link>
                 <Link to="/changelog/" className="hover:text-white transition-colors">Changelog</Link>
@@ -65,10 +66,13 @@ export default function Header() {
             {/* Mobile Menu Overlay */}
             {isMenuOpen && (
                 <div className="fixed inset-0 bg-[#0B0F19] z-40 flex flex-col justify-center items-center space-y-8 md:hidden">
+                    <Link to="/about/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>About</Link>
                     <Link to="/docs/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Docs</Link>
                     <Link to="/showcase/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Showcase</Link>
                     <Link to="/changelog/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Changelog</Link>
                     <Link to="/faq/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>FAQ</Link>
+                    <Link to="/privacy/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Privacy Policy</Link>
+                    <Link to="/terms/" className="text-2xl font-medium text-slate-300 hover:text-white transition-colors" onClick={closeMenu}>Terms of Service</Link>
                 </div>
             )}
         </nav>

@@ -1,9 +1,16 @@
 import React from 'react';
 import Header from "../Header";
+import SEO from "../utils/SEO";
 
 export default function Terms() {
     return (
         <div className="min-h-screen bg-[#0B0F19] text-white font-sans selection:bg-purple-500 selection:text-white overflow-hidden relative">
+            <SEO
+                title="Terms of Service"
+                description="Terms and conditions for using the Hits analytics service."
+                path="/terms/"
+            />
+            {/* Background */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/30 rounded-full blur-[128px]"></div>
             <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[128px]"></div>
 
@@ -22,7 +29,7 @@ export default function Terms() {
                 <h3>Definitions</h3>
                 <p>For the purposes of these Terms of Service:</p>
                 <ul>
-                    <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Hits.</li>
+                    <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Hits and its creator.</li>
                     <li><strong>Service</strong> refers to the Website and the Badge API Service.</li>
                     <li><strong>Website</strong> refers to Hits, accessible from https://hits.sh</li>
                     <li><strong>Badge API Service</strong> refers to the hit counter service.</li>

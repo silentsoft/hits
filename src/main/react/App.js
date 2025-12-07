@@ -4,6 +4,7 @@ import Home from './Home';
 import Docs from './pages/Docs';
 import Showcase from './pages/Showcase';
 import Changelog from './pages/Changelog';
+import About from './pages/About';
 import FAQ from './pages/FAQ';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
@@ -16,6 +17,7 @@ export default function App() {
             <div className="flex-grow">
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
                     <Route path="/docs" element={<Docs />} />
                     <Route path="/showcase" element={<Showcase />} />
                     <Route path="/changelog" element={<Changelog />} />

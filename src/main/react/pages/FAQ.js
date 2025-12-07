@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Header from "../Header";
+import SEO from "../utils/SEO";
 
 export default function FAQ() {
     return (
         <div className="min-h-screen bg-[#0B0F19] text-white font-sans selection:bg-purple-500 selection:text-white overflow-hidden relative">
+            <SEO
+                title="Frequently Asked Questions"
+                description="Common questions about Hits: pricing, privacy, resetting counters, and integration details."
+                path="/faq/"
+            />
             {/* Background */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/30 rounded-full blur-[128px]"></div>
             <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[128px]"></div>
@@ -57,7 +63,7 @@ export default function FAQ() {
                     <div className="bg-[#151925]/50 border border-white/5 rounded-xl p-8">
                         <h3 className="text-xl font-bold text-white mb-3">Can I customize the badge?</h3>
                         <p className="text-slate-400 leading-relaxed">
-                            Absolutely. You can customize the label, colors, style, and even add a logo. Check out our <Link to="/docs" className="text-purple-400 hover:text-purple-300">Documentation</Link> for all available options.
+                            Absolutely. You can customize the label, colors, style, and even add a logo. Check out our <Link to="/docs/" className="text-purple-400 hover:text-purple-300">Documentation</Link> for all available options.
                         </p>
                     </div>
                 </div>

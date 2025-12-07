@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import showcaseData from '../data/showcase.json';
 import Header from "../Header";
+import SEO from "../utils/SEO";
 
 export default function Showcase() {
     const [projects, setProjects] = useState([]);
@@ -23,6 +24,11 @@ export default function Showcase() {
 
     return (
         <div className="min-h-screen bg-[#0B0F19] text-white font-sans selection:bg-purple-500 selection:text-white relative overflow-hidden">
+            <SEO
+                title="Community Showcase"
+                description="Discover awesome projects using Hits to track their views. From open source tools to personal portfolios."
+                path="/showcase/"
+            />
             {/* Aurora Background */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/30 rounded-full blur-[128px]"></div>
             <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[128px]"></div>

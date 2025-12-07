@@ -16,7 +16,12 @@ export default function Footer() {
                     </svg>
                 </a>
             </div>
-            <div className="flex space-x-6 mb-4 text-sm text-slate-500">
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-4 text-sm text-slate-500 max-w-2xl px-6">
+                <Link to="/about/" className="hover:text-white transition-colors">About</Link>
+                <Link to="/docs/" className="hover:text-white transition-colors">Docs</Link>
+                <Link to="/showcase/" className="hover:text-white transition-colors">Showcase</Link>
+                <Link to="/changelog/" className="hover:text-white transition-colors">Changelog</Link>
+                <Link to="/faq/" className="hover:text-white transition-colors">FAQ</Link>
                 <Link to="/privacy/" className="hover:text-white transition-colors">Privacy Policy</Link>
                 <Link to="/terms/" className="hover:text-white transition-colors">Terms of Service</Link>
             </div>

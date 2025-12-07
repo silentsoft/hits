@@ -1,9 +1,16 @@
 import React from 'react';
 import Header from "../Header";
+import SEO from "../utils/SEO";
 
 export default function Privacy() {
     return (
         <div className="min-h-screen bg-[#0B0F19] text-white font-sans selection:bg-purple-500 selection:text-white overflow-hidden relative">
+            <SEO
+                title="Privacy Policy"
+                description="We take your privacy seriously. Hits counts views without tracking personal data. No cookies, no IPs, no fingerprinting."
+                path="/privacy/"
+            />
+            {/* Background */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/30 rounded-full blur-[128px]"></div>
             <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[128px]"></div>
 
@@ -21,7 +28,7 @@ export default function Privacy() {
                 <h3>Definitions</h3>
                 <p>For the purposes of this Privacy Policy:</p>
                 <ul>
-                    <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Hits.</li>
+                    <li><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Hits and its creator.</li>
                     <li><strong>Service</strong> refers to the Website and the Hit Counter.</li>
                     <li><strong>Website</strong> refers to Hits, accessible from https://hits.sh</li>
                     <li><strong>Hit Counter</strong> refers to SVG badge, accessible via .svg URL from https://hits.sh</li>
