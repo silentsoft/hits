@@ -1,11 +1,13 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import Home from "./Home";
 import { BrowserRouter } from "react-router-dom";
 
+import { HelmetProvider } from "react-helmet-async";
+
 describe("Home", () => {
-    it("should contain an introductory message", () => {
-        render(<BrowserRouter><Home /></BrowserRouter>);
-        expect(document.body).toHaveTextContent("Make your impact");
+    it("should render make your impact", () => {
+        render(<HelmetProvider><BrowserRouter><Home /></BrowserRouter></HelmetProvider>);
+        expect(screen.getByText("Make your impact")).toBeInTheDocument();
         expect(document.body).toHaveTextContent("visible");
     });
 });

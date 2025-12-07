@@ -1,6 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import Changelog from "./Changelog";
 import { BrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 
 global.fetch = jest.fn();
 
@@ -14,7 +15,13 @@ describe("Changelog", () => {
             text: () => Promise.resolve("# 1.0.0 (2024-01-01)\n\nTest changelog")
         });
 
-        render(<BrowserRouter><Changelog /></BrowserRouter>);
+        render(
+            <HelmetProvider>
+                <BrowserRouter>
+                    <Changelog />
+                </BrowserRouter>
+            </HelmetProvider>
+        );
 
         expect(screen.getByRole('heading', { name: 'Changelog', level: 1 })).toBeInTheDocument();
     });
@@ -24,7 +31,13 @@ describe("Changelog", () => {
             text: () => Promise.resolve("")
         });
 
-        render(<BrowserRouter><Changelog /></BrowserRouter>);
+        render(
+            <HelmetProvider>
+                <BrowserRouter>
+                    <Changelog />
+                </BrowserRouter>
+            </HelmetProvider>
+        );
 
         expect(screen.getByText(/Loading changelog/i)).toBeInTheDocument();
     });
@@ -35,7 +48,13 @@ describe("Changelog", () => {
             text: () => Promise.resolve(mockChangelog)
         });
 
-        render(<BrowserRouter><Changelog /></BrowserRouter>);
+        render(
+            <HelmetProvider>
+                <BrowserRouter>
+                    <Changelog />
+                </BrowserRouter>
+            </HelmetProvider>
+        );
 
         await waitFor(() => {
             expect(screen.queryByText(/Loading changelog/i)).not.toBeInTheDocument();

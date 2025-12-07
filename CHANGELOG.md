@@ -1,3 +1,12 @@
+# 1.5.3 (07 Dec 2025)
+
+## Enhancements
+- Add new About page explaining project history
+- Update Home page with "Why Choose Hits?" and "Use Cases" sections
+- Improve scrolling user experience on Home page
+- Implement SEO component and apply to all pages
+- Update sitemap.xml
+
 # 1.5.2 (01 Dec 2025)
 
 ## Dependency Updates

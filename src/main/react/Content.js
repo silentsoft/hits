@@ -120,6 +120,7 @@ export default function Content(props) {
                             </svg>
                         </div>
                         <input
+                            ref={props.inputRef}
                             id="url"
                             className="w-full bg-slate-900/50 text-white placeholder-slate-500 border border-white/10 focus:border-violet-500 focus:ring-1 focus:ring-violet-500 rounded-lg h-12 pl-16 pr-4 transition-all"
                             placeholder="https://github.com/silentsoft/hits"

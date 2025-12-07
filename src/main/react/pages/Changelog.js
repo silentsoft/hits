@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from "react-router-dom";
 import Header from "../Header";
+import SEO from "../utils/SEO";
 
 const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/silentsoft/hits/refs/heads/main/';
 
@@ -473,6 +474,11 @@ export default function Changelog() {
 
     return (
         <div className="min-h-screen bg-[#0B0F19] text-white font-sans selection:bg-purple-500 selection:text-white relative overflow-hidden">
+            <SEO
+                title="Changelog"
+                description="Stay up to date with the latest features, improvements, and bug fixes for Hits."
+                path="/changelog/"
+            />
             {/* Aurora Background */}
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/30 rounded-full blur-[128px]"></div>
             <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[128px]"></div>

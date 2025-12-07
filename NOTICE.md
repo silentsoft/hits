@@ -713,6 +713,10 @@ __lodash.merge 4.6.2__
  * https://github.com/lodash/lodash
  * MIT License
 
+__react-fast-compare 3.2.2__
+ * https://github.com/FormidableLabs/react-fast-compare
+ * MIT License
+
 __symbol-tree 3.2.4__
  * https://github.com/jsdom/js-symbol-tree
  * MIT License
@@ -727,6 +731,10 @@ __events 3.3.0__
 
 __@babel/plugin-syntax-import-meta 7.10.4__
  * https://github.com/babel/babel
+ * MIT License
+
+__shallowequal 1.1.0__
+ * github.com/dashed
  * MIT License
 
 __body-parser 1.19.2__
@@ -772,6 +780,10 @@ __@types/prettier 2.4.4__
 __ast-types-flow 0.0.7__
  * https://github.com/kyldvs/ast-types-flow
  * ISC License
+
+__fsevents 2.3.2__
+ * https://github.com/fsevents/fsevents
+ * MIT License
 
 __@babel/helper-define-polyfill-provider 0.3.1__
  * https://github.com/babel/babel-polyfills
@@ -2109,6 +2121,10 @@ __autoprefixer 10.4.2__
  * https://github.com/postcss/autoprefixer
  * MIT License
 
+__react-helmet-async 2.0.5__
+ * https://github.com/staylor/react-helmet-async
+ * Apache License 2.0
+
 __@babel/plugin-transform-block-scoped-functions 7.16.7__
  * https://babel.dev/team
  * MIT License
@@ -2959,6 +2975,10 @@ __core-js-pure 3.21.1__
 
 __enhanced-resolve 5.9.1__
  * https://github.com/webpack/enhanced-resolve
+ * MIT License
+
+__invariant 2.2.4__
+ * https://github.com/zertosh/invariant
  * MIT License
 
 __signal-exit 3.0.7__
