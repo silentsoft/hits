@@ -11,7 +11,7 @@
 
     <groupId>org.silentsoft</groupId>
     <artifactId>hits</artifactId>
-    <version>1.5.5</version>
+    <version>1.5.6</version>
 
     <name>Hits</name>
     <description>A fast, simple and privacy-friendly way to count hits on your GitHub repositories, websites and more.</description>
