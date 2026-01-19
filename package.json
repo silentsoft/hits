@@ -1,6 +1,6 @@
 {
   "name": "hits",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "private": true,
   "dependencies":   {
     "@nivo/calendar": "^0.79.1",
